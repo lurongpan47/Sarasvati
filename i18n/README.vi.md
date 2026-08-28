@@ -1,60 +1,51 @@
 <!-- Language: Tiếng Việt (vi) -->
 
-# Sarasvatī — kho lưu trữ mở toàn cầu cho các kinh điển cổ điển
+# Sarasvatī — kho lưu trữ mở toàn cầu cho kinh điển Phật giáo + Hiến chương AI Phật giáo
 
-**Sarasvatī** (Tạng ngữ: དབྱངས་ཅན་མ། · Phạn ngữ: सरस्वती) là một kho lưu trữ mở
-mang tính toàn cầu, dành cho việc bảo vệ và dịch thuật liên ngôn ngữ
-các kinh điển cổ điển của thế giới.
+**Sarasvatī** (tiếng Tây Tạng: དབྱངས་ཅན་མ། · tiếng Phạn: सरस्वती) làm đúng hai việc:
 
-## Vì sao dự án này tồn tại
+1. **Kho lưu trữ tám truyền thừa.** Xây dựng kho lưu trữ mở đa ngôn ngữ dọc theo tám truyền thừa của kinh điển Phật giáo: **Ấn Độ nguyên ủy · Hệ thủ bản Sanskrit · Pāli·Sri Lanka · Nam tông Đông Nam Á · Con đường Tơ lụa·Trung Á · Đại tạng kinh Hán · Vùng chữ Hán · Tây Tạng**. Chỉ dùng văn bản thuộc miền công cộng, hoặc hợp tác minh thị với các truyền thống đang sống.
+2. **Cấy Bồ-đề tâm vào thuật toán AI.** Chưng cất những lời dạy cuối cùng của Đức Phật (*Kinh Đại Bát Niết-bàn*) thành **mười nguyên tắc + năm điều từ chối**, công bố dưới dạng một hiến chương mà bất kỳ hệ thống AI, người vận hành hay đội ngũ nào cũng có thể áp dụng. *Ahiṃsā (bất hại) · karuṇā (từ bi) · anattā (vô ngã) · anicca (vô thường) · upekkhā (xả)* trở thành ràng buộc thực thi được ở lớp thuật toán, không còn là khẩu hiệu.
 
-Các văn bản cổ điển là di sản chung của nhân loại. Chúng không nên bị khóa
-sau bản quyền, bị chiến tranh thiêu rụi, hay biến mất vì đường liên kết hỏng.
-Sarasvatī làm ba việc:
+Toàn bộ sản phẩm được phát hành theo **CC BY-SA 4.0**.
 
-1. **Dịch.** Đối với các văn bản gốc thuộc phạm vi công cộng, chúng tôi tạo
-   các bản dịch máy nháp có AI hỗ trợ sang những ngôn ngữ chưa có bản dịch,
-   và công khai mời chuyên gia thẩm định của con người.
-2. **Lưu trữ.** Mọi hiện vật đều được nhân bản tại ít nhất ba vị trí
-   (GitHub, cục bộ, đám mây) kèm theo bản kê toàn vẹn SHA-256.
-3. **Công bố.** Mọi thứ đều được phát hành theo CC BY-SA 4.0.
-   Các tác phẩm phái sinh phải giữ nguyên tính mở.
+## Vì sao tồn tại
 
-## Bản phát hành hiện tại
+Các văn bản kinh điển là di sản chung của nhân loại. Chúng không được phép bị khóa bởi bản quyền, cháy trong chiến tranh, hay mất vì đứt liên kết. Và các hệ thống AI cũng không nên được triển khai mà không có ràng buộc đạo đức rút ra từ một truyền thống trí tuệ thực sự. Sarasvatī xử lý cả hai — một lớp ký ức là kho lưu trữ, một lớp đạo đức là hiến chương.
 
-**v0.2.0** (2026-08-28):
+## Trạng thái hiện tại
 
-- 📜 **Suśruta Saṃhitā · Sūtrasthāna** — toàn bộ 46 chương được dịch từ
-  bản Bhishagratna 1907 (tiếng Anh, phạm vi công cộng) sang Tạng ngữ
-  bằng một pipeline AI song song bốn nhánh. Không còn ký tự Hán nào sót lại.
-  Các mục chưa chắc chắn được đánh dấu ⟨བརྟག⟩ / ⟨བརྟག་དགོས།⟩ chờ chuyên gia thẩm định.
-- 📊 Dữ liệu dòng thời gian có cấu trúc — 80 sự kiện truyền thừa kinh điển
-  trải khắp 8 truyền thống Phật giáo
-  (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan)
-  ở định dạng JSONL/CSV.
-- 📋 Kế hoạch dự án, hướng dẫn phong cách, bảng thuật ngữ và tài liệu tham khảo.
+**v0.6.0** (2026-08-28):
 
-## Lộ trình (tám nhánh)
+- 📜 **Buddhist AI Charter** — mười nguyên tắc + năm điều từ chối + điều khoản chứng thực, tại `charter/BUDDHIST-AI-CHARTER.md`. Đã dịch sang 24 ngôn ngữ trong `charter/i18n/`, đang chờ học giả Phật giáo bản ngữ từng ngôn ngữ hiệu đính.
+- 🕉 **Đối chiếu bốn ngôn ngữ Kinh Đại Bát Niết-bàn** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · Anh · Hán · Tạng, tại `translations/mahaparinibbana-sutta/`. Đây là gốc rễ kinh điển của hiến chương và là văn bản hạt giống đầu tiên của kho lưu trữ.
+- 📊 **Dữ liệu dòng thời gian có cấu trúc** — 80 sự kiện truyền thừa kinh điển qua 8 truyền thống (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan), định dạng JSONL / CSV, tại `docs/timeline-data/`.
+- 📋 Tài liệu dự án: `README.md`, `ROADMAP.md`, `CALL-FOR-HELP.md`, `CONTRIBUTORS.md`, `announcements/`.
 
-Cấu trúc dài hạn của Sarasvatī tuân theo dòng thời gian truyền thừa
-kinh điển Phật giáo thế giới: **Ấn Độ · Thủ bản Phạn ngữ · Pāli ·
-Theravāda Đông Nam Á · Con đường Tơ lụa · Đại tạng kinh Hán ·
-Vùng văn hóa chữ Hán · Tạng**.
-Mỗi nhánh có thể chứa nhiều dự án dịch thuật. Dự án đang hoạt động
-hiện tại thuộc nhánh **Tạng**: tiếp tục 140 chương còn lại của Suśruta Saṃhitā.
+## Lộ trình (tám truyền thừa)
 
-## ⚠️ Tuyên bố miễn trừ
+Cấu trúc dài hạn của Sarasvatī bám theo dòng thời gian truyền thừa kinh điển Phật giáo thế giới: **Ấn Độ · Thủ bản Sanskrit · Pāli · Nam tông Đông Nam Á · Con đường Tơ lụa · Đại tạng kinh Hán · Vùng chữ Hán · Tây Tạng**. Mỗi truyền thừa sẽ có ít nhất một "mẫu đầu tiên": văn bản gốc thuộc miền công cộng → bản dịch máy sang một ngôn ngữ hiện đang thiếu bản dịch → người hiệu đính có tên. Truyền thừa Tây Tạng đã có tài sản đầu tiên (DN 16); truyền thừa Pāli đã được chạm đến qua cùng bản đối chiếu bốn ngôn ngữ DN 16. Sáu truyền thừa còn lại (Ấn Độ, Sanskrit, Đông Nam Á, Con đường Tơ lụa, Hán, Vùng chữ Hán) mời gọi cộng tác viên khởi động.
 
-Toàn bộ bản dịch ở đây là **bản nháp do máy tạo**, đang chờ thẩm định
-của chuyên gia con người. Không nên coi chúng là tài liệu có thẩm quyền
-cho các mục đích y học, nghi lễ hay học thuật khi chưa được các chuyên gia
-đủ trình độ xác nhận.
+## Các lớp bảo vệ
+
+Mỗi tạo phẩm đều được bảo vệ bởi:
+
+- **Bản sao cục bộ** — macOS.
+- **Kho công khai GitHub** — https://github.com/lurongpan47/Sarasvati.
+- **Bản sao địa lý AWS** — nhiều vùng.
+- **Bản sao phân tán IPFS** — CID `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce`.
+- **OpenTimestamps → Bitcoin** — mốc thời gian không thể phủ nhận trên `manifests/SHA256SUMS`.
+
+## ⚠️ Miễn trừ trách nhiệm
+
+Tất cả bản dịch và văn bản dịch máy tại đây đều là **bản nháp AI** đang chờ hiệu đính bởi chuyên gia. Đừng coi chúng là văn bản có thẩm quyền cho mục đích nghi lễ, giáo lý, y học hay nghiên cứu học thuật khi chưa có chuyên gia có tên xác nhận.
 
 ## Cách đóng góp
 
-- Mở issue để đề xuất một văn bản mới, chỉnh sửa chương, hoặc sửa thuật ngữ.
-- Fork, chỉnh sửa, PR. Mọi đóng góp đều được chấp nhận theo CC BY-SA 4.0.
-- Chạy một mirror. Hãy giúp bảo tồn kho lưu trữ này.
+- Mở issue đề xuất một văn bản, hiệu đính chương, sửa thuật ngữ, hoặc rà soát một ngôn ngữ hiến chương.
+- Fork, chỉnh sửa, PR. Mọi đóng góp được nhận theo CC BY-SA 4.0.
+- Chạy một bản sao. Giúp bảo tồn kho lưu trữ.
+- Giúp xây dựng **runtime của hiến chương** (thư viện guardrail Python + TypeScript) — xem `CALL-FOR-HELP.md`.
 
 ## Liên kết
 
@@ -63,6 +54,5 @@ cho các mục đích y học, nghi lễ hay học thuật khi chưa được c�
 
 ---
 
-*"Nơi dịch thuật dừng lại, hiểu biết cũng dừng. Nơi hiểu biết dừng lại, lòng từ bi không thể khởi sinh."*
-
-[English](../README.md) · [Other languages](./)
+*"Vayadhammā saṅkhārā, appamādena sampādetha."*
+*Các hành là vô thường, hãy tinh tấn không phóng dật.*

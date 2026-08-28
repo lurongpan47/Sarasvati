@@ -1,5 +1,12 @@
 # CONTRIBUTORS · Sarasvatī
 
+## Project
+
+Sarasvatī does two things:
+
+1. **Eight-branch open archive** of the world's Buddhist canon (india · sanskrit · pali · seasia · silkroad · chinese · sinosphere · tibetan), cross-lingual, public-domain first, CC BY-SA 4.0.
+2. **Buddhist AI Charter** — the Buddha's last teachings (Mahāparinibbāna Sutta) distilled into ten principles + five refusals + attestation, adoptable by any AI system under CC BY-SA 4.0.
+
 ## Project initiator
 - **Pan (潘)** — project vision, direction, editorial oversight
 
@@ -8,12 +15,12 @@
 - **Coordination & assembly** — OpenClaw runtime (`openclaw.ai`)
 
 ## Human reviewers (待录)
-_Names of Tibetan medical practitioners, Sanskritists, and translators who contribute human validation, chapter revisions, and terminology refinements will be recorded here as pull requests are merged._
+_Names of Tibetan medical practitioners, Sanskritists, Pāli scholars, Buddhologists, and native-language reviewers who contribute human validation, chapter revisions, terminology refinements, or charter i18n review will be recorded here as pull requests are merged._
 
 To contribute:
-1. Open an issue describing which chapter or term you propose to revise.
+1. Open an issue describing which text, chapter, term, or charter-language you propose to revise.
 2. Fork, edit, and open a pull request.
-3. Follow the terminology conventions in `translations/sushruta-samhita/STYLE.md`.
+3. Follow the conventions in each sub-project's `STYLE.md` (when present).
 4. All contributions accepted under CC BY-SA 4.0.
 
 ---

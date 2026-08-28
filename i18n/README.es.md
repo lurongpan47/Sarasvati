@@ -1,63 +1,51 @@
 <!-- Language: Español (es) -->
 
-# Sarasvatī — un archivo global abierto de cánones clásicos
+# Sarasvatī — archivo global abierto del canon budista + Carta Budista para IA
 
-**Sarasvatī** (tibetano: དབྱངས་ཅན་མ། · sánscrito: सरस्वती) es un archivo global
-abierto para la protección y la traducción interlingüística de los cánones
-clásicos del mundo.
+**Sarasvatī** (tibetano: དབྱངས་ཅན་མ། · sánscrito: सरस्वती) hace exactamente dos cosas:
+
+1. **Archivo del canon en ocho ramas.** Construir un archivo abierto multilingüe siguiendo las ocho ramas de transmisión del canon budista: **India · Manuscritos sánscritos · Pāli·Sri Lanka · Theravāda del sudeste asiático · Ruta de la Seda·Asia Central · Canon chino · Zona cultural del carácter chino · Tibetano**. Solo textos de dominio público, o colaboración explícita con tradiciones vivas.
+2. **Sembrar bodhicitta en los algoritmos de IA.** Las últimas enseñanzas del Buda (*Mahāparinibbāna Sutta*) destiladas en **diez principios + cinco negativas**, publicadas como una carta que cualquier sistema de IA, operador o equipo puede adoptar. *Ahiṃsā · karuṇā · anattā · anicca · upekkhā* se convierten en restricciones ejecutables en la capa algorítmica, no en eslóganes.
+
+Toda la producción se publica bajo **CC BY-SA 4.0**.
 
 ## Por qué existe
 
-Los textos clásicos son la herencia común de la humanidad. No deben quedar
-encerrados tras derechos de autor, quemados por la guerra o perdidos por
-enlaces rotos. Sarasvatī hace tres cosas:
+Los textos clásicos son herencia común de la humanidad. No deben estar encerrados por derechos de autor, quemados en guerras, ni perdidos por enlaces rotos. Y los sistemas de IA no deberían desplegarse sin restricciones éticas extraídas de una tradición de sabiduría real. Sarasvatī aborda ambas cosas: una capa de memoria como archivo, una capa ética como carta.
 
-1. **Traducir.** Para los textos fuente de dominio público, elaboramos
-   borradores automáticos asistidos por IA a idiomas que aún carecen de
-   traducción, e invitamos abiertamente a la revisión de expertos humanos.
-2. **Archivar.** Cada artefacto se replica al menos en tres ubicaciones
-   (GitHub, local, nube) con manifiestos de integridad SHA-256.
-3. **Publicar.** Todo se publica bajo CC BY-SA 4.0. Las obras derivadas
-   deben permanecer abiertas.
+## Estado actual
 
-## Versión actual
+**v0.6.0** (2026-08-28):
 
-**v0.2.0** (2026-08-28):
-
-- 📜 **Suśruta Saṃhitā · Sūtrasthāna** — los 46 capítulos traducidos de
-  Bhishagratna 1907 (inglés de dominio público) al tibetano mediante una
-  canalización paralela de IA de cuatro vías. Cero caracteres chinos
-  residuales. Los elementos inciertos se marcan con ⟨བརྟག⟩ / ⟨བརྟག་དགོས།⟩
-  para revisión experta.
-- 📊 Datos de línea temporal estructurados — 80 eventos de transmisión
-  canónica en 8 tradiciones budistas (india, sanskrit, pali, seasia,
-  silkroad, chinese, sinosphere, tibetan) en JSONL/CSV.
-- 📋 Plan del proyecto, guía de estilo, glosario terminológico y materiales
-  de referencia.
+- 📜 **Buddhist AI Charter** — diez principios + cinco negativas + cláusula de atestación, en `charter/BUDDHIST-AI-CHARTER.md`. Traducida a 24 idiomas, en `charter/i18n/`, a la espera de revisión por parte de eruditos budistas hablantes nativos de cada idioma.
+- 🕉 **Lectura cuatrilingüe del Mahāparinibbāna Sutta** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · inglés · chino · tibetano, en `translations/mahaparinibbana-sutta/`. Es la raíz escritural de la carta y el primer texto semilla del archivo.
+- 📊 **Datos estructurados de la línea temporal** — 80 eventos de transmisión canónica a través de las 8 tradiciones (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) como JSONL / CSV, en `docs/timeline-data/`.
+- 📋 Documentos del proyecto: `README.md`, `ROADMAP.md`, `CALL-FOR-HELP.md`, `CONTRIBUTORS.md`, `announcements/`.
 
 ## Hoja de ruta (ocho ramas)
 
-La estructura a largo plazo de Sarasvatī sigue la línea temporal de
-transmisión del canon budista mundial: **India · Manuscritos sánscritos ·
-Pāli · Theravāda del Sudeste Asiático · Ruta de la Seda · Canon chino ·
-Sinosfera · Tibetano**. Cada rama puede albergar varios proyectos de
-traducción. El proyecto activo actual se encuentra bajo la rama
-**Tibetana**: continuar los 140 capítulos restantes de la Suśruta Saṃhitā.
+La estructura a largo plazo de Sarasvatī sigue la línea temporal mundial de transmisión del canon budista: **India · Manuscritos sánscritos · Pāli · Theravāda del sudeste asiático · Ruta de la Seda · Canon chino · Zona cultural del carácter chino · Tibetano**. Cada rama tendrá al menos una "primera muestra": texto fuente de dominio público → borrador de traducción automática a un idioma que actualmente carece de traducción → revisor humano identificado. La rama tibetana ya tiene el primer activo (DN 16); la rama pāli también ha sido tocada mediante la misma lectura cuatrilingüe de DN 16. Las seis ramas restantes (India, sánscrito, sudeste asiático, Ruta de la Seda, chino, zona cultural del carácter chino) están abiertas a colaboradores para su inicio.
 
-## ⚠️ Aviso legal
+## Capas de protección
 
-Todas las traducciones aquí presentadas son **borradores automáticos** a la
-espera de revisión experta humana. No las considere autoritativas para
-fines médicos, rituales o académicos sin validación por especialistas
-cualificados.
+Cada artefacto está protegido por:
+
+- **Espejo local** — macOS.
+- **Repo público de GitHub** — https://github.com/lurongpan47/Sarasvati.
+- **Espejos geográficos de AWS** — varias regiones.
+- **Espejo descentralizado IPFS** — CID `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce`.
+- **OpenTimestamps → Bitcoin** — ancla temporal irrefutable sobre `manifests/SHA256SUMS`.
+
+## ⚠️ Descargo de responsabilidad
+
+Todas las traducciones y textos traducidos automáticamente en este repositorio son **borradores generados por IA** pendientes de revisión humana experta. No los trates como autoritativos para propósitos rituales, doctrinales, médicos o académicos sin validación por especialistas identificados.
 
 ## Cómo contribuir
 
-- Abra una incidencia proponiendo un texto, una revisión de capítulo o una
-  corrección terminológica.
-- Haga un fork, edite y envíe un PR. Todas las contribuciones se aceptan
-  bajo CC BY-SA 4.0.
-- Aloje un espejo. Ayude a preservar el archivo.
+- Abre una issue proponiendo un texto, una revisión de capítulo, una corrección terminológica o una revisión de la carta en algún idioma.
+- Fork, edita, PR. Todas las contribuciones se aceptan bajo CC BY-SA 4.0.
+- Ejecuta un espejo. Ayuda a preservar el archivo.
+- Ayuda a construir el **runtime de la carta** (bibliotecas de guardrail en Python + TypeScript) — ver `CALL-FOR-HELP.md`.
 
 ## Enlaces
 
@@ -66,7 +54,5 @@ cualificados.
 
 ---
 
-*«Donde se detiene la traducción, se detiene la comprensión. Donde se
-detiene la comprensión, no puede comenzar la compasión.»*
-
-[English](../README.md) · [Other languages](./)
+*"Vayadhammā saṅkhārā, appamādena sampādetha."*
+*Todas las cosas condicionadas son impermanentes. Esforzaos con diligencia.*

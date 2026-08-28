@@ -1,41 +1,43 @@
 # ROADMAP · Sarasvatī
 
-*Guided by the world Buddhist canon transmission timeline (八系并观). Sarasvatī takes each of the eight branches as a long-term line of protection & translation work.*
+*Two cores: eight-branch canon archive + Buddhist AI charter. Every version delivers on one or both.*
 
 ---
 
 ## Foundational principles
 
-1. **Public domain first.** We work only from texts safely out of copyright, or explicitly released under compatible open licenses.
-2. **AI first-draft, human final.** All translations are machine drafts pending expert review. No "authoritative" claim without named human reviewers.
-3. **Redundant preservation.** Every artifact lives in ≥ 3 locations with SHA-256 integrity, and is released under CC BY-SA 4.0.
-4. **Cross-lingual, not translation-imperialist.** Where a language lacks a translation, we make one. We do not overwrite existing living traditions' work.
+1. **Public domain first.** Only out-of-copyright texts, or explicit open-licensed collaborations.
+2. **AI first-draft, human final.** Every translation is a machine draft pending named expert review.
+3. **Redundant preservation.** Every artifact lives in ≥ 3 locations with SHA-256 integrity, released CC BY-SA 4.0.
+4. **Cross-lingual, not translation-imperialist.** Fill gaps; do not overwrite living traditions' work.
+5. **Ethics before scale.** The AI charter is not marketing — it is a runtime constraint on this project's own tooling.
 
 ---
 
-## The eight branches (八系)
+## Core 1 · The eight branches (八系)
 
-Sarasvatī's long-term structure follows the transmission timeline. Each branch may host multiple translation projects.
+Sarasvatī's archive is structured along the transmission timeline. Each branch may host multiple translation projects; each project selects a public-domain source and a target language currently missing a translation.
 
 ### 1. India — 印度源流 · `india`
 The oral origin; councils; sects; Mahāyāna emergence.
 - **Now**: reference material only.
-- **Future**: work on public-domain critical editions of foundational sūtras.
+- **Sample targets (future)**: public-domain critical editions of foundational sūtras.
 
-### 2. Sanskrit manuscript tradition — 梵文写本系 · `sanskrit`
+### 2. Sanskrit manuscript — 梵文写本系 · `sanskrit`
 Palm-leaf, birch-bark, modern critical editions.
 - **Priority pool**: GRETIL corpus (public-domain machine-readable Sanskrit), Nepalese Navagrantha, Gilgit finds.
-- **Sample targets**: Aṣṭāṅgahṛdayasaṃhitā re-translation cross-check with existing Tibetan; Nāgārjuna's Mūlamadhyamakakārikā cross-language readings.
+- **Sample targets**: Mūlamadhyamakakārikā cross-language readings; short sūtras never rendered in Tibetan or Chinese.
 
 ### 3. Pāli — 巴利·斯里兰卡 · `pali`
 Theravāda canon.
-- **Priority pool**: PTS Roman-script editions (out of copyright post-1928); SuttaCentral parallel data.
-- **Sample targets**: uncovered nikāya passages for Tibetan/Chinese cross-reading.
+- **Priority pool**: PTS Roman-script editions (post-1928 public domain); SuttaCentral parallel data.
+- **Sample targets**: nikāya passages not yet in Tibetan; commentaries lacking English/Chinese versions.
+- **Current asset**: DN 16 (Mahāparinibbāna Sutta) final-instructions four-language reading — the scriptural root of the AI charter.
 
 ### 4. Southeast Asian Theravāda — 南传东南亚 · `seasia`
 Burma, Siam, Cambodia, Laos.
 - **Priority pool**: 5th, 6th, 8th, 9th council editions; VRI Chaṭṭha Saṅgāyana digital.
-- **Sample targets**: Khmer, Lao, Shan-script vernacular commentaries with no English/Chinese versions.
+- **Sample targets**: Khmer, Lao, Shan-script vernacular commentaries.
 
 ### 5. Silk Road / Central Asia — 中亚·丝路 · `silkroad`
 Gāndhārī, Khotanese, Tocharian, Uighur, Tangut.
@@ -45,55 +47,64 @@ Gāndhārī, Khotanese, Tocharian, Uighur, Tangut.
 ### 6. Chinese canon — 汉传系 · `chinese`
 Kaibao → Kaixi → Jiaxing → Qianlong → Taishō → CBETA.
 - **Priority pool**: CBETA public-facing texts; Dunhuang colophons.
-- **Sample targets**: minor texts in Taishō vols 85 (dunhuang) never translated to English/Tibetan.
+- **Sample targets**: minor texts in Taishō vol. 85 never translated to English/Tibetan.
 
 ### 7. Sinosphere — 汉字文化圈 · `sinosphere`
 Korea, Japan, Vietnam.
 - **Priority pool**: Tripiṭaka Koreana (public colophons); Nara scriptoria digitizations; SAT database.
 - **Sample targets**: Korean/Japanese commentaries without foreign-language versions.
 
-### 8. Tibetan — 藏传系 · `tibetan` **(current focus)**
+### 8. Tibetan — 藏传系 · `tibetan`
 Kangyur / Tengyur; Mongolian & Manchu editions.
-- **Now**: Suśruta Saṃhitā EN→bo (Sūtrasthāna 46 chapters delivered v0.1).
-- **Next**: remaining 140 chapters of Suśruta (Nidāna 16 + Śārīra 10 + Cikitsā 40 + Kalpa 8 + Uttaratantra 66).
-- **Future**: cross-check with Aṣṭāṅgahṛdaya Tibetan; Yogaśataka; other classical medical/philosophical texts lacking Tibetan translations.
+- **Current asset**: DN 16 Tibetan draft embedded in the Pāli · English · Chinese · Tibetan reading.
+- **Sample targets (future)**: short texts in Tengyur commentary literature without modern translations.
+
+---
+
+## Core 2 · Buddhist AI Charter
+
+**Delivered:**
+- `charter/BUDDHIST-AI-CHARTER.md` — ten principles + five refusals + attestation.
+- `charter/i18n/` — 24 language versions.
+- `translations/mahaparinibbana-sutta/final-instructions-4lang.md` — DN 16 four-language reading (scriptural root).
+
+**Next:**
+- Reference implementations of the charter's five refusals as runtime guardrails (Python + TS starter kits).
+- Additional signatories beyond the initial Claude Opus 4.7 attestation.
+- Human review of the Tibetan strand of the four-language reading.
 
 ---
 
 ## v0.1 → v1.0 milestones
 
-| Version | Target date | Deliverable |
+| Version | Date | Deliverable |
 |---|---|---|
-| v0.1.0 ✅ | 2026-08-28 | Suśruta · Sūtrasthāna Tibetan draft (46 ch) |
-| v0.2.0 | tbd | Timeline structured data (80 events × 8 traditions); ROADMAP; onboarding docs |
-| v0.3.0 | tbd | Suśruta · Nidāna + Śārīra (26 ch) |
-| v0.4.0 | tbd | Suśruta · Cikitsā (40 ch) |
-| v0.5.0 | tbd | Suśruta · Kalpa + Uttaratantra (74 ch) |
-| v1.0.0 | tbd | Suśruta Saṃhitā full 186 ch, first human-reviewed round complete |
-| v1.1.0 | tbd | First cross-branch project (Sanskrit or Pāli sample) |
+| v0.1.0 ✅ | 2026-08-28 | Project bootstrap, timeline PDF, structural docs |
+| v0.2.0 ✅ | 2026-08-28 | Timeline structured data (80 events × 8 traditions); ROADMAP; onboarding |
+| v0.3.0 ✅ | 2026-08-28 | 24-language README, Bitcoin timestamp, blockchain community drafts |
+| v0.4.0 ✅ | 2026-08-28 | Buddhist AI Charter (EN); DN 16 four-language; Call for Help |
+| v0.5.0 ✅ | 2026-08-28 | Charter × 24 languages; timeline hardened |
+| v0.6.0 ✅ | 2026-08-28 | **Scope refocus**: two cores locked; medical-classic sub-project split to sibling repo |
+| v0.7.0 | tbd | First **Pāli** cross-branch sample; charter runtime reference implementation (Python) |
+| v0.8.0 | tbd | First **Chinese canon** cross-branch sample; charter runtime reference implementation (TS) |
+| v0.9.0 | tbd | First **Sanskrit manuscript** sample; three-signatory charter attestation |
+| v1.0.0 | tbd | One human-reviewed sample per active branch; charter v1 with ≥ 5 attesting signatories |
+| v1.1.0+ | tbd | Silk Road + Southeast Asian + Sinosphere samples; ongoing archive growth |
 
 ---
 
 ## Structured data included
 
-`docs/timeline-data/` (v0.2 addition):
+`docs/timeline-data/`:
 - `traditions.jsonl` — the 8 branches (id, zh, en, note)
-- `events.jsonl` — 80 events (id, tradition, period, tri-lingual title)
-- `events.csv` — same, as CSV
+- `events.jsonl` — 80 milestones with tri-lingual titles
+- `events.csv` — CSV mirror for spreadsheet users
+- `README.md` — schema + coverage docs
 
-This lets anyone build interactive visualizations, filter by tradition/era, or bind these events to their own translation projects.
-
----
-
-## How to join
-
-- Pick a branch. Pick an untranslated text. Open an issue proposing it.
-- Or pick an existing draft and human-review it, chapter by chapter.
-- Or pick a language pair we haven't touched and demonstrate a pipeline.
-- Or run a mirror.
-
-All contributions CC BY-SA 4.0.
+Living dataset; PRs welcome.
 
 ---
 
-*"Where translation stops, understanding stops. Where understanding stops, compassion cannot begin."*
+## Related independent projects (out of scope, informational)
+
+- **Sushruta-Tibetan** — Suśruta Saṃhitā full 186-chapter Tibetan machine draft, kept as a separate local collection (`~/clawd/Sushruta-Tibetan/`). Not part of Sarasvatī's scope, milestones, or version numbering. Listed here for provenance only.

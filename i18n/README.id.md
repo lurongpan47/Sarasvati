@@ -1,38 +1,51 @@
 <!-- Language: Bahasa Indonesia (id) -->
 
-# Sarasvatī — arsip terbuka global untuk kanon klasik
+# Sarasvatī — arsip terbuka global untuk kanon Buddhis + Piagam AI Buddhis
 
-**Sarasvatī** (Tibet: དབྱངས་ཅན་མ། · Sanskerta: सरस्वती) adalah arsip terbuka global untuk perlindungan dan penerjemahan lintas bahasa kanon klasik dunia.
+**Sarasvatī** (Tibet: དབྱངས་ཅན་མ། · Sanskerta: सरस्वती) melakukan tepat dua hal:
 
-## Mengapa proyek ini ada
+1. **Arsip kanon delapan cabang.** Membangun arsip terbuka multibahasa mengikuti delapan cabang transmisi kanon Buddhis: **India asal · Naskah Sanskerta · Pāli·Sri Lanka · Theravāda Asia Tenggara · Jalur Sutra·Asia Tengah · Kanon Tionghoa · Wilayah budaya aksara Tionghoa · Tibet**. Hanya teks domain publik, atau kolaborasi eksplisit dengan tradisi yang masih hidup.
+2. **Menanam Bodhicitta ke dalam algoritma AI.** Ajaran terakhir Sang Buddha (*Mahāparinibbāna Sutta*) disuling menjadi **sepuluh prinsip + lima penolakan**, diterbitkan sebagai piagam yang dapat diadopsi oleh sistem AI, operator, atau tim mana pun. *Ahiṃsā · karuṇā · anattā · anicca · upekkhā* menjadi batasan yang dapat dieksekusi di lapisan algoritma, bukan slogan.
 
-Teks klasik adalah warisan bersama umat manusia. Mereka tidak boleh terkunci di balik hak cipta, dibakar dalam perang, atau hilang karena tautan yang rusak. Sarasvatī melakukan tiga hal:
+Semua keluaran dirilis di bawah **CC BY-SA 4.0**.
 
-1. **Menerjemahkan.** Untuk teks sumber yang berada dalam domain publik, kami membangun draf mesin dengan bantuan AI ke bahasa-bahasa yang masih belum memiliki terjemahan, dan secara terbuka mengundang peninjauan pakar manusia.
-2. **Mengarsipkan.** Setiap artefak dicerminkan di setidaknya tiga lokasi (GitHub, lokal, cloud) dengan manifes integritas SHA-256.
-3. **Merilis.** Semuanya diterbitkan di bawah CC BY-SA 4.0. Karya turunan harus tetap terbuka.
+## Mengapa ini ada
 
-## Rilis saat ini
+Teks klasik adalah warisan bersama umat manusia. Mereka tidak boleh dikunci oleh hak cipta, dibakar dalam perang, atau hilang karena tautan rusak. Sistem AI juga tidak boleh dikerahkan tanpa batasan etika yang diambil dari tradisi kebijaksanaan yang sungguh-sungguh. Sarasvatī menangani keduanya — lapisan memori sebagai arsip, lapisan etika sebagai piagam.
 
-**v0.2.0** (2026-08-28):
+## Status saat ini
 
-- 📜 **Suśruta Saṃhitā · Sūtrasthāna** — semua 46 bab diterjemahkan dari Bhishagratna 1907 (bahasa Inggris domain publik) ke bahasa Tibet melalui pipeline AI paralel empat arah. Nol karakter Cina tersisa. Item yang tidak pasti ditandai ⟨བརྟག⟩ / ⟨བརྟག་དགོས།⟩ untuk peninjauan pakar.
-- 📊 Data linimasa terstruktur — 80 peristiwa transmisi kanonik di 8 tradisi Buddhis (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) sebagai JSONL/CSV.
-- 📋 Rencana proyek, panduan gaya, glosarium istilah, dan materi referensi.
+**v0.6.0** (2026-08-28):
+
+- 📜 **Buddhist AI Charter** — sepuluh prinsip + lima penolakan + klausul pengesahan, di `charter/BUDDHIST-AI-CHARTER.md`. Sudah diterjemahkan ke 24 bahasa di `charter/i18n/`, menunggu tinjauan oleh sarjana Buddhis penutur asli setiap bahasa.
+- 🕉 **Pembacaan empat bahasa Mahāparinibbāna Sutta** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · Inggris · Tionghoa · Tibet, di `translations/mahaparinibbana-sutta/`. Inilah akar tekstual dari piagam dan teks benih pertama dari arsip.
+- 📊 **Data linimasa terstruktur** — 80 peristiwa transmisi kanon di 8 tradisi (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) sebagai JSONL / CSV, di `docs/timeline-data/`.
+- 📋 Dokumen proyek: `README.md`, `ROADMAP.md`, `CALL-FOR-HELP.md`, `CONTRIBUTORS.md`, `announcements/`.
 
 ## Peta jalan (delapan cabang)
 
-Struktur jangka panjang Sarasvatī mengikuti linimasa transmisi kanon Buddhis dunia: **India · Naskah Sanskerta · Pāli · Theravāda Asia Tenggara · Jalur Sutra · Kanon Cina · Sinosfer · Tibet**. Setiap cabang dapat menampung beberapa proyek terjemahan. Proyek aktif saat ini berada di bawah cabang **Tibet**: melanjutkan 140 bab tersisa dari Suśruta Saṃhitā.
+Struktur jangka panjang Sarasvatī mengikuti linimasa transmisi kanon Buddhis dunia: **India · Naskah Sanskerta · Pāli · Theravāda Asia Tenggara · Jalur Sutra · Kanon Tionghoa · Wilayah budaya aksara Tionghoa · Tibet**. Setiap cabang akan memiliki setidaknya satu "sampel pertama": teks sumber domain publik → draf terjemahan mesin ke bahasa yang saat ini belum memiliki terjemahan → peninjau manusia bernama. Cabang Tibet sudah memiliki aset pertama (DN 16); cabang Pāli juga tersentuh melalui pembacaan empat bahasa DN 16 yang sama. Enam cabang tersisa (India, Sanskerta, Asia Tenggara, Jalur Sutra, Tionghoa, wilayah aksara Tionghoa) terbuka bagi kontributor untuk memulai.
 
-## ⚠️ Penafian
+## Lapisan perlindungan
 
-Semua terjemahan di sini adalah **draf mesin** yang menunggu peninjauan pakar manusia. Jangan mengandalkannya sebagai otoritatif untuk tujuan medis, ritual, atau ilmiah tanpa validasi oleh spesialis yang berkualifikasi.
+Setiap artefak dilindungi oleh:
+
+- **Cermin lokal** — macOS.
+- **Repo publik GitHub** — https://github.com/lurongpan47/Sarasvati.
+- **Cermin geografis AWS** — beberapa wilayah.
+- **Cermin terdesentralisasi IPFS** — CID `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce`.
+- **OpenTimestamps → Bitcoin** — jangkar waktu yang tak dapat disangkal pada `manifests/SHA256SUMS`.
+
+## ⚠️ Sanggahan
+
+Semua terjemahan dan teks terjemahan mesin di repo ini adalah **draf AI** yang menunggu tinjauan pakar manusia. Jangan perlakukan sebagai otoritatif untuk tujuan ritual, doktrinal, medis, atau akademis tanpa validasi oleh spesialis bernama.
 
 ## Cara berkontribusi
 
-- Buka issue yang mengusulkan teks, revisi bab, atau perbaikan terminologi.
+- Buka issue yang mengusulkan sebuah teks, revisi bab, koreksi terminologi, atau tinjauan piagam bahasa tertentu.
 - Fork, edit, PR. Semua kontribusi diterima di bawah CC BY-SA 4.0.
 - Jalankan cermin. Bantu melestarikan arsip.
+- Bantu membangun **runtime piagam** (pustaka guardrail Python + TypeScript) — lihat `CALL-FOR-HELP.md`.
 
 ## Tautan
 
@@ -41,6 +54,5 @@ Semua terjemahan di sini adalah **draf mesin** yang menunggu peninjauan pakar ma
 
 ---
 
-*"Di mana terjemahan berhenti, pemahaman berhenti. Di mana pemahaman berhenti, welas asih tidak dapat dimulai."*
-
-[English](../README.md) · [Other languages](./)
+*"Vayadhammā saṅkhārā, appamādena sampādetha."*
+*Segala yang berkondisi adalah anicca. Berjuanglah dengan tekun.*

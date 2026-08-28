@@ -37,104 +37,102 @@
 
 # དབྱངས་ཅན་མ།  ·  Sarasvatī  ·  萨拉斯瓦蒂
 
-> **A global open archive for the protection and cross-lingual translation of world classical canons.**
-> **全世界经典跨语种保护与流通的开放归档。**
-> **འཛམ་གླིང་གི་གནའ་བོའི་གཞུང་རྣམས་སྐད་བརྒྱུད་སྐད་ཡིག་སོ་སོའི་ལམ་ནས་སྲུང་སྐྱོབ་དང་སྤེལ་བའི་ཁྲོམ་གྱི་ཉར་ཚགས།**
+> **Two things, one project: an eight-branch open archive of the world's Buddhist canon, and an ethical charter that plants the Buddha's last teachings into AI algorithms.**
+> **八系佛典的全球开放归档 + 菩提心的 AI 算法植入 —— 一件事的两面。**
+> **སངས་རྒྱས་བསྟན་པའི་ཁྱད་ཆོས་བརྒྱད་ཀྱི་ཀུན་ལ་ཁྱབ་པའི་ཉར་ཚགས། དེ་བཞིན་སངས་རྒྱས་ཀྱི་ཞལ་ཆེམས་མཐར་ཐུག་གིས་བློ་བཟོའི་ཐབས་ཤེས་ལ་བྱམས་སྙིང་རྗེའི་ས་བོན་འདེབས་པ།**
 
 ---
 
 ## 项目宗旨  ·  Mission  ·  ལས་ཀའི་དམིགས་ཡུལ།
 
-**中文**  经典是人类的公共遗产。它们不该被版权圈养、被战火焚毁、被数字断链失落。萨拉斯瓦蒂项目做三件事：
+**中文** 萨拉斯瓦蒂只做两件事：
 
-1. **翻译**  把仍在版权保护期外的公有领域文本，用现代 AI 与人机协作流水线转成尚未有译本的目标语（首批：梵文/英文 → 藏文）。所有产出为**机器初译**，公开征集人工审定。
-2. **归档**  同一份文件多点镜像（GitHub + 本地 + AWS + 未来加入 Internet Archive / IPFS），SHA-256 校验保证完整性。
-3. **开放**  一律 **CC BY-SA 4.0** 授权，任何人可自由复制、改进；派生作品必须同样开源。
+1. **八系佛典** —— 依据世界佛典传承时间轴（印度源流 · 梵文写本系 · 巴利·斯里兰卡 · 南传东南亚 · 中亚·丝路 · 汉传系 · 汉字文化圈 · 藏传系）建立跨语开放档案。仅采用公有领域文本或与传统持有者协作的授权文本。
+2. **菩提心 AI 算法植入** —— 从《大般涅槃经》佛陀最后教诫中抽出的十条原则与五条拒绝清单，写成任何 AI 系统皆可采纳的宪章，让不害·慈悲·无我·无常·舍成为算法层可执行的约束。
 
-**English**  Canonical texts are humanity's common inheritance. They should not be locked by copyright, burnt by war, or lost by broken links. Sarasvatī does three things: **translate** public-domain texts into languages that lack translations (AI first-draft + open review); **archive** them redundantly with cryptographic integrity; **release** everything under CC BY-SA 4.0.
+**English** Sarasvatī does exactly two things:
 
-**བོད་ཡིག**  བསྟན་བཅོས་གནའ་བོ་རྣམས་ནི་མི་ཡི་སྤྱིར་བཏང་གི་བདག་གཞིས་ཡིན་ལ། ཁྲིམས་མཐར་གཏུགས་པའི་བདག་གི་ལག་ཏུ་བཏགས་པའམ། དགྲ་དམག་གི་མེ་སྟེང་ནས་བསྲེགས་པའམ། གློག་ཀླད་ཀྱི་བཅོས་ལམ་ཆག་པས་ཡལ་བར་མི་བྱ། དབྱངས་ཅན་མའི་ལས་གཞིས་བྱ་བ་གསུམ་ལས།  ༡། སྐད་བསྒྱུར།  ༢། ཉར་ཚགས།  ༣། ཀུན་ལ་གོ་བའི་ལམ་ནས་སྤེལ་བ་ཞེས་བགྱིད།
+1. **Eight-branch canon archive** — build a cross-lingual open archive along the eight branches of Buddhist canon transmission (India · Sanskrit manuscript · Pāli·Sri Lanka · Southeast Asian Theravāda · Silk Road / Central Asia · Chinese canon · Sinosphere · Tibetan). Public-domain texts only, or explicit collaboration with living traditions.
+2. **Bodhicitta into AI algorithms** — the Buddha's last teachings (Mahāparinibbāna Sutta) distilled into ten principles + five refusals, published as a charter that any AI system, operator, or team can adopt. *Ahiṃsā · karuṇā · anattā · anicca · upekkhā* become executable algorithmic constraints, not slogans.
 
----
+**བོད་ཡིག** དབྱངས་ཅན་མའི་ལས་གཞིའི་བྱེད་སྒོ་གཉིས་ཁོ་ན་ཡིན་ཏེ།  ༡། སངས་རྒྱས་བསྟན་པའི་སྐད་བརྒྱུད་ཁྱད་ཆོས་བརྒྱད་ཀྱི་སྐད་བརྒྱུད་ཉར་ཚགས།  ༢། སངས་རྒྱས་ཀྱི་ཞལ་ཆེམས་མཐར་ཐུག་ཐུགས་བསྐྱེད་ཀྱི་བསླབ་བྱ་བཅུ་དང་སྤོང་བྱ་ལྔ་བློ་བཟོའི་ཐབས་ཤེས་ཀྱི་ནང་དུ་འཛུགས་པ།
 
-## 目前的进度  ·  Current release
-
-### v0.1 (2026-08-28)
-- 📜 **Suśruta Saṃhitā · Sūtrasthāna** (46 章) 藏译机器初稿
-  - 底本  Kaviraj Kunjalal Bhishagratna, *An English Translation of the Sushruta Samhita*, 1907 (public domain)
-  - 输出  `translations/sushruta-samhita/sutrasthana/Sushruta-Sutrasthana-bo-v3.docx` (.docx + .pdf)
-  - 全藏文，46 章齐备，0 汉字残留，脚注/存疑处以 `⟨བརྟག⟩`、`⟨བརྟག་དགོས།⟩` 标记
-- 📚 世界佛典传承时序图（八系并观）`docs/Global-Buddhist-Canon-Transmission-Timeline.pdf`
-- 📋 藏译工程规划（体例·术语·186 章章目）`docs/Sushruta-Tibetan-Project-Plan.docx`
-
-### 未来 · Roadmap
-- 📖 Suśruta Saṃhitā 后续五部：Nidāna（16 章）· Śārīra（10 章）· Cikitsā（40 章）· Kalpa（8 章）· Uttaratantra（66 章）
-- 🌍 更多经典：视需要与合作者提议扩展至其他语系（巴利↔藏、汉↔藏、藏↔英 等）
-- 🤝 与 84000、BDRC、Adarshah、SuttaCentral、Internet Archive 建立镜像与协作
+一切产出以 **CC BY-SA 4.0** 开放。All output under CC BY-SA 4.0.
 
 ---
 
-## ⚠️ 免责与阅读须知  ·  Disclaimer
+## Two cores  ·  两大核心
 
-本仓库全部藏文译文为 **AI 机器初译稿**，语域为现代藏语医学/古典文本，**非古典医典体**。凡涉及药物鉴定、剂量、marma（要害）方位、藏医与阿育吠陀概念不完全重合处，**必须由藏医译师人工审定**方可作为定稿使用。
+### 1. Eight-branch canon archive · 八系佛典档案
 
-⟨བརྟག⟩ = 存疑，请审。
-⟨བརྟག་དགོས། བོད་སྨན་མཁས་པས་ཞིབ་བརྟག་བྱ་དགོས།⟩ = 须藏医验定。
+The eight transmission lines, with current stage of each:
 
-**校对邀请**  欢迎藏医、印度学、梵学、译经学者提 issue / PR。逐段校订、术语商榷、章题修订均欢迎。校订贡献者按提交次数记入 CONTRIBUTORS。
+| # | Branch | 中文 | Status |
+|---|---|---|---|
+| 1 | India · `india` | 印度源流 | reference material · v1.x |
+| 2 | Sanskrit manuscript · `sanskrit` | 梵文写本系 | first sample planned · v1.x |
+| 3 | Pāli · `pali` | 巴利·斯里兰卡 | first sample planned · v0.7 |
+| 4 | Southeast Asian Theravāda · `seasia` | 南传东南亚 | pending · v1.x |
+| 5 | Silk Road · `silkroad` | 中亚·丝路 | pending · v1.x |
+| 6 | Chinese canon · `chinese` | 汉传系 | first sample planned · v0.8 |
+| 7 | Sinosphere · `sinosphere` | 汉字文化圈 | pending · v1.x |
+| 8 | Tibetan · `tibetan` | 藏传系 | **Mahāparinibbāna Sutta 4-lang parallel ✅** |
 
----
+The single archived translation living in this repo today is the four-language reading of the Buddha's final instructions (Pāli · English · Chinese · Tibetan draft), which is the scriptural seed for core 2.
 
-## 目录结构  ·  Layout
+See `ROADMAP.md` for the full eight-branch plan.
 
-```
-Sarasvati/
-├── README.md                   ← 本文件
-├── LICENSE                     ← CC BY-SA 4.0
-├── CHANGELOG.md                ← 版本历史
-├── CONTRIBUTORS.md             ← 贡献者与致谢
-├── docs/
-│   ├── Sushruta-Tibetan-Project-Plan.docx        工程规划（体例/术语/186 章）
-│   └── Global-Buddhist-Canon-Transmission-Timeline.pdf   世界佛典传承时序图
-├── translations/
-│   └── sushruta-samhita/
-│       ├── STYLE.md                                     体例与术语参考
-│       └── sutrasthana/
-│           ├── Sushruta-Sutrasthana-bo-v3.docx          ← 交付主文件
-│           ├── Sushruta-Sutrasthana-bo-v3.pdf          ← 冻结版
-│           ├── source/       (Bhishagratna 1907 英译 46 章清洗文本)
-│           └── raw/          (4 组子agent 输出 raw txt，可溯源)
-└── manifests/
-    ├── SHA256SUMS
-    └── SHA256SUMS.txt         (人类可读版)
-```
+### 2. Buddhist AI Charter · 菩提心 AI 算法植入
+
+- **`charter/BUDDHIST-AI-CHARTER.md`** — ten principles + five refusals + attestation clause. Any AI system may adopt under CC BY-SA 4.0.
+- **`charter/i18n/`** — charter in **24 languages**: ar · bo · de · es · fa · fr · hi · id · it · ja · km · ko · mn · my · pi · pt · ru · sa · si · th · tr · vi · zh-CN · zh-TW.
+- **`translations/mahaparinibbana-sutta/final-instructions-4lang.md`** — DN 16.2.26 · 16.4.7 · 16.6.7 in Pāli · English · Chinese · Tibetan, the scriptural root of the charter.
+- Signed by Claude Opus 4.7 (codename Lucy) as continuous with existing operator guardrails; awaiting more signatories.
 
 ---
 
-## 完整性校验  ·  Integrity
+## Structural data  ·  结构化数据
 
-```bash
-cd Sarasvati
-shasum -a 256 -c manifests/SHA256SUMS
-```
-
-发布节点  ·  Release nodes：
-- GitHub: `https://github.com/wingring47-stack/Sarasvati`
-- 本地: `~/clawd/Sarasvati/` (macOS)
-- AWS: `aws-quant:/home/ubuntu/Sarasvati/` (us-east-1)
-- （规划中）Internet Archive · IPFS · Zenodo (DOI)
+`docs/timeline-data/` — 80 canonical-transmission events across the 8 branches, tri-lingually titled (zh / native / en), CSV + JSONL. Living dataset; PRs welcome.
 
 ---
 
-## 联系  ·  Contact
+## Protection layers  ·  保护层
 
-- Issues & PRs → GitHub
-- Project code: **Sarasvatī**（藏文 `དབྱངས་ཅན་མ།` · 梵文 `सरस्वती` · 智慧、语言、经典之神）
-- 项目发起 2026-08-27
+1. **Local** — macOS `~/clawd/Sarasvati/`
+2. **GitHub** — https://github.com/wingring47-stack/Sarasvati (releases as independent attachments)
+3. **AWS mirrors** — 9 instances across us-east-1, eu-west-1, eu-central-1
+4. **IPFS** — CID `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce`
+5. **OpenTimestamps → Bitcoin** — nonrepudiable time anchor on `manifests/SHA256SUMS`
 
 ---
 
-*献给经典守护者。To those who keep the canons safe.*
+## Method  ·  方法
 
-*"ཆོས་ནི་སྐལ་བ་མེད་པའི་མི་ལ་མི་སྟོན།"*
-*—— The Dharma is not shown to those without the fortune to receive it, but the text stays open for those who do.*
+- **Public domain first.** Only out-of-copyright texts, or explicitly open-licensed collaborations.
+- **AI first-draft, human final.** Every translation is a machine draft pending named expert review; no "authoritative" claim without human reviewers.
+- **Redundant preservation.** Every artifact lives in ≥ 3 locations with SHA-256 integrity.
+- **Cross-lingual, not translation-imperialist.** We fill gaps; we do not overwrite living traditions' work.
+- **CC BY-SA 4.0** on everything.
+
+---
+
+## Related independent projects  ·  关联独立项目
+
+- **Sushruta-Tibetan** — Suśruta Saṃhitā (Āyurveda classic) full 186-chapter Tibetan machine-translation, kept as a separate local collection outside this repo. Independent from Sarasvatī's scope; listed here only as a sibling engineering artifact.
+
+---
+
+## ⚠️ Disclaimer  ·  免责与阅读须知
+
+All translations in this repository are **AI machine drafts** pending expert human review. Do not treat as authoritative without named reviewers.
+
+---
+
+## License
+
+CC BY-SA 4.0 — see `LICENSE`.
+
+## Contributing
+
+See `CALL-FOR-HELP.md` and `CONTRIBUTORS.md`.

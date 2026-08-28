@@ -3,6 +3,30 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
+## [v0.6.0] — 2026-08-28
+
+### Changed — Scope refocus
+- **Sarasvatī narrative locked to two cores**: (1) eight-branch canon archive, (2) Buddhist AI charter as bodhicitta algorithmic constraint.
+- Suśruta Saṃhitā Tibetan translation (all 186 chapters, including the newly completed Cikitsā 40 + Kalpa 8 + Uttaratantra 66) is **downgraded from a Sarasvatī deliverable to an external sibling project**. Kept locally at `~/clawd/Sushruta-Tibetan/`, not tracked by this repository.
+- README / ROADMAP rewritten around the two cores. All Suśruta chapter-progress indicators removed from headline metrics.
+- CALL-FOR-HELP.md rewritten around three asks: launch remaining 7 branches, human review of charter i18n, charter runtime reference implementations.
+- Announcements (`announcements/blockchain-community.md` + `blockchain-community-cn.md`) rewritten around canon archive + AI charter, not medical classics.
+- CONTRIBUTORS.md project-description block rewritten to two-core statement.
+
+### Removed
+- `translations/sushruta-samhita/` directory (moved to external `~/clawd/Sushruta-Tibetan/sushruta-samhita/`).
+
+### Preserved
+- Historical CHANGELOG entries v0.1–v0.5 kept unchanged as factual record.
+- `charter/`, `charter/i18n/`, `docs/timeline-data/`, `translations/mahaparinibbana-sutta/` — all core assets.
+
+### Rationale
+- Sarasvatī's distinctive value sits in the cross-branch canon archive and the AI ethics layer. Medical-classic translation was a lateral engineering artifact that risked drowning out the actual mission. Splitting keeps both projects honest.
+- The completed Suśruta Tibetan drafts remain available (as sibling deliverables), safe, and citeable — they just no longer set Sarasvatī's version cadence.
+
+### Method
+- Manual refactor of README, ROADMAP, CHANGELOG, CALL-FOR-HELP, announcements, CONTRIBUTORS, i18n source; 24 language README versions regenerated from the new English source via four parallel Claude Opus 4.7 subagents.
+
 ## [v0.1.0] — 2026-08-28
 
 ### Added

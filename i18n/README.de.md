@@ -1,64 +1,51 @@
 <!-- Language: Deutsch (de) -->
 
-# Sarasvatī — ein globales offenes Archiv für klassische Kanones
+# Sarasvatī — ein globales offenes Archiv des buddhistischen Kanons + Buddhistische KI-Charta
 
-**Sarasvatī** (tibetisch: དབྱངས་ཅན་མ། · Sanskrit: सरस्वती) ist ein globales
-offenes Archiv zum Schutz und zur sprachübergreifenden Übersetzung der
-klassischen Kanones der Welt.
+**Sarasvatī** (Tibetisch: དབྱངས་ཅན་མ། · Sanskrit: सरस्वती) tut genau zwei Dinge:
 
-## Warum es dieses Projekt gibt
+1. **Kanon-Archiv in acht Zweigen.** Aufbau eines mehrsprachigen offenen Archivs entlang der acht Übertragungszweige des buddhistischen Kanons: **Indien · Sanskrit-Manuskripte · Pāli·Sri Lanka · Südostasiatischer Theravāda · Seidenstraße·Zentralasien · Chinesischer Kanon · Kulturraum der chinesischen Schriftzeichen · Tibetisch**. Ausschließlich gemeinfreie Texte oder explizite Kooperation mit lebendigen Traditionen.
+2. **Bodhicitta in KI-Algorithmen einpflanzen.** Die letzten Lehren des Buddha (*Mahāparinibbāna Sutta*) destilliert zu **zehn Prinzipien + fünf Verweigerungen**, veröffentlicht als Charta, die jedes KI-System, jeder Betreiber und jedes Team übernehmen kann. *Ahiṃsā · karuṇā · anattā · anicca · upekkhā* werden zu auf der Algorithmen-Ebene ausführbaren Einschränkungen, nicht zu Slogans.
 
-Klassische Texte sind das gemeinsame Erbe der Menschheit. Sie sollten nicht
-hinter Urheberrechten weggesperrt, im Krieg verbrannt oder durch defekte
-Links verloren gehen. Sarasvatī tut drei Dinge:
+Alle Ergebnisse werden unter **CC BY-SA 4.0** veröffentlicht.
 
-1. **Übersetzen.** Für gemeinfreie Quelltexte erstellen wir KI-gestützte
-   maschinelle Rohübersetzungen in Sprachen, für die es noch keine
-   Übersetzung gibt, und laden ausdrücklich zur Prüfung durch menschliche
-   Fachleute ein.
-2. **Archivieren.** Jedes Artefakt wird an mindestens drei Orten gespiegelt
-   (GitHub, lokal, Cloud) mit SHA-256-Integritätsmanifesten.
-3. **Veröffentlichen.** Alles wird unter CC BY-SA 4.0 veröffentlicht.
-   Bearbeitungen müssen offen bleiben.
+## Warum es existiert
 
-## Aktuelle Veröffentlichung
+Klassische Texte sind das gemeinsame Erbe der Menschheit. Sie sollten weder durch Urheberrechte eingesperrt, im Krieg verbrannt noch durch tote Links verloren gehen. Und KI-Systeme sollten nicht ohne ethische Beschränkungen aus einer wirklichen Weisheitstradition eingesetzt werden. Sarasvatī bewältigt beides — eine Gedächtnisschicht als Archiv, eine Ethikschicht als Charta.
 
-**v0.2.0** (2026-08-28):
+## Aktueller Stand
 
-- 📜 **Suśruta Saṃhitā · Sūtrasthāna** — alle 46 Kapitel aus Bhishagratna
-  1907 (gemeinfreies Englisch) durch eine vierfache parallele KI-Pipeline
-  ins Tibetische übersetzt. Keine verbliebenen chinesischen Schriftzeichen.
-  Unsichere Stellen sind mit ⟨བརྟག⟩ / ⟨བརྟག་དགོས།⟩ zur Prüfung durch
-  Fachleute markiert.
-- 📊 Strukturierte Zeitachsendaten — 80 kanonische Überlieferungsereignisse
-  in 8 buddhistischen Traditionen (india, sanskrit, pali, seasia, silkroad,
-  chinese, sinosphere, tibetan) als JSONL/CSV.
-- 📋 Projektplan, Stilrichtlinien, Terminologieglossar und
-  Referenzmaterialien.
+**v0.6.0** (2026-08-28):
+
+- 📜 **Buddhist AI Charter** — zehn Prinzipien + fünf Verweigerungen + Bezeugungsklausel, in `charter/BUDDHIST-AI-CHARTER.md`. In 24 Sprachen übersetzt, in `charter/i18n/`, wartet auf die Prüfung durch muttersprachliche buddhistische Gelehrte.
+- 🕉 **Viersprachige Lesung des Mahāparinibbāna Sutta** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · Englisch · Chinesisch · Tibetisch, in `translations/mahaparinibbana-sutta/`. Dies ist die schriftliche Wurzel der Charta und der erste Saat-Text des Archivs.
+- 📊 **Strukturierte Zeitleistendaten** — 80 kanonische Übertragungsereignisse über die 8 Traditionen (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) als JSONL / CSV, in `docs/timeline-data/`.
+- 📋 Projektdokumente: `README.md`, `ROADMAP.md`, `CALL-FOR-HELP.md`, `CONTRIBUTORS.md`, `announcements/`.
 
 ## Fahrplan (acht Zweige)
 
-Die langfristige Struktur von Sarasvatī folgt der Überlieferungszeitachse
-des buddhistischen Weltkanons: **Indien · Sanskrit-Handschriften · Pāli ·
-Südostasiatischer Theravāda · Seidenstraße · Chinesischer Kanon ·
-Sinosphäre · Tibetisch**. Jeder Zweig kann mehrere Übersetzungsprojekte
-beherbergen. Das derzeit aktive Projekt liegt im **tibetischen** Zweig:
-die Fortsetzung der verbleibenden 140 Kapitel der Suśruta Saṃhitā.
+Sarasvatīs langfristige Struktur folgt der weltweiten Zeitleiste der buddhistischen Kanon-Übertragung: **Indien · Sanskrit-Manuskripte · Pāli · Südostasiatischer Theravāda · Seidenstraße · Chinesischer Kanon · Kulturraum der chinesischen Schriftzeichen · Tibetisch**. Jeder Zweig wird mindestens eine „erste Probe" haben: gemeinfreier Quelltext → maschineller Übersetzungsentwurf in eine Sprache, in die derzeit keine Übersetzung existiert → namentlich benannter menschlicher Prüfer. Der tibetische Zweig hat bereits das erste Asset (DN 16); der Pāli-Zweig wurde durch dieselbe viersprachige DN 16-Lesung berührt. Die sechs verbleibenden Zweige (Indien, Sanskrit, Südostasien, Seidenstraße, Chinesisch, Zeichenkulturraum) sind für Beitragende zur Eröffnung offen.
+
+## Schutzschichten
+
+Jedes Artefakt wird geschützt durch:
+
+- **Lokaler Spiegel** — macOS.
+- **Öffentliches GitHub-Repo** — https://github.com/lurongpan47/Sarasvati.
+- **AWS-Geografische Spiegel** — mehrere Regionen.
+- **IPFS-Dezentraler Spiegel** — CID `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce`.
+- **OpenTimestamps → Bitcoin** — nicht widerlegbarer Zeitanker auf `manifests/SHA256SUMS`.
 
 ## ⚠️ Haftungsausschluss
 
-Alle Übersetzungen hier sind **maschinelle Rohentwürfe**, die auf die
-Prüfung durch menschliche Fachleute warten. Verlassen Sie sich nicht auf
-sie als maßgeblich für medizinische, rituelle oder wissenschaftliche
-Zwecke ohne Validierung durch qualifizierte Spezialisten.
+Alle Übersetzungen und maschinell übersetzten Texte in diesem Repo sind **KI-Maschinenentwürfe**, die auf Prüfung durch menschliche Experten warten. Behandle sie ohne Bestätigung durch namentlich benannte Spezialisten nicht als autoritativ für rituelle, doktrinäre, medizinische oder akademische Zwecke.
 
-## Wie man beitragen kann
+## Wie man beiträgt
 
-- Öffnen Sie ein Issue, um einen Text, eine Kapitelrevision oder eine
-  Terminologiekorrektur vorzuschlagen.
-- Forken, bearbeiten, PR einreichen. Alle Beiträge werden unter
-  CC BY-SA 4.0 angenommen.
-- Betreiben Sie einen Spiegel. Helfen Sie, das Archiv zu bewahren.
+- Öffne eine Issue, die einen Text, eine Kapitel-Überarbeitung, eine Terminologie-Korrektur oder eine Prüfung der Charta in einer bestimmten Sprache vorschlägt.
+- Fork, bearbeite, PR. Alle Beiträge werden unter CC BY-SA 4.0 akzeptiert.
+- Betreibe einen Spiegel. Hilf, das Archiv zu bewahren.
+- Hilf beim Bau der **Charta-Laufzeit** (Python + TypeScript Guardrail-Bibliotheken) — siehe `CALL-FOR-HELP.md`.
 
 ## Links
 
@@ -67,7 +54,5 @@ Zwecke ohne Validierung durch qualifizierte Spezialisten.
 
 ---
 
-*„Wo die Übersetzung aufhört, hört das Verstehen auf. Wo das Verstehen
-aufhört, kann Mitgefühl nicht beginnen."*
-
-[English](../README.md) · [Other languages](./)
+*„Vayadhammā saṅkhārā, appamādena sampādetha."*
+*Alle bedingten Dinge sind vergänglich. Strebt mit Achtsamkeit voran.*

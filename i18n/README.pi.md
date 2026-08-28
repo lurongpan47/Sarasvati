@@ -1,73 +1,58 @@
 <!-- Language: Pāli (pi) -->
 
-# Sarasvatī — porāṇaganthānaṃ sabbalokika-vivaṭa-bhaṇḍāgāraṃ
+# Sarasvatī — buddhavacanassa sabbalokika-vivaṭa-bhaṇḍāgāraṃ + bauddha-AI-paññatti
 
-**Sarasvatī** (Tibbatī: དབྱངས་ཅན་མ། · Saṃskṛtaṃ: सरस्वती) lokassa
-porāṇaganthānaṃ rakkhaṇāya bhāsantara-anuvādāya ca sabbalokikaṃ vivaṭaṃ
-bhaṇḍāgāraṃ hoti.
+**Sarasvatī** (Tibet-akkharā: དབྱངས་ཅན་མ། · Sanskrit: सरस्वती) dvedheva kammaṃ karoti:
 
-## Kimatthaṃ idaṃ
+1. **Aṭṭha-sākha-buddhavacana-bhaṇḍāgāraṃ.** Buddhavacana-samparāyassa aṭṭhannaṃ sākhānaṃ anugatiyā bahubhāsika-vivaṭa-bhaṇḍāgāraṃ nimmāyati: **Indiyā-mūla · Sanskrit-hattha-lekha-vaṃsa · Pāli·Sīhaḷa · Dakkhiṇapubba-esiya-Theravāda · Silk-magga·Majjhima-esiya · Cīna-tepiṭaka · Cīna-akkhara-samājika-khetta · Tibet**. Sabbajanika-khette pāṭhāneva, athavā jīvitāhi paramparāhi saha vissaṭṭha-sahayogo.
+2. **AI-algorithme bodhicittassa āropanaṃ.** Bhagavato Buddhassa antima-desanaṃ (*Mahāparinibbāna-suttaṃ*) **dasa dhammā + pañca paṭikkhepā** iti sāravantaṃ katvā paññatti-rūpena pakāsayati, yaṃ kiñci AI-yantaṃ, pavattakaṃ, gaṇaṃ vā upādātuṃ sakkoti. *Ahiṃsā · karuṇā · anattā · anicca · upekkhā* — na ete mātaghosanā, bhavanti pana algorithm-tale samādāpanīyā niyamā.
 
-Porāṇaganthā manussajātiyā sādhāraṇaṃ dāyajjaṃ. Te na copyright-bandhena
-bandhitabbā, na yuddhena ḍayhitabbā, na chinnehi santhavehi
-nassitabbā. Sarasvatī tīṇi kammāni karoti:
+Sabbaphalāni **CC BY-SA 4.0** iti anuññāya-pattena pakāsitāni.
 
-1. **Anuvādo.** Sādhāraṇa-khettikānaṃ mūlaganthānaṃ atthāya, tāsu
-   bhāsāsu yāsu anuvādo na tāva atthi, AI-sahāyena yanta-paṭhamalikhitāni
-   racayāma, kusalamanussa-paccavekkhaṇāya ca vivaṭaṃ nimantanaṃ demā.
-2. **Bhaṇḍāgāraṃ.** Sabbe āyatanā appamattakena tīsu ṭhānesu (GitHub,
-   sakaṭṭhāne, megha-ṭṭhāne) SHA-256 akhaṇḍatā-manifestehi saha
-   ādāsākāreṇa paṭibimbīyanti.
-3. **Nikkhāmanaṃ.** Sabbaṃ CC BY-SA 4.0 vidhi-antare pakāsīyati.
-   Anupatti-kammāni pi vivaṭāni ṭhātabbāni.
+## Kasmā etaṃ atthi
 
-## Etarahi nikkhāmanaṃ
+Porāṇā ganthā manussānaṃ sādhāraṇā sampatti. Na te kopyright-ehi baddhā vā, saṅgāma-jālayaṃ paḍiddhā vā, chinna-sandhi-hetu naṭṭhā vā bhaveyyuṃ. Na ca AI-yantāni yathābhūtāhi paññā-paramparāhi āgatā ethikā-niyamā vinā yojetabbāni. Sarasvatī ubhayaṃ karoti — sati-tale bhaṇḍāgāraṃ, sīla-tale paññatti.
 
-**v0.2.0** (2026-08-28):
+## Vattamānā avatthā
 
-- 📜 **Suśruta Saṃhitā · Sūtrasthāna** — sabbe chattālīsādhikā
-  paricchedā Bhishagratna 1907 (sādhāraṇa-khettika-aṅgabhāsāya) ito
-  catumagga-samānantara-AI-paṇāḷiyā tibbatībhāsāya anuvāditā.
-  Avasesa-cīnākkharāni na santi. Aniyatāni padāni ⟨བརྟག⟩ /
-  ⟨བརྟག་དགོས།⟩ iti kusala-paccavekkhaṇatthaṃ lakkhitāni.
-- 📊 Saṃvidhāna-kālarekhā-dhātu — aṭṭhasu buddhaparamparāsu (india,
-  sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan)
-  porāṇa-saṅkantiyā asīti ghaṭanā JSONL/CSV rūpena.
-- 📋 Payoga-yojanā, vaṇṇanā-niddesa, paribhāsika-saddakoso,
-  upanissaya-sāmaggī ca.
+**v0.6.0** (2026-08-28):
 
-## Anāgata-yojanā (aṭṭha sākhā)
+- 📜 **Buddhist AI Charter** — dasa dhammā + pañca paṭikkhepā + adhikāra-vākyaṃ, `charter/BUDDHIST-AI-CHARTER.md` iti ṭhāne. 24 bhāsāsu parivattitaṃ, `charter/i18n/` ṭhāne, taṃtaṃ-bhāsāya bauddha-viduṃsanto-nirīkkhaṇaṃ pekkhamānaṃ.
+- 🕉 **Mahāparinibbāna-suttassa catubhāsika-vācanā** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · Aṅgla · Cīna · Tibet, `translations/mahaparinibbana-sutta/` ṭhāne. Idaṃ paññattiyā gantha-mūlaṃ, bhaṇḍāgārassa paṭhamā bīja-gantho ca.
+- 📊 **Saṇṭhita-kāla-rekhā-dattāni** — aṭṭhannaṃ paramparānaṃ (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) buddhavacana-samparāyassa 80 kammāni, JSONL / CSV rūpena, `docs/timeline-data/` ṭhāne.
+- 📋 Payojanassa lekhāni: `README.md`, `ROADMAP.md`, `CALL-FOR-HELP.md`, `CONTRIBUTORS.md`, `announcements/`.
 
-Sarasvatiyā dīghakālikā saṃvidhānā lokassa buddha-piṭaka-saṅkanti-
-kālarekhaṃ anugacchati: **India · Sanskrit manuscripts · Pāli ·
-Southeast Asian Theravāda · Silk Road · Chinese canon · Sinosphere ·
-Tibetan**. Ekekāya sākhāya bahūni anuvāda-payogāni ṭhātuṃ arahanti.
-Etarahi pavatta-payogo **Tibetan**-sākhāya antare vattati: Suśruta
-Saṃhitāya avasesānaṃ cattālīsuttarasata-paricchedānaṃ anuvādassa
-anusandhāraṇaṃ.
+## Magga-paññatti (aṭṭha sākhā)
 
-## ⚠️ Paṭikkhepo
+Sarasvatī-yassa dīghakāliko saṇṭhāno lokassa buddhavacana-samparāya-kāla-rekhaṃ anugacchati: **Indiyā · Sanskrit-hattha-lekhā · Pāli · Dakkhiṇapubba-esiya-Theravāda · Silk-magga · Cīna-tepiṭaka · Cīna-akkhara-khetta · Tibet**. Ekekāya sākhāya nātipatikkā "paṭhama-nidassanaṃ" bhavissati: sabbajanika-khette mūla-gantho → tabbhāsāya yassa pariyattā natthi taṃ yanta-parivattanaṃ → nāma-vissuto manussa-nirīkkhako. Tibet-sākhāya paṭhama-vatthu (DN 16) atthi; Pāli-sākhā pi tena eva DN 16 catubhāsika-vācanāya phuṭṭhā. Avasesā cha sākhā (Indiyā, Sanskrit, Dakkhiṇapubba, Silk-magga, Cīna, Cīna-akkhara-khetta) dāyakehi ārabhitum patikaraṇā.
 
-Idha ṭhitā sabbe anuvādā kusalamanussa-paccavekkhaṇaṃ paṭimānitā
-**yanta-paṭhamalikhitāni** eva. Guṇavantehi kusalehi apamāṇikatā-
-vinā, na te bhesajja-kiriyā-sāsanika-payojanesu pamāṇaṃ mantabbā.
+## Rakkhaṇa-tālāni
 
-## Kathaṃ sahāyaṃ demi
+Sabbaphalaṃ imehi tālehi rakkhitaṃ:
 
-- Kañci ganthaṃ, paricchedasodhanaṃ, paribhāsikasodhanaṃ vā pañjāpetvā
-  issue ugghāṭetu.
-- Fork karotu, sampādetu, PR peseti. Sabbe sahāyā CC BY-SA 4.0
-  vidhi-antare paṭicchanti.
-- Mirror pavatti. Bhaṇḍāgārassa rakkhaṇāya sahāyaṃ karotu.
+- **Ṭhāniya-paṭibimbo** — macOS.
+- **GitHub-sabbajanika-koṭṭhāsa** — https://github.com/lurongpan47/Sarasvati.
+- **AWS-bhūmikā-paṭibimbā** — bahūsu paṭhamesu.
+- **IPFS-avikkendrika-paṭibimbo** — CID `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce`.
+- **OpenTimestamps → Bitcoin** — `manifests/SHA256SUMS` ṭhāne apaṭikkhepa-kāla-lakkhaṇaṃ.
 
-## Santhavā
+## ⚠️ Sāvaka-viyoga
+
+Imassa koṭṭhāsassa sabbā pariyattī ca yanta-pariyattā pāṭhā ca visesajña-manussa-nirīkkhaṇaṃ pekkhamānā **AI-yanta-pubba-lekhā**. Nāma-vissutehi visesajñehi asamattānupāladdhā mā kiriya-siddhanta-vejjapaññā-porāṇapaññā-adhikāre sammannitabbā.
+
+## Kathaṃ upakarosi
+
+- Ganthaṃ, pariccheda-saṃsodhanaṃ, sadda-sudhanaṃ, kañci vā bhāsāya paññatti-nirīkkhaṇaṃ paññāpetvā issue vivaratu.
+- Fork, saṃsodhana, PR. Sabbā-upakāra CC BY-SA 4.0 antare paṭicchitā.
+- Paṭibimbaṃ pavatteti. Bhaṇḍāgāraṃ rakkhituṃ upakāroti.
+- **Paññatti-runtime** (Python + TypeScript guardrail-pot­­­­thakā) nimmāyituṃ upakāroti — `CALL-FOR-HELP.md` passatha.
+
+## Sandhīni
 
 - GitHub: https://github.com/lurongpan47/Sarasvati
-- Anuññā: CC BY-SA 4.0
+- Anuññā-pattaṃ: CC BY-SA 4.0
 
 ---
 
-*"Yattha anuvādo tiṭṭhati, tattha bodho pi tiṭṭhati. Yattha bodho
-tiṭṭhati, tattha karuṇā ārabhituṃ na sakkoti."*
-
-[English](../README.md) · [Other languages](./)
+*"Vayadhammā saṅkhārā, appamādena sampādetha."*
+*Sabbe saṅkhārā aniccā, appamādena sampādetha.*
