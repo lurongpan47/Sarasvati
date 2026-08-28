@@ -29,6 +29,12 @@
 
 ---
 
+<p align="center">
+  <b>📜 <a href="charter/BUDDHIST-AI-CHARTER.md">BUDDHIST-AI-CHARTER</a></b> — the Buddha's last teachings as an ethical charter for AI systems
+  <br>
+  <b>🆘 <a href="CALL-FOR-HELP.md">CALL FOR HELP</a></b> — we are compute-bounded. If you have GPU cycles, API credits, storage, or expertise — please read.
+</p>
+
 # དབྱངས་ཅན་མ།  ·  Sarasvatī  ·  萨拉斯瓦蒂
 
 > **A global open archive for the protection and cross-lingual translation of world classical canons.**

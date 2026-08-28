@@ -21,7 +21,6 @@
 3a68d8344b45ac47ef1fa79f14a5ab03e39f965569f77f5cb030ae871e3b1ef5  ./translations/sushruta-samhita/sutrasthana/source/ch46.txt
 3e36e1241937f1487022d5d8200aa5aba9fccabcdbccc7c701f8bd6d05c33bc6  ./i18n/README.de.md
 3f9dd17d6ae9cf3f0aa27ec2ce86b9359aa1282b2a903d19bda4ad9da40ee92e  ./translations/sushruta-samhita/sutrasthana/source/ch42.txt
-4015fb460d92955daacbcfeccd60c031e60d73c8adea260e10d9f6cc86c9394d  ./CHANGELOG.md
 45006602e668554740a32e309b3bce50079d253c7bd01f56a232e4d2de710551  ./translations/sushruta-samhita/sutrasthana/source/ch16.txt
 4a28fb7988cab340a292b459651eb8cdc1afeb481b9baf36eb50aa85031b5ed5  ./i18n/README.it.md
 4c56328f83caedd62940e5dc5ab93acf7b4790830106a622913863840ecb5c43  ./translations/sushruta-samhita/sutrasthana/raw/g4_ch37-46.txt
@@ -31,6 +30,7 @@
 4f922e392895b13b2e751d63074be72be4fa1a9585b2eb16ffb9c8aa0dfca054  ./translations/sushruta-samhita/sutrasthana/source/ch20.txt
 509b619feb9dcdc007702e7e7799a80accde9d49fa0f11182a701dad59d36330  ./translations/sushruta-samhita/sutrasthana/Sushruta-Sutrasthana-bo-v3.docx
 511a710dc9ab7bf6ec0e7620da76f7b1ac3954f0bbc192ab24447fcc009d0ca2  ./i18n/README.my.md
+57bc275ca451dcde495cd5809e469d29bbe6866db802c77973671e68efe80783  ./charter/BUDDHIST-AI-CHARTER.md
 5904c8a5439a67b10fcb324974d9eea6dfee0f8078bac1d13c92a8ba93e40535  ./translations/sushruta-samhita/sutrasthana/source/ch44.txt
 5d6ffed76edf75241aaca27d5c1c85dfc41f08fb8aed6f4609f89f8f11449f82  ./i18n/README.mn.md
 5e5b95041504749a039735f1d3f6eb649e46bd12a0f606a3b9fab28851b080a9  ./i18n/README.pi.md
@@ -39,9 +39,11 @@
 67bdcd19bba8e9ed16da6e68f4a6f767c3f7a0c9a4adb9cd00e439831a9171fd  ./i18n/README.si.md
 6c93be83ba24beff5804925bced5c965689636975f4576bcb88fb6533de4945f  ./translations/sushruta-samhita/sutrasthana/source/ch39.txt
 7231db2743472fefce92926db546d396afa85b6d3a9f509ebe12ed2d398c8a92  ./translations/sushruta-samhita/sutrasthana/source/ch37.txt
+727915bc9dfc189b2e7e61ed0fb11f85426cf1349f09fb5307a15c7b1222333a  ./CALL-FOR-HELP.md
 79c08f1a4727ef2e32d4a553e79b4537ecde5d7c270f29da13283a46a92044c4  ./i18n/README.zh-TW.md
 7b5b8751f919b033a31c99bb3eb50462aeaddef46ce831cd2c69a3178ab5afdd  ./docs/timeline-data/events.csv
 7eb2253eff5a1c126763e0d78acf28416b12ee77420f1ed707664a540092ce74  ./translations/sushruta-samhita/sutrasthana/source/ch06.txt
+8240ee53965bef7ae950cdd266bd983aadde1d256a77be4660c4326e423e4a96  ./README.md
 84a5d20f57e046053c24b21fbca234ab3f8e6a2061ae50ebf0fc865e03b19eb7  ./translations/sushruta-samhita/sutrasthana/Sushruta-Sutrasthana-bo-v3.pdf
 853dd2ba6fa219d3f47c4810068eed9b9e00743c03ed288bec99eeb420231072  ./translations/sushruta-samhita/sutrasthana/source/ch35.txt
 87be37206ea13d134c40bc9a10c5287f0170845892ae23644b4abdd4e5f777e3  ./translations/sushruta-samhita/sutrasthana/source/ch12.txt
@@ -56,7 +58,6 @@
 9df68e49beb374760c87e892e0c7324561ddfac47be669d5a0f2bfbf070529f8  ./translations/sushruta-samhita/sutrasthana/source/ch15.txt
 a5b55bc487b1380421f611e9603e9ab41573ed5b7e73063201474a677ea35aad  ./i18n/README.th.md
 a830c1ab601612fd4ae0c46e9b281ef83a9c040534ef2d6cb085c0df385da39a  ./translations/sushruta-samhita/sutrasthana/source/ch03.txt
-a95c1af548b6d9e84bc71e8af6d17e5174e0bdd99ce98feeebd0e41302fda4cd  ./README.md
 aa10dd7a26285c57f3aa2d2adc7b2f9738032f38fa7940d50c3071d023b29184  ./translations/sushruta-samhita/sutrasthana/source/ch23.txt
 ac7586f88f8495b10c8fc8f49e210b383a574962d672231ca4ef28585b1124a7  ./i18n/README.hi.md
 b64e0ab4c7542e21bd4ff252e19042f65e3ed3ad589adcdd8f8c468db8d1fa49  ./docs/timeline-data/README.md
@@ -67,8 +68,10 @@ c37caa65e5f2da3cb27f73f8a170ad161ea301c46fa05ad9778169d321d2a14c  ./translations
 c48ac5e1aab94c05bd385f58d6e5627035b308684fc8d5ac158a0cdb1729fe3c  ./translations/sushruta-samhita/sutrasthana/source/ch18.txt
 c6a7b1e719881fd41a1af541e44f04335794474641a14883397a8c725b15eaa6  ./i18n/README.vi.md
 c740a27789f5590a361744adc9d54eaccfd49251fb392f1dcde589c781077b41  ./translations/sushruta-samhita/sutrasthana/source/ch09.txt
+c95b2b8d2ff910819cc4d164a79b0d532d097f6b00b6db4a5b1478df248833a0  ./translations/mahaparinibbana-sutta/final-instructions-4lang.md
 ca0fb86764ae1b9d71af388ea6b2be0ac81dc6bcc3a3ab7a6883e74235bdaefe  ./translations/sushruta-samhita/sutrasthana/source/ch27.txt
 cc9877993b0f7d538d5d2202db26dfba3432927af53f14ff5a7f329cec77cca1  ./.gitignore
+ccf89e954bf0089f23dcdf2668878c7eb01c13d59956a5f0437813a9a259f0b2  ./CHANGELOG.md
 cfa992ef5a280f1fef3cc030a6237db097bba334e2c98ab5731dd1193a8c7683  ./translations/sushruta-samhita/sutrasthana/raw/g1_ch01-12.txt
 cfd8ad0c1cfb1fc5fa8bc48654a6c5d98e8ca8b8ccccfc2ca67e7639c1ecd1c5  ./translations/sushruta-samhita/sutrasthana/source/ch01.txt
 cfe18d182a670d61504623c373101b7f5ee5e0f551e07a52d276bfcb9f183f67  ./i18n/README.ru.md
@@ -85,6 +88,7 @@ ee50fec3ad9d26271c1ba9f14b8dc64105013f96cbddbf3fdb211ef24829cabb  ./translations
 f09b3d1441b0971d4a93af3ac86aa33128eb3e8a439074f95b2ef41c299e92cb  ./i18n/README.md
 f25efb6820e7c32f8799895f2df83d60b2efb8f57396932480216fe9151b394a  ./translations/sushruta-samhita/sutrasthana/raw/g2_ch13-24.txt
 f3ae82f2f9fb5e0897d9ead71854626143f321196e10c222a23b8c55b1b23450  ./i18n/README.ko.md
+f404f4c9548205e1df44923712bf5178593aaf76e63f8297ba90d7768d604444  ./translations/mahaparinibbana-sutta/README.md
 f4f6b9c882e7353412717e38f82be855c83a0a54ad72273cece6636ae8e65a4f  ./i18n/README.id.md
 f61015f85357a6545b0981ff68879d3aae0edf29dbd3eb6c9eb3413d31ca8e58  ./announcements/blockchain-community.md
 f8cfc88c5df04e2444ee98a197e9203bc1effeaf80827725e0a039193d2852a2  ./translations/sushruta-samhita/sutrasthana/source/ch33.txt
