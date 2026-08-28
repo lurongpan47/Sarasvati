@@ -33,3 +33,19 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: Se
 - GitHub: https://github.com/wingring47-stack/Sarasvati
 - Local: `~/clawd/Sarasvati/` (macOS)
 - AWS mirror: `aws-quant:/home/ubuntu/Sarasvati/` (us-east-1)
+
+## [v0.2.0] — 2026-08-28
+
+### Added
+- `ROADMAP.md` — Eight-branch long-term structure guided by the world Buddhist canon transmission timeline. Sets scope from a single project (Suśruta Saṃhitā) to a cross-lingual open-canon archive.
+- `docs/timeline-data/traditions.jsonl` — 8 traditions (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan).
+- `docs/timeline-data/events.jsonl` — 80 canonical-transmission milestones with tri-lingual titles (zh / native-script / en).
+- `docs/timeline-data/events.csv` — CSV mirror for spreadsheet users.
+- `docs/timeline-data/README.md` — schema + coverage docs.
+
+### Method
+- Timeline PDF extracted from user-supplied graphic; text ordered by chronology, tagged by tradition, tri-lingual titles preserved.
+- Machine-parse pipeline in `/tmp/parse_timeline.py` (not shipped; deterministic from PDF text).
+
+### Notes
+- This is a **living dataset**. PRs adding missing events, correcting periods, or adding new script variants welcome.
