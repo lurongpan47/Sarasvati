@@ -1,3 +1,34 @@
+<p align="center">
+  <a href="i18n/README.zh-CN.md">简体中文</a> ·
+  <a href="i18n/README.zh-TW.md">繁體中文</a> ·
+  <a href="i18n/README.ja.md">日本語</a> ·
+  <a href="i18n/README.ko.md">한국어</a> ·
+  <a href="i18n/README.vi.md">Tiếng Việt</a> ·
+  <a href="i18n/README.bo.md">བོད་ཡིག</a> ·
+  <a href="i18n/README.hi.md">हिन्दी</a> ·
+  <a href="i18n/README.sa.md">संस्कृतम्</a> ·
+  <a href="i18n/README.si.md">සිංහල</a> ·
+  <a href="i18n/README.th.md">ไทย</a> ·
+  <a href="i18n/README.my.md">မြန်မာဘာသာ</a> ·
+  <a href="i18n/README.pi.md">Pāli</a> ·
+  <a href="i18n/README.km.md">ភាសាខ្មែរ</a> ·
+  <a href="i18n/README.id.md">Indonesia</a> ·
+  <a href="i18n/README.mn.md">Монгол</a>
+  <br>
+  <a href="i18n/README.es.md">Español</a> ·
+  <a href="i18n/README.fr.md">Français</a> ·
+  <a href="i18n/README.de.md">Deutsch</a> ·
+  <a href="i18n/README.it.md">Italiano</a> ·
+  <a href="i18n/README.pt.md">Português</a> ·
+  <a href="i18n/README.ru.md">Русский</a> ·
+  <a href="i18n/README.ar.md">العربية</a> ·
+  <a href="i18n/README.fa.md">فارسی</a> ·
+  <a href="i18n/README.tr.md">Türkçe</a>
+  <br><sub>→ <a href="i18n/">All 24 languages</a></sub>
+</p>
+
+---
+
 # དབྱངས་ཅན་མ།  ·  Sarasvatī  ·  萨拉斯瓦蒂
 
 > **A global open archive for the protection and cross-lingual translation of world classical canons.**

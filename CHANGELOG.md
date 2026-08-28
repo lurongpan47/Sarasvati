@@ -49,3 +49,25 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: Se
 
 ### Notes
 - This is a **living dataset**. PRs adding missing events, correcting periods, or adding new script variants welcome.
+
+## [v0.3.0] — 2026-08-28
+
+### Added
+- **24 language README translations** in `i18n/`:
+  ar · bo · de · es · fa · fr · hi · id · it · ja · km · ko · mn · my · pi · pt · ru · sa · si · th · tr · vi · zh-CN · zh-TW
+- `i18n/README.md` — language index with native + English labels
+- `i18n/_source.en.md` — canonical English source used for all translations
+- Main README top banner with language quick-links
+- `announcements/blockchain-community.md` — post drafts for X/Twitter, Warpcast/Farcaster, Nostr, Reddit, EF forum
+- `manifests/SHA256SUMS.ots` — OpenTimestamps stamp anchoring integrity to Bitcoin
+
+### Protection layers active (as of v0.3.0)
+1. **Local mirror** — macOS `~/clawd/Sarasvati/`
+2. **GitHub public repo** — https://github.com/lurongpan47/Sarasvati (with releases as independent attachments)
+3. **AWS geographic mirrors** — 9 instances across us-east-1, eu-west-1, eu-central-1
+4. **IPFS decentralized** — CID `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce`
+5. **OpenTimestamps → Bitcoin** — nonrepudiable time anchor on `manifests/SHA256SUMS`
+
+### Method
+- Four parallel Claude Opus 4.7 subagents; each translated 6 languages sharing a common English source.
+- Structural constraints: markdown skeleton preserved, proper nouns kept verbatim, native scripts preserved for Tibetan/Sanskrit/Bhutanese review markers.
