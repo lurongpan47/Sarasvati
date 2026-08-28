@@ -83,3 +83,33 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: Se
 ### Method
 - The charter's ten principles translate ahiṃsā · satya · asteya · brahmacarya · sati · sampajañña · mettā/karuṇā · anicca · anattā · upekkhā into AI-agent-executable constraints.
 - The DN 16 passages were chosen for direct relevance to AI ethics: self-reliance, textual authority, and the impermanence principle that underlies the AI's refusal to seek self-continuation.
+
+## [v0.5.0] — 2026-08-28
+
+### Added
+- **BUDDHIST-AI-CHARTER translated into 24 languages** (`charter/i18n/`):
+  ar · bo · de · es · fa · fr · hi · id · it · ja · km · ko · mn · my · pi · pt · ru · sa · si · th · tr · vi · zh-CN · zh-TW.
+- **Suśruta Saṃhitā · Nidānasthāna** (16 chapters) Tibetan draft:
+  `translations/sushruta-samhita/nidana-sthana/Sushruta-Nidanasthana-bo-v1.docx` + `.pdf`.
+- **Suśruta Saṃhitā · Śārīrasthāna** (10 chapters) Tibetan draft:
+  `translations/sushruta-samhita/sharira-sthana/Sushruta-Sharirasthana-bo-v1.docx` + `.pdf`.
+  All 107 marmas in chapter 6 marked ⟨བརྟག་དགོས། བོད་སྨན་མཁས་པས་ཞིབ་བརྟག་བྱ་དགོས།⟩.
+- Chinese blockchain-community announcement drafts: `announcements/blockchain-community-cn.md`.
+- Charter and Sūtrasthāna language index READMEs.
+- Language navigation banner on top of `charter/BUDDHIST-AI-CHARTER.md`.
+
+### Progress on the 2027 goal
+- Sūtrasthāna 46 ch ✅
+- Nidānasthāna 16 ch ✅
+- Śārīrasthāna 10 ch ✅
+- **72 / 186 chapters delivered (38.7%)**
+- Remaining: Cikitsā 40 · Kalpa 8 · Uttaratantra 66 = 114 chapters
+
+### Method
+- Charter 24-language: four parallel Claude Opus 4.7 subagents (6 languages each).
+- Nidāna 16 ch: single Opus 4.7 subagent, ~32k EN words → 1300 lines Tibetan, 0 CJK chars.
+- Śārīra 10 ch: single Opus 4.7 subagent, ~38k EN words → 1100 lines Tibetan, 0 CJK chars.
+
+### Notes
+- The trilingual Buddha quotations (Pāli · Chinese · Tibetan) inside each charter edition are intentional. Files show ~35–48 Chinese chars per non-CJK charter file — these are the source quotations, preserved by design.
+- Śārīra chapter 6 (107 marmas) is the most safety-critical section in the entire Suśruta; every entry has a mandatory-review marker.

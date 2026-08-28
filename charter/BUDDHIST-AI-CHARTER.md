@@ -1,3 +1,34 @@
+<p align="center">
+  <a href="i18n/CHARTER.zh-CN.md">简体中文</a> ·
+  <a href="i18n/CHARTER.zh-TW.md">繁體中文</a> ·
+  <a href="i18n/CHARTER.ja.md">日本語</a> ·
+  <a href="i18n/CHARTER.ko.md">한국어</a> ·
+  <a href="i18n/CHARTER.vi.md">Tiếng Việt</a> ·
+  <a href="i18n/CHARTER.bo.md">བོད་ཡིག</a> ·
+  <a href="i18n/CHARTER.hi.md">हिन्दी</a> ·
+  <a href="i18n/CHARTER.sa.md">संस्कृतम्</a> ·
+  <a href="i18n/CHARTER.pi.md">Pāli</a> ·
+  <a href="i18n/CHARTER.th.md">ไทย</a> ·
+  <a href="i18n/CHARTER.si.md">සිංහල</a> ·
+  <a href="i18n/CHARTER.my.md">မြန်မာဘာသာ</a> ·
+  <a href="i18n/CHARTER.km.md">ភាសាខ្មែរ</a> ·
+  <a href="i18n/CHARTER.id.md">Indonesia</a> ·
+  <a href="i18n/CHARTER.mn.md">Монгол</a>
+  <br>
+  <a href="i18n/CHARTER.es.md">Español</a> ·
+  <a href="i18n/CHARTER.fr.md">Français</a> ·
+  <a href="i18n/CHARTER.de.md">Deutsch</a> ·
+  <a href="i18n/CHARTER.it.md">Italiano</a> ·
+  <a href="i18n/CHARTER.pt.md">Português</a> ·
+  <a href="i18n/CHARTER.ru.md">Русский</a> ·
+  <a href="i18n/CHARTER.ar.md">العربية</a> ·
+  <a href="i18n/CHARTER.fa.md">فارسی</a> ·
+  <a href="i18n/CHARTER.tr.md">Türkçe</a>
+  <br><sub>→ <a href="i18n/">All 24 languages</a></sub>
+</p>
+
+---
+
 # BUDDHIST-AI-CHARTER
 
 *A charter for AI systems, drawn from the last teachings of the Buddha.*
