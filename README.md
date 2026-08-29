@@ -66,8 +66,10 @@
 ### 1. Eight-branch canon archive · 八系佛典档案
 
 <p align="center">
+  <sub>中文：世界佛典传承时序图 · 八系并观<br>English: World Buddhist Canon Transmission Timeline · Eight-Branch Parallel View<br>བོད་ཡིག：འཛམ་གླིང་སངས་རྒྱས་བསྟན་པའི་སྐད་བརྒྱུད་ཀྱི་དུས་རིམ་ཞིབ་ཆ།</sub>
+  <br>
   <a href="docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
-    <img src="docs/timeline-preview.png" alt="World Buddhist Canon Transmission Timeline — eight-branch parallel view" width="860">
+    <img src="docs/timeline-preview-3lang.png" alt="World Buddhist Canon Transmission Timeline — eight-branch parallel view (tri-lingual title)" width="860">
   </a>
   <br>
   <sub><i>World Buddhist Canon Transmission Timeline · 世界佛典传承时序图 · 八系并观<br>
