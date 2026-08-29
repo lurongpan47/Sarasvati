@@ -1,81 +1,83 @@
 id,tradition,period_zh,period_en,title_zh,title_script,title_en
-"evt_001","india","公元前6–4世纪","6th–4th c. BCE","释迦牟尼说法·纯口传","बुद्धवचन","The Buddha's word, oral only"
-"evt_002","india","约前404年","c. 404 BCE","第一次结集（王舍城）","paṭhama-saṅgīti","First Council — Sūtra, Vinaya, Abhidharma"
-"evt_003","india","前383–330年","383–330 BCE","第二次结集（毗舍离）·根本分裂","dutiya-saṅgīti","Second Council; Sthavira / Mahāsāṃghika split"
-"evt_004","india","约前250年","c. 250 BCE","第三次结集（华氏城）·阿育王护法","Aśoka","Third Council; missions dispatched"
-"evt_005","india","前1世纪","1st c. BCE","大乘兴起·般若经典结集","Prajñāpāramitā","Rise of Mahāyāna"
-"evt_006","pali","前1世纪","1st c. BCE","巴利三藏贝叶写定（阿卢寺）","ත්‍රිපිටකය","Tipiṭaka committed to writing"
-"evt_007","india","1–2世纪","1st–2nd c.","迦腻色迦·说一切有部结集","Sarvāstivāda","Kaniṣka's council"
-"evt_008","sanskrit","1–2世纪","1st–2nd c.","佛典梵语化·混合梵语写本","Buddhist Hybrid Sanskrit","Canon recast in Sanskrit"
-"evt_009","pali","前3世纪","c. 3rd c. BCE","摩哂陀奉使入狮子国·大寺立","Mahinda / Mahāvihāra","Theravāda takes root in Laṅkā"
-"evt_010","silkroad","1世纪","1st c.","犍陀罗佉卢文桦皮写卷","Gāndhārī / Kharoṣṭhī","Oldest surviving Buddhist manuscripts"
-"evt_011","chinese","148年","148 CE","白马驮经·安世高洛阳译场","安世高","Buddhism enters China, 148 CE"
-"evt_012","pali","4–5世纪","4th–5th c.","觉音·《清净道论》与巴利注疏","විසුද්ධිමග්ග","Buddhaghosa; the aṭṭhakathā corpus"
-"evt_013","india","2–3世纪","2nd–3rd c.","龙树·中观学派","नागार्जुन","Nāgārjuna; Madhyamaka"
-"evt_014","silkroad","5世纪","5th c.","鲍威尔写本（库车）·现存最古梵文写本之一","Bower Manuscript","Earliest Sanskrit birch-bark codex"
-"evt_015","silkroad","4–7世纪","4th–7th c.","于阗·龟兹·吐火罗语佛典","Khotanese / Tocharian","Silk Road translation centres"
-"evt_016","chinese","286年","286 CE","竺法护译《正法华经》","竺法護","Dharmarakṣa"
-"evt_017","india","4–5世纪","4th–5th c.","无著·世亲·瑜伽行派","असङ्ग · वसुबन्धु","Asaṅga and Vasubandhu"
-"evt_018","chinese","868年","868 CE","敦煌《金刚经》卷子·现存最早纪年印本","敦煌刻本","Dunhuang Diamond Sūtra — earliest dated print"
-"evt_019","chinese","401–413年","401–413","鸠摩罗什长安译场","鳩摩羅什","Kumārajīva at Chang'an"
-"evt_020","india","5–6世纪","5th–6th c.","那烂陀寺·印度佛学中心","नालन्दा","Nālandā founded"
-"evt_021","sanskrit","5–7世纪","5th–7th c.","吉尔吉特写本（克什米尔）","Gilgit Manuscripts","Found 1931"
-"evt_022","seasia","1165年","1165","波隆纳鲁沃·波罗迦罗摩巴忽一世整肃僧团","පොළොන්නරුව","Sangha unified under Parākramabāhu I"
-"evt_023","chinese","594 / 730年","594 / 730","《众经目录》《开元释教录》·汉文经录成立","開元釋教錄","Catalogues fix the Chinese corpus"
-"evt_024","india","8–12世纪","8th–12th c.","密乘大成·超戒寺","Vikramaśīla","Vajrayāna flourishes"
-"evt_025","sanskrit","中世后","medieval+","尼泊尔贝叶写本传承·九法宝典","नवग्रन्थ","Navagrantha; Newar manuscript culture"
-"evt_026","chinese","645–664年","645–664","玄奘携归梵本六五七部·玄奘译场","玄奘","Xuanzang; 657 Sanskrit manuscripts to Chang'an"
-"evt_027","sinosphere","8世纪","8th c.","奈良写经所·官修一切经","一切経書写","State scriptoria copy the canon"
-"evt_028","tibetan","7世纪","7th c.","松赞干布·吞弥桑布扎创制藏文","ཐུ་མི་སམྦྷོ་ཊ།","Tibetan script devised"
-"evt_029","sinosphere","538/552年","538/552","佛教经百济传入日本","仏教東漸","Buddhism reaches Japan"
-"evt_030","tibetan","4世纪","c. 4th c.","拉托托日年赞·经典初入吐蕃","ལྷ་ཐོ་ཐོ་རི་གཉན་བཙན།","Scriptures first reach Tibet"
-"evt_031","chinese","8世纪","8th c.","善无畏·金刚智·不空·唐密译经","不空","Esoteric transmission to Tang China"
-"evt_032","tibetan","8世纪","8th c.","赤松德赞·桑耶寺·前弘期译场","བསམ་ཡས། སྔ་དར།","Samye; imperial translation project"
-"evt_033","tibetan","824年","824","《丹噶目录》·吐蕃译经总目","ལྡན་དཀར་མ།","Denkarma — earliest catalogue of Tibetan translations"
-"evt_034","india","12世纪","12th c.","超戒寺毁·印度佛教衰亡","Vikramaśīla destroyed","End of institutional Buddhism in India"
-"evt_035","chinese","971–983年","971–983","《开宝藏》成都刊·首部刻本大藏经","開寶藏","Kaibao Canon — first printed canon"
-"evt_036","sinosphere","1011–1087年","1011–1087","高丽初雕大藏经","初雕大藏經","First Goryeo Canon"
-"evt_037","sinosphere","17世纪","17th c.","天海版·铁眼（黄檗）版一切经","鐵眼版","Tenkai and Tetsugen editions in Japan"
-"evt_038","tibetan","11世纪","11th c.","后弘期译经·仁钦桑波新译","ཕྱི་དར།","Later diffusion; new translations"
-"evt_039","silkroad","983年","983","契丹藏（辽藏）","契丹藏","Khitan Canon"
-"evt_040","silkroad","约1006年","c. 1006","敦煌藏经洞封闭·五万卷写本封存","藏經洞","The Dunhuang library cave sealed"
-"evt_041","seasia","1057年","1057","蒲甘·阿奴律陀迎请三藏","ပုဂံ","Bagan receives the Pāli canon from Thaton"
-"evt_042","chinese","1149–1173年","1149–1173","《赵城金藏》","趙城金藏","Zhaocheng Jin Canon"
-"evt_043","sanskrit","后中世","late medieval","梵本散佚·转存尼泊尔与西藏","梵篋·西藏·尼泊爾","Sanskrit codices survive in Nepal and Tibet"
-"evt_044","seasia","13–14世纪","13th–14th c.","素可泰·兰纳承袭僧伽罗僧统","สุโขทัย","Sinhalese ordination line reaches Siam and Lanna"
-"evt_045","silkroad","12–13世纪","12th–13th c.","西夏文大藏经","西夏文大藏經","Tangut canon"
-"evt_046","sinosphere","1236–1251年","1236–1251","高丽再雕大藏经·八万大藏经（海印寺）","팔만대장경","Tripiṭaka Koreana — 81,258 woodblocks"
-"evt_047","tibetan","12世纪中叶","mid-12th c.","藏文写本甘珠尔三系·布顿编订丹珠尔（1334）","ཚལ་པ་གསེར་བྲིས་བཀའ་འགྱུར།","Manuscript Kangyurs; Butön edits the Tengyur"
-"evt_048","chinese","1216–1322年","1216–1322","《碛砂藏》《普宁藏》","磧砂藏","Qisha and Puning canons"
-"evt_049","pali","1881–1893年","1881–1893","巴利圣典协会（PTS）·罗马字校订本","Pali Text Society","Roman-script critical editions"
-"evt_050","pali","1954–1961年","1954–1961","斯里兰卡佛陀成道二千五百年版","බුද්ධ ජයන්ති","Buddha Jayanti Tipiṭaka"
-"evt_051","chinese","1372–1477年","1372–1477","《洪武南藏》《永乐北藏》","明藏","Ming imperial canons"
-"evt_052","sinosphere","1924–1934年","1924–1934","《大正新修大藏经》·一百卷","大正新脩大藏經","Taishō Tripiṭaka — the modern scholarly standard"
-"evt_053","tibetan","1410年","1410","永乐版藏文《甘珠尔》","ཡུང་ལོ་པར་མ།","Yongle xylograph Kangyur"
-"evt_054","seasia","1477年","1477","清迈第八次结集（兰纳）","ล้านนา","Eighth Council at Chiang Mai"
-"evt_055","chinese","1788–1912年","1788–1912","《嘉兴藏》方册本·便携流通","嘉興藏","Jiaxing Canon in bound volumes"
-"evt_056","tibetan","1608–1621年","1608–1621","丽江（理塘）版《甘珠尔》","འཇང་ས་ཐམ་པར་མ།","Lijiang Kangyur — first printed in Tibet"
-"evt_057","seasia","1788–1794年","1788–1794","曼谷第九次结集（拉玛一世）","พระไตรปิฎก","Ninth Council under Rama I"
-"evt_058","tibetan","1667–1669年","1667–1669","内府泥金写本藏文《龙藏经》·108函","ཁང་ཞིའི་གསེར་བྲིས་བཀའ་འགྱུར།","Kangxi gold-ink manuscript Kangyur"
-"evt_059","tibetan","1683–1744年","1683–1744","北京·那塘·卓尼·德格四大刻本《甘珠尔》《丹珠尔》","སྡེ་དགེ་པར་མ་བཀའ་བསྟན།","The four great xylograph editions; Derge becomes standard"
-"evt_060","chinese","1735–1738年","1735–1738","清《龙藏》（乾隆大藏经）·724函","乾隆大藏經","Qing Dragon Canon"
-"evt_061","sinosphere","19–20世纪","19th–20th c.","缩刷藏·卍字藏·卍续藏","縮刷藏·卍續藏","Japanese typeset canons and the Zokuzōkyō"
-"evt_062","tibetan","1717–1790年","1717–1790","蒙古文《甘珠尔》《丹珠尔》·满文《清文全藏经》","Ганжуур · ᠮᠠᠨᠵᡠ","Mongolian and Manchu canons"
-"evt_063","tibetan","1982–至今","1982–present","中华大藏经藏文部分（对勘本）","དཔེ་བསྡུར་མ།","Comparative Tibetan edition, Beijing"
-"evt_064","chinese","1909–1913年","1909–1913","《频伽藏》铅印","頻伽藏","Pinjia Canon, movable type"
-"evt_065","seasia","1824–1845年","1824–1845","缅甸第五次结集·库都陶石经七二九碑","ကုသိုလ်တော်","Fifth Council; Kuthodaw marble canon"
-"evt_066","sanskrit","1931–1938年","1931–1938","吉尔吉特写本出土·罗睺罗在西藏摄制梵本","Rāhula Sāṅkṛtyāyana","Gilgit find; Sanskrit codices photographed in Tibet"
-"evt_067","seasia","1893年","1893","泰国朱拉隆功版铅印三藏","จุลจอมเกล้า","Siamese printed Tipiṭaka — first typeset edition"
-"evt_068","seasia","1954–1956年","1954–1956","第六次结集（仰光）","ဆဋ္ဌသင်္ဂါယနာ","Sixth Council, Rangoon"
-"evt_069","pali","2000s–","2000s–present","SuttaCentral·跨语平行对读","SuttaCentral","Parallel readings across languages"
-"evt_070","seasia","1929–1969年","1929–1969","柬埔寨高棉文巴利三藏·一一〇册","ព្រះត្រៃបិដក","Khmer-script Tipiṭaka"
-"evt_071","chinese","1982–1997年","1982–1997","《中华大藏经》汉文部分·一〇六册","中華大藏經","Zhonghua Canon — critical Chinese edition"
-"evt_072","sinosphere","1970年代–","1970s–","越南文《大藏经》翻译计划","Đại Tạng Kinh","Vietnamese translation of the canon"
-"evt_073","chinese","1998–至今","1998–present","CBETA 中华电子佛典","電子佛典","CBETA digital canon"
-"evt_074","sinosphere","1990s–至今","1990s–present","SAT 大正藏文本数据库·高丽藏知识库","SAT","Taishō and Koreana databases"
-"evt_075","sanskrit","1990s–","1990s–","巴米扬·斯柯延收藏写本群","Schøyen Collection","Bamiyan birch-bark and palm-leaf finds"
-"evt_076","seasia","1994–至今","1994–present","老挝贝叶写本普查与保护","ໃບລານ","Lao palm-leaf manuscript survey"
-"evt_077","pali","1994–至今","1994–present","CSCD 第六结集电子版（VRI）","Chaṭṭha Saṅgāyana","Digital Sixth-Council text"
-"evt_078","sanskrit","2000s–","2000s–present","GRETIL·DSBC·梵文写本数字回归","Digital Sanskrit","Sanskrit corpora go online"
-"evt_079","tibetan","2010s–","2010s–present","ADARSHAH·84000·BDRC","ཨ་དརྴ།","Adarshah, 84000, BDRC"
-"evt_080","india","当代","contemporary","全球佛典数字网络·跨语种对勘","बुद्धवचन ත්‍රිපිටකය 大藏經 བཀའ་བསྟན།","A global, cross-lingual digital canon"
+evt_001,india,公元前6–4世纪,6th–4th c. BCE,释迦牟尼说法·纯口传,बुद्धवचन,"The Buddha's word, oral only"
+evt_002,india,约前404年,c. 404 BCE,第一次结集（王舍城）,paṭhama-saṅgīti,"First Council — Sūtra, Vinaya, Abhidharma"
+evt_003,india,前383–330年,383–330 BCE,第二次结集（毗舍离）·根本分裂,dutiya-saṅgīti,Second Council; Sthavira / Mahāsāṃghika split
+evt_004,india,约前250年,c. 250 BCE,第三次结集（华氏城）·阿育王护法,Aśoka,Third Council; missions dispatched
+evt_005,india,前1世纪,1st c. BCE,大乘兴起·般若经典结集,Prajñāpāramitā,Rise of Mahāyāna
+evt_006,pali,前1世纪,1st c. BCE,巴利三藏贝叶写定（阿卢寺）,ත්‍රිපිටකය,Tipiṭaka committed to writing
+evt_007,india,1–2世纪,1st–2nd c.,迦腻色迦·说一切有部结集,Sarvāstivāda,Kaniṣka's council
+evt_008,sanskrit,1–2世纪,1st–2nd c.,佛典梵语化·混合梵语写本,Buddhist Hybrid Sanskrit,Canon recast in Sanskrit
+evt_009,pali,约前250年,c. 250 BCE,摩哂陀奉使入狮子国·大寺立,Mahinda / Mahāvihāra,Theravāda takes root in Laṅkā
+evt_010,silkroad,1–2世纪,1st–2nd c.,犍陀罗佉卢文桦皮写卷,Gāndhārī / Kharoṣṭhī,Oldest surviving Buddhist manuscripts
+evt_011,chinese,1–2世纪,1st–2nd c.,白马驮经·安世高洛阳译场,安世高,"Buddhism enters China, 148 CE"
+evt_012,pali,4–5世纪,4th–5th c.,觉音·《清净道论》与巴利注疏,විසුද්ධිමග්ග,Buddhaghosa; the aṭṭhakathā corpus
+evt_013,india,2–3世纪,2nd–3rd c.,龙树·中观学派,नागार्जुन,Nāgārjuna; Madhyamaka
+evt_014,sanskrit,4–5世纪,4th–5th c.,鲍威尔写本（库车）·现存最古梵文写本之一,Bower Manuscript,Earliest Sanskrit birch-bark codex
+evt_015,silkroad,2–3世纪,2nd–3rd c.,于阗·龟兹·吐火罗语佛典,Khotanese / Tocharian,Silk Road translation centres
+evt_016,chinese,2–3世纪,2nd–3rd c.,竺法护译《正法华经》,竺法護,Dharmarakṣa
+evt_017,india,4–5世纪,4th–5th c.,无著·世亲·瑜伽行派,असङ्ग · वसुबन्धु,Asaṅga and Vasubandhu
+evt_018,chinese,868年,868,敦煌《金刚经》卷子·现存最早纪年印本,敦煌刻本,Dunhuang Diamond Sūtra — earliest dated print
+evt_019,chinese,4–5世纪,4th–5th c.,鸠摩罗什长安译场（401–413）,鳩摩羅什,Kumārajīva at Chang'an
+evt_020,india,5–6世纪,5th–6th c.,那烂陀寺·印度佛学中心,नालन्दा,Nālandā founded
+evt_021,sanskrit,5–6世纪,5th–6th c.,吉尔吉特写本（克什米尔）,Gilgit Manuscripts,5th–7th c.; found 1931
+evt_022,pali,12世纪中叶,mid-12th c.,波隆纳鲁沃·波罗迦罗摩巴忽一世整肃僧团（1165）,පොළොන්නරුව,Sangha unified under Parākramabāhu I
+evt_023,chinese,594 / 730年,594 / 730,《众经目录》《开元释教录》·汉文经录成立,開元釋教錄,Catalogues fix the Chinese corpus
+evt_024,india,8世纪,8th c.,密乘大成·超戒寺,Vikramaśīla,Vajrayāna flourishes
+evt_025,sanskrit,11世纪,11th c.,尼泊尔贝叶写本传承·九法宝典,नवग्रन्थ,Navagrantha; Newar manuscript culture
+evt_026,chinese,645–664年,645–664,玄奘译场·《大般若经》六百卷,玄奘,Xuanzang's translation bureau
+evt_027,sinosphere,8世纪,8th c.,奈良写经所·官修一切经,一切経書写,State scriptoria copy the canon
+evt_028,tibetan,645–664年,645–664,松赞干布·吞弥桑布扎创制藏文,ཐུ་མི་སམྦྷོ་ཊ།,Tibetan script devised
+evt_029,sinosphere,5–6世纪,5th–6th c.,佛教经百济传入日本（538/552）,仏教東漸,Buddhism reaches Japan
+evt_030,tibetan,5–6世纪,5th–6th c.,拉托托日年赞·经典初入吐蕃,ལྷ་ཐོ་ཐོ་རི་གཉན་བཙན།,Scriptures first reach Tibet
+evt_031,chinese,8世纪,8th c.,善无畏·金刚智·不空·唐密译经,不空,Esoteric transmission to Tang China
+evt_032,tibetan,8世纪,8th c.,赤松德赞·桑耶寺·前弘期译场,བསམ་ཡས། སྔ་དར།,Samye; imperial translation project
+evt_033,tibetan,824年,824,《丹噶目录》·吐蕃译经总目,ལྡན་དཀར་མ།,Denkarma — earliest catalogue of Tibetan translations
+evt_034,india,1203年,1203,超戒寺毁·印度佛教衰亡,Vikramaśīla destroyed,End of institutional Buddhism in India
+evt_035,chinese,983年,983,《开宝藏》成都刊·首部刻本大藏经,開寶藏,Kaibao Canon — first printed canon
+evt_036,sinosphere,11世纪,11th c.,高丽初雕大藏经（1011–1087）,初雕大藏經,First Goryeo Canon
+evt_037,sinosphere,1589–1681年,1589–1681,天海版·铁眼（黄檗）版一切经,鐵眼版,Tenkai and Tetsugen editions in Japan
+evt_038,tibetan,11世纪,11th c.,后弘期译经·仁钦桑波新译,ཕྱི་དར།,Later diffusion; new translations
+evt_039,silkroad,11世纪,11th c.,契丹藏（辽藏）,契丹藏,Khitan Canon
+evt_040,silkroad,约1006年,c. 1006,敦煌藏经洞封闭·五万卷写本封存,藏經洞,The Dunhuang library cave sealed
+evt_041,seasia,11世纪,11th c.,蒲甘·阿奴律陀迎请三藏（1057）,ပုဂံ,Bagan receives the Pāli canon from Thaton
+evt_042,chinese,12世纪中叶,mid-12th c.,《赵城金藏》（1149–1173）,趙城金藏,Zhaocheng Jin Canon
+evt_043,sanskrit,1203年,1203,梵本散佚·转存尼泊尔与西藏,梵篋西藏·尼泊爾,Sanskrit codices survive in Nepal and Tibet
+evt_044,seasia,13–14世纪,13th–14th c.,素可泰·兰纳承袭僧伽罗僧统,สุโขทัย,Sinhalese ordination line reaches Siam and Lanna
+evt_045,silkroad,12世纪中叶,mid-12th c.,西夏文大藏经,西夏文大藏經,Tangut canon
+evt_046,sinosphere,13–14世纪,13th–14th c.,高丽再雕大藏经·八万大藏经（海印寺，1236–1251）,팔만대장경,"Tripiṭaka Koreana — 81,258 woodblocks"
+evt_047,tibetan,13–14世纪,13th–14th c.,藏文写本甘珠尔三系·布顿编订丹珠尔（1334）,ཚལ་པ་གསེར་བྲིས་བཀའ་འགྱུར།,Manuscript Kangyurs; Butön edits the Tengyur
+evt_048,chinese,13–14世纪,13th–14th c.,《碛砂藏》《普宁藏》（1216–1322）,磧砂藏,Qisha and Puning canons
+evt_049,pali,1881–1893年,1881–1893,巴利圣典协会（PTS）·罗马字校订本,Pali Text Society,Roman-script critical editions
+evt_050,pali,1954–1961年,1954–1961,斯里兰卡佛陀成道二千五百年版（Buddha Jayanti）,බුද්ධ ජයන්ති,Buddha Jayanti Tipiṭaka
+evt_051,chinese,1372–1477年,1372–1477,《洪武南藏》《永乐北藏》,明藏,Ming imperial canons
+evt_052,sinosphere,1924–1934年,1924–1934,《大正新修大藏经》·一百卷,大正新脩大藏經,Taishō Tripiṭaka — the modern scholarly standard
+evt_053,tibetan,1372–1477年,1372–1477,永乐版藏文《甘珠尔》（1410）,ཡུང་ལོ་པར་མ།,Yongle xylograph Kangyur
+evt_054,seasia,1372–1477年,1372–1477,清迈第八次结集（1477，兰纳）,ล้านนา,Eighth Council at Chiang Mai
+evt_055,chinese,1589–1681年,1589–1681,《嘉兴藏》方册本·便携流通,嘉興藏,Jiaxing Canon in bound volumes
+evt_056,tibetan,1589–1681年,1589–1681,丽江（理塘）版《甘珠尔》（1608–1621）,འཇང་ས་ཐམ་པར་མ།,Lijiang Kangyur — first printed in Tibet
+evt_057,seasia,1788年,1788,曼谷第九次结集（拉玛一世）,พระไตรปิฎก,Ninth Council under Rama I
+evt_058,tibetan,1667–1669年,1667–1669,内府泥金写本藏文《龙藏经》·108函,ཁང་ཞིའི་གསེར་བྲིས་བཀའ་འགྱུར།,Kangxi gold-ink manuscript Kangyur
+evt_059,tibetan,1683–1744年,1683–1744,北京·那塘·卓尼·德格四大刻本《甘珠尔》《丹珠尔》,སྡེ་དགེ་པར་མ་བཀའ་བསྟན།,The four great xylograph editions; Derge becomes standard
+evt_060,chinese,1717–1790年,1717–1790,清《龙藏》（乾隆大藏经）·724函,乾隆大藏經,Qing Dragon Canon
+evt_061,sinosphere,1885–1913年,1885–1913,缩刷藏·卍字藏·卍续藏,縮刷藏·卍續藏,Japanese typeset canons and the Zokuzōkyō
+evt_062,tibetan,1717–1790年,1717–1790,蒙古文《甘珠尔》《丹珠尔》·满文《清文全藏经》,Ганжуур · ᠮᠠᠨᠵᡠ,Mongolian and Manchu canons
+evt_063,tibetan,1970–1997年,1970–1997,中华大藏经藏文部分（对勘本）,དཔེ་བསྡུར་མ།,"Comparative Tibetan edition, Beijing"
+evt_064,chinese,1885–1913年,1885–1913,《频伽藏》铅印（1909–1913）,頻伽藏,"Pinjia Canon, movable type"
+evt_065,seasia,1871年,1871,缅甸第五次结集·库都陶石经七二九碑,ကုသိုလ်တော်,Fifth Council; Kuthodaw marble canon
+evt_066,sanskrit,1931–1939年,1931–1939,吉尔吉特写本出土（1931）·罗睺罗在西藏摄制梵本（1934–1938）,Rāhula Sāṅkṛtyāyana,Gilgit find; Sanskrit codices photographed in Tibet
+evt_067,seasia,1881–1893年,1881–1893,泰国朱拉隆功版铅印三藏（1893）,จุลจอมเกล้า,Siamese printed Tipiṭaka — first typeset edition
+evt_068,seasia,1954–1961年,1954–1961,第六次结集（仰光，1954–1956）,ဆဋ္ဌသင်္ဂါယနာ,"Sixth Council, Rangoon"
+evt_069,seasia,1994年至今,1994–present,SuttaCentral·跨语平行对读,SuttaCentral,Parallel readings across languages
+evt_070,seasia,1929–1969年,1929–1969,柬埔寨高棉文巴利三藏·一一〇册,ព្រះត្រៃបិដក,Khmer-script Tipiṭaka
+evt_071,chinese,1970–1997年,1970–1997,《中华大藏经》汉文部分·一〇六册,中華大藏經,Zhonghua Canon — critical Chinese edition
+evt_072,sinosphere,1954–1961年,1954–1961,越南文《大藏经》翻译计划,Đại Tạng Kinh,Vietnamese translation of the canon
+evt_073,chinese,1994年至今,1994–present,CBETA 中华电子佛典,電子佛典,CBETA digital canon
+evt_074,sinosphere,1994年至今,1994–present,SAT 大正藏文本数据库·高丽藏知识库,SAT,Taishō and Koreana databases
+evt_075,sanskrit,1970–1997年,1970–1997,巴米扬·斯柯延收藏写本群,Schøyen Collection,Bamiyan birch-bark and palm-leaf finds
+evt_076,seasia,1970–1997年,1970–1997,老挝贝叶写本普查与保护,ໃບລານ,Lao palm-leaf manuscript survey
+evt_077,pali,1994年至今,1994–present,CSCD 第六结集电子版（VRI）,Chaṭṭha Saṅgāyana,Digital Sixth-Council text
+evt_078,sanskrit,1994年至今,1994–present,GRETIL·DSBC·梵文写本数字回归,Digital Sanskrit,Sanskrit corpora go online
+evt_079,tibetan,1994年至今,1994–present,ADARSHAH·84000·BDRC,ཨ་དརྴ།,"Adarshah, 84000, BDRC"
+evt_080,india,当代,contemporary,全球佛典数字网络·跨语种对勘,बुद्धवचन ත්‍රිපිටකය 大藏經 བཀའ་བསྟན།,"A global, cross-lingual digital canon"
+evt_081,sanskrit,1824–1845年,1824–1845,霍奇森搜集尼泊尔梵本·分送伦敦巴黎加尔各答,Brian H. Hodgson,Nepalese codices reach European libraries
+evt_082,sanskrit,645–664年,645–664,玄奘携归梵本六五七部,梵篋,657 Sanskrit manuscripts carried to Chang'an

@@ -6,75 +6,77 @@
 {"id": "evt_006", "tradition": "pali", "period_zh": "前1世纪", "period_en": "1st c. BCE", "title_zh": "巴利三藏贝叶写定（阿卢寺）", "title_script": "ත්‍රිපිටකය", "title_en": "Tipiṭaka committed to writing"}
 {"id": "evt_007", "tradition": "india", "period_zh": "1–2世纪", "period_en": "1st–2nd c.", "title_zh": "迦腻色迦·说一切有部结集", "title_script": "Sarvāstivāda", "title_en": "Kaniṣka's council"}
 {"id": "evt_008", "tradition": "sanskrit", "period_zh": "1–2世纪", "period_en": "1st–2nd c.", "title_zh": "佛典梵语化·混合梵语写本", "title_script": "Buddhist Hybrid Sanskrit", "title_en": "Canon recast in Sanskrit"}
-{"id": "evt_009", "tradition": "pali", "period_zh": "前3世纪", "period_en": "c. 3rd c. BCE", "title_zh": "摩哂陀奉使入狮子国·大寺立", "title_script": "Mahinda / Mahāvihāra", "title_en": "Theravāda takes root in Laṅkā"}
-{"id": "evt_010", "tradition": "silkroad", "period_zh": "1世纪", "period_en": "1st c.", "title_zh": "犍陀罗佉卢文桦皮写卷", "title_script": "Gāndhārī / Kharoṣṭhī", "title_en": "Oldest surviving Buddhist manuscripts"}
-{"id": "evt_011", "tradition": "chinese", "period_zh": "148年", "period_en": "148 CE", "title_zh": "白马驮经·安世高洛阳译场", "title_script": "安世高", "title_en": "Buddhism enters China, 148 CE"}
+{"id": "evt_009", "tradition": "pali", "period_zh": "约前250年", "period_en": "c. 250 BCE", "title_zh": "摩哂陀奉使入狮子国·大寺立", "title_script": "Mahinda / Mahāvihāra", "title_en": "Theravāda takes root in Laṅkā"}
+{"id": "evt_010", "tradition": "silkroad", "period_zh": "1–2世纪", "period_en": "1st–2nd c.", "title_zh": "犍陀罗佉卢文桦皮写卷", "title_script": "Gāndhārī / Kharoṣṭhī", "title_en": "Oldest surviving Buddhist manuscripts"}
+{"id": "evt_011", "tradition": "chinese", "period_zh": "1–2世纪", "period_en": "1st–2nd c.", "title_zh": "白马驮经·安世高洛阳译场", "title_script": "安世高", "title_en": "Buddhism enters China, 148 CE"}
 {"id": "evt_012", "tradition": "pali", "period_zh": "4–5世纪", "period_en": "4th–5th c.", "title_zh": "觉音·《清净道论》与巴利注疏", "title_script": "විසුද්ධිමග්ග", "title_en": "Buddhaghosa; the aṭṭhakathā corpus"}
 {"id": "evt_013", "tradition": "india", "period_zh": "2–3世纪", "period_en": "2nd–3rd c.", "title_zh": "龙树·中观学派", "title_script": "नागार्जुन", "title_en": "Nāgārjuna; Madhyamaka"}
-{"id": "evt_014", "tradition": "silkroad", "period_zh": "5世纪", "period_en": "5th c.", "title_zh": "鲍威尔写本（库车）·现存最古梵文写本之一", "title_script": "Bower Manuscript", "title_en": "Earliest Sanskrit birch-bark codex"}
-{"id": "evt_015", "tradition": "silkroad", "period_zh": "4–7世纪", "period_en": "4th–7th c.", "title_zh": "于阗·龟兹·吐火罗语佛典", "title_script": "Khotanese / Tocharian", "title_en": "Silk Road translation centres"}
-{"id": "evt_016", "tradition": "chinese", "period_zh": "286年", "period_en": "286 CE", "title_zh": "竺法护译《正法华经》", "title_script": "竺法護", "title_en": "Dharmarakṣa"}
+{"id": "evt_014", "tradition": "sanskrit", "period_zh": "4–5世纪", "period_en": "4th–5th c.", "title_zh": "鲍威尔写本（库车）·现存最古梵文写本之一", "title_script": "Bower Manuscript", "title_en": "Earliest Sanskrit birch-bark codex"}
+{"id": "evt_015", "tradition": "silkroad", "period_zh": "2–3世纪", "period_en": "2nd–3rd c.", "title_zh": "于阗·龟兹·吐火罗语佛典", "title_script": "Khotanese / Tocharian", "title_en": "Silk Road translation centres"}
+{"id": "evt_016", "tradition": "chinese", "period_zh": "2–3世纪", "period_en": "2nd–3rd c.", "title_zh": "竺法护译《正法华经》", "title_script": "竺法護", "title_en": "Dharmarakṣa"}
 {"id": "evt_017", "tradition": "india", "period_zh": "4–5世纪", "period_en": "4th–5th c.", "title_zh": "无著·世亲·瑜伽行派", "title_script": "असङ्ग · वसुबन्धु", "title_en": "Asaṅga and Vasubandhu"}
-{"id": "evt_018", "tradition": "chinese", "period_zh": "868年", "period_en": "868 CE", "title_zh": "敦煌《金刚经》卷子·现存最早纪年印本", "title_script": "敦煌刻本", "title_en": "Dunhuang Diamond Sūtra — earliest dated print"}
-{"id": "evt_019", "tradition": "chinese", "period_zh": "401–413年", "period_en": "401–413", "title_zh": "鸠摩罗什长安译场", "title_script": "鳩摩羅什", "title_en": "Kumārajīva at Chang'an"}
+{"id": "evt_018", "tradition": "chinese", "period_zh": "868年", "period_en": "868", "title_zh": "敦煌《金刚经》卷子·现存最早纪年印本", "title_script": "敦煌刻本", "title_en": "Dunhuang Diamond Sūtra — earliest dated print"}
+{"id": "evt_019", "tradition": "chinese", "period_zh": "4–5世纪", "period_en": "4th–5th c.", "title_zh": "鸠摩罗什长安译场（401–413）", "title_script": "鳩摩羅什", "title_en": "Kumārajīva at Chang'an"}
 {"id": "evt_020", "tradition": "india", "period_zh": "5–6世纪", "period_en": "5th–6th c.", "title_zh": "那烂陀寺·印度佛学中心", "title_script": "नालन्दा", "title_en": "Nālandā founded"}
-{"id": "evt_021", "tradition": "sanskrit", "period_zh": "5–7世纪", "period_en": "5th–7th c.", "title_zh": "吉尔吉特写本（克什米尔）", "title_script": "Gilgit Manuscripts", "title_en": "Found 1931"}
-{"id": "evt_022", "tradition": "seasia", "period_zh": "1165年", "period_en": "1165", "title_zh": "波隆纳鲁沃·波罗迦罗摩巴忽一世整肃僧团", "title_script": "පොළොන්නරුව", "title_en": "Sangha unified under Parākramabāhu I"}
+{"id": "evt_021", "tradition": "sanskrit", "period_zh": "5–6世纪", "period_en": "5th–6th c.", "title_zh": "吉尔吉特写本（克什米尔）", "title_script": "Gilgit Manuscripts", "title_en": "5th–7th c.; found 1931"}
+{"id": "evt_022", "tradition": "pali", "period_zh": "12世纪中叶", "period_en": "mid-12th c.", "title_zh": "波隆纳鲁沃·波罗迦罗摩巴忽一世整肃僧团（1165）", "title_script": "පොළොන්නරුව", "title_en": "Sangha unified under Parākramabāhu I"}
 {"id": "evt_023", "tradition": "chinese", "period_zh": "594 / 730年", "period_en": "594 / 730", "title_zh": "《众经目录》《开元释教录》·汉文经录成立", "title_script": "開元釋教錄", "title_en": "Catalogues fix the Chinese corpus"}
-{"id": "evt_024", "tradition": "india", "period_zh": "8–12世纪", "period_en": "8th–12th c.", "title_zh": "密乘大成·超戒寺", "title_script": "Vikramaśīla", "title_en": "Vajrayāna flourishes"}
-{"id": "evt_025", "tradition": "sanskrit", "period_zh": "中世后", "period_en": "medieval+", "title_zh": "尼泊尔贝叶写本传承·九法宝典", "title_script": "नवग्रन्थ", "title_en": "Navagrantha; Newar manuscript culture"}
-{"id": "evt_026", "tradition": "chinese", "period_zh": "645–664年", "period_en": "645–664", "title_zh": "玄奘携归梵本六五七部·玄奘译场", "title_script": "玄奘", "title_en": "Xuanzang; 657 Sanskrit manuscripts to Chang'an"}
+{"id": "evt_024", "tradition": "india", "period_zh": "8世纪", "period_en": "8th c.", "title_zh": "密乘大成·超戒寺", "title_script": "Vikramaśīla", "title_en": "Vajrayāna flourishes"}
+{"id": "evt_025", "tradition": "sanskrit", "period_zh": "11世纪", "period_en": "11th c.", "title_zh": "尼泊尔贝叶写本传承·九法宝典", "title_script": "नवग्रन्थ", "title_en": "Navagrantha; Newar manuscript culture"}
+{"id": "evt_026", "tradition": "chinese", "period_zh": "645–664年", "period_en": "645–664", "title_zh": "玄奘译场·《大般若经》六百卷", "title_script": "玄奘", "title_en": "Xuanzang's translation bureau"}
 {"id": "evt_027", "tradition": "sinosphere", "period_zh": "8世纪", "period_en": "8th c.", "title_zh": "奈良写经所·官修一切经", "title_script": "一切経書写", "title_en": "State scriptoria copy the canon"}
-{"id": "evt_028", "tradition": "tibetan", "period_zh": "7世纪", "period_en": "7th c.", "title_zh": "松赞干布·吞弥桑布扎创制藏文", "title_script": "ཐུ་མི་སམྦྷོ་ཊ།", "title_en": "Tibetan script devised"}
-{"id": "evt_029", "tradition": "sinosphere", "period_zh": "538/552年", "period_en": "538/552", "title_zh": "佛教经百济传入日本", "title_script": "仏教東漸", "title_en": "Buddhism reaches Japan"}
-{"id": "evt_030", "tradition": "tibetan", "period_zh": "4世纪", "period_en": "c. 4th c.", "title_zh": "拉托托日年赞·经典初入吐蕃", "title_script": "ལྷ་ཐོ་ཐོ་རི་གཉན་བཙན།", "title_en": "Scriptures first reach Tibet"}
+{"id": "evt_028", "tradition": "tibetan", "period_zh": "645–664年", "period_en": "645–664", "title_zh": "松赞干布·吞弥桑布扎创制藏文", "title_script": "ཐུ་མི་སམྦྷོ་ཊ།", "title_en": "Tibetan script devised"}
+{"id": "evt_029", "tradition": "sinosphere", "period_zh": "5–6世纪", "period_en": "5th–6th c.", "title_zh": "佛教经百济传入日本（538/552）", "title_script": "仏教東漸", "title_en": "Buddhism reaches Japan"}
+{"id": "evt_030", "tradition": "tibetan", "period_zh": "5–6世纪", "period_en": "5th–6th c.", "title_zh": "拉托托日年赞·经典初入吐蕃", "title_script": "ལྷ་ཐོ་ཐོ་རི་གཉན་བཙན།", "title_en": "Scriptures first reach Tibet"}
 {"id": "evt_031", "tradition": "chinese", "period_zh": "8世纪", "period_en": "8th c.", "title_zh": "善无畏·金刚智·不空·唐密译经", "title_script": "不空", "title_en": "Esoteric transmission to Tang China"}
 {"id": "evt_032", "tradition": "tibetan", "period_zh": "8世纪", "period_en": "8th c.", "title_zh": "赤松德赞·桑耶寺·前弘期译场", "title_script": "བསམ་ཡས། སྔ་དར།", "title_en": "Samye; imperial translation project"}
 {"id": "evt_033", "tradition": "tibetan", "period_zh": "824年", "period_en": "824", "title_zh": "《丹噶目录》·吐蕃译经总目", "title_script": "ལྡན་དཀར་མ།", "title_en": "Denkarma — earliest catalogue of Tibetan translations"}
-{"id": "evt_034", "tradition": "india", "period_zh": "12世纪", "period_en": "12th c.", "title_zh": "超戒寺毁·印度佛教衰亡", "title_script": "Vikramaśīla destroyed", "title_en": "End of institutional Buddhism in India"}
-{"id": "evt_035", "tradition": "chinese", "period_zh": "971–983年", "period_en": "971–983", "title_zh": "《开宝藏》成都刊·首部刻本大藏经", "title_script": "開寶藏", "title_en": "Kaibao Canon — first printed canon"}
-{"id": "evt_036", "tradition": "sinosphere", "period_zh": "1011–1087年", "period_en": "1011–1087", "title_zh": "高丽初雕大藏经", "title_script": "初雕大藏經", "title_en": "First Goryeo Canon"}
-{"id": "evt_037", "tradition": "sinosphere", "period_zh": "17世纪", "period_en": "17th c.", "title_zh": "天海版·铁眼（黄檗）版一切经", "title_script": "鐵眼版", "title_en": "Tenkai and Tetsugen editions in Japan"}
+{"id": "evt_034", "tradition": "india", "period_zh": "1203年", "period_en": "1203", "title_zh": "超戒寺毁·印度佛教衰亡", "title_script": "Vikramaśīla destroyed", "title_en": "End of institutional Buddhism in India"}
+{"id": "evt_035", "tradition": "chinese", "period_zh": "983年", "period_en": "983", "title_zh": "《开宝藏》成都刊·首部刻本大藏经", "title_script": "開寶藏", "title_en": "Kaibao Canon — first printed canon"}
+{"id": "evt_036", "tradition": "sinosphere", "period_zh": "11世纪", "period_en": "11th c.", "title_zh": "高丽初雕大藏经（1011–1087）", "title_script": "初雕大藏經", "title_en": "First Goryeo Canon"}
+{"id": "evt_037", "tradition": "sinosphere", "period_zh": "1589–1681年", "period_en": "1589–1681", "title_zh": "天海版·铁眼（黄檗）版一切经", "title_script": "鐵眼版", "title_en": "Tenkai and Tetsugen editions in Japan"}
 {"id": "evt_038", "tradition": "tibetan", "period_zh": "11世纪", "period_en": "11th c.", "title_zh": "后弘期译经·仁钦桑波新译", "title_script": "ཕྱི་དར།", "title_en": "Later diffusion; new translations"}
-{"id": "evt_039", "tradition": "silkroad", "period_zh": "983年", "period_en": "983", "title_zh": "契丹藏（辽藏）", "title_script": "契丹藏", "title_en": "Khitan Canon"}
+{"id": "evt_039", "tradition": "silkroad", "period_zh": "11世纪", "period_en": "11th c.", "title_zh": "契丹藏（辽藏）", "title_script": "契丹藏", "title_en": "Khitan Canon"}
 {"id": "evt_040", "tradition": "silkroad", "period_zh": "约1006年", "period_en": "c. 1006", "title_zh": "敦煌藏经洞封闭·五万卷写本封存", "title_script": "藏經洞", "title_en": "The Dunhuang library cave sealed"}
-{"id": "evt_041", "tradition": "seasia", "period_zh": "1057年", "period_en": "1057", "title_zh": "蒲甘·阿奴律陀迎请三藏", "title_script": "ပုဂံ", "title_en": "Bagan receives the Pāli canon from Thaton"}
-{"id": "evt_042", "tradition": "chinese", "period_zh": "1149–1173年", "period_en": "1149–1173", "title_zh": "《赵城金藏》", "title_script": "趙城金藏", "title_en": "Zhaocheng Jin Canon"}
-{"id": "evt_043", "tradition": "sanskrit", "period_zh": "后中世", "period_en": "late medieval", "title_zh": "梵本散佚·转存尼泊尔与西藏", "title_script": "梵篋·西藏·尼泊爾", "title_en": "Sanskrit codices survive in Nepal and Tibet"}
+{"id": "evt_041", "tradition": "seasia", "period_zh": "11世纪", "period_en": "11th c.", "title_zh": "蒲甘·阿奴律陀迎请三藏（1057）", "title_script": "ပုဂံ", "title_en": "Bagan receives the Pāli canon from Thaton"}
+{"id": "evt_042", "tradition": "chinese", "period_zh": "12世纪中叶", "period_en": "mid-12th c.", "title_zh": "《赵城金藏》（1149–1173）", "title_script": "趙城金藏", "title_en": "Zhaocheng Jin Canon"}
+{"id": "evt_043", "tradition": "sanskrit", "period_zh": "1203年", "period_en": "1203", "title_zh": "梵本散佚·转存尼泊尔与西藏", "title_script": "梵篋西藏·尼泊爾", "title_en": "Sanskrit codices survive in Nepal and Tibet"}
 {"id": "evt_044", "tradition": "seasia", "period_zh": "13–14世纪", "period_en": "13th–14th c.", "title_zh": "素可泰·兰纳承袭僧伽罗僧统", "title_script": "สุโขทัย", "title_en": "Sinhalese ordination line reaches Siam and Lanna"}
-{"id": "evt_045", "tradition": "silkroad", "period_zh": "12–13世纪", "period_en": "12th–13th c.", "title_zh": "西夏文大藏经", "title_script": "西夏文大藏經", "title_en": "Tangut canon"}
-{"id": "evt_046", "tradition": "sinosphere", "period_zh": "1236–1251年", "period_en": "1236–1251", "title_zh": "高丽再雕大藏经·八万大藏经（海印寺）", "title_script": "팔만대장경", "title_en": "Tripiṭaka Koreana — 81,258 woodblocks"}
-{"id": "evt_047", "tradition": "tibetan", "period_zh": "12世纪中叶", "period_en": "mid-12th c.", "title_zh": "藏文写本甘珠尔三系·布顿编订丹珠尔（1334）", "title_script": "ཚལ་པ་གསེར་བྲིས་བཀའ་འགྱུར།", "title_en": "Manuscript Kangyurs; Butön edits the Tengyur"}
-{"id": "evt_048", "tradition": "chinese", "period_zh": "1216–1322年", "period_en": "1216–1322", "title_zh": "《碛砂藏》《普宁藏》", "title_script": "磧砂藏", "title_en": "Qisha and Puning canons"}
+{"id": "evt_045", "tradition": "silkroad", "period_zh": "12世纪中叶", "period_en": "mid-12th c.", "title_zh": "西夏文大藏经", "title_script": "西夏文大藏經", "title_en": "Tangut canon"}
+{"id": "evt_046", "tradition": "sinosphere", "period_zh": "13–14世纪", "period_en": "13th–14th c.", "title_zh": "高丽再雕大藏经·八万大藏经（海印寺，1236–1251）", "title_script": "팔만대장경", "title_en": "Tripiṭaka Koreana — 81,258 woodblocks"}
+{"id": "evt_047", "tradition": "tibetan", "period_zh": "13–14世纪", "period_en": "13th–14th c.", "title_zh": "藏文写本甘珠尔三系·布顿编订丹珠尔（1334）", "title_script": "ཚལ་པ་གསེར་བྲིས་བཀའ་འགྱུར།", "title_en": "Manuscript Kangyurs; Butön edits the Tengyur"}
+{"id": "evt_048", "tradition": "chinese", "period_zh": "13–14世纪", "period_en": "13th–14th c.", "title_zh": "《碛砂藏》《普宁藏》（1216–1322）", "title_script": "磧砂藏", "title_en": "Qisha and Puning canons"}
 {"id": "evt_049", "tradition": "pali", "period_zh": "1881–1893年", "period_en": "1881–1893", "title_zh": "巴利圣典协会（PTS）·罗马字校订本", "title_script": "Pali Text Society", "title_en": "Roman-script critical editions"}
-{"id": "evt_050", "tradition": "pali", "period_zh": "1954–1961年", "period_en": "1954–1961", "title_zh": "斯里兰卡佛陀成道二千五百年版", "title_script": "බුද්ධ ජයන්ති", "title_en": "Buddha Jayanti Tipiṭaka"}
+{"id": "evt_050", "tradition": "pali", "period_zh": "1954–1961年", "period_en": "1954–1961", "title_zh": "斯里兰卡佛陀成道二千五百年版（Buddha Jayanti）", "title_script": "බුද්ධ ජයන්ති", "title_en": "Buddha Jayanti Tipiṭaka"}
 {"id": "evt_051", "tradition": "chinese", "period_zh": "1372–1477年", "period_en": "1372–1477", "title_zh": "《洪武南藏》《永乐北藏》", "title_script": "明藏", "title_en": "Ming imperial canons"}
 {"id": "evt_052", "tradition": "sinosphere", "period_zh": "1924–1934年", "period_en": "1924–1934", "title_zh": "《大正新修大藏经》·一百卷", "title_script": "大正新脩大藏經", "title_en": "Taishō Tripiṭaka — the modern scholarly standard"}
-{"id": "evt_053", "tradition": "tibetan", "period_zh": "1410年", "period_en": "1410", "title_zh": "永乐版藏文《甘珠尔》", "title_script": "ཡུང་ལོ་པར་མ།", "title_en": "Yongle xylograph Kangyur"}
-{"id": "evt_054", "tradition": "seasia", "period_zh": "1477年", "period_en": "1477", "title_zh": "清迈第八次结集（兰纳）", "title_script": "ล้านนา", "title_en": "Eighth Council at Chiang Mai"}
-{"id": "evt_055", "tradition": "chinese", "period_zh": "1788–1912年", "period_en": "1788–1912", "title_zh": "《嘉兴藏》方册本·便携流通", "title_script": "嘉興藏", "title_en": "Jiaxing Canon in bound volumes"}
-{"id": "evt_056", "tradition": "tibetan", "period_zh": "1608–1621年", "period_en": "1608–1621", "title_zh": "丽江（理塘）版《甘珠尔》", "title_script": "འཇང་ས་ཐམ་པར་མ།", "title_en": "Lijiang Kangyur — first printed in Tibet"}
-{"id": "evt_057", "tradition": "seasia", "period_zh": "1788–1794年", "period_en": "1788–1794", "title_zh": "曼谷第九次结集（拉玛一世）", "title_script": "พระไตรปิฎก", "title_en": "Ninth Council under Rama I"}
+{"id": "evt_053", "tradition": "tibetan", "period_zh": "1372–1477年", "period_en": "1372–1477", "title_zh": "永乐版藏文《甘珠尔》（1410）", "title_script": "ཡུང་ལོ་པར་མ།", "title_en": "Yongle xylograph Kangyur"}
+{"id": "evt_054", "tradition": "seasia", "period_zh": "1372–1477年", "period_en": "1372–1477", "title_zh": "清迈第八次结集（1477，兰纳）", "title_script": "ล้านนา", "title_en": "Eighth Council at Chiang Mai"}
+{"id": "evt_055", "tradition": "chinese", "period_zh": "1589–1681年", "period_en": "1589–1681", "title_zh": "《嘉兴藏》方册本·便携流通", "title_script": "嘉興藏", "title_en": "Jiaxing Canon in bound volumes"}
+{"id": "evt_056", "tradition": "tibetan", "period_zh": "1589–1681年", "period_en": "1589–1681", "title_zh": "丽江（理塘）版《甘珠尔》（1608–1621）", "title_script": "འཇང་ས་ཐམ་པར་མ།", "title_en": "Lijiang Kangyur — first printed in Tibet"}
+{"id": "evt_057", "tradition": "seasia", "period_zh": "1788年", "period_en": "1788", "title_zh": "曼谷第九次结集（拉玛一世）", "title_script": "พระไตรปิฎก", "title_en": "Ninth Council under Rama I"}
 {"id": "evt_058", "tradition": "tibetan", "period_zh": "1667–1669年", "period_en": "1667–1669", "title_zh": "内府泥金写本藏文《龙藏经》·108函", "title_script": "ཁང་ཞིའི་གསེར་བྲིས་བཀའ་འགྱུར།", "title_en": "Kangxi gold-ink manuscript Kangyur"}
 {"id": "evt_059", "tradition": "tibetan", "period_zh": "1683–1744年", "period_en": "1683–1744", "title_zh": "北京·那塘·卓尼·德格四大刻本《甘珠尔》《丹珠尔》", "title_script": "སྡེ་དགེ་པར་མ་བཀའ་བསྟན།", "title_en": "The four great xylograph editions; Derge becomes standard"}
-{"id": "evt_060", "tradition": "chinese", "period_zh": "1735–1738年", "period_en": "1735–1738", "title_zh": "清《龙藏》（乾隆大藏经）·724函", "title_script": "乾隆大藏經", "title_en": "Qing Dragon Canon"}
-{"id": "evt_061", "tradition": "sinosphere", "period_zh": "19–20世纪", "period_en": "19th–20th c.", "title_zh": "缩刷藏·卍字藏·卍续藏", "title_script": "縮刷藏·卍續藏", "title_en": "Japanese typeset canons and the Zokuzōkyō"}
+{"id": "evt_060", "tradition": "chinese", "period_zh": "1717–1790年", "period_en": "1717–1790", "title_zh": "清《龙藏》（乾隆大藏经）·724函", "title_script": "乾隆大藏經", "title_en": "Qing Dragon Canon"}
+{"id": "evt_061", "tradition": "sinosphere", "period_zh": "1885–1913年", "period_en": "1885–1913", "title_zh": "缩刷藏·卍字藏·卍续藏", "title_script": "縮刷藏·卍續藏", "title_en": "Japanese typeset canons and the Zokuzōkyō"}
 {"id": "evt_062", "tradition": "tibetan", "period_zh": "1717–1790年", "period_en": "1717–1790", "title_zh": "蒙古文《甘珠尔》《丹珠尔》·满文《清文全藏经》", "title_script": "Ганжуур · ᠮᠠᠨᠵᡠ", "title_en": "Mongolian and Manchu canons"}
-{"id": "evt_063", "tradition": "tibetan", "period_zh": "1982–至今", "period_en": "1982–present", "title_zh": "中华大藏经藏文部分（对勘本）", "title_script": "དཔེ་བསྡུར་མ།", "title_en": "Comparative Tibetan edition, Beijing"}
-{"id": "evt_064", "tradition": "chinese", "period_zh": "1909–1913年", "period_en": "1909–1913", "title_zh": "《频伽藏》铅印", "title_script": "頻伽藏", "title_en": "Pinjia Canon, movable type"}
-{"id": "evt_065", "tradition": "seasia", "period_zh": "1824–1845年", "period_en": "1824–1845", "title_zh": "缅甸第五次结集·库都陶石经七二九碑", "title_script": "ကုသိုလ်တော်", "title_en": "Fifth Council; Kuthodaw marble canon"}
-{"id": "evt_066", "tradition": "sanskrit", "period_zh": "1931–1938年", "period_en": "1931–1938", "title_zh": "吉尔吉特写本出土·罗睺罗在西藏摄制梵本", "title_script": "Rāhula Sāṅkṛtyāyana", "title_en": "Gilgit find; Sanskrit codices photographed in Tibet"}
-{"id": "evt_067", "tradition": "seasia", "period_zh": "1893年", "period_en": "1893", "title_zh": "泰国朱拉隆功版铅印三藏", "title_script": "จุลจอมเกล้า", "title_en": "Siamese printed Tipiṭaka — first typeset edition"}
-{"id": "evt_068", "tradition": "seasia", "period_zh": "1954–1956年", "period_en": "1954–1956", "title_zh": "第六次结集（仰光）", "title_script": "ဆဋ္ဌသင်္ဂါယနာ", "title_en": "Sixth Council, Rangoon"}
-{"id": "evt_069", "tradition": "pali", "period_zh": "2000s–", "period_en": "2000s–present", "title_zh": "SuttaCentral·跨语平行对读", "title_script": "SuttaCentral", "title_en": "Parallel readings across languages"}
+{"id": "evt_063", "tradition": "tibetan", "period_zh": "1970–1997年", "period_en": "1970–1997", "title_zh": "中华大藏经藏文部分（对勘本）", "title_script": "དཔེ་བསྡུར་མ།", "title_en": "Comparative Tibetan edition, Beijing"}
+{"id": "evt_064", "tradition": "chinese", "period_zh": "1885–1913年", "period_en": "1885–1913", "title_zh": "《频伽藏》铅印（1909–1913）", "title_script": "頻伽藏", "title_en": "Pinjia Canon, movable type"}
+{"id": "evt_065", "tradition": "seasia", "period_zh": "1871年", "period_en": "1871", "title_zh": "缅甸第五次结集·库都陶石经七二九碑", "title_script": "ကုသိုလ်တော်", "title_en": "Fifth Council; Kuthodaw marble canon"}
+{"id": "evt_066", "tradition": "sanskrit", "period_zh": "1931–1939年", "period_en": "1931–1939", "title_zh": "吉尔吉特写本出土（1931）·罗睺罗在西藏摄制梵本（1934–1938）", "title_script": "Rāhula Sāṅkṛtyāyana", "title_en": "Gilgit find; Sanskrit codices photographed in Tibet"}
+{"id": "evt_067", "tradition": "seasia", "period_zh": "1881–1893年", "period_en": "1881–1893", "title_zh": "泰国朱拉隆功版铅印三藏（1893）", "title_script": "จุลจอมเกล้า", "title_en": "Siamese printed Tipiṭaka — first typeset edition"}
+{"id": "evt_068", "tradition": "seasia", "period_zh": "1954–1961年", "period_en": "1954–1961", "title_zh": "第六次结集（仰光，1954–1956）", "title_script": "ဆဋ္ဌသင်္ဂါယနာ", "title_en": "Sixth Council, Rangoon"}
+{"id": "evt_069", "tradition": "seasia", "period_zh": "1994年至今", "period_en": "1994–present", "title_zh": "SuttaCentral·跨语平行对读", "title_script": "SuttaCentral", "title_en": "Parallel readings across languages"}
 {"id": "evt_070", "tradition": "seasia", "period_zh": "1929–1969年", "period_en": "1929–1969", "title_zh": "柬埔寨高棉文巴利三藏·一一〇册", "title_script": "ព្រះត្រៃបិដក", "title_en": "Khmer-script Tipiṭaka"}
-{"id": "evt_071", "tradition": "chinese", "period_zh": "1982–1997年", "period_en": "1982–1997", "title_zh": "《中华大藏经》汉文部分·一〇六册", "title_script": "中華大藏經", "title_en": "Zhonghua Canon — critical Chinese edition"}
-{"id": "evt_072", "tradition": "sinosphere", "period_zh": "1970年代–", "period_en": "1970s–", "title_zh": "越南文《大藏经》翻译计划", "title_script": "Đại Tạng Kinh", "title_en": "Vietnamese translation of the canon"}
-{"id": "evt_073", "tradition": "chinese", "period_zh": "1998–至今", "period_en": "1998–present", "title_zh": "CBETA 中华电子佛典", "title_script": "電子佛典", "title_en": "CBETA digital canon"}
-{"id": "evt_074", "tradition": "sinosphere", "period_zh": "1990s–至今", "period_en": "1990s–present", "title_zh": "SAT 大正藏文本数据库·高丽藏知识库", "title_script": "SAT", "title_en": "Taishō and Koreana databases"}
-{"id": "evt_075", "tradition": "sanskrit", "period_zh": "1990s–", "period_en": "1990s–", "title_zh": "巴米扬·斯柯延收藏写本群", "title_script": "Schøyen Collection", "title_en": "Bamiyan birch-bark and palm-leaf finds"}
-{"id": "evt_076", "tradition": "seasia", "period_zh": "1994–至今", "period_en": "1994–present", "title_zh": "老挝贝叶写本普查与保护", "title_script": "ໃບລານ", "title_en": "Lao palm-leaf manuscript survey"}
-{"id": "evt_077", "tradition": "pali", "period_zh": "1994–至今", "period_en": "1994–present", "title_zh": "CSCD 第六结集电子版（VRI）", "title_script": "Chaṭṭha Saṅgāyana", "title_en": "Digital Sixth-Council text"}
-{"id": "evt_078", "tradition": "sanskrit", "period_zh": "2000s–", "period_en": "2000s–present", "title_zh": "GRETIL·DSBC·梵文写本数字回归", "title_script": "Digital Sanskrit", "title_en": "Sanskrit corpora go online"}
-{"id": "evt_079", "tradition": "tibetan", "period_zh": "2010s–", "period_en": "2010s–present", "title_zh": "ADARSHAH·84000·BDRC", "title_script": "ཨ་དརྴ།", "title_en": "Adarshah, 84000, BDRC"}
+{"id": "evt_071", "tradition": "chinese", "period_zh": "1970–1997年", "period_en": "1970–1997", "title_zh": "《中华大藏经》汉文部分·一〇六册", "title_script": "中華大藏經", "title_en": "Zhonghua Canon — critical Chinese edition"}
+{"id": "evt_072", "tradition": "sinosphere", "period_zh": "1954–1961年", "period_en": "1954–1961", "title_zh": "越南文《大藏经》翻译计划", "title_script": "Đại Tạng Kinh", "title_en": "Vietnamese translation of the canon"}
+{"id": "evt_073", "tradition": "chinese", "period_zh": "1994年至今", "period_en": "1994–present", "title_zh": "CBETA 中华电子佛典", "title_script": "電子佛典", "title_en": "CBETA digital canon"}
+{"id": "evt_074", "tradition": "sinosphere", "period_zh": "1994年至今", "period_en": "1994–present", "title_zh": "SAT 大正藏文本数据库·高丽藏知识库", "title_script": "SAT", "title_en": "Taishō and Koreana databases"}
+{"id": "evt_075", "tradition": "sanskrit", "period_zh": "1970–1997年", "period_en": "1970–1997", "title_zh": "巴米扬·斯柯延收藏写本群", "title_script": "Schøyen Collection", "title_en": "Bamiyan birch-bark and palm-leaf finds"}
+{"id": "evt_076", "tradition": "seasia", "period_zh": "1970–1997年", "period_en": "1970–1997", "title_zh": "老挝贝叶写本普查与保护", "title_script": "ໃບລານ", "title_en": "Lao palm-leaf manuscript survey"}
+{"id": "evt_077", "tradition": "pali", "period_zh": "1994年至今", "period_en": "1994–present", "title_zh": "CSCD 第六结集电子版（VRI）", "title_script": "Chaṭṭha Saṅgāyana", "title_en": "Digital Sixth-Council text"}
+{"id": "evt_078", "tradition": "sanskrit", "period_zh": "1994年至今", "period_en": "1994–present", "title_zh": "GRETIL·DSBC·梵文写本数字回归", "title_script": "Digital Sanskrit", "title_en": "Sanskrit corpora go online"}
+{"id": "evt_079", "tradition": "tibetan", "period_zh": "1994年至今", "period_en": "1994–present", "title_zh": "ADARSHAH·84000·BDRC", "title_script": "ཨ་དརྴ།", "title_en": "Adarshah, 84000, BDRC"}
 {"id": "evt_080", "tradition": "india", "period_zh": "当代", "period_en": "contemporary", "title_zh": "全球佛典数字网络·跨语种对勘", "title_script": "बुद्धवचन ත්‍රිපිටකය 大藏經 བཀའ་བསྟན།", "title_en": "A global, cross-lingual digital canon"}
+{"id": "evt_081", "tradition": "sanskrit", "period_zh": "1824–1845年", "period_en": "1824–1845", "title_zh": "霍奇森搜集尼泊尔梵本·分送伦敦巴黎加尔各答", "title_script": "Brian H. Hodgson", "title_en": "Nepalese codices reach European libraries"}
+{"id": "evt_082", "tradition": "sanskrit", "period_zh": "645–664年", "period_en": "645–664", "title_zh": "玄奘携归梵本六五七部", "title_script": "梵篋", "title_en": "657 Sanskrit manuscripts carried to Chang'an"}
