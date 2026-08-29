@@ -12,3 +12,9 @@ __pycache__/
 build/
 dist/
 .venv/
+
+# Loop runtime state (per-machine, not source)
+scripts/.feedback_state.json
+scripts/.branch_proposals.jsonl
+scripts/.resource_asks.jsonl
+manifests/.ots_confirmed

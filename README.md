@@ -65,6 +65,15 @@
 
 ### 1. Eight-branch canon archive · 八系佛典档案
 
+<p align="center">
+  <a href="docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="docs/timeline-preview.png" alt="World Buddhist Canon Transmission Timeline — eight-branch parallel view" width="860">
+  </a>
+  <br>
+  <sub><i>World Buddhist Canon Transmission Timeline · 世界佛典传承时序图 · 八系并观<br>
+  Click for full PDF: <a href="docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 The eight transmission lines, with current stage of each:
 
 | # | Branch | 中文 | Status |
