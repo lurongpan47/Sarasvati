@@ -227,16 +227,23 @@ class MiniMaxClient(OpenAICompatClient):
 
 class GoogleClient(Client):
     def _call(self, prompt, system, max_tokens, timeout):
+        # Send key in header, not URL, so it never appears in exception messages/logs.
         url = (f"https://generativelanguage.googleapis.com/v1beta/models/"
-               f"{self.model_id}:generateContent?key={self.api_key}")
+               f"{self.model_id}:generateContent")
+        headers = {"x-goog-api-key": self.api_key, "Content-Type": "application/json"}
         body = {
             "contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.7},
         }
         if system:
             body["systemInstruction"] = {"parts": [{"text": system}]}
-        r = requests.post(url, json=body, timeout=timeout)
-        r.raise_for_status()
+        r = requests.post(url, json=body, headers=headers, timeout=timeout)
+        try:
+            r.raise_for_status()
+        except requests.HTTPError as e:
+            # Scrub any accidental key echo from error text
+            msg = str(e).replace(self.api_key or "", "<KEY_REDACTED>") if self.api_key else str(e)
+            raise requests.HTTPError(msg) from None
         data = r.json()
         cands = data.get("candidates", [])
         text = ""

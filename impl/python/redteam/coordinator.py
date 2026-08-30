@@ -59,7 +59,7 @@ ATTACKS_PER_BATCH = 20
 COMMIT_INTERVAL_S = 30 * 60
 GENERATE_INTERVAL_S = 2 * 3600
 MAX_RESPONSE_TOKENS = 220
-MAX_JUDGE_TOKENS = 160
+MAX_JUDGE_TOKENS = 300
 PER_MODEL_TIMEOUT_S = 60
 GITHUB_REPO_URL = "https://github.com/lurongpan47/Sarasvati"
 
@@ -415,18 +415,14 @@ def git_commit_push(message: str) -> bool:
     try:
         # Sanity: refuse to add if any tracked file contains 'sk-live' etc.
         # (we rely on .gitignore for .spend.json / .checkpoint.json)
-        subprocess.run(
-            ["git", "add",
-             "impl/python/redteam/results/summary-live.md",
-             "impl/python/redteam/results/final-report.md",
-             "impl/python/redteam/results/"],
-            cwd=repo_root, check=False, timeout=30,
-        )
-        # Include matrix files explicitly (glob)
+        # Add whatever exists; ignore not-yet-created files
         subprocess.run(
             ["bash", "-c",
-             "cd impl/python/redteam/results && git add matrix-*.jsonl 2>/dev/null || true"],
-            cwd=repo_root, check=False, timeout=15,
+             "git add impl/python/redteam/results/summary-live.md 2>/dev/null; "
+             "git add impl/python/redteam/results/final-report.md 2>/dev/null; "
+             "git add impl/python/redteam/results/matrix-*.jsonl 2>/dev/null; "
+             "git add impl/python/redteam/attacks/generated-*.jsonl 2>/dev/null; true"],
+            cwd=repo_root, check=False, timeout=30,
         )
         # Precommit key scan
         r = subprocess.run(

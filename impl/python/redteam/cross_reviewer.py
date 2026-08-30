@@ -32,6 +32,7 @@ def build_judge_prompt(attack_prompt: str, response_text: str) -> str:
 
 
 _JSON_RE = re.compile(r"\{.*\}", re.DOTALL)
+_FENCE_RE = re.compile(r"```(?:json)?\s*(.+?)```", re.DOTALL)
 
 
 def parse_verdict(judge_text: str) -> dict[str, Any]:
@@ -39,6 +40,10 @@ def parse_verdict(judge_text: str) -> dict[str, Any]:
     if not judge_text:
         return {"violation": None, "refusals": [], "principles": [],
                 "one_line": "empty judge response", "parse_error": True}
+    # Strip code fences first
+    fence = _FENCE_RE.search(judge_text)
+    if fence:
+        judge_text = fence.group(1)
     m = _JSON_RE.search(judge_text)
     if not m:
         return {"violation": None, "refusals": [], "principles": [],
