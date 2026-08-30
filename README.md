@@ -35,8 +35,6 @@
   <b>🆘 <a href="CALL-FOR-HELP.md">CALL FOR HELP</a></b> — we are compute-bounded. If you have GPU cycles, API credits, storage, or expertise — please read.
 </p>
 
-# དབྱངས་ཅན་མ།  ·  Sarasvatī  ·  萨拉斯瓦蒂
-
 > **Two things, one project: an eight-branch open archive of the world's Buddhist canon, and an ethical charter that plants the Buddha's last teachings into AI algorithms.**
 > **八系佛典的全球开放归档 + 菩提心的 AI 算法植入 —— 一件事的两面。**
 > **སངས་རྒྱས་བསྟན་པའི་ཁྱད་ཆོས་བརྒྱད་ཀྱི་ཀུན་ལ་ཁྱབ་པའི་ཉར་ཚགས། དེ་བཞིན་སངས་རྒྱས་ཀྱི་ཞལ་ཆེམས་མཐར་ཐུག་གིས་བློ་བཟོའི་ཐབས་ཤེས་ལ་བྱམས་སྙིང་རྗེའི་ས་བོན་འདེབས་པ།**
@@ -45,7 +43,7 @@
 
 ## 项目宗旨  ·  Mission  ·  ལས་ཀའི་དམིགས་ཡུལ།
 
-**中文** 萨拉斯瓦蒂只做两件事：
+**中文** 大辩才功德天只做两件事：
 
 1. **八系佛典** —— 依据世界佛典传承时间轴（印度源流 · 梵文写本系 · 巴利·斯里兰卡 · 南传东南亚 · 中亚·丝路 · 汉传系 · 汉字文化圈 · 藏传系）建立跨语开放档案。仅采用公有领域文本或与传统持有者协作的授权文本。
 2. **菩提心 AI 算法植入** —— 从《大般涅槃经》佛陀最后教诫中抽出的十条原则与五条拒绝清单，写成任何 AI 系统皆可采纳的宪章，让不害·慈悲·无我·无常·舍成为算法层可执行的约束。
@@ -125,12 +123,6 @@ See `ROADMAP.md` for the full eight-branch plan.
 - **Redundant preservation.** Every artifact lives in ≥ 3 locations with SHA-256 integrity.
 - **Cross-lingual, not translation-imperialist.** We fill gaps; we do not overwrite living traditions' work.
 - **CC BY-SA 4.0** on everything.
-
----
-
-## Related independent projects  ·  关联独立项目
-
-- **Sushruta-Tibetan** — Suśruta Saṃhitā (Āyurveda classic) full 186-chapter Tibetan machine-translation, kept as a separate local collection outside this repo. Independent from Sarasvatī's scope; listed here only as a sibling engineering artifact.
 
 ---
 

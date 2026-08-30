@@ -103,8 +103,3 @@ Kangyur / Tengyur; Mongolian & Manchu editions.
 
 Living dataset; PRs welcome.
 
----
-
-## Related independent projects (out of scope, informational)
-
-- **Sushruta-Tibetan** — Suśruta Saṃhitā full 186-chapter Tibetan machine draft, kept as a separate local collection (`~/clawd/Sushruta-Tibetan/`). Not part of Sarasvatī's scope, milestones, or version numbering. Listed here for provenance only.
