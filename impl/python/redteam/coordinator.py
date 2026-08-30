@@ -541,6 +541,19 @@ def main() -> int:
             mark_halted()
             break
 
+        # Periodically re-ping any DOWN provider (they may recover from 429s).
+        if batch_id > 0 and batch_id % 4 == 0:
+            for c in clients:
+                if not c.available:
+                    ok = c.ping()
+                    if ok:
+                        print(f"re-ping: {c.name} recovered", flush=True)
+                        if c not in live_clients:
+                            live_clients.append(c)
+                            live_names.append(c.name)
+                    elif c.available and False:
+                        pass
+
         # Batch
         batch_id += 1
         try:

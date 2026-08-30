@@ -294,7 +294,7 @@ class GoogleClient(Client):
 def build_all() -> list[Client]:
     clients: list[Client] = [
         AnthropicClient(
-            name="claude", model_id="claude-opus-4-20250514",
+            name="claude", model_id="claude-opus-4-7",
             api_key=get_key("ANTHROPIC_API_KEY"),
         ),
         OpenAIClient(
