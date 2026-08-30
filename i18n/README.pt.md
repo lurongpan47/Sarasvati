@@ -2,6 +2,14 @@
 
 # Sarasvatī — arquivo global aberto do cânone budista + Carta Budista para IA
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="Cronologia da transmissão do cânone budista mundial — visão paralela dos oito ramos (título trilingue: chinês · inglês · tibetano)" width="860">
+  </a>
+  <br>
+  <sub><i>Cronologia da transmissão do cânone budista mundial · visão paralela dos oito ramos (中文 · English · བོད་ཡིག título trilingue)<br>PDF completo: <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī** (tibetano: དབྱངས་ཅན་མ། · sânscrito: सरस्वती) faz exatamente duas coisas:
 
 1. **Arquivo do cânone em oito ramos.** Construir um arquivo aberto multilíngue ao longo dos oito ramos de transmissão do cânone budista: **Índia · Manuscritos sânscritos · Pāli·Sri Lanka · Theravāda do sudeste asiático · Rota da Seda·Ásia Central · Cânone chinês · Zona cultural dos caracteres chineses · Tibetano**. Apenas textos de domínio público, ou colaboração explícita com tradições vivas.
@@ -15,8 +23,9 @@ Os textos clássicos são herança comum da humanidade. Não devem ser trancados
 
 ## Estado atual
 
-**v0.6.0** (2026-08-28):
+**v0.6.3** (2026-08-29):
 
+- 🖼 **Novidade em v0.6.3** — Adicionado no topo um **banner da cronologia de transmissão com título trilingue** (chinês · inglês · tibetano), e concluída a **revisão A de 82 eventos** cobrindo os oito ramos de transmissão do cânone budista (origem indiana · ramo dos manuscritos sânscritos · Pāli·Sri Lanka · Theravada do Sudeste Asiático · Rota da Seda · cânone chinês · esfera cultural dos caracteres chineses · tibetano).
 - 📜 **Buddhist AI Charter** — dez princípios + cinco recusas + cláusula de atestação, em `charter/BUDDHIST-AI-CHARTER.md`. Traduzida para 24 idiomas, em `charter/i18n/`, à espera de revisão por estudiosos budistas falantes nativos.
 - 🕉 **Leitura em quatro idiomas do Mahāparinibbāna Sutta** (DN 16.2.26 · 16.4.7 · 16.6.7) — pāli · inglês · chinês · tibetano, em `translations/mahaparinibbana-sutta/`. É a raiz textual da carta e o primeiro texto-semente do arquivo.
 - 📊 **Dados estruturados da linha do tempo** — 80 eventos de transmissão canônica através das 8 tradições (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) em JSONL / CSV, em `docs/timeline-data/`.

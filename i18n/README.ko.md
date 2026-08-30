@@ -2,6 +2,14 @@
 
 # Sarasvatī — 세계 불교 정전을 위한 글로벌 오픈 아카이브 + 불교 AI 헌장
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="세계 불전 팔계 전승 시대순 도표(3언어 제목: 중·영·티)" width="860">
+  </a>
+  <br>
+  <sub><i>세계 불전 팔계 전승 시대순 도표 · 팔계 병관(中文 · English · བོད་ཡིག 삼언어 제목)<br>전체 PDF 보기：<a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī**(티베트어: དབྱངས་ཅན་མ། · 산스크리트어: सरस्वती)는 정확히 두 가지 일을 합니다:
 
 1. **8계통 정전 아카이브.** 불교 정전 전승의 여덟 갈래를 따라 다국어 오픈 아카이브를 구축합니다: **인도 원류 · 산스크리트 필사본계 · 팔리·스리랑카 · 동남아 상좌부 · 실크로드·중앙아시아 · 한역 대장경 · 한자문화권 · 티베트계**. 공공영역 텍스트만 사용하거나, 살아 있는 전통과의 명시적 협업.
@@ -15,8 +23,9 @@
 
 ## 현재 상태
 
-**v0.6.0**(2026-08-28):
+**v0.6.3**(2026-08-29):
 
+- 🖼 **v0.6.3 신규** — 상단에 **삼언어 제목 전승 시대순 도표 배너**(중·영·티)를 추가, **A 교감(校勘) 82건**이 불전 팔계 전승(인도 원류 · 산스크리트 사본계 · 팔리·스리랑카 · 동남아 상좌부 · 실크로드 · 한역대장경 · 한자문화권 · 티베트계)을 포괄합니다.
 - 📜 **Buddhist AI Charter** — 열 가지 원칙 + 다섯 가지 거절 + 서명 조항, `charter/BUDDHIST-AI-CHARTER.md`. 24개 언어로 번역되어 `charter/i18n/` 에 있으며, 각 언어권의 불교 학자·모국어 화자의 검토를 기다리고 있습니다.
 - 🕉 **『대반열반경』4언어 대조 독송**(DN 16.2.26 · 16.4.7 · 16.6.7) — 팔리 · 영어 · 한문 · 티베트어, `translations/mahaparinibbana-sutta/`. 이는 헌장의 경전적 뿌리이며, 아카이브의 첫 번째 씨앗 텍스트입니다.
 - 📊 **구조화된 타임라인 데이터** — 8계통(india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan)에 걸친 80개의 정전 전승 사건, JSONL / CSV 형식, `docs/timeline-data/`.

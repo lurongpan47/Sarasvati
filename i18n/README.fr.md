@@ -2,6 +2,14 @@
 
 # Sarasvatī — archive ouverte mondiale du canon bouddhique + Charte bouddhique pour l'IA
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="Chronologie de la transmission du canon bouddhique mondial — vue parallèle des huit branches (titre trilingue : chinois · anglais · tibétain)" width="860">
+  </a>
+  <br>
+  <sub><i>Chronologie de la transmission du canon bouddhique mondial · vue parallèle des huit branches (中文 · English · བོད་ཡིག titre trilingue)<br>PDF complet : <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī** (tibétain : དབྱངས་ཅན་མ། · sanskrit : सरस्वती) fait exactement deux choses :
 
 1. **Archive du canon en huit branches.** Construire une archive ouverte multilingue le long des huit branches de transmission du canon bouddhique : **Inde · Manuscrits sanskrits · Pāli·Sri Lanka · Theravāda d'Asie du Sud-Est · Route de la Soie·Asie centrale · Canon chinois · Zone culturelle des caractères chinois · Tibétain**. Uniquement des textes du domaine public, ou une collaboration explicite avec les traditions vivantes.
@@ -15,8 +23,9 @@ Les textes classiques sont l'héritage commun de l'humanité. Ils ne devraient p
 
 ## État actuel
 
-**v0.6.0** (2026-08-28) :
+**v0.6.3** (2026-08-29) :
 
+- 🖼 **Nouveau dans v0.6.3** — Ajout en haut d'une **bannière de chronologie de transmission avec titre trilingue** (chinois · anglais · tibétain), et achèvement de la **révision A pour 82 événements** couvrant les huit branches de transmission du canon bouddhique (origine indienne · branche des manuscrits sanskrits · Pāli·Sri Lanka · Theravada d'Asie du Sud-Est · Route de la Soie · canon chinois · aire culturelle des caractères chinois · tibétain).
 - 📜 **Buddhist AI Charter** — dix principes + cinq refus + clause d'attestation, dans `charter/BUDDHIST-AI-CHARTER.md`. Traduite en 24 langues, dans `charter/i18n/`, en attente de relecture par des spécialistes bouddhistes locuteurs natifs.
 - 🕉 **Lecture quadrilingue du Mahāparinibbāna Sutta** (DN 16.2.26 · 16.4.7 · 16.6.7) — pāli · anglais · chinois · tibétain, dans `translations/mahaparinibbana-sutta/`. C'est la racine scripturaire de la charte et le premier texte-graine de l'archive.
 - 📊 **Données structurées de chronologie** — 80 événements de transmission canonique à travers les 8 traditions (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) au format JSONL / CSV, dans `docs/timeline-data/`.

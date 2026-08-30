@@ -2,6 +2,14 @@
 
 # Sarasvatī — 世界の仏典のためのグローバル・オープン・アーカイブ + 仏教 AI 憲章
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="世界仏典八系伝承時序図（三言語表題：中·英·蔵）" width="860">
+  </a>
+  <br>
+  <sub><i>世界仏典八系伝承時序図 · 八系並観（中文 · English · བོད་ཡིག 三言語表題）<br>完全な PDF はこちら：<a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī**（チベット語：དབྱངས་ཅན་མ། · サンスクリット：सरस्वती）はちょうど二つのことを行います。
 
 1. **八系仏典アーカイブ。** 仏典伝承の八つの分岐に沿って、多言語オープンアーカイブを構築します：**インド起源 · サンスクリット写本系 · パーリ・スリランカ · 東南アジア上座部 · シルクロード・中央アジア · 漢訳大蔵経 · 漢字文化圏 · チベット系**。公共領域のテキストのみ、または生きた伝統との明示的な協働。
@@ -15,8 +23,9 @@
 
 ## 現在の状況
 
-**v0.6.0**（2026-08-28）：
+**v0.6.3**（2026-08-29）：
 
+- 🖼 **v0.6.3 新規** — 冒頭に**三言語表題の伝承時序図バナー**（中·英·蔵）を追加、**A 校核 82 事件**が仏典八系伝承（インド起源 · サンスクリット写本系 · パーリ·スリランカ · 東南アジア上座部 · シルクロード · 漢訳大蔵経 · 漢字文化圏 · チベット系）を覆う。
 - 📜 **Buddhist AI Charter** — 十の原則 + 五つの拒否条項 + 証明条項、`charter/BUDDHIST-AI-CHARTER.md`。24 言語に翻訳済み、`charter/i18n/` に配置、各言語の仏教母語話者による審校を待機中。
 - 🕉 **『大般涅槃経』四言語対読**（DN 16.2.26 · 16.4.7 · 16.6.7）— パーリ · 英語 · 中国語 · チベット語、`translations/mahaparinibbana-sutta/`。これは憲章の経典的根源であり、アーカイブの最初の種テキストです。
 - 📊 **構造化タイムラインデータ** — 8 系（india、sanskrit、pali、seasia、silkroad、chinese、sinosphere、tibetan）にわたる 80 の仏典伝承イベント、JSONL / CSV 形式、`docs/timeline-data/`。

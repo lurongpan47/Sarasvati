@@ -2,6 +2,14 @@
 
 # Sarasvatī — archivio globale aperto del canone buddhista + Carta buddhista per l'IA
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="Cronologia della trasmissione del canone buddhista mondiale — vista parallela degli otto rami (titolo trilingue: cinese · inglese · tibetano)" width="860">
+  </a>
+  <br>
+  <sub><i>Cronologia della trasmissione del canone buddhista mondiale · vista parallela degli otto rami (中文 · English · བོད་ཡིག titolo trilingue)<br>PDF completo: <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī** (tibetano: དབྱངས་ཅན་མ། · sanscrito: सरस्वती) fa esattamente due cose:
 
 1. **Archivio del canone in otto rami.** Costruire un archivio aperto multilingue lungo gli otto rami di trasmissione del canone buddhista: **India · Manoscritti sanscriti · Pāli·Sri Lanka · Theravāda del sud-est asiatico · Via della Seta·Asia centrale · Canone cinese · Zona culturale dei caratteri cinesi · Tibetano**. Solo testi di pubblico dominio, o collaborazione esplicita con tradizioni viventi.
@@ -15,8 +23,9 @@ I testi classici sono l'eredità comune dell'umanità. Non dovrebbero essere chi
 
 ## Stato attuale
 
-**v0.6.0** (2026-08-28):
+**v0.6.3** (2026-08-29):
 
+- 🖼 **Novità in v0.6.3** — Aggiunto in cima un **banner della cronologia di trasmissione con titolo trilingue** (cinese · inglese · tibetano), e completata la **revisione A di 82 eventi** che coprono gli otto rami di trasmissione del canone buddhista (origine indiana · ramo dei manoscritti sanscriti · Pāli·Sri Lanka · Theravada del Sud-Est asiatico · Via della Seta · canone cinese · sfera culturale dei caratteri cinesi · tibetano).
 - 📜 **Buddhist AI Charter** — dieci principi + cinque rifiuti + clausola di attestazione, in `charter/BUDDHIST-AI-CHARTER.md`. Tradotta in 24 lingue, in `charter/i18n/`, in attesa di revisione da parte di studiosi buddhisti madrelingua.
 - 🕉 **Lettura quadrilingue del Mahāparinibbāna Sutta** (DN 16.2.26 · 16.4.7 · 16.6.7) — pāli · inglese · cinese · tibetano, in `translations/mahaparinibbana-sutta/`. È la radice scritturale della carta e il primo testo seme dell'archivio.
 - 📊 **Dati strutturati della cronologia** — 80 eventi di trasmissione canonica attraverso le 8 tradizioni (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) in formato JSONL / CSV, in `docs/timeline-data/`.

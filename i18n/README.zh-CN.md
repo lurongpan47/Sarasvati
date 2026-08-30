@@ -2,6 +2,14 @@
 
 # Sarasvatī —— 面向世界佛典的全球开放档案 + 菩提心 AI 宪章
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="世界佛典八系传承时序图（三语标题：中·英·藏）" width="860">
+  </a>
+  <br>
+  <sub><i>世界佛典八系传承时序图 · 八系并观（中文 · English · བོད་ཡིག 三语标题）<br>点击查看完整 PDF：<a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī**（藏文：དབྱངས་ཅན་མ། · 梵文：सरस्वती）只做两件事：
 
 1. **八系佛典档案。** 沿着佛典传承的八条主线建立跨语开放档案：**印度源流 · 梵文写本系 · 巴利·斯里兰卡 · 南传东南亚 · 中亚·丝路 · 汉传系 · 汉字文化圈 · 藏传系**。仅采用公有领域文本，或与活的传统协作。
@@ -15,8 +23,9 @@
 
 ## 当前状态
 
-**v0.6.0**（2026-08-28）：
+**v0.6.3**（2026-08-29）：
 
+- 🖼 **v0.6.3 新增** —— 顶部加入**三语标题时序图 banner**（中·英·藏），并完成 **A 校核 82 事件**覆盖八系传承（印度源流 · 梵文写本系 · 巴利·斯里兰卡 · 南传东南亚 · 中亚·丝路 · 汉传系 · 汉字文化圈 · 藏传系）。
 - 📜 **Buddhist AI Charter** —— 十条原则 + 五条拒绝 + 见证条款，位于 `charter/BUDDHIST-AI-CHARTER.md`。已译成 24 语，位于 `charter/i18n/`，等待各语佛学母语者审校。
 - 🕉 **《大般涅槃经》四语对读**（DN 16.2.26 · 16.4.7 · 16.6.7）—— 巴利 · 英文 · 汉文 · 藏文，位于 `translations/mahaparinibbana-sutta/`。这是宪章的经典根源，也是档案的第一份种子文本。
 - 📊 **结构化时间线数据** —— 覆盖 8 系（india、sanskrit、pali、seasia、silkroad、chinese、sinosphere、tibetan）的 80 项佛典传承事件，JSONL / CSV 格式，位于 `docs/timeline-data/`。

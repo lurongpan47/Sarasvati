@@ -2,6 +2,14 @@
 
 # Sarasvatī — arsip terbuka global untuk kanon Buddhis + Piagam AI Buddhis
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="Garis waktu pewarisan kanon Buddhis dunia — delapan cabang pandangan paralel (judul tiga bahasa: Tionghoa · Inggris · Tibet)" width="860">
+  </a>
+  <br>
+  <sub><i>Garis waktu pewarisan kanon Buddhis dunia · delapan cabang pandangan paralel (中文 · English · བོད་ཡིག judul tiga bahasa)<br>PDF lengkap: <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī** (Tibet: དབྱངས་ཅན་མ། · Sanskerta: सरस्वती) melakukan tepat dua hal:
 
 1. **Arsip kanon delapan cabang.** Membangun arsip terbuka multibahasa mengikuti delapan cabang transmisi kanon Buddhis: **India asal · Naskah Sanskerta · Pāli·Sri Lanka · Theravāda Asia Tenggara · Jalur Sutra·Asia Tengah · Kanon Tionghoa · Wilayah budaya aksara Tionghoa · Tibet**. Hanya teks domain publik, atau kolaborasi eksplisit dengan tradisi yang masih hidup.
@@ -15,8 +23,9 @@ Teks klasik adalah warisan bersama umat manusia. Mereka tidak boleh dikunci oleh
 
 ## Status saat ini
 
-**v0.6.0** (2026-08-28):
+**v0.6.3** (2026-08-29):
 
+- 🖼 **Baru di v0.6.3** — Menambahkan **spanduk garis waktu pewarisan dengan judul tiga bahasa** (Tionghoa · Inggris · Tibet) di bagian atas, dan menyelesaikan **verifikasi A untuk 82 peristiwa** yang mencakup delapan cabang pewarisan (India asal · cabang naskah Sansekerta · Pāli·Sri Lanka · Theravada Asia Tenggara · Jalur Sutra · kanon Tionghoa · lingkup budaya aksara Han · Tibet).
 - 📜 **Buddhist AI Charter** — sepuluh prinsip + lima penolakan + klausul pengesahan, di `charter/BUDDHIST-AI-CHARTER.md`. Sudah diterjemahkan ke 24 bahasa di `charter/i18n/`, menunggu tinjauan oleh sarjana Buddhis penutur asli setiap bahasa.
 - 🕉 **Pembacaan empat bahasa Mahāparinibbāna Sutta** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · Inggris · Tionghoa · Tibet, di `translations/mahaparinibbana-sutta/`. Inilah akar tekstual dari piagam dan teks benih pertama dari arsip.
 - 📊 **Data linimasa terstruktur** — 80 peristiwa transmisi kanon di 8 tradisi (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) sebagai JSONL / CSV, di `docs/timeline-data/`.

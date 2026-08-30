@@ -2,6 +2,14 @@
 
 # Sarasvatī — buddhavacanassa sabbalokika-vivaṭa-bhaṇḍāgāraṃ + bauddha-AI-paññatti
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="Lokassa buddhavacana-samparaya-kala-rekhaṃ — aṭṭha-sakha-samadassanaṃ (tibhasika-nam-akkharaṃ: Cina · Aṅgla · Tibet)" width="860">
+  </a>
+  <br>
+  <sub><i>Lokassa buddhavacana-samparaya-kala-rekhaṃ · aṭṭha-sakha-samadassanaṃ (中文 · English · བོད་ཡིག tibhasika-nam-akkharaṃ)<br>Sakala-PDF passituṃ: <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī** (Tibet-akkharā: དབྱངས་ཅན་མ། · Sanskrit: सरस्वती) dvedheva kammaṃ karoti:
 
 1. **Aṭṭha-sākha-buddhavacana-bhaṇḍāgāraṃ.** Buddhavacana-samparāyassa aṭṭhannaṃ sākhānaṃ anugatiyā bahubhāsika-vivaṭa-bhaṇḍāgāraṃ nimmāyati: **Indiyā-mūla · Sanskrit-hattha-lekha-vaṃsa · Pāli·Sīhaḷa · Dakkhiṇapubba-esiya-Theravāda · Silk-magga·Majjhima-esiya · Cīna-tepiṭaka · Cīna-akkhara-samājika-khetta · Tibet**. Sabbajanika-khette pāṭhāneva, athavā jīvitāhi paramparāhi saha vissaṭṭha-sahayogo.
@@ -15,8 +23,9 @@ Porāṇā ganthā manussānaṃ sādhāraṇā sampatti. Na te kopyright-ehi ba
 
 ## Vattamānā avatthā
 
-**v0.6.0** (2026-08-28):
+**v0.6.3** (2026-08-29):
 
+- 🖼 **v0.6.3 nava-tattaṃ** — sise **tibhasika-nam-akkhara-buddhavacana-samparaya-kala-rekha-paṭaṃ** (Cina · Aṅgla · Tibet) yojitaṃ, **A-saṃsodhanassa 82 kammani** aṭṭhannaparamparanaparibhinditva sampuṇṇaṃ kataṃ (Indiya-mulaṃ · Sanskrit-hattha-lekha-vaso · Pali·Sihalaṃ · Dakkhiṇapubba-esiya-Theravada · Silk-maggaṃ · Cina-tepiṭakaṃ · Cina-akkhara-samajika-khettaṃ · Tibet).
 - 📜 **Buddhist AI Charter** — dasa dhammā + pañca paṭikkhepā + adhikāra-vākyaṃ, `charter/BUDDHIST-AI-CHARTER.md` iti ṭhāne. 24 bhāsāsu parivattitaṃ, `charter/i18n/` ṭhāne, taṃtaṃ-bhāsāya bauddha-viduṃsanto-nirīkkhaṇaṃ pekkhamānaṃ.
 - 🕉 **Mahāparinibbāna-suttassa catubhāsika-vācanā** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · Aṅgla · Cīna · Tibet, `translations/mahaparinibbana-sutta/` ṭhāne. Idaṃ paññattiyā gantha-mūlaṃ, bhaṇḍāgārassa paṭhamā bīja-gantho ca.
 - 📊 **Saṇṭhita-kāla-rekhā-dattāni** — aṭṭhannaṃ paramparānaṃ (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) buddhavacana-samparāyassa 80 kammāni, JSONL / CSV rūpena, `docs/timeline-data/` ṭhāne.

@@ -2,6 +2,14 @@
 
 # Sarasvatī — kho lưu trữ mở toàn cầu cho kinh điển Phật giáo + Hiến chương AI Phật giáo
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="Niên biểu tám hệ truyền thừa kinh điển Phật giáo thế giới (tựa đề tam ngữ: Hoa·Anh·Tạng)" width="860">
+  </a>
+  <br>
+  <sub><i>Niên biểu tám hệ truyền thừa kinh điển Phật giáo thế giới · Bát hệ tịnh quan (中文 · English · བོད་ཡིག tựa đề tam ngữ)<br>Nhấp để xem PDF đầy đủ: <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī** (tiếng Tây Tạng: དབྱངས་ཅན་མ། · tiếng Phạn: सरस्वती) làm đúng hai việc:
 
 1. **Kho lưu trữ tám truyền thừa.** Xây dựng kho lưu trữ mở đa ngôn ngữ dọc theo tám truyền thừa của kinh điển Phật giáo: **Ấn Độ nguyên ủy · Hệ thủ bản Sanskrit · Pāli·Sri Lanka · Nam tông Đông Nam Á · Con đường Tơ lụa·Trung Á · Đại tạng kinh Hán · Vùng chữ Hán · Tây Tạng**. Chỉ dùng văn bản thuộc miền công cộng, hoặc hợp tác minh thị với các truyền thống đang sống.
@@ -15,8 +23,9 @@ Các văn bản kinh điển là di sản chung của nhân loại. Chúng khôn
 
 ## Trạng thái hiện tại
 
-**v0.6.0** (2026-08-28):
+**v0.6.3** (2026-08-29):
 
+- 🖼 **Mới trong v0.6.3** — Thêm **biểu ngữ niên biểu truyền thừa với tựa đề tam ngữ** (Hoa·Anh·Tạng) ở đầu trang, và hoàn thành **A giáo khám 82 sự kiện** bao trùm tám hệ truyền thừa (Ấn Độ nguyên lưu · hệ thủ bản Phạn văn · Pāli·Sri Lanka · Nam truyền Đông Nam Á · Con đường Tơ lụa · Hán tạng · Vòng văn hóa chữ Hán · Tạng truyền).
 - 📜 **Buddhist AI Charter** — mười nguyên tắc + năm điều từ chối + điều khoản chứng thực, tại `charter/BUDDHIST-AI-CHARTER.md`. Đã dịch sang 24 ngôn ngữ trong `charter/i18n/`, đang chờ học giả Phật giáo bản ngữ từng ngôn ngữ hiệu đính.
 - 🕉 **Đối chiếu bốn ngôn ngữ Kinh Đại Bát Niết-bàn** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · Anh · Hán · Tạng, tại `translations/mahaparinibbana-sutta/`. Đây là gốc rễ kinh điển của hiến chương và là văn bản hạt giống đầu tiên của kho lưu trữ.
 - 📊 **Dữ liệu dòng thời gian có cấu trúc** — 80 sự kiện truyền thừa kinh điển qua 8 truyền thống (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan), định dạng JSONL / CSV, tại `docs/timeline-data/`.

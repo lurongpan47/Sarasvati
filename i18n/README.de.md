@@ -2,6 +2,14 @@
 
 # Sarasvatī — ein globales offenes Archiv des buddhistischen Kanons + Buddhistische KI-Charta
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="Weltweite Überlieferungschronologie des buddhistischen Kanons — parallele Ansicht der acht Zweige (dreisprachiger Titel: Chinesisch · Englisch · Tibetisch)" width="860">
+  </a>
+  <br>
+  <sub><i>Weltweite Überlieferungschronologie des buddhistischen Kanons · parallele Ansicht der acht Zweige (中文 · English · བོད་ཡིག dreisprachiger Titel)<br>Vollständiges PDF: <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī** (Tibetisch: དབྱངས་ཅན་མ། · Sanskrit: सरस्वती) tut genau zwei Dinge:
 
 1. **Kanon-Archiv in acht Zweigen.** Aufbau eines mehrsprachigen offenen Archivs entlang der acht Übertragungszweige des buddhistischen Kanons: **Indien · Sanskrit-Manuskripte · Pāli·Sri Lanka · Südostasiatischer Theravāda · Seidenstraße·Zentralasien · Chinesischer Kanon · Kulturraum der chinesischen Schriftzeichen · Tibetisch**. Ausschließlich gemeinfreie Texte oder explizite Kooperation mit lebendigen Traditionen.
@@ -15,8 +23,9 @@ Klassische Texte sind das gemeinsame Erbe der Menschheit. Sie sollten weder durc
 
 ## Aktueller Stand
 
-**v0.6.0** (2026-08-28):
+**v0.6.3** (2026-08-29):
 
+- 🖼 **Neu in v0.6.3** — Oben wurde ein **Überlieferungs-Zeitleisten-Banner mit dreisprachigem Titel** (Chinesisch · Englisch · Tibetisch) hinzugefügt, und die **A-Revision über 82 Ereignisse** wurde über alle acht Überlieferungszweige des buddhistischen Kanons abgeschlossen (indischer Ursprung · Sanskrit-Manuskript-Zweig · Pāli·Sri Lanka · südostasiatischer Theravada · Seidenstraße · chinesischer Kanon · sinographischer Kulturraum · tibetisch).
 - 📜 **Buddhist AI Charter** — zehn Prinzipien + fünf Verweigerungen + Bezeugungsklausel, in `charter/BUDDHIST-AI-CHARTER.md`. In 24 Sprachen übersetzt, in `charter/i18n/`, wartet auf die Prüfung durch muttersprachliche buddhistische Gelehrte.
 - 🕉 **Viersprachige Lesung des Mahāparinibbāna Sutta** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · Englisch · Chinesisch · Tibetisch, in `translations/mahaparinibbana-sutta/`. Dies ist die schriftliche Wurzel der Charta und der erste Saat-Text des Archivs.
 - 📊 **Strukturierte Zeitleistendaten** — 80 kanonische Übertragungsereignisse über die 8 Traditionen (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) als JSONL / CSV, in `docs/timeline-data/`.

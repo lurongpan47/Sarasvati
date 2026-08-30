@@ -2,6 +2,14 @@
 
 # Sarasvatī — Budist kanonu için küresel açık arşiv + Budist AI Şartı
 
+<p align="center">
+  <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf">
+    <img src="../docs/timeline-preview-3lang.png" alt="Dünya Budist Kanonu Aktarım Zaman Çizelgesi — sekiz koldan paralel bakış (üç dilli başlık: Çince · İngilizce · Tibetçe)" width="860">
+  </a>
+  <br>
+  <sub><i>Dünya Budist Kanonu Aktarım Zaman Çizelgesi · sekiz koldan paralel bakış (中文 · English · བོད་ཡིག üç dilli başlık)<br>Tam PDF: <a href="../docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
+</p>
+
 **Sarasvatī** (Tibetçe: དབྱངས་ཅན་མ། · Sanskritçe: सरस्वती) tam olarak iki şey yapar:
 
 1. **Sekiz dallı kanon arşivi.** Budist kanonun aktarımının sekiz dalı boyunca çok dilli açık bir arşiv oluşturmak: **Hindistan kökeni · Sanskrit el yazması ailesi · Pāli·Sri Lanka · Güneydoğu Asya Theravāda · İpek Yolu·Orta Asya · Çin kanonu · Çin karakteri kültürel alanı · Tibet**. Yalnızca kamu malı metinler veya yaşayan geleneklerle açık işbirliği.
@@ -15,8 +23,9 @@ Klasik metinler insanlığın ortak mirasıdır. Telif hakkıyla kilitlenmemeli,
 
 ## Mevcut durum
 
-**v0.6.0** (2026-08-28):
+**v0.6.3** (2026-08-29):
 
+- 🖼 **v0.6.3 yenilikleri** — Üstte **üç dilli başlıklı aktarım zaman çizelgesi bannerlı** (Çince · İngilizce · Tibetçe) eklendi, ve Budist kanonunun sekiz aktarım kolunu kapsayan **A-denetimi 82 olayı** tamamlandı (Hindistan kökeni · Sanskritçe el yazmaları kolu · Pāli·Sri Lanka · Güneydoğu Asya Theravada · İpek Yolu · Çin kanonu · Çince yazı kültür bölgesi · Tibet).
 - 📜 **Buddhist AI Charter** — on ilke + beş red + tasdik maddesi, `charter/BUDDHIST-AI-CHARTER.md` içinde. 24 dile çevrildi, `charter/i18n/` içinde, her dilin ana dili Budist bilim insanlarının incelemesini bekliyor.
 - 🕉 **Mahāparinibbāna Sutta'nın dört dilli okuması** (DN 16.2.26 · 16.4.7 · 16.6.7) — Pāli · İngilizce · Çince · Tibetçe, `translations/mahaparinibbana-sutta/` içinde. Bu, şartın kutsal kitap kökü ve arşivin ilk tohum metnidir.
 - 📊 **Yapılandırılmış zaman çizelgesi verileri** — 8 gelenek (india, sanskrit, pali, seasia, silkroad, chinese, sinosphere, tibetan) boyunca 80 kanon aktarım olayı JSONL / CSV biçiminde, `docs/timeline-data/` içinde.
