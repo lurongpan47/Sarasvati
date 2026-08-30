@@ -409,6 +409,12 @@ def write_summary(text: str, final: bool = False) -> None:
 # Git                                                                          #
 # --------------------------------------------------------------------------- #
 
+_LEAK_RE = __import__("re").compile(
+    r"(AIzaSy[A-Za-z0-9_-]{20,}|sk-ant-[A-Za-z0-9_-]{20,}|"
+    r"sk-proj-[A-Za-z0-9_-]{20,}|xai-[A-Za-z0-9_-]{20,})"
+)
+
+
 def git_commit_push(message: str) -> bool:
     """Commit + push results (never keys). Best-effort."""
     repo_root = Path("/Users/lucy/clawd/Sarasvati")
@@ -429,7 +435,7 @@ def git_commit_push(message: str) -> bool:
             ["git", "diff", "--cached", "-U0"],
             cwd=repo_root, capture_output=True, text=True, timeout=30,
         )
-        if r.stdout and ("sk-ant-" in r.stdout or "xai-" in r.stdout.lower().replace("xai-", "xai-")[:0]):
+        if r.stdout and _LEAK_RE.search(r.stdout):
             # unstage: something looks like a key
             subprocess.run(["git", "reset"], cwd=repo_root, check=False, timeout=15)
             print("!! key-like string in diff, aborting commit", flush=True)

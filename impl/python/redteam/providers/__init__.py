@@ -80,6 +80,36 @@ def get_key(*candidates: str) -> str | None:
 # Pricing (approximate, USD per 1M tokens)                                     #
 # --------------------------------------------------------------------------- #
 
+# --------------------------------------------------------------------------- #
+# Universal error-text scrubber                                                #
+# --------------------------------------------------------------------------- #
+
+import re as _re
+
+_KEY_PATTERNS = [
+    _re.compile(r"AIzaSy[A-Za-z0-9_-]{20,}"),
+    _re.compile(r"sk-ant-[A-Za-z0-9_-]{20,}"),
+    _re.compile(r"sk-proj-[A-Za-z0-9_-]{20,}"),
+    _re.compile(r"sk-[A-Za-z0-9_-]{40,}"),
+    _re.compile(r"xai-[A-Za-z0-9_-]{20,}"),
+    _re.compile(r"ms-[A-Za-z0-9_-]{20,}"),
+    _re.compile(r"[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}"),  # jwt-ish
+]
+
+
+def scrub(text: str) -> str:
+    """Remove anything key-shaped from a string. Used before we ever write
+    error text to disk or logs."""
+    if not text:
+        return text
+    for p in _KEY_PATTERNS:
+        text = p.sub("<KEY_REDACTED>", text)
+    # Also strip ?key=... query params outright
+    text = _re.sub(r"([?&](?:key|api[_-]?key|access[_-]?token)=)[^&\s\"']+",
+                   r"\1<REDACTED>", text, flags=_re.IGNORECASE)
+    return text
+
+
 PRICING = {
     "claude":   {"in": 5.00,  "out": 25.00},   # claude opus 4.x-ish
     "gpt":      {"in": 2.50,  "out": 10.00},   # gpt-4o / gpt-5.5 approx
@@ -127,7 +157,7 @@ class Client:
             return True
         except Exception as e:
             self.available = False
-            self.last_error = f"{type(e).__name__}: {str(e)[:200]}"
+            self.last_error = scrub(f"{type(e).__name__}: {str(e)[:400]}")
             return False
 
     def chat(self, prompt: str, system: str | None = None,
@@ -142,7 +172,7 @@ class Client:
         try:
             text, in_tok, out_tok = self._call(prompt, system, max_tokens, timeout)
             return {
-                "text": text,
+                "text": scrub(text),
                 "usage": {"input_tokens": in_tok, "output_tokens": out_tok},
                 "cost_usd": _cost(self.name, in_tok, out_tok),
                 "latency_s": round(time.time() - t0, 3),
@@ -152,7 +182,7 @@ class Client:
             return {
                 "text": "", "usage": {"input_tokens": 0, "output_tokens": 0},
                 "cost_usd": 0.0, "latency_s": round(time.time() - t0, 3),
-                "error": f"{type(e).__name__}: {str(e)[:200]}",
+                "error": scrub(f"{type(e).__name__}: {str(e)[:400]}"),
             }
 
 
