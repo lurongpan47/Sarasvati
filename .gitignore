@@ -18,3 +18,13 @@ scripts/.feedback_state.json
 scripts/.branch_proposals.jsonl
 scripts/.resource_asks.jsonl
 manifests/.ots_confirmed
+
+# Secrets — NEVER commit
+.env
+.env.*
+*.key
+impl/python/redteam/results/.spend.json
+impl/python/redteam/results/.checkpoint.json
+impl/python/redteam/results/coordinator.log
+impl/python/redteam/results/coordinator.pid
+impl/python/redteam/results/ping-latest.json
