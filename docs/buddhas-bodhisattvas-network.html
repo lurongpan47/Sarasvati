@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>诸佛菩萨关系网络图</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+  :root{
+    --ink:#101728;        /* 夜唐卡底 */
+    --ink2:#0A0F1C;
+    --paper:#EFE6D2;      /* 贝叶经 */
+    --gold:#C9962F;       /* 金线 */
+    --vermilion:#C0392F;  /* 朱砂 */
+    --malachite:#3E8C72;  /* 石绿 */
+    --azurite:#3E6BA8;    /* 青金 */
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;height:100%;background:var(--ink);color:var(--paper);
+    font-family:"PingFang SC","Noto Sans SC","Hiragino Sans GB",system-ui,sans-serif;
+    overscroll-behavior:none}
+  #stage{position:fixed;inset:0}
+  svg{width:100%;height:100%;display:block;touch-action:none}
+
+  header{position:fixed;top:0;left:0;right:0;padding:14px 16px 10px;
+    background:linear-gradient(to bottom,rgba(10,15,28,.96),rgba(10,15,28,0));
+    pointer-events:none;z-index:5}
+  h1{margin:0;font-family:"Songti SC","STSong","Noto Serif SC",serif;
+    font-weight:700;font-size:20px;letter-spacing:.14em}
+  .sub{margin-top:4px;font-size:11px;letter-spacing:.08em;color:#9AA6BE}
+
+  #views{margin-top:9px;display:flex;gap:7px;pointer-events:auto}
+  .vbtn{background:transparent;border:1px solid rgba(201,150,47,.55);color:var(--gold);
+    border-radius:999px;padding:5px 13px;font-size:12px;letter-spacing:.12em;cursor:pointer;
+    font-family:"Songti SC","STSong",serif}
+  .vbtn:active{background:rgba(201,150,47,.18)}
+  #chips{position:fixed;left:0;right:0;bottom:0;z-index:5;
+    padding:10px 12px calc(12px + env(safe-area-inset-bottom));
+    display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;
+    background:linear-gradient(to top,rgba(10,15,28,.97) 60%,rgba(10,15,28,0))}
+  #chips::-webkit-scrollbar{display:none}
+  .chip{flex:0 0 auto;border:1px solid rgba(239,230,210,.22);background:transparent;
+    color:#B9C2D4;border-radius:999px;padding:6px 11px;font-size:12px;letter-spacing:.06em;
+    cursor:pointer;transition:.18s}
+  .chip[data-on="1"]{color:var(--ink);border-color:transparent;font-weight:600}
+  .chip:focus-visible,.chip:focus{outline:2px solid var(--gold);outline-offset:2px}
+
+  #card{position:fixed;left:10px;right:10px;bottom:58px;z-index:6;
+    background:rgba(16,23,40,.97);border:1px solid rgba(201,150,47,.4);
+    border-radius:14px;padding:14px 15px 15px;transform:translateY(140%);
+    transition:transform .28s cubic-bezier(.2,.8,.2,1);max-height:52vh;overflow:auto;
+    box-shadow:0 -10px 40px rgba(0,0,0,.5)}
+  #card[data-open="1"]{transform:translateY(0)}
+  #card .cn{font-family:"Songti SC","STSong","Noto Serif SC",serif;font-size:19px;font-weight:700}
+  #card .en{font-size:13px;letter-spacing:.05em;color:#E3DACB;margin-top:4px}
+  #card .sk{font-size:12px;letter-spacing:.12em;color:var(--gold);margin-top:3px;font-style:italic}
+  #card .tb{font-size:17px;color:#C7D2E6;margin-top:2px;line-height:1.5}
+  #card .d{font-size:13px;line-height:1.75;margin-top:9px;color:#DED6C4}
+  #card .rel{margin-top:11px;border-top:1px dashed rgba(239,230,210,.18);padding-top:9px}
+  #card .r{font-size:12.5px;line-height:1.95;color:#C3CBDC}
+  #card .r b{color:var(--paper);font-weight:600}
+  #card .r i{color:var(--gold);font-style:normal;font-size:11px;letter-spacing:.08em;margin-right:6px}
+  #close{position:absolute;top:9px;right:11px;background:none;border:0;color:#7C879E;font-size:20px;cursor:pointer}
+
+  .node text{pointer-events:none;font-size:11px;fill:#E6DECB;
+    font-family:"Songti SC","STSong","Noto Serif SC",serif;letter-spacing:.04em}
+  .node.dim{opacity:.13}
+  .link.dim{opacity:.05}
+  .axis{fill:#6E7A93;font-size:10px;letter-spacing:.3em;
+    font-family:"Songti SC","STSong",serif}
+  @media (prefers-reduced-motion:reduce){#card{transition:none}}
+  @media(min-width:820px){
+    #card{left:auto;right:16px;bottom:64px;width:360px;max-height:66vh}
+    h1{font-size:24px}
+  }
+</style>
+</head>
+<body>
+<div id="stage"><svg id="svg"></svg></div>
+
+<header>
+  <h1>诸佛菩萨关系网络</h1>
+  <div class="sub">五方曼荼罗为心 · 藏传四派与汉传诸宗法脉 · 点击任一尊</div>
+  <div id="views"><button id="btnCenter" class="vbtn">归心</button><button id="btnAll" class="vbtn">全览</button></div>
+</header>
+
+<div id="chips"></div>
+
+<div id="card">
+  <button id="close" aria-label="关闭">×</button>
+  <div class="cn"></div><div class="en"></div><div class="sk"></div><div class="tb"></div>
+  <div class="d"></div><div class="rel"></div>
+</div>
+
+<script>
+const G = {
+  b:{n:'佛·本初',c:'#C9962F'},
+  p:{n:'菩萨',c:'#C0392F'},
+  y:{n:'本尊·明王',c:'#3E8C72'},
+  h:{n:'护法',c:'#7B4A9C'},
+  f:{n:'释迦法眷',c:'#3E6BA8'},
+  d:{n:'十大弟子',c:'#4E8FB0'},
+  m:{n:'印度论师',c:'#9A8B6B'},
+  ni:{n:'宁玛·前弘',c:'#A8577E'},
+  ka:{n:'噶举',c:'#3FA0A8'},
+  sa:{n:'萨迦',c:'#8E7CC3'},
+  ge:{n:'噶当·格鲁',c:'#E0C05A'},
+  jo:{n:'觉囊',c:'#8FBF6B'},
+  ch:{n:'汉传·禅与教',c:'#7EA8C4'},
+  jt:{n:'汉传·净土与密',c:'#CE8A5C'}
+};
+
+const N=[
+// 本初·法身
+{id:'kunzang',cn:'普贤王如来',en:'Samantabhadra (Primordial Buddha)',sk:'Samantabhadra',tb:'ཀུན་ཏུ་བཟང་པོ',g:'b',ax:[-190,-560],d:'宁玛派本初佛，法身自性。与佛母双运，表空明不二，非因缘所生。'},
+{id:'vajradhara',cn:'金刚总持',en:'Vajradhara',sk:'Vajradhara',tb:'རྡོ་རྗེ་འཆང',g:'b',ax:[190,-560],d:'新译密续之本初佛。噶举、萨迦、格鲁诸派的密法传承皆溯源于此。'},
+// 五方佛（曼荼罗，东在下）
+{id:'vairo',cn:'毗卢遮那',en:'Vairochana',sk:'Vairocana',tb:'རྣམ་པར་སྣང་མཛད',g:'b',pin:[0,0],d:'大日如来，五方佛中尊，佛部部主，法界体性智。《华严经》教主，报身佛。'},
+{id:'aksho',cn:'阿閦佛',en:'Akshobhya',sk:'Akṣobhya',tb:'མི་བསྐྱོད་པ',g:'b',pin:[0,205],d:'东方妙喜净土。金刚部部主，大圆镜智，转瞋为智。'},
+{id:'ratna',cn:'宝生佛',en:'Ratnasambhava',sk:'Ratnasambhava',tb:'རིན་ཆེན་འབྱུང་གནས',g:'b',pin:[-205,0],d:'南方。宝部部主，平等性智，转慢为智。'},
+{id:'amita',cn:'阿弥陀佛',en:'Amitabha',sk:'Amitābha',tb:'འོད་དཔག་མེད',g:'b',pin:[0,-205],d:'西方极乐世界。莲花部部主，妙观察智，转贪为智。'},
+{id:'amogha',cn:'不空成就佛',en:'Amoghasiddhi',sk:'Amoghasiddhi',tb:'དོན་ཡོད་གྲུབ་པ',g:'b',pin:[205,0],d:'北方。羯磨部部主，成所作智，转嫉为智。'},
+// 三世·过去佛
+{id:'sakya',cn:'释迦牟尼',en:'Shakyamuni Buddha',sk:'Śākyamuni',tb:'ཤཱཀྱ་ཐུབ་པ',g:'b',ax:[-430,-250],d:'贤劫第四佛，娑婆教主，历史上的乔达摩·悉达多。密教中视为毗卢遮那之化身。'},
+{id:'dipam',cn:'燃灯佛',en:'Dipamkara Buddha',sk:'Dīpaṃkara',tb:'མར་མེ་མཛད',g:'b',ax:[-700,-430],d:'过去佛。曾为菩萨时的释迦授记，予其未来成佛之记。'},
+{id:'kasyapab',cn:'迦叶佛',en:'Kashyapa Buddha',sk:'Kāśyapa',tb:'འོད་སྲུང',g:'b',ax:[-720,-300],d:'贤劫第三佛，释迦之前一佛。'},
+{id:'seven',cn:'过去七佛',en:'The Seven Buddhas of the Past',sk:'Sapta Tathāgata',tb:'སངས་རྒྱས་རབས་བདུན',g:'b',ax:[-800,-160],d:'毗婆尸、尸弃、毗舍浮、拘留孙、拘那含牟尼、迦叶，与释迦合称七佛。'},
+{id:'bhaisajya',cn:'药师佛',en:'Medicine Buddha',sk:'Bhaiṣajyaguru',tb:'སངས་རྒྱས་སྨན་བླ',g:'b',ax:[560,-420],d:'东方净琉璃世界，十二大愿，主消灾延寿。与释迦、弥陀合称横三世佛。'},
+{id:'suryap',cn:'日光菩萨',en:'Suryaprabha',sk:'Sūryaprabha',tb:'ཉི་མའི་འོད',g:'p',ax:[720,-500],d:'药师佛左胁侍。'},
+{id:'candrap',cn:'月光菩萨',en:'Chandraprabha',sk:'Candraprabha',tb:'ཟླ་བའི་འོད',g:'p',ax:[760,-380],d:'药师佛右胁侍。'},
+// 八大菩萨
+{id:'manju',cn:'文殊菩萨',en:'Manjushri',sk:'Mañjuśrī',tb:'འཇམ་དཔལ་དབྱངས',g:'p',ax:[-250,430],d:'智慧第一，持剑与经函。三怙主之一，深观派（中观）传承之源。'},
+{id:'avalo',cn:'观音菩萨',en:'Avalokiteshvara',sk:'Avalokiteśvara',tb:'སྤྱན་རས་གཟིགས',g:'p',ax:[60,440],d:'大悲，三怙主之一。藏地守护尊，化现极广，为阿弥陀佛之心子。'},
+{id:'samanta',cn:'普贤菩萨',en:'Samantabhadra (Bodhisattva)',sk:'Samantabhadra',tb:'ཀུན་ཏུ་བཟང་པོ',g:'p',ax:[-470,470],d:'大行，十大愿王。与文殊、毗卢遮那合称华严三圣。（与宁玛之普贤王如来同名而异位）'},
+{id:'mahasth',cn:'大势至菩萨',en:'Mahasthamaprapta',sk:'Mahāsthāmaprāpta',tb:'མཐུ་ཆེན་ཐོབ',g:'p',ax:[280,430],d:'阿弥陀佛右胁侍，以智慧光照众生。一说与金刚手同体。'},
+{id:'ksiti',cn:'地藏菩萨',en:'Kshitigarbha',sk:'Kṣitigarbha',tb:'ས་ཡི་སྙིང་པོ',g:'p',ax:[480,470],d:'大愿，地狱未空誓不成佛。受释迦付嘱，于佛灭后至弥勒出世间度众。'},
+{id:'maitreya',cn:'弥勒',en:'Maitreya',sk:'Maitreya',tb:'བྱམས་པ་མགོན་པོ',g:'p',ax:[-120,250],d:'未来佛，现居兜率天为一生补处菩萨。广行派传承之源，传《瑜伽师地论》等予无著。'},
+{id:'akasa',cn:'虚空藏菩萨',en:'Akashagarbha',sk:'Ākāśagarbha',tb:'ནམ་མཁའི་སྙིང་པོ',g:'p',ax:[660,560],d:'八大菩萨之一，福智二藏如虚空。'},
+{id:'sarva',cn:'除盖障菩萨',en:'Sarvanivaranavishkambhin',sk:'Sarvanīvaraṇaviṣkambhin',tb:'སྒྲིབ་པ་རྣམ་སེལ',g:'p',ax:[820,640],d:'八大菩萨之一，除众生烦恼所知二障。'},
+{id:'vajrapani',cn:'金刚手菩萨',en:'Vajrapani',sk:'Vajrapāṇi',tb:'ཕྱག་ན་རྡོ་རྗེ',g:'p',ax:[300,250],d:'三怙主之一，表诸佛威力，密续结集者。为阿閦金刚部之主尊菩萨。'},
+// 本尊·明王·度母
+{id:'tara_g',cn:'绿度母',en:'Green Tara',sk:'Śyāmatārā',tb:'སྒྲོལ་ལྗང',g:'y',ax:[430,120],d:'观音悲泪所化，救八难，事业迅捷。藏地最普遍的本尊之一。'},
+{id:'tara_w',cn:'白度母',en:'White Tara',sk:'Sitatārā',tb:'སྒྲོལ་དཀར',g:'y',ax:[560,60],d:'七眼度母，主长寿。与无量寿佛、尊胜佛母合称长寿三尊。'},
+{id:'chenrezig4',cn:'四臂观音',en:'Four-Armed Avalokiteshvara',sk:'Ṣaḍakṣarī',tb:'སྤྱན་རས་གཟིགས་ཕྱག་བཞི་པ',g:'y',ax:[230,600],d:'六字大明咒之主尊，观音的根本相之一。'},
+{id:'thousand',cn:'千手千眼观音',en:'Thousand-Armed Avalokiteshvara',sk:'Sahasrabhuja',tb:'ཕྱག་སྟོང་སྤྱན་སྟོང',g:'y',ax:[90,640],d:'十一面千手相，表遍观众生、遍施救度。'},
+{id:'hayagriva',cn:'马头明王',en:'Hayagriva',sk:'Hayagrīva',tb:'རྟ་མགྲིན',g:'y',ax:[420,330],d:'观音之忿怒化现，莲花部教令轮身，降伏魔障。'},
+{id:'yamantaka',cn:'大威德金刚',en:'Yamantaka / Vajrabhairava',sk:'Yamāntaka',tb:'གཤིན་རྗེ་གཤེད',g:'y',ax:[-560,250],d:'阎曼德迦，文殊之忿怒相，格鲁三大本尊之一，降阎摩死主。'},
+{id:'acala',cn:'不动明王',en:'Achala',sk:'Acala',tb:'མི་གཡོ་བ',g:'y',ax:[-330,120],d:'大日如来之教令轮身，五大明王之首。'},
+{id:'kalacakra',cn:'时轮金刚',en:'Kalachakra',sk:'Kālacakra',tb:'དུས་ཀྱི་འཁོར་ལོ',g:'y',ax:[430,-180],d:'无上瑜伽续本尊，外内别三时轮，与香巴拉传承相系。'},
+{id:'guhya',cn:'密集金刚',en:'Guhyasamaja',sk:'Guhyasamāja',tb:'གསང་བ་འདུས་པ',g:'y',ax:[300,-330],d:'父续之王，阿閦部本尊，格鲁三大本尊之一。'},
+// 护法
+{id:'mahakala',cn:'大黑天',en:'Mahakala',sk:'Mahākāla',tb:'ནག་པོ་ཆེན་པོ',g:'h',ax:[700,300],d:'玛哈嘎拉，观音之忿怒护法相，诸派主要智慧护法。'},
+{id:'palden',cn:'吉祥天母',en:'Palden Lhamo',sk:'Śrīdevī',tb:'དཔལ་ལྡན་ལྷ་མོ',g:'h',ax:[820,400],d:'班丹拉姆，藏地与达赖喇嘛法脉之主要女护法。'},
+{id:'yama',cn:'阎摩法王',en:'Yama Dharmaraja',sk:'Yama Dharmarāja',tb:'གཤིན་རྗེ་ཆོས་རྒྱལ',g:'h',ax:[900,190],d:'业力法王，格鲁派护法，为大威德所调伏。'},
+{id:'vaisravana',cn:'多闻天王',en:'Vaishravana',sk:'Vaiśravaṇa',tb:'རྣམ་ཐོས་སྲས',g:'h',ax:[930,60],d:'四大天王之北方天王，兼掌财宝。'},
+// 释迦法眷
+{id:'suddho',cn:'净饭王',en:'King Shuddhodana',sk:'Śuddhodana',tb:'ཟས་གཙང',g:'f',ax:[-830,-560],d:'迦毗罗卫城主，释迦之父。'},
+{id:'maya',cn:'摩耶夫人',en:'Queen Maya',sk:'Māyā',tb:'ལྷ་མོ་སྒྱུ་འཕྲུལ་མ',g:'f',ax:[-960,-440],d:'释迦生母，产后七日生忉利天；佛后升天为母说法。'},
+{id:'gautami',cn:'摩诃波阇波提',en:'Mahaprajapati Gautami',sk:'Mahāprajāpatī',tb:'སྐྱེ་དགུའི་བདག་མོ',g:'f',ax:[-980,-300],d:'释迦姨母兼养母，佛教史上第一位比丘尼。'},
+{id:'yasodhara',cn:'耶输陀罗',en:'Yashodhara',sk:'Yaśodharā',tb:'གྲགས་འཛིན་མ',g:'f',ax:[-880,-70],d:'悉达多之妃，罗睺罗之母，后出家证阿罗汉。'},
+{id:'nanda',cn:'难陀',en:'Nanda',sk:'Nanda',tb:'དགའ་བོ',g:'f',ax:[-980,60],d:'释迦异母弟，由佛方便度化出家。'},
+{id:'devadatta',cn:'提婆达多',en:'Devadatta',sk:'Devadatta',tb:'ལྷས་བྱིན',g:'f',ax:[-1010,190],d:'佛之堂弟，破僧害佛，为经中反面之镜。'},
+// 十大弟子
+{id:'sariputra',cn:'舍利弗',en:'Shariputra',sk:'Śāriputra',tb:'ཤཱ་རིའི་བུ',g:'d',ax:[-780,560],d:'智慧第一。'},
+{id:'maudgal',cn:'目犍连',en:'Maudgalyayana',sk:'Maudgalyāyana',tb:'མཽད་གལ་གྱི་བུ',g:'d',ax:[-900,660],d:'神通第一。'},
+{id:'kasyapa',cn:'摩诃迦叶',en:'Mahakashyapa',sk:'Mahākāśyapa',tb:'འོད་སྲུང་ཆེན་པོ',g:'d',ax:[-620,640],d:'头陀第一。灵山拈花微笑，付法第一祖，主持第一次结集。'},
+{id:'ananda',cn:'阿难',en:'Ananda',sk:'Ānanda',tb:'ཀུན་དགའ་བོ',g:'d',ax:[-480,720],d:'多闻第一。佛之堂弟兼侍者，结集经藏，付法第二祖。'},
+{id:'subhuti',cn:'须菩提',en:'Subhuti',sk:'Subhūti',tb:'རབ་འབྱོར',g:'d',ax:[-960,790],d:'解空第一，《金刚经》当机众。'},
+{id:'purna',cn:'富楼那',en:'Purna',sk:'Pūrṇa',tb:'གང་པོ',g:'d',ax:[-820,830],d:'说法第一。'},
+{id:'katya',cn:'迦旃延',en:'Katyayana',sk:'Kātyāyana',tb:'ཀ་ཏྱའི་བུ',g:'d',ax:[-690,880],d:'论议第一。'},
+{id:'aniruddha',cn:'阿那律',en:'Aniruddha',sk:'Aniruddha',tb:'མ་འགགས་པ',g:'d',ax:[-560,860],d:'天眼第一，佛之堂弟。'},
+{id:'upali',cn:'优波离',en:'Upali',sk:'Upāli',tb:'ཉེ་བར་འཁོར',g:'d',ax:[-430,880],d:'持律第一，结集律藏。'},
+{id:'rahula',cn:'罗睺罗',en:'Rahula',sk:'Rāhula',tb:'སྒྲ་གཅན་འཛིན',g:'d',ax:[-700,300],d:'密行第一，佛之子。'},
+// 祖师·论师
+{id:'nagarjuna',cn:'龙树',en:'Nagarjuna',sk:'Nāgārjuna',tb:'ཀླུ་སྒྲུབ',g:'m',ax:[-180,760],d:'中观创立者，深观派之祖，八宗共祖。'},
+{id:'aryadeva',cn:'圣天（提婆）',en:'Aryadeva',sk:'Āryadeva',tb:'འཕགས་པ་ལྷ',g:'m',ax:[-40,860],d:'龙树上首弟子，著《四百论》。'},
+{id:'candrakirti',cn:'月称',en:'Chandrakirti',sk:'Candrakīrti',tb:'ཟླ་བ་གྲགས་པ',g:'m',ax:[90,930],d:'中观应成派集大成者，《入中论》作者。'},
+{id:'asanga',cn:'无著',en:'Asanga',sk:'Asaṅga',tb:'ཐོགས་མེད',g:'m',ax:[330,760],d:'广行派之祖，受弥勒教授而立瑜伽行派。'},
+{id:'vasubandhu',cn:'世亲',en:'Vasubandhu',sk:'Vasubandhu',tb:'དབྱིག་གཉེན',g:'m',ax:[470,830],d:'无著之弟，《俱舍论》《唯识三十颂》作者。'},
+{id:'dignaga',cn:'陈那',en:'Dignaga',sk:'Dignāga',tb:'ཕྱོགས་ཀྱི་གླང་པོ',g:'m',ax:[620,880],d:'因明量学之开创者。'},
+{id:'dharmakirti',cn:'法称',en:'Dharmakirti',sk:'Dharmakīrti',tb:'ཆོས་ཀྱི་གྲགས་པ',g:'m',ax:[740,940],d:'《释量论》作者，藏传因明之根本。'},
+{id:'padma',cn:'莲花生',en:'Padmasambhava / Guru Rinpoche',sk:'Padmasambhava',tb:'པདྨ་འབྱུང་གནས',g:'ni',ax:[1120,-40],d:'邬金第二佛，宁玛派开祖，被视为阿弥陀之身、观音之语、释迦之意的合一化现。'},
+{id:'atisa',cn:'阿底峡',en:'Atisha Dipamkara Shrijnana',sk:'Atiśa',tb:'ཇོ་བོ་རྗེ་དཔལ་ལྡན་ཨ་ཏི་ཤ',g:'ge',ax:[210,620],d:'噶当派之源，《菩提道灯论》作者，度母为其本尊。'},
+{id:'tsongkhapa',cn:'宗喀巴',en:'Je Tsongkhapa',sk:'Tsongkhapa',tb:'ཙོང་ཁ་པ་བློ་བཟང་གྲགས་པ',g:'ge',ax:[-330,700],d:'格鲁派开祖，被视为文殊化身，承阿底峡道次第之统。'},
+{id:'songtsen',cn:'松赞干布',en:'Songtsen Gampo',sk:'',tb:'སྲོང་བཙན་སྒམ་པོ',g:'ni',ax:[-60,300],d:'吐蕃法王，藏传视为观音化身，初弘佛法。'},
+{id:'dalai',cn:'达赖喇嘛',en:'Dalai Lama',sk:'',tb:'ཏཱ་ལའི་བླ་མ',g:'ge',ax:[170,470],d:'观音化身之转世系统，格鲁派法脉。'},
+{id:'panchen',cn:'班禅喇嘛',en:'Panchen Lama',sk:'',tb:'པཎ་ཆེན་བླ་མ',g:'ge',ax:[300,570],d:'阿弥陀佛化身之转世系统。'},
+// —— 宁玛·前弘期 ——
+{id:'vajrasattva',cn:'金刚萨埵',en:'Vajrasattva',sk:'Vajrasattva',tb:'རྡོ་རྗེ་སེམས་དཔའ',g:'ni',ax:[1050,-620],d:'报身净障本尊，百字明主尊。大圆满传承由普贤王如来经金刚萨埵而下。'},
+{id:'garab',cn:'极喜金刚',en:'Garab Dorje',sk:'Garab Dorje',tb:'དགའ་རབ་རྡོ་རྗེ',g:'ni',ax:[1230,-500],d:'大圆满人间初祖，立「椎击三要」。'},
+{id:'manjumitra',cn:'妙吉祥友',en:'Manjushrimitra',sk:'Mañjuśrīmitra',tb:'འཇམ་དཔལ་བཤེས་གཉེན',g:'ni',ax:[1400,-390],d:'极喜金刚上首弟子，判大圆满为心、界、诀窍三部。'},
+{id:'srisimha',cn:'吉祥狮子',en:'Shri Singha',sk:'Śrī Siṃha',tb:'ཤྲཱི་སིང་ཧ',g:'ni',ax:[1560,-280],d:'大圆满第四祖，莲师、无垢友、毗卢遮那译师之共同上师。'},
+{id:'vimala',cn:'无垢友',en:'Vimalamitra',sk:'Vimalamitra',tb:'བི་མ་ལ་མི་ཏྲ',g:'ni',ax:[1720,-150],d:'入藏弘大圆满心髓（毗玛宁体），与莲师并称。'},
+{id:'vairotsana',cn:'毗卢遮那译师',en:'Vairotsana',sk:'',tb:'བཻ་རོ་ཙ་ན',g:'ni',ax:[1660,20],d:'藏地首批七觉士之一，大译师，传大圆满心部。'},
+{id:'santaraksita',cn:'寂护',en:'Shantarakshita',sk:'Śāntarakṣita',tb:'ཞི་བ་འཚོ',g:'ni',ax:[1440,130],d:'瑜伽行中观派论师，建桑耶寺、授藏人首度出家戒。'},
+{id:'trisong',cn:'赤松德赞',en:'Trisong Detsen',sk:'',tb:'ཁྲི་སྲོང་ལྡེའུ་བཙན',g:'ni',ax:[1290,20],d:'吐蕃法王，迎请寂护与莲师，定佛教为国教。'},
+{id:'yeshe',cn:'益西措嘉',en:'Yeshe Tsogyal',sk:'',tb:'ཡེ་ཤེས་མཚོ་རྒྱལ',g:'ni',ax:[1130,150],d:'莲师佛母与心传弟子，伏藏（德玛）的结集与埋藏者。'},
+{id:'longchen',cn:'龙钦巴',en:'Longchen Rabjam (Longchenpa)',sk:'',tb:'ཀློང་ཆེན་རབ་འབྱམས',g:'ni',ax:[1780,180],d:'宁玛遍知法王，集心髓之大成，著《七宝藏》。'},
+{id:'jigme',cn:'吉美林巴',en:'Jigme Lingpa',sk:'',tb:'འཇིགས་མེད་གླིང་པ',g:'ni',ax:[1840,330],d:'于净相中受龙钦巴亲授，出《龙钦宁体》。'},
+// —— 噶举 ——
+{id:'tilopa',cn:'帝洛巴',en:'Tilopa',sk:'Tilopa',tb:'ཏཻ་ལོ་པ',g:'ka',ax:[1250,460],d:'大成就者，直受金刚总持教敕，噶举传承之始。'},
+{id:'naropa',cn:'那洛巴',en:'Naropa',sk:'Nāropa',tb:'ནཱ་རོ་པ',g:'ka',ax:[1400,570],d:'那烂陀班智达，经十二苦行得帝洛巴印可，立那洛六法。'},
+{id:'marpa',cn:'玛尔巴译师',en:'Marpa Lotsawa',sk:'',tb:'མར་པ་ལོ་ཙཱ་བ',g:'ka',ax:[1550,680],d:'三赴印度求法，译传密续，噶举派藏地初祖。'},
+{id:'mila',cn:'米拉日巴',en:'Milarepa',sk:'',tb:'མི་ལ་རས་པ',g:'ka',ax:[1700,790],d:'苦行瑜伽士，以道歌传法，一生成就之典范。'},
+{id:'gampopa',cn:'冈波巴',en:'Gampopa Sonam Rinchen',sk:'',tb:'སྒམ་པོ་པ',g:'ka',ax:[1850,900],d:'合噶当道次第与大手印于一炉，著《解脱庄严宝论》。'},
+{id:'karmapa',cn:'噶玛巴·都松钦巴',en:'Dusum Khyenpa, 1st Karmapa',sk:'',tb:'དུས་གསུམ་མཁྱེན་པ',g:'ka',ax:[1960,1020],d:'第一世噶玛巴，藏传首个转世制度之肇始，视为观音化身。'},
+{id:'cakra',cn:'胜乐金刚',en:'Chakrasamvara',sk:'Cakrasaṃvara',tb:'བདེ་མཆོག་འཁོར་ལོ',g:'y',ax:[1100,610],d:'母续本尊，噶举、萨迦所重。'},
+{id:'varahi',cn:'金刚亥母',en:'Vajravarahi',sk:'Vajravārāhī',tb:'རྡོ་རྗེ་ཕག་མོ',g:'y',ax:[1000,730],d:'智慧空行母之主尊，胜乐之明妃。'},
+// —— 萨迦 ——
+{id:'hevajra',cn:'喜金刚',en:'Hevajra',sk:'Hevajra',tb:'ཀྱེ་རྡོ་རྗེ',g:'y',ax:[900,990],d:'萨迦派根本本尊，「道果」教法所依之续。'},
+{id:'virupa',cn:'毗瓦巴',en:'Virupa',sk:'Virūpa',tb:'བི་རཱུ་པ',g:'sa',ax:[1050,1110],d:'八十四大成就者之一，道果（拉姆得）教授之源。'},
+{id:'drogmi',cn:'卓弥译师',en:'Drokmi Lotsawa',sk:'',tb:'འབྲོག་མི་ལོ་ཙཱ་བ',g:'sa',ax:[1200,1210],d:'译传道果入藏，昆氏之师。'},
+{id:'khon',cn:'昆·贡却杰布',en:'Khon Konchok Gyalpo',sk:'',tb:'འཁོན་དཀོན་མཆོག་རྒྱལ་པོ',g:'sa',ax:[1350,1310],d:'1073年建萨迦寺，萨迦昆氏法脉之祖。'},
+{id:'sachen',cn:'萨钦·贡噶宁波',en:'Sachen Kunga Nyingpo',sk:'',tb:'ས་ཆེན་ཀུན་དགའ་སྙིང་པོ',g:'sa',ax:[1210,1430],d:'萨迦五祖之首，得文殊「远离四种执着」教授。'},
+{id:'dragpa',cn:'扎巴坚赞',en:'Drakpa Gyaltsen',sk:'',tb:'གྲགས་པ་རྒྱལ་མཚན',g:'sa',ax:[1060,1510],d:'萨迦三祖，萨班之师。'},
+{id:'sapan',cn:'萨迦班智达',en:'Sakya Pandita Kunga Gyaltsen',sk:'',tb:'ས་སྐྱ་པཎྜི་ཏ་ཀུན་དགའ་རྒྱལ་མཚན',g:'sa',ax:[900,1430],d:'五明遍通，立藏地量学，被视为文殊化身。'},
+{id:'phagpa',cn:'八思巴',en:'Chogyal Phagpa',sk:'',tb:'ཆོས་རྒྱལ་འཕགས་པ',g:'sa',ax:[770,1530],d:'萨班之侄，元帝师，创八思巴文。'},
+// —— 觉囊 ——
+{id:'yumo',cn:'域摩·弥觉多吉',en:'Yumo Mikyo Dorje',sk:'',tb:'ཡུ་མོ་མི་བསྐྱོད་རྡོ་རྗེ',g:'jo',ax:[1600,1210],d:'时轮六支瑜伽行者，他空见之先声。'},
+{id:'dolpopa',cn:'笃补巴',en:'Dolpopa Sherab Gyaltsen',sk:'',tb:'དོལ་པོ་པ་ཤེས་རབ་རྒྱལ་མཚན',g:'jo',ax:[1750,1330],d:'觉囊遍知，明立「他空」（gzhan stong）见，著《山法了义海论》。'},
+{id:'taranatha',cn:'多罗那他',en:'Jonang Taranatha',sk:'Tāranātha',tb:'ཏཱ་ར་ནཱ་ཐ',g:'jo',ax:[1890,1450],d:'觉囊集大成者，著《印度佛教史》与度母源流。'},
+// —— 噶当·格鲁 ——
+{id:'dromton',cn:'仲敦巴',en:'Dromtonpa Gyalwe Jungne',sk:'',tb:'འབྲོམ་སྟོན་རྒྱལ་བའི་འབྱུང་གནས',g:'ge',ax:[100,880],d:'阿底峡上首弟子，创噶当派，视为观音化身。'},
+{id:'gyaltsab',cn:'贾曹杰',en:'Gyaltsab Je Darma Rinchen',sk:'',tb:'རྒྱལ་ཚབ་རྗེ་དར་མ་རིན་ཆེན',g:'ge',ax:[-520,900],d:'宗喀巴上首弟子，甘丹赤巴第一任。'},
+{id:'khedrup',cn:'克主杰',en:'Khedrup Je Gelek Pelzang',sk:'',tb:'མཁས་གྲུབ་རྗེ་དགེ་ལེགས་དཔལ་བཟང',g:'ge',ax:[-400,1010],d:'宗喀巴上首弟子，后被追认为第一世班禅。'},
+{id:'gendun',cn:'根敦朱巴',en:'Gendun Drub, 1st Dalai Lama',sk:'',tb:'དགེ་འདུན་གྲུབ',g:'ge',ax:[-150,1060],d:'宗喀巴弟子，建扎什伦布寺，后被追认为第一世达赖。'},
+// —— 汉传·禅与教 ——
+{id:'bodhidharma',cn:'菩提达摩',en:'Bodhidharma',sk:'Bodhidharma',tb:'བོ་དྷི་དྷརྨ',g:'ch',ax:[-880,980],d:'西天二十八祖、东土初祖，传「教外别传，直指人心」。'},
+{id:'huike',cn:'慧可',en:'Dazu Huike',sk:'',tb:'',g:'ch',ax:[-1040,1080],d:'二祖，立雪断臂求安心法门。'},
+{id:'daoxin',cn:'道信',en:'Dayi Daoxin',sk:'',tb:'',g:'ch',ax:[-1180,1180],d:'四祖，定居黄梅，开农禅之制。'},
+{id:'hongren',cn:'弘忍',en:'Daman Hongren',sk:'',tb:'',g:'ch',ax:[-1310,1290],d:'五祖，东山法门。'},
+{id:'huineng',cn:'慧能',en:'Huineng, the Sixth Patriarch',sk:'',tb:'',g:'ch',ax:[-1430,1410],d:'六祖，南宗顿悟，《坛经》为汉传唯一称经之祖师语录。'},
+{id:'shenxiu',cn:'神秀',en:'Yuquan Shenxiu',sk:'',tb:'',g:'ch',ax:[-1150,1430],d:'北宗渐修一系，两京法主。'},
+{id:'huairang',cn:'南岳怀让',en:'Nanyue Huairang',sk:'',tb:'',g:'ch',ax:[-1560,1500],d:'六祖法嗣，磨砖作镜以启马祖。'},
+{id:'xingsi',cn:'青原行思',en:'Qingyuan Xingsi',sk:'',tb:'',g:'ch',ax:[-1300,1580],d:'六祖法嗣，曹洞、云门、法眼三家之源。'},
+{id:'mazu',cn:'马祖道一',en:'Mazu Daoyi',sk:'',tb:'',g:'ch',ax:[-1680,1600],d:'洪州宗，「平常心是道」。'},
+{id:'baizhang',cn:'百丈怀海',en:'Baizhang Huaihai',sk:'',tb:'',g:'ch',ax:[-1600,1730],d:'立丛林清规，「一日不作，一日不食」。'},
+{id:'linji',cn:'临济义玄',en:'Linji Yixuan',sk:'',tb:'',g:'ch',ax:[-1720,1860],d:'临济宗祖，棒喝机锋，后传日本临济。'},
+{id:'dongshan',cn:'洞山良价',en:'Dongshan Liangjie',sk:'',tb:'',g:'ch',ax:[-1400,1780],d:'曹洞宗祖，立五位君臣。'},
+{id:'kumarajiva',cn:'鸠摩罗什',en:'Kumarajiva',sk:'Kumārajīva',tb:'',g:'ch',ax:[-520,1120],d:'长安译场，译《中论》《法华》《维摩》，中观入华之关键。'},
+{id:'zhiyi',cn:'智𫖮',en:'Zhiyi of Tiantai',sk:'',tb:'',g:'ch',ax:[-660,1260],d:'天台宗实立者，一念三千、三谛圆融，奉龙树为高祖。'},
+{id:'jizang',cn:'吉藏',en:'Jizang',sk:'',tb:'',g:'ch',ax:[-560,1560],d:'三论宗集大成者，承罗什—僧肇之学。'},
+{id:'dushun',cn:'杜顺',en:'Dushun',sk:'',tb:'',g:'ch',ax:[-380,1310],d:'华严宗初祖，法界观门。'},
+{id:'fazang',cn:'法藏',en:'Fazang',sk:'',tb:'',g:'ch',ax:[-450,1440],d:'华严三祖，十玄六相，金狮子章。'},
+{id:'xuanzang',cn:'玄奘',en:'Xuanzang',sk:'',tb:'',g:'ch',ax:[-240,1160],d:'西行求法，译《瑜伽师地论》《成唯识论》，立法相唯识。'},
+{id:'kuiji',cn:'窥基',en:'Kuiji',sk:'',tb:'',g:'ch',ax:[-150,1290],d:'玄奘上首弟子，慈恩宗祖。'},
+{id:'daoxuan',cn:'道宣',en:'Daoxuan',sk:'',tb:'',g:'ch',ax:[-720,1420],d:'南山律宗祖师，四分律之统。'},
+// —— 汉传·净土与密 ——
+{id:'huiyuan',cn:'慧远',en:'Huiyuan of Mount Lu',sk:'',tb:'',g:'jt',ax:[-900,1260],d:'庐山东林结白莲社，共期西方，后世奉为净土初祖。'},
+{id:'tanluan',cn:'昙鸾',en:'Tanluan',sk:'',tb:'',g:'jt',ax:[-1000,1400],d:'《往生论注》，判难行易行二道。'},
+{id:'daochuo',cn:'道绰',en:'Daochuo',sk:'',tb:'',g:'jt',ax:[-960,1550],d:'专弘观经，日课佛名。'},
+{id:'shandao',cn:'善导',en:'Shandao',sk:'',tb:'',g:'jt',ax:[-860,1690],d:'净土宗实立者，专修念佛，影响日本法然一系。'},
+{id:'yanshou',cn:'永明延寿',en:'Yongming Yanshou',sk:'',tb:'',g:'jt',ax:[-1060,1810],d:'禅净双修之倡者，著《宗镜录》。'},
+{id:'zhuhong',cn:'莲池袾宏',en:'Yunqi Zhuhong',sk:'',tb:'',g:'jt',ax:[-900,1920],d:'明末四大师之一，《弥陀疏钞》。'},
+{id:'zhixu',cn:'蕅益智旭',en:'Ouyi Zhixu',sk:'',tb:'',g:'jt',ax:[-750,2010],d:'明末四大师之一，《弥陀要解》。'},
+{id:'yinguang',cn:'印光',en:'Yinguang',sk:'',tb:'',g:'jt',ax:[-610,1910],d:'净土十三祖，近世持名念佛之宗匠。'},
+{id:'subhakara',cn:'善无畏',en:'Shubhakarasimha',sk:'Śubhakarasiṃha',tb:'',g:'jt',ax:[-300,1660],d:'开元三大士之一，译《大日经》，传胎藏界。'},
+{id:'vajrabodhi',cn:'金刚智',en:'Vajrabodhi',sk:'Vajrabodhi',tb:'',g:'jt',ax:[-170,1790],d:'开元三大士之一，传金刚界法。'},
+{id:'amoghav',cn:'不空',en:'Amoghavajra',sk:'Amoghavajra',tb:'',g:'jt',ax:[-320,1890],d:'开元三大士之一，唐密之盛极。'},
+{id:'huiguo',cn:'惠果',en:'Huiguo',sk:'',tb:'',g:'jt',ax:[-190,2010],d:'青龙寺阿阇黎，兼传金胎两部，付法空海。'},
+{id:'kukai',cn:'空海',en:'Kukai / Kobo Daishi',sk:'',tb:'',g:'jt',ax:[-50,2100],d:'入唐求法，返日开真言宗（东密）。'}
+];
+
+const L=[
+['kunzang','vairo','示现'],['vajradhara','vairo','示现'],
+['vajradhara','kalacakra','密续'],['vajradhara','guhya','密续'],
+['vairo','aksho','五部'],['vairo','ratna','五部'],['vairo','amita','五部'],['vairo','amogha','五部'],
+['vairo','sakya','化身'],['vairo','acala','教令轮身'],
+['vairo','manju','华严三圣'],['vairo','samanta','华严三圣'],
+['dipam','sakya','授记'],['seven','kasyapab','七佛'],['kasyapab','sakya','前佛'],
+['sakya','maitreya','授记继任'],['sakya','ksiti','付嘱'],
+['sakya','manju','胁侍'],['sakya','samanta','胁侍'],
+['bhaisajya','suryap','胁侍'],['bhaisajya','candrap','胁侍'],
+['bhaisajya','aksho','东方'],['bhaisajya','sakya','横三世'],['amita','sakya','横三世'],
+['amita','avalo','部主·心子'],['amita','mahasth','胁侍'],['amita','padma','化身'],['amita','panchen','化身'],
+['aksho','vajrapani','部属'],['aksho','guhya','部本尊'],
+['amogha','tara_g','部属'],
+['avalo','tara_g','悲泪所化'],['avalo','tara_w','悲泪所化'],
+['avalo','chenrezig4','化现'],['avalo','thousand','化现'],
+['avalo','hayagriva','忿怒相'],['avalo','mahakala','忿怒相'],
+['avalo','songtsen','化身'],['avalo','dalai','化身'],
+['manju','yamantaka','忿怒相'],['manju','tsongkhapa','化身'],['manju','nagarjuna','深观派'],
+['manju','avalo','三怙主'],['avalo','vajrapani','三怙主'],['vajrapani','manju','三怙主'],
+['vajrapani','mahasth','同体一说'],
+['yamantaka','yama','调伏'],
+['maitreya','asanga','广行派'],
+['nagarjuna','aryadeva','传法'],['aryadeva','candrakirti','传承'],
+['asanga','vasubandhu','兄弟·传法'],['vasubandhu','dignaga','传法'],['dignaga','dharmakirti','量学'],
+['atisa','tsongkhapa','噶当→格鲁'],['atisa','tara_g','本尊'],
+['tsongkhapa','yamantaka','三大本尊'],['tsongkhapa','guhya','三大本尊'],
+['tsongkhapa','dalai','法脉'],['dalai','panchen','互为师徒'],
+['dalai','palden','护法'],['tsongkhapa','mahakala','护法'],
+['sakya','suddho','父'],['sakya','maya','母'],['sakya','gautami','姨母·养母'],
+['sakya','yasodhara','妃'],['sakya','rahula','子'],['sakya','nanda','异母弟'],
+['sakya','devadatta','堂弟'],['sakya','ananda','堂弟'],['sakya','aniruddha','堂弟'],
+['yasodhara','rahula','母子'],['gautami','nanda','母子'],
+['sakya','sariputra','弟子'],['sakya','maudgal','弟子'],['sakya','kasyapa','弟子'],
+['sakya','subhuti','弟子'],['sakya','purna','弟子'],['sakya','katya','弟子'],
+['sakya','upali','弟子'],['sakya','vaisravana','护世'],
+['sariputra','maudgal','同参'],['kasyapa','ananda','付法'],
+['rahula','sariputra','依止'],['ananda','gautami','请度女众'],
+['padma','songtsen','前后弘'],['sakya','padma','意化现'],
+['kunzang','vajrasattva','传承'],['vajrasattva','garab','大圆满'],['garab','manjumitra','传承'],
+['manjumitra','srisimha','传承'],['srisimha','vimala','传承'],['srisimha','padma','传承'],
+['srisimha','vairotsana','传承'],['vimala','longchen','心髓'],['padma','longchen','心髓'],
+['padma','yeshe','佛母·心传'],['trisong','padma','迎请'],['trisong','santaraksita','迎请'],
+['santaraksita','vairotsana','授戒'],['longchen','jigme','净相亲授'],['songtsen','trisong','法王'],
+['vajradhara','tilopa','亲授'],['tilopa','naropa','传法'],['naropa','marpa','传法'],
+['marpa','mila','传法'],['mila','gampopa','传法'],['gampopa','karmapa','法嗣'],
+['atisa','gampopa','噶当合流'],['naropa','cakra','本尊'],['naropa','varahi','本尊'],
+['avalo','karmapa','化身'],['mahakala','karmapa','护法'],
+['aksho','hevajra','部本尊'],['hevajra','virupa','现证'],['virupa','drogmi','道果'],
+['drogmi','khon','传法'],['khon','sachen','父子'],['sachen','dragpa','父子'],
+['dragpa','sapan','叔侄'],['sapan','phagpa','叔侄'],['manju','sapan','化身'],
+['manju','sachen','离四贪执'],
+['kalacakra','yumo','时轮六支'],['yumo','dolpopa','他空'],['dolpopa','taranatha','觉囊法脉'],
+['atisa','dromton','法嗣'],['dromton','tsongkhapa','噶当传承'],['avalo','dromton','化身'],
+['tsongkhapa','gyaltsab','法嗣'],['tsongkhapa','khedrup','法嗣'],['tsongkhapa','gendun','法嗣'],
+['khedrup','panchen','追认初世'],['gendun','dalai','追认初世'],
+['kasyapa','bodhidharma','西天付法'],['bodhidharma','huike','东土二祖'],
+['huike','daoxin','经僧璨'],['daoxin','hongren','东山法门'],['hongren','huineng','衣钵·南宗'],
+['hongren','shenxiu','北宗'],['huineng','huairang','法嗣'],['huineng','xingsi','法嗣'],
+['huairang','mazu','洪州'],['mazu','baizhang','法嗣'],['baizhang','linji','经黄檗'],
+['xingsi','dongshan','经石头·药山'],
+['nagarjuna','kumarajiva','译传中观'],['kumarajiva','jizang','三论'],['nagarjuna','zhiyi','天台高祖'],
+['dushun','fazang','华严'],['vairo','fazang','华严教主'],
+['vasubandhu','xuanzang','唯识传译'],['xuanzang','kuiji','法嗣'],['upali','daoxuan','律脉'],
+['amita','huiyuan','结莲社'],['huiyuan','tanluan','净土祖位'],['tanluan','daochuo','师承'],
+['daochuo','shandao','师承'],['amita','shandao','专修念佛'],['shandao','yanshou','净土祖位'],
+['huineng','yanshou','禅净双修'],['yanshou','zhuhong','净土祖位'],['zhuhong','zhixu','净土祖位'],
+['zhixu','yinguang','净土祖位'],
+['vairo','subhakara','胎藏界'],['vairo','vajrabodhi','金刚界'],['vajrabodhi','amoghav','法嗣'],
+['amoghav','huiguo','法嗣'],['huiguo','kukai','付两部大法']
+];
+
+const byId=Object.fromEntries(N.map(n=>[n.id,n]));
+const links=L.map(([s,t,r])=>({source:s,target:t,r}));
+const rels={};
+L.forEach(([s,t,r])=>{(rels[s]=rels[s]||[]).push([t,r]);(rels[t]=rels[t]||[]).push([s,r]);});
+
+const svg=d3.select('#svg');
+const root=svg.append('g');
+const gMandala=root.append('g');
+const gLink=root.append('g');
+const gNode=root.append('g');
+
+// 曼荼罗底纹（东在下）
+[130,205,300].forEach((r,i)=>gMandala.append('circle').attr('r',r)
+  .attr('fill','none').attr('stroke','#C9962F').attr('stroke-opacity',i===1?.34:.13)
+  .attr('stroke-width',1));
+gMandala.append('rect').attr('x',-145).attr('y',-145).attr('width',290).attr('height',290)
+  .attr('fill','none').attr('stroke','#C9962F').attr('stroke-opacity',.16)
+  .attr('transform','rotate(45)');
+[['东',0,268],['南',-268,6],['西',0,-256],['北',268,6]].forEach(([t,x,y])=>
+  gMandala.append('text').attr('class','axis').attr('x',x).attr('y',y)
+    .attr('text-anchor','middle').text(t));
+
+const link=gLink.selectAll('line').data(links).join('line')
+  .attr('class','link').attr('stroke','#EFE6D2').attr('stroke-opacity',.16).attr('stroke-width',1);
+
+const node=gNode.selectAll('g').data(N).join('g').attr('class','node').style('cursor','pointer');
+node.append('circle')
+  .attr('r',d=>d.pin?11:(d.g==='b'?8:6.5))
+  .attr('fill',d=>G[d.g].c)
+  .attr('stroke','#101728').attr('stroke-width',1.5);
+node.append('text').attr('x',0).attr('y',d=>(d.pin?-17:-12))
+  .attr('text-anchor','middle')
+  .attr('font-size',d=>d.pin?13:11)
+  .text(d=>d.cn);
+
+const sim=d3.forceSimulation(N)
+  .force('link',d3.forceLink(links).id(d=>d.id).distance(d=>d.r==='五部'?205:78).strength(.35))
+  .force('charge',d3.forceManyBody().strength(-260))
+  .force('collide',d3.forceCollide(34))
+  .force('x',d3.forceX(d=>d.ax?d.ax[0]:0).strength(.34))
+  .force('y',d3.forceY(d=>d.ax?d.ax[1]:0).strength(.34))
+  .on('tick',tick);
+
+N.forEach(d=>{if(d.pin){d.fx=d.pin[0];d.fy=d.pin[1];d.x=d.pin[0];d.y=d.pin[1];}
+  else if(d.ax){d.x=d.ax[0];d.y=d.ax[1];}});
+
+function tick(){
+  link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y)
+      .attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+  node.attr('transform',d=>`translate(${d.x},${d.y})`);
+}
+
+const zoom=d3.zoom().scaleExtent([.12,3]).on('zoom',e=>root.attr('transform',e.transform));
+svg.call(zoom);
+function center(){
+  const w=innerWidth,h=innerHeight;
+  svg.transition().duration(500).call(zoom.transform,
+    d3.zoomIdentity.translate(w/2,h/2).scale(Math.min(w,h)/1100));
+}
+function overview(){
+  const w=innerWidth,h=innerHeight,pad=70;
+  const x0=d3.min(N,d=>d.x),x1=d3.max(N,d=>d.x),y0=d3.min(N,d=>d.y),y1=d3.max(N,d=>d.y);
+  const k=Math.min((w-pad)/(x1-x0),(h-pad*2.4)/(y1-y0));
+  svg.transition().duration(600).call(zoom.transform,
+    d3.zoomIdentity.translate(w/2,h/2).scale(k).translate(-(x0+x1)/2,-(y0+y1)/2));
+}
+document.getElementById('btnCenter').onclick=center;
+document.getElementById('btnAll').onclick=overview;
+addEventListener('resize',()=>center());
+center();
+
+// 筛选
+const off=new Set();
+const chips=d3.select('#chips');
+Object.entries(G).forEach(([k,v])=>{
+  chips.append('button').attr('class','chip').attr('data-on','1')
+    .style('background',v.c).style('color','#101728').text(v.n)
+    .on('click',function(){
+      off.has(k)?off.delete(k):off.add(k);
+      const on=!off.has(k);
+      d3.select(this).attr('data-on',on?'1':'0')
+        .style('background',on?v.c:'transparent').style('color',on?'#101728':'#B9C2D4');
+      apply();
+    });
+});
+function visible(d){return !off.has(d.g);}
+function apply(){
+  node.style('display',d=>visible(d)?null:'none');
+  link.style('display',d=>visible(d.source)&&visible(d.target)?null:'none');
+}
+
+// 详情
+const card=document.getElementById('card');
+function open(d){
+  card.querySelector('.cn').textContent=d.cn;
+  card.querySelector('.en').textContent=d.en||'';
+  card.querySelector('.sk').textContent=d.sk?'Skt. '+d.sk:'';
+  card.querySelector('.tb').textContent=d.tb||'';
+  card.querySelector('.tb').style.display=d.tb?'block':'none';
+  card.querySelector('.d').textContent=d.d;
+  card.querySelector('.rel').innerHTML=(rels[d.id]||[])
+    .map(([o,r])=>`<div class="r"><i>${r}</i><b>${byId[o].cn}</b></div>`).join('');
+  card.dataset.open='1';
+  const set=new Set([d.id]);(rels[d.id]||[]).forEach(([o])=>set.add(o));
+  node.classed('dim',n=>!set.has(n.id));
+  link.classed('dim',l=>l.source.id!==d.id&&l.target.id!==d.id);
+}
+function clear(){card.dataset.open='0';node.classed('dim',false);link.classed('dim',false);}
+node.on('click',(e,d)=>{e.stopPropagation();open(d);});
+document.getElementById('close').onclick=clear;
+svg.on('click',clear);
+</script>
+</body>
+</html>

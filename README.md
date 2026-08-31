@@ -74,6 +74,20 @@
   Click for full PDF: <a href="docs/Global-Buddhist-Canon-Transmission-Timeline.pdf"><code>docs/Global-Buddhist-Canon-Transmission-Timeline.pdf</code></a></i></sub>
 </p>
 
+#### 诸佛菩萨关系网络图 · Interactive Buddha & Bodhisattva Lineage Network
+
+<p align="center">
+  <sub>中文：诸佛菩萨关系网络 · 五方曼荼罗为心，藏传四派与汉传诸宗法脉<br>English: Interactive network of Buddhas, Bodhisattvas, yidams, protectors, and lineage masters — Five-Buddha maṇḍala at center, four Tibetan schools and Chinese lineages radiating outward<br>བོད་ཡིག：སངས་རྒྱས་དང་བྱང་ཆུབ་སེམས་དཔའི་འབྲེལ་བའི་དྲ་བ།</sub>
+</p>
+
+A hand-crafted D3 visualization: **132 figures · 200+ relationships** — the Five Tathāgatas at the mandala's center, the eight great Bodhisattvas, wrathful yidams and protectors, Śākyamuni's family and ten great disciples, Indian śāstra-authors, Nyingma / Kagyü / Sakya / Jonang / Kadam-Geluk masters, and Chinese Chan, Tiantai, Huayan, Yogācāra, Vinaya, Pure Land, and Tang Mi patriarchs — all cross-linked by dharma-transmission, incarnation, family, and tantric-family lines.
+
+- Open locally: **[`docs/buddhas-bodhisattvas-network.html`](docs/buddhas-bodhisattvas-network.html)** — single file, offline once loaded, mobile-friendly.
+- Tap any figure to see Chinese / English / Sanskrit / Tibetan names and every relation it holds.
+- Filter by category (Buddhas · Bodhisattvas · Yidams · Protectors · Nyingma · Kagyü · Sakya · Kadam-Geluk · Jonang · Chan/教 · Pure Land/唐密 · disciples · Indian masters).
+
+> Living document. PRs welcome for corrections, added masters, or new lineage edges — please cite a source.
+
 The eight transmission lines, with current stage of each:
 
 | # | Branch | 中文 | Status |
