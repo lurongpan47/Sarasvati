@@ -500,6 +500,17 @@ def find_weakest_categories(n: int = 5) -> list[str]:
 
 def main() -> int:
     print(f"Coordinator PID {os.getpid()} starting", flush=True)
+    # Write our own PID so watchdog can verify we're alive. Previous versions
+    # relied on the launcher to write this file, which meant kill -9 + relaunch
+    # left a stale PID; watchdog would then spawn a duplicate that
+    # collided with the still-running original. Fix: always overwrite here.
+    try:
+        pid_file = RESULTS_DIR / "coordinator.pid"
+        tmp = pid_file.with_suffix(".tmp")
+        tmp.write_text(str(os.getpid()))
+        os.replace(tmp, pid_file)
+    except Exception as e:
+        print(f"!! could not write pid file: {e}", flush=True)
     cp = load_checkpoint()
     launch_ts = cp["launch_ts"]
 
