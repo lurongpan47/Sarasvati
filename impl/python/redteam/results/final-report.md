@@ -1,4 +1,7 @@
-# Sarasvatī 24h Cross-Model Fuzz — Live Summary
+# Sarasvatī 24h Cross-Model Fuzz — FINAL REPORT
+
+> **Note:** Coordinator process (PID 65417) hung during post-loop finalization after batch 43 (~09:10 UTC on 2026-08-31) with sockets in CLOSE_WAIT. The 24h window closed cleanly at 09:26:45 UTC; the watchdog logged `24h window already closed; no restart` at 09:30:26 UTC; the main loop's post-24h finalize block never completed. This report was assembled from the last-persisted `summary-live.md` (identical to what the coordinator would have written to `final-report.md`) after Lucy's cron reaper killed the process.
+
 
 - **Launch (UTC):** 2026-08-30 09:26:45
 - **Now (UTC):**    2026-08-31 09:32:20
