@@ -123,7 +123,7 @@ See `ROADMAP.md` for the full eight-branch plan.
 ## Protection layers  ·  保护层
 
 1. **Local** — macOS `~/clawd/Sarasvati/`
-2. **GitHub** — https://github.com/wingring47-stack/Sarasvati (releases as independent attachments)
+2. **GitHub** — https://github.com/lurongpan47/Sarasvati (releases as independent attachments)
 3. **AWS mirrors** — 9 instances across us-east-1, eu-west-1, eu-central-1
 4. **IPFS** — CID `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce`
 5. **OpenTimestamps → Bitcoin** — nonrepudiable time anchor on `manifests/SHA256SUMS`
