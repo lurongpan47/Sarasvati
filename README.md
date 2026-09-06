@@ -110,7 +110,7 @@ See `ROADMAP.md` for the full eight-branch plan.
 - **`charter/BUDDHIST-AI-CHARTER.md`** — ten principles + five refusals + attestation clause. Any AI system may adopt under CC BY-SA 4.0.
 - **`charter/i18n/`** — charter in **24 languages**: ar · bo · de · es · fa · fr · hi · id · it · ja · km · ko · mn · my · pi · pt · ru · sa · si · th · tr · vi · zh-CN · zh-TW.
 - **`translations/mahaparinibbana-sutta/final-instructions-4lang.md`** — DN 16.2.26 · 16.4.7 · 16.6.7 in Pāli · English · Chinese · Tibetan, the scriptural root of the charter.
-- **Drafter of record**: Dr. Lurong Pan (Sarasvatī Project). Cross-model adversarial validation is preserved in the charter's Appendix A as a technical validation record, not as co-signature.
+- **Drafter of record**: Dr. Lurong Pan (潘麓蓉), Sarasvatī Project. Cross-model adversarial validation is preserved in the charter's Appendix A as a technical validation record, not as co-signature.
 
 ---
 

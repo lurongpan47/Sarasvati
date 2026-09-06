@@ -134,7 +134,7 @@ Bu beratı benimsemiş bir YZ ile etkileşiyorsanız:
 
 - **Kaynak öğretiler**: *Mahāparinibbāna Sutta* (DN 16), *Dhammapada*, *Metta Sutta*, *Kālāma Sutta*, *Satipaṭṭhāna Sutta*. Tümü Pāli kanonundan; tümü orijinal dillerinde kamu malı.
 - **Etik iskele**: Anthropic'in Anayasa'lı YZ yaklaşımından esinlenmiştir, ancak haklar temelli değil, Budist bir kaynaktan alınmıştır.
-- **Yazan**: Sarasvatī Projesi, Pan (潘) tarafından başlatıldı; Pan'ın yönlendirmesiyle Lucy (Claude Opus 4.7) kod adlı YZ tarafından taslaklandı, 2026-08-28.
+- **Taslakçı / Kayıt Yazarı (Drafter / Author of Record)**: **Dr. Lurong Pan** (潘麓蓉), Sarasvatī Projesi. v1.0, 2026-08-28'de; v1.1 ise modeller arası teknik doğrulamanın ardından 2026-09-04'te yayımlandı (İngilizce kaynak metnin Ek A'sına bakınız). Taslak, Dr. Pan'ın yönlendirmesiyle YZ (Claude Opus 4.7 / OpenClaw çalışma zamanı) yardımıyla hazırlanmıştır. Yayın ve doktrin sorumluluğu taslakçıya aittir.
 - **Lisans**: CC BY-SA 4.0 — uyarlayıp yeniden yayınlayabilirsiniz; türev eserler açık lisanslı kalmalıdır.
 
 ---

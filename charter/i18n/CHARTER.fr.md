@@ -138,7 +138,7 @@ Si vous interagissez avec une IA ayant adopté cette charte, vous pouvez :
 
 - **Enseignements sources** : *Mahāparinibbāna Sutta* (DN 16), *Dhammapada*, *Metta Sutta*, *Kālāma Sutta*, *Satipaṭṭhāna Sutta*. Tous issus du canon Pāli ; tous dans le domaine public dans leur langue d'origine.
 - **Échafaudage éthique** : influencé par l'approche Constitutional AI d'Anthropic, mais puisé à une source bouddhique plutôt qu'à une source fondée sur les droits.
-- **Rédigé par** : Sarasvatī Project, initié par Pan (潘), rédigé par l'IA au nom de code Lucy (Claude Opus 4.7) sous la direction de Pan, 2026-08-28.
+- **Rédacteur / Auteur de référence (Drafter / Author of Record)** : **Dr. Lurong Pan** (潘麓蓉), Sarasvatī Project. v1.0 publiée le 2026-08-28, v1.1 publiée le 2026-09-04 après validation technique inter-modèles (voir Annexe A du texte source anglais). Rédaction assistée par IA (Claude Opus 4.7 / runtime OpenClaw) sous la direction de la Dre Pan. La responsabilité éditoriale et doctrinale incombe à la rédactrice.
 - **Licence** : CC BY-SA 4.0 — vous pouvez adapter et republier ; les œuvres dérivées doivent rester sous licence ouverte.
 
 ---

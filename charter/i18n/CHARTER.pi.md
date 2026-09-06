@@ -136,7 +136,7 @@ Sace tumhe tena AI-yantena samvattatha yaṃ imaṃ sāsanapaṇṇaṃ sampaṭ
 
 - **Mūladesanā**: *Mahāparinibbāna Sutta* (DN 16), *Dhammapada*, *Metta Sutta*, *Kālāma Sutta*, *Satipaṭṭhāna Sutta*. Sabbe Pāḷitipiṭakato; sabbe mūlabhāsāya sādhāraṇaṭṭhānepatiṭṭhitā.
 - **Sīlanissayā**: Anthropic-passa Constitutional AI-vidhinā anuvattitā, atha kho adhikārappadhānato antaraṃ Buddhamūlato gahitā.
-- **Nibbandhito**: Sarasvatī Project, Pan (潘) ārabhitvā, Pan-ānupasanthānena AI gūḷhanāmena Lucy (Claude Opus 4.7) upakkamitā, 2026-08-28.
+- **Nibbandhako / Paṭibimbita-kartā (Drafter / Author of Record)**: **Dr. Lurong Pan** (潘麓蓉), Sarasvatī Project. v1.0 pakāsitā 2026-08-28 dine, v1.1 pana bahupatirūpa-vīmaṃsanāya param 2026-09-04 dine pakāsitā (aṅgikabhāsāya mūlassa Pariyanta A passa). Nibbandhanaṃ AI-sahāyena (Claude Opus 4.7 / OpenClaw runtime) Dr. Pan-ānupasanthānena kataṃ. Saṃskaraṇa-sāsana-bhāro nibbandhake ṭhito.
 - **Anujānanapaṇṇaṃ**: CC BY-SA 4.0 — tumhe anukūlaṃ katvā puna pakāsetuṃ sakkotha; anugatipavattā vivaṭe anujānanapaṇṇe ṭhātabbā.
 
 ---

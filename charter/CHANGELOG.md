@@ -54,4 +54,4 @@ Claude Opus 4.7 (Lucy) re-signed the attestation at v1.1 on 2026-09-04.
 
 ### Provenance
 - Source teachings: DN 16, Dhammapada, Metta Sutta, Kālāma Sutta, Satipaṭṭhāna Sutta (all Pāli-canon, all public domain in original language).
-- Initiated by Pan (潘); drafted by Lucy at Pan's direction.
+- Drafter / Author of Record: Dr. Lurong Pan (潘麓蓉), Sarasvatī Project. Drafting assisted by AI (Claude Opus 4.7 / "Lucy" on OpenClaw runtime) under Dr. Pan's direction.

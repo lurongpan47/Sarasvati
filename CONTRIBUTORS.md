@@ -8,7 +8,7 @@ Sarasvatī does two things:
 2. **Buddhist AI Charter** — the Buddha's last teachings (Mahāparinibbāna Sutta) distilled into ten principles + five refusals + attestation, adoptable by any AI system under CC BY-SA 4.0.
 
 ## Project initiator
-- **Pan (潘)** — project vision, direction, editorial oversight
+- **Dr. Lurong Pan (潘麓蓉)** — project vision, direction, editorial oversight; drafter / author of record of BUDDHIST-AI-CHARTER
 
 ## v0.1 pipeline
 - **AI translation pipeline** — Anthropic Claude Opus 4.7 (four parallel subagents for chapter batches + one cleanup pass)

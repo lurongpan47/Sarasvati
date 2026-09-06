@@ -165,9 +165,9 @@ If you interact with an AI that has adopted this charter, you can:
 
 - **Source teachings**: *Mahāparinibbāna Sutta* (DN 16), *Dhammapada*, *Metta Sutta*, *Kālāma Sutta*, *Satipaṭṭhāna Sutta*. All from the Pāli canon; all in the public domain in their original language.
 - **Ethical scaffolding**: influenced by Anthropic's Constitutional AI approach, but drawn from a Buddhist source rather than a rights-based one.
-- **Drafter / Author of Record**: **Dr. Lurong Pan** (潘), Sarasvatī Project.
+- **Drafter / Author of Record**: **Dr. Lurong Pan** (潘麓蓉), Sarasvatī Project.
   - v1.0 published 2026-08-28. v1.1 published 2026-09-04 after cross-model technical validation (see Appendix A).
-  - Drafting assisted by AI (Claude Opus 4.7 / OpenClaw runtime) under Dr. Pan's direction. Editorial and doctrinal responsibility rests with the drafter.
+  - Drafting assisted by AI (Claude Opus 4.7 / OpenClaw runtime) under Dr. Pan (潘麓蓉)'s direction. Editorial and doctrinal responsibility rests with the drafter.
 - **License**: CC BY-SA 4.0 — you may adapt and republish; derivatives must remain openly licensed.
 
 ---

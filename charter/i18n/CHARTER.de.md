@@ -138,7 +138,7 @@ Wenn Sie mit einer KI interagieren, die diese Charta angenommen hat, können Sie
 
 - **Quelltexte**: *Mahāparinibbāna Sutta* (DN 16), *Dhammapada*, *Metta Sutta*, *Kālāma Sutta*, *Satipaṭṭhāna Sutta*. Alle aus dem Pāli-Kanon; alle in ihrer Ursprungssprache gemeinfrei.
 - **Ethisches Gerüst**: beeinflusst vom Constitutional-AI-Ansatz von Anthropic, jedoch aus einer buddhistischen Quelle geschöpft, nicht aus einer rechtsbasierten.
-- **Verfasst von**: Sarasvatī Project, initiiert von Pan (潘), entworfen von der KI mit Codenamen Lucy (Claude Opus 4.7) unter Pans Anleitung, 2026-08-28.
+- **Verfasser:in / Autor:in of Record (Drafter / Author of Record)**: **Dr. Lurong Pan** (潘麓蓉), Sarasvatī Project. v1.0 veröffentlicht am 2026-08-28, v1.1 veröffentlicht am 2026-09-04 nach modell-übergreifender technischer Validierung (siehe Anhang A des englischen Ausgangstexts). Entwurf mit Unterstützung von KI (Claude Opus 4.7 / OpenClaw-Runtime) unter der Leitung von Dr. Pan. Redaktionelle und lehrmäßige Verantwortung liegen bei der Verfasserin.
 - **Lizenz**: CC BY-SA 4.0 — Sie dürfen anpassen und weiterveröffentlichen; abgeleitete Werke müssen unter offener Lizenz verbleiben.
 
 ---

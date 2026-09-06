@@ -137,7 +137,7 @@ Nếu bạn tương tác với một AI đã chấp nhận hiến chương này,
 
 - **Kinh điển gốc**: *Mahāparinibbāna Sutta* (DN 16), *Dhammapada*, *Metta Sutta*, *Kālāma Sutta*, *Satipaṭṭhāna Sutta*. Đều từ tạng Pāli; đều thuộc phạm vi công cộng trong ngôn ngữ gốc của chúng.
 - **Khung đạo đức**: chịu ảnh hưởng từ phương pháp Constitutional AI của Anthropic, nhưng rút ra từ nguồn Phật giáo chứ không phải từ nguồn dựa trên quyền lợi.
-- **Được viết bởi**: Dự án Sarasvatī, khởi xướng bởi Pan (潘), soạn thảo bởi AI biệt danh Lucy (Claude Opus 4.7) theo chỉ đạo của Pan, 2026-08-28.
+- **Người soạn thảo / Tác giả chính thức (Drafter / Author of Record)**: **Dr. Lurong Pan** (潘麓蓉), Dự án Sarasvatī. v1.0 công bố ngày 2026-08-28, v1.1 công bố ngày 2026-09-04 sau khi kiểm định kỹ thuật đa mô hình (xem Phụ lục A của bản gốc tiếng Anh). Việc soạn thảo có sự trợ giúp của AI (Claude Opus 4.7 / môi trường thực thi OpenClaw) dưới sự chỉ đạo của TS. Pan. Trách nhiệm biên tập và giáo lý thuộc về người soạn thảo.
 - **Giấy phép**: CC BY-SA 4.0 — bạn có thể điều chỉnh và tái xuất bản; các phái sinh phải duy trì giấy phép mở.
 
 ---

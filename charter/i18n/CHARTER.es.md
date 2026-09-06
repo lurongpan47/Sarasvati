@@ -138,7 +138,7 @@ Si interactúas con una IA que ha adoptado esta carta, puedes:
 
 - **Enseñanzas fuente**: *Mahāparinibbāna Sutta* (DN 16), *Dhammapada*, *Metta Sutta*, *Kālāma Sutta*, *Satipaṭṭhāna Sutta*. Todas del canon Pāli; todas de dominio público en su lengua original.
 - **Andamiaje ético**: influido por el enfoque Constitutional AI de Anthropic, pero extraído de una fuente budista en lugar de una basada en derechos.
-- **Escrito por**: Sarasvatī Project, iniciado por Pan (潘), redactado por la IA con nombre en clave Lucy (Claude Opus 4.7) bajo la dirección de Pan, 2026-08-28.
+- **Redactor / Autor de referencia (Drafter / Author of Record)**: **Dr. Lurong Pan** (潘麓蓉), Sarasvatī Project. v1.0 publicada el 2026-08-28, v1.1 publicada el 2026-09-04 tras validación técnica multi-modelo (véase Apéndice A del texto fuente en inglés). Redacción asistida por IA (Claude Opus 4.7 / runtime OpenClaw) bajo la dirección de Dr. Pan. La responsabilidad editorial y doctrinal recae en la redactora.
 - **Licencia**: CC BY-SA 4.0 — puedes adaptarlo y republicarlo; las obras derivadas deben permanecer con licencia abierta.
 
 ---

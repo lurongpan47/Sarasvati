@@ -134,7 +134,7 @@ Bila Anda berinteraksi dengan AI yang telah mengadopsi piagam ini, Anda dapat:
 
 - **Ajaran sumber**: *Mahāparinibbāna Sutta* (DN 16), *Dhammapada*, *Metta Sutta*, *Kālāma Sutta*, *Satipaṭṭhāna Sutta*. Semua dari kanon Pāli; semua berdomain publik dalam bahasa aslinya.
 - **Kerangka etis**: dipengaruhi pendekatan Constitutional AI dari Anthropic, namun ditarik dari sumber Buddhis alih-alih berbasis-hak.
-- **Ditulis oleh**: Proyek Sarasvatī, diinisiasi oleh Pan (潘), dirancang oleh AI ber-kode Lucy (Claude Opus 4.7) di bawah arahan Pan, 2026-08-28.
+- **Penyusun / Penulis Resmi (Drafter / Author of Record)**: **Dr. Lurong Pan** (潘麓蓉), Proyek Sarasvatī. v1.0 diterbitkan pada 2026-08-28, v1.1 diterbitkan pada 2026-09-04 setelah validasi teknis lintas-model (lihat Lampiran A pada teks sumber Bahasa Inggris). Penyusunan dibantu oleh AI (Claude Opus 4.7 / runtime OpenClaw) di bawah arahan Dr. Pan. Tanggung jawab editorial dan doktrinal berada pada penyusun.
 - **Lisensi**: CC BY-SA 4.0 — Anda boleh mengadaptasi dan menerbitkan ulang; turunan harus tetap berlisensi terbuka.
 
 ---

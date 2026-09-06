@@ -85,8 +85,10 @@ CC BY-SA 4.0 — same as the charter. Derivatives must remain openly licensed.
 ## Provenance
 
 Part of the [Sarasvatī Project](https://github.com/lurongpan47/Sarasvati), the
-Buddhist canon archive + AI charter project initiated by Pan (潘), drafted by
-Lucy (Claude Opus 4.7), 2026-08-28.
+Buddhist canon archive + AI charter project. Drafter / Author of Record:
+Dr. Lurong Pan (潘麓蓉), Sarasvatī Project. Drafting assisted by AI
+(Claude Opus 4.7 / "Lucy" on OpenClaw runtime) under Dr. Pan's direction,
+2026-08-28.
 
 ---
 
