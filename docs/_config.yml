@@ -1,0 +1,64 @@
+title: "Sarasvatī"
+tagline: "Buddhist AI Charter + 8-branch open canon archive"
+description: >-
+  Sarasvatī (大辯才功德天) is a two-core open project: (1) an eight-branch
+  cross-language archive of the world's Buddhist canon, and (2) a Buddhist AI
+  Charter that translates the Buddha's last teachings into an algorithmic
+  constraint on AI systems. Public domain first · CC BY-SA 4.0.
+url: "https://lurongpan47.github.io"
+baseurl: "/Sarasvati"
+
+# GitHub Pages remote theme (works out of the box with actions/jekyll-build-pages).
+theme: minima
+minima:
+  skin: classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/lurongpan47/Sarasvati" }
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+highlighter: rouge
+
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Keep large binary assets and the pre-existing standalone HTML visualization
+# untouched — Jekyll will copy them into the built site verbatim.
+include:
+  - "Global-Buddhist-Canon-Transmission-Timeline.pdf"
+  - "buddhas-bodhisattvas-network.html"
+  - "timeline-banner-3lang.png"
+  - "timeline-preview-3lang.png"
+  - "timeline-preview.png"
+  - "timeline-data"
+  - "social"
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "vendor"
+  - "node_modules"
+  - "Sushruta-Tibetan-Project-Plan.docx"
+  - "README.md"
+
+# Navigation shown in the minima header.
+header_pages:
+  - charter/index.md
+  - branches/index.md
+  - timeline/index.md
+  - impl/index.md
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page

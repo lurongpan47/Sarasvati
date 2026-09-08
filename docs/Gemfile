@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+# GitHub Pages meta-gem pins Jekyll, minima and all supported plugins to the
+# exact versions used by GitHub's Pages build service. Match GitHub Pages exactly
+# by using this single dependency locally too.
+gem "github-pages", group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+end

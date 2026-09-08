@@ -13,6 +13,18 @@ build/
 dist/
 .venv/
 
+# Node / TypeScript
+node_modules/
+*.tsbuildinfo
+.vitest-cache/
+
+# Jekyll (docs/ site)
+_site/
+.jekyll-cache/
+.sass-cache/
+Gemfile.lock
+vendor/
+
 # Loop runtime state (per-machine, not source)
 scripts/.feedback_state.json
 scripts/.branch_proposals.jsonl
