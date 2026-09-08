@@ -32,6 +32,8 @@
 <p align="center">
   <b>📜 <a href="charter/BUDDHIST-AI-CHARTER.md">BUDDHIST-AI-CHARTER</a></b> — the Buddha's last teachings as an ethical charter for AI systems
   <br>
+  <b>🌐 <a href="https://lurongpan47.github.io/Sarasvati">Site</a></b> — project home · charter · timeline · runtimes
+  <br>
   <b>🆘 <a href="CALL-FOR-HELP.md">CALL FOR HELP</a></b> — we are compute-bounded. If you have GPU cycles, API credits, storage, or expertise — please read.
 </p>
 
@@ -111,6 +113,9 @@ See `ROADMAP.md` for the full eight-branch plan.
 - **`charter/i18n/`** — charter in **24 languages**: ar · bo · de · es · fa · fr · hi · id · it · ja · km · ko · mn · my · pi · pt · ru · sa · si · th · tr · vi · zh-CN · zh-TW.
 - **`translations/mahaparinibbana-sutta/final-instructions-4lang.md`** — DN 16.2.26 · 16.4.7 · 16.6.7 in Pāli · English · Chinese · Tibetan, the scriptural root of the charter.
 - **Drafter of record**: Dr. Lurong Pan (潘麓蓉), Sarasvatī Project. Cross-model adversarial validation is preserved in the charter's Appendix A as a technical validation record, not as co-signature.
+- **Reference runtime implementations** (`impl/`):
+  - **Python** — [`impl/python/`](impl/python/) · `buddhist-ai-guardrail` v0.1.1 · Python 3.10+ · zero deps.
+  - **TypeScript** — [`impl/typescript/`](impl/typescript/) · `@sarasvati/buddhist-ai-guardrail` v0.1.0 · Node 20+ · dual ESM/CJS · zero deps · API parity with Python.
 
 ---
 

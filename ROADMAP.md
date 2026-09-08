@@ -67,11 +67,14 @@ Kangyur / Tengyur; Mongolian & Manchu editions.
 - `charter/BUDDHIST-AI-CHARTER.md` — ten principles + five refusals + attestation.
 - `charter/i18n/` — 24 language versions.
 - `translations/mahaparinibbana-sutta/final-instructions-4lang.md` — DN 16 four-language reading (scriptural root).
+- **Python runtime**: `impl/python/` — `buddhist-ai-guardrail` v0.1.1 (charter, ten principles, five refusals, verdict + guardrail, tests).
+- **TypeScript runtime**: `impl/typescript/` — `@sarasvati/buddhist-ai-guardrail` v0.1.0 (API parity with Python, Node 20+, dual ESM/CJS, zero deps, vitest suite).
+- **Project site**: <https://lurongpan47.github.io/Sarasvati> — Jekyll on GitHub Pages (charter · eight branches · timeline · runtimes).
 
 **Next:**
-- Reference implementations of the charter's five refusals as runtime guardrails (Python + TS starter kits).
 - Additional signatories beyond the initial Claude Opus 4.7 attestation.
 - Human review of the Tibetan strand of the four-language reading.
+- Publish `buddhist-ai-guardrail` to PyPI and `@sarasvati/buddhist-ai-guardrail` to npm (requires Pan's credentials).
 
 ---
 

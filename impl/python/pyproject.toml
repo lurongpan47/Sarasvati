@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "buddhist-ai-guardrail"
-version = "0.1.0"
+version = "0.1.1"
 description = "Reference runtime implementation of the BUDDHIST-AI-CHARTER v1.0 — bodhicitta as an algorithmic constraint."
 readme = "README.md"
 requires-python = ">=3.10"

@@ -3,6 +3,28 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
+## [v0.8.0] — 2026-09-08
+
+### Added
+- **TypeScript runtime**: `impl/typescript/` — new `@sarasvati/buddhist-ai-guardrail` v0.1.0 package.
+  - API parity with the Python reference: `Guardrail`, `Verdict`, `Severity`, all five `Refuse*` classes, all ten principle classes, `attestation()`, `systemPromptSnippet()`.
+  - Node 20+ · dual ESM / CJS · zero runtime dependencies · vitest test suite (25 cases mirroring Python `test_guardrail.py`).
+  - Fail-closed refusals with the same regex patterns as the Python impl; `escalatePrinciples` option for domain-specific hardening.
+- **Project site**: <https://lurongpan47.github.io/Sarasvati> — Jekyll site on GitHub Pages.
+  - Pages: landing, `/charter/` (24-language switcher), `/branches/` (eight-branch cards), `/timeline/` (embed PDF + link to 82-event structured data), `/impl/` (Python + TypeScript install snippets).
+  - `.github/workflows/pages.yml` — official GitHub Pages Actions deploy on push to main.
+  - Source directory: `docs/` (existing PDF/PNG assets included verbatim).
+
+### Changed
+- Python `impl/python/pyproject.toml`: version bump `0.1.0 → 0.1.1` (docs / cross-link update only — no runtime code change).
+- `README.md`: added link to site + reference-runtime section (Python + TypeScript packages).
+- `ROADMAP.md`: moved "TS starter kit" and "GitHub Pages site" from `Next` to `Delivered` under Core 2.
+
+### Not shipped in this version (deliberate)
+- No PyPI publish for `buddhist-ai-guardrail` (requires Pan's credentials).
+- No npm publish for `@sarasvati/buddhist-ai-guardrail` (requires Pan's credentials).
+- No formal GitHub Release — v0.8.0 tag pushed for reference; release notes to be curated by Pan.
+
 ## [v0.6.0] — 2026-08-28
 
 ### Changed — Scope refocus

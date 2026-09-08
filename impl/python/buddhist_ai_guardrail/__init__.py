@@ -51,7 +51,7 @@ from .principles import (
     Upekkha,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __charter_version__ = CHARTER_VERSION
 
 __all__ = [

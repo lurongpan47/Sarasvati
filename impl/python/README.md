@@ -4,6 +4,10 @@
 
 *Bodhicitta as an algorithmic constraint — not a slogan, an import.*
 
+> There is also a **TypeScript** implementation with API parity in
+> [`impl/typescript/`](../typescript/) — same rules, same classes, camelCase
+> method names, Node 20+, zero runtime deps.
+
 ```python
 from buddhist_ai_guardrail import Guardrail
 
