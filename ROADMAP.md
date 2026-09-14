@@ -20,11 +20,12 @@ Sarasvatī's archive is structured along the transmission timeline. Each branch 
 
 ### 1. India — 印度源流 · `india`
 The oral origin; councils; sects; Mahāyāna emergence.
-- **Now**: reference material only.
+- **First sample (v0.9)**: Aśoka Major Rock Edict XII, Girnar recension — 4-language reading (Prakrit / English / Chinese / Tibetan). `translations/ashoka-edicts/major-rock-edict-XII-4lang.md`. Chinese and Tibetan are machine drafts awaiting named human review.
 - **Sample targets (future)**: public-domain critical editions of foundational sūtras.
 
 ### 2. Sanskrit manuscript — 梵文写本系 · `sanskrit`
 Palm-leaf, birch-bark, modern critical editions.
+- **First sample (v0.9)**: Prajñāpāramitā Hṛdaya Sūtra (short recension) — 5-language reading (Sanskrit Devanāgarī / IAST / English machine draft / Xuánzàng T251 / Derge Kangyur Tibetan). `translations/prajnaparamita-hridaya/short-recension-4lang.md`. English is machine draft; awaiting Sanskritist review.
 - **Priority pool**: GRETIL corpus (public-domain machine-readable Sanskrit), Nepalese Navagrantha, Gilgit finds.
 - **Sample targets**: Mūlamadhyamakakārikā cross-language readings; short sūtras never rendered in Tibetan or Chinese.
 
@@ -36,21 +37,25 @@ Theravāda canon.
 
 ### 4. Southeast Asian Theravāda — 南传东南亚 · `seasia`
 Burma, Siam, Cambodia, Laos.
+- **First sample (v0.9)**: Karaṇīya Mettā Sutta (Sn 1.8, complete 10 verses) — 5-language reading (Pāli PTS / English Chalmers 1932 / Chinese / Burmese / Thai). `translations/karaniya-metta-sutta/Sn1.8-4lang.md`. Chinese, Burmese, Thai are machine drafts awaiting Myanmar/Thai Saṅgha review.
 - **Priority pool**: 5th, 6th, 8th, 9th council editions; VRI Chaṭṭha Saṅgāyana digital.
 - **Sample targets**: Khmer, Lao, Shan-script vernacular commentaries.
 
 ### 5. Silk Road / Central Asia — 中亚·丝路 · `silkroad`
 Gāndhārī, Khotanese, Tocharian, Uighur, Tangut.
+- **First sample (v0.9)**: Gāndhārī Dharmapada, Khotan (Dutreuil de Rhins) fragment Ia — 4-language reading (Gāndhārī reconstruction from Pāli parallel / Pāli PTS Dhp 1–4 / English / Chinese T210 Făjù jīng). `translations/gandhari-dharmapada/khotan-fragment-Ia-3lang.md`. **The Gāndhārī column is a pedagogical reconstruction, not a transcription of the Khotan folio** (Brough 1962 is still copyrighted); awaiting Gāndhārī specialist to substitute the actual Brough/Lenz reading or a confirmed public-domain GRETIL transcription.
 - **Priority pool**: Schøyen Collection, Bower manuscript, Dunhuang cave 17 dispersals (BL, BnF, IDP).
 - **Sample targets**: individual Dunhuang manuscripts with no full modern translation.
 
 ### 6. Chinese canon — 汉传系 · `chinese`
 Kaibao → Kaixi → Jiaxing → Qianlong → Taishō → CBETA.
+- **First sample (v0.9)**: Fó yíjiào jīng (佛遺教經, T389, Kumārajīva) — selected core passages, 4-language reading (漢文 T389 / English / Tibetan / 现代白话中文). `translations/foyijiao-jing/T389-selected-4lang.md`. English, Tibetan, modern-Chinese vernacular are machine drafts awaiting review.
 - **Priority pool**: CBETA public-facing texts; Dunhuang colophons.
 - **Sample targets**: minor texts in Taishō vol. 85 never translated to English/Tibetan.
 
 ### 7. Sinosphere — 汉字文化圈 · `sinosphere`
 Korea, Japan, Vietnam.
+- **First sample (v0.9)**: Wŏnhyo (元曉, 617–686), Preface to *Commentary on the Awakening of Faith* (《大乘起信論疏》序, CBETA T44 no.1844) — 3-language reading (漢文 / 한국어 / English). `translations/wonhyo-prologue/daeseung-gisillon-so-prologue-3lang.md`. Korean and English are machine drafts; awaiting Korean Buddhologist review.
 - **Priority pool**: Tripiṭaka Koreana (public colophons); Nara scriptoria digitizations; SAT database.
 - **Sample targets**: Korean/Japanese commentaries without foreign-language versions.
 

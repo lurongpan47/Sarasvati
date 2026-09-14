@@ -3,6 +3,42 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
+## [v0.9.0] — 2026-09-13
+
+### Added — First samples for six previously-unstarted branches
+
+Six branches of the eight-branch canon archive now have a **first sample** (public-domain source → AI machine draft → multi-language parallel reading, every machine-generated passage flagged `⟨བརྟག⟩` awaiting named human review, CC BY-SA 4.0):
+
+- **India** — `translations/ashoka-edicts/major-rock-edict-XII-4lang.md` — Aśoka Major Rock Edict XII (Girnar recension, Hultzsch 1925 PD) · 4-language reading (Prakrit / English / Chinese / Tibetan).
+- **Sanskrit manuscript** — `translations/prajnaparamita-hridaya/short-recension-4lang.md` — Prajñāpāramitā Hṛdaya short recension · 5-language reading (Sanskrit Devanāgarī / IAST / English / Xuánzàng T251 / Derge Kangyur Tibetan).
+- **Silk Road** — `translations/gandhari-dharmapada/khotan-fragment-Ia-3lang.md` — Gāndhārī Dharmapada Khotan fragment Ia (verses 1–4, explicit reconstruction from Pāli parallel to stay strictly public-domain, awaiting Gāndhārī specialist to substitute with authentic Brough/Lenz reading or GRETIL open-access text).
+- **Chinese canon** — `translations/foyijiao-jing/T389-selected-4lang.md` — Fó yíjiào jīng (T389, Kumārajīva) selected core passages · 4-language reading (漢文 / English / Tibetan / 现代白话中文).
+- **Southeast Asian Theravāda** — `translations/karaniya-metta-sutta/Sn1.8-4lang.md` — Karaṇīya Mettā Sutta (Sn 1.8, complete 10 verses) · 5-language reading (Pāli PTS / English Chalmers 1932 / Chinese / Burmese / Thai).
+- **Sinosphere** — `translations/wonhyo-prologue/daeseung-gisillon-so-prologue-3lang.md` — Wŏnhyo《大乘起信論疏》Preface · 3-language reading (漢文 CBETA T44 / 한국어 / English).
+
+Remaining branches now:
+- ✅ India · Sanskrit · Pāli · SE Asia · Silk Road · Chinese · Sinosphere · Tibetan — **all 8 branches have at least one seeded sample** (Pāli/Tibetan share the DN 16 four-language reading; the six above are new).
+- Every non-source-language column across every sample is a machine draft awaiting named human review.
+
+### Added — Recruitment drafts
+
+- `announcements/reddit-buddhism-call.md` — long-form Reddit help request across r/Buddhism, r/Buddhistscholarship, r/Pali, r/sanskrit, r/tibetanbuddhism, r/theravada, r/Buddhism_meta. Ends with a ≤ 350-char X/Twitter short version.
+- `announcements/academic-mailing-list-call.md` — formal academic call for H-Buddhism, INDOLOGY, Pali list, Tibetan-studies / THL, AAR Buddhism Section, IABS, SEAP, BDRC, CBETA, SAT, DH-buddhology. Includes 200-word abstract, per-language reviewer profile table for all 24 charter i18n files, runtime reference implementation section, and staggered posting guidance.
+
+Both drafts marked `// draft for Pan to review before posting` — Sarasvatī does not speak on Pan's behalf; the human sends.
+
+### Not shipped in this version (deliberate)
+
+- No git tag or GitHub Release — this is a working commit; v0.9 tag to be cut once at least one branch's first sample has a **named** human reviewer, not just a machine draft.
+- No PyPI / npm publish (still requires Pan's credentials).
+- No Arweave / Filecoin permanent-storage upload (still no external sponsor).
+
+### Method
+
+- Four parallel Claude Opus 4.7 subagents on Lucy's Mac mini (`sample-india-silkroad`, `sample-sanskrit-chinese`, `sample-seasia-sinosphere`, `recruit-posts`), coordinated from the main OpenClaw session.
+- Every sample independently verified for: public-domain-only sources, `⟨བརྟག⟩` review markers on every machine-drafted passage, header/passage structure aligned to the DN 16 template, CC BY-SA 4.0 footer, explicit "Human review needed" specialist list.
+- Sarasvatī corpus re-hashed and re-anchored to Bitcoin via OpenTimestamps as part of this commit — see `manifests/SHA256SUMS.ots` (v0.9.0 stamp).
+
 ## [v0.8.0] — 2026-09-08
 
 ### Added
