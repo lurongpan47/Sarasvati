@@ -1,6 +1,10 @@
-# Gāndhārī Dharmapada · Khotan fragment, opening verses · གནྡྷཱ་རིའི་ཆོས་ཚིག།
+# Gāndhārī Dharmapada · Khotan fragment, Dhp 1–4 parallel · གནྡྷཱ་རིའི་ཆོས་ཚིག།
 
-*Khotan manuscript (Dutreuil de Rhins) · section Ia · verses 1–4 · 4-language reading · Silk Road branch first sample*
+*Khotan manuscript (Dutreuil de Rhins) · Dhp 1–4 parallel · 4-language reading · Silk Road branch pedagogical companion*
+
+> **⚠️ This is a pedagogical companion, not the branch's first-sample-of-record.** The Gāndhārī column here is a **reconstruction from the Pāli parallel**, because Dhp 1–4 are **not preserved** in the surviving Khotan manuscript fragments. For the actual attested-text first sample of the Silk Road branch — using real readings from the Khotan manuscript as transcribed in the public-domain Barua–Mitra 1921 edition — see the sibling file [`khotan-manuscript-apramadavaga-4lang.md`](khotan-manuscript-apramadavaga-4lang.md).
+>
+> This file is kept because the pedagogical value (showing how Gāndhārī sound-shifts would have rendered the world's most famous Dhammapada verses, if they had survived on the Khotan folio) is genuine, even though the Gāndhārī text below is Sarasvatī's own reconstruction, not a manuscript reading. **Do not cite this file as evidence for what the Khotan manuscript actually says.**
 
 **Sources**:
 - **Gāndhārī**: The Dutreuil de Rhins Kharoṣṭhī birch-bark manuscript from the Khotan region (found 1892, Kharoṣṭhī script, c. 1st–2nd century CE) is one of the oldest surviving Buddhist manuscripts. The scholarly edition of record is Brough, *The Gāndhārī Dharmapada* (London 1962), **which is still under copyright**. To stay strictly in public-domain / clearly-marked territory, the Gāndhārī column below is **reconstructed from the Pāli parallel** (Dhp 1–4) using the standard Gāndhārī sound correspondences (Skt/Pāli intervocalic *-t- → -d-*, *-k- → -g-*, retention of some clusters, *-nn- → -ṃn-* etc.). This is a *pedagogical reconstruction*, not a transcription of the Khotan folio. Every verse is flagged ⟨བརྟག⟩ for a Gāndhārī specialist to replace with the actual Brough / Lenz reading or with an open-access transcription (GRETIL, once the relevant file is confirmed public-domain).

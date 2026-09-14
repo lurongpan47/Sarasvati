@@ -43,7 +43,8 @@ Burma, Siam, Cambodia, Laos.
 
 ### 5. Silk Road / Central Asia — 中亚·丝路 · `silkroad`
 Gāndhārī, Khotanese, Tocharian, Uighur, Tangut.
-- **First sample (v0.9)**: Gāndhārī Dharmapada, Khotan (Dutreuil de Rhins) fragment Ia — 4-language reading (Gāndhārī reconstruction from Pāli parallel / Pāli PTS Dhp 1–4 / English / Chinese T210 Făjù jīng). `translations/gandhari-dharmapada/khotan-fragment-Ia-3lang.md`. **The Gāndhārī column is a pedagogical reconstruction, not a transcription of the Khotan folio** (Brough 1962 is still copyrighted); awaiting Gāndhārī specialist to substitute the actual Brough/Lenz reading or a confirmed public-domain GRETIL transcription.
+- **First sample (v0.9, attested-text version, added 2026-09-14)**: Gāndhārī Dharmapada, Khotan (Dutreuil de Rhins) manuscript, *Apramādavaga* chapter — 4-language reading with **real manuscript readings** in the Gāndhārī column, from the public-domain Barua–Mitra 1921 edition (based on Senart 1897). Four verses parallel to Pāli Dhp 27, 30, 167, 327. `translations/gandhari-dharmapada/khotan-manuscript-apramadavaga-4lang.md`.
+- **Pedagogical companion (kept, not primary)**: `translations/gandhari-dharmapada/khotan-fragment-Ia-3lang.md` — reconstruction of what Dhp 1–4 *would* look like in Gāndhārī if they had survived on the Khotan folio (they don't). Header warns readers not to cite it as manuscript evidence.
 - **Priority pool**: Schøyen Collection, Bower manuscript, Dunhuang cave 17 dispersals (BL, BnF, IDP).
 - **Sample targets**: individual Dunhuang manuscripts with no full modern translation.
 

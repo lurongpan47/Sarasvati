@@ -1,0 +1,43 @@
+# Prepared 2026-09-13 by Lucy. Pan reviews before upload.
+# Special item: contains a repo-tarball built at upload time by upload.sh, plus
+# the top-level docs and the OpenTimestamps-stamped SHA256 manifest.
+identifier: sarasvati-full-corpus-v0.9
+title: "Sarasvatī v0.9 — Full Corpus Snapshot (charter + 8-branch samples + manifests)"
+creator: "Dr. Lurong Pan (潘麓蓉) · Sarasvatī project"
+date: "2026-09-13"
+mediatype: texts
+collection: opensource
+language: multiple
+licenseurl: "http://creativecommons.org/licenses/by-sa/4.0/"
+subject:
+  - buddhism
+  - open corpus
+  - multilingual
+  - buddhist canon
+  - ai ethics
+  - opentimestamps
+  - snapshot
+  - v0.9
+  - sarasvati
+description: >-
+  Full v0.9 snapshot (2026-09-13) of the Sarasvatī open Buddhist archive.
+  Contains the 24-language Buddhist-AI Charter, first samples for all eight
+  branches (India · Sanskrit manuscript · Pāli/Sri Lanka · SE Asian Theravāda
+  · Silk Road/Central Asia · Chinese canon · Sinosphere · Tibetan), the
+  OpenTimestamps-stamped SHA256SUMS manifest (anchoring this tree to the
+  Bitcoin blockchain via the v0.9.0-a stamp), and top-level project docs.
+  Public-domain source texts + Sarasvatī AI drafts flagged ⟨བརྟག⟩ awaiting
+  named human review. CC BY-SA 4.0.
+# The tarball listed below is BUILT by upload.sh right before upload,
+# in the drafts/internet-archive/ working dir. Not committed to git.
+files:
+  - sarasvati-v0.9.tar.gz
+  - manifests/SHA256SUMS
+  - manifests/SHA256SUMS.v0.9.0-a.ots
+  - manifests/SHA256SUMS.v0.8.0.ots
+  - README.md
+  - CHANGELOG.md
+  - ROADMAP.md
+  - LICENSE
+  - CALL-FOR-HELP.md
+  - CONTRIBUTORS.md

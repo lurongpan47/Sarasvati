@@ -1,0 +1,26 @@
+# Prepared 2026-09-13 by Lucy. Pan reviews before upload.
+identifier: sarasvati-wonhyo-daeseung-gisillon-preface
+title: "Wŏnhyo 元曉 — Preface to the Commentary on the Awakening of Faith (T44 no.1844, 3-language)"
+creator: "Dr. Lurong Pan (潘麓蓉) · Sarasvatī project"
+date: "2026-09-13"
+mediatype: texts
+collection: opensource
+language: multiple
+licenseurl: "http://creativecommons.org/licenses/by-sa/4.0/"
+subject:
+  - buddhism
+  - wonhyo
+  - korean buddhism
+  - awakening of faith
+  - cbeta
+  - sinosphere
+  - east asian buddhism
+  - sarasvati
+description: >-
+  Sinosphere-branch first sample. Preface only of Wŏnhyo's (元曉, 617–686)
+  *Daeseung-gisillon-so* 《大乘起信論疏》, CBETA T44 no.1844 (PD by age —
+  over 1,300 years old). Modern Korean and English columns are Sarasvatī AI
+  drafts and require review by qualified East Asian Buddhologists before
+  scholarly citation. CC BY-SA 4.0.
+files:
+  - translations/wonhyo-prologue/daeseung-gisillon-so-prologue-3lang.md

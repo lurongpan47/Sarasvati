@@ -1,0 +1,28 @@
+# Prepared 2026-09-13 by Lucy. Pan reviews before upload.
+identifier: sarasvati-ashoka-rock-edict-XII
+title: "Aśoka Major Rock Edict XII — Religious Tolerance (Girnar recension, 4-language)"
+creator: "Dr. Lurong Pan (潘麓蓉) · Sarasvatī project"
+date: "2026-09-13"
+mediatype: texts
+collection: opensource
+language: multiple
+licenseurl: "http://creativecommons.org/licenses/by-sa/4.0/"
+subject:
+  - buddhism
+  - ashoka
+  - edicts of ashoka
+  - prakrit
+  - ancient india
+  - religious tolerance
+  - epigraphy
+  - sarasvati
+description: >-
+  India-branch first sample of the Sarasvatī open Buddhist archive. Girnar
+  recension of Aśoka's Major Rock Edict XII (c. 257 BCE), one of the earliest
+  surviving royal decrees on religious pluralism anywhere in the world, and
+  predating the split of the Buddhist canon. Prakrit text and English from
+  Hultzsch 1925 (Corpus Inscriptionum Indicarum vol. 1, PD). Chinese and
+  Tibetan columns are Sarasvatī AI drafts awaiting named human review.
+  CC BY-SA 4.0.
+files:
+  - translations/ashoka-edicts/major-rock-edict-XII-4lang.md

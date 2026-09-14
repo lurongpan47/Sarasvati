@@ -1,0 +1,26 @@
+# Prepared 2026-09-13 by Lucy. Pan reviews before upload.
+identifier: sarasvati-prajnaparamita-hridaya
+title: "Prajñāpāramitā Hṛdaya Sūtra — Heart Sūtra (short recension, 5-language)"
+creator: "Dr. Lurong Pan (潘麓蓉) · Sarasvatī project"
+date: "2026-09-13"
+mediatype: texts
+collection: opensource
+language: multiple
+licenseurl: "http://creativecommons.org/licenses/by-sa/4.0/"
+subject:
+  - buddhism
+  - prajnaparamita
+  - heart sutra
+  - sanskrit manuscripts
+  - mahayana
+  - xuanzang
+  - tibetan kangyur
+  - sarasvati
+description: >-
+  Sanskrit-manuscript-branch first sample. Nepalese Navagrantha short
+  recension of the Prajñāpāramitā Hṛdaya (Heart Sūtra): Sanskrit Devanāgarī
+  and IAST (Müller & Nanjio 1884, PD), Chinese (Xuánzàng T251, PD), Tibetan
+  (Derge Kangyur, Tōh. 531, PD), and a fresh English AI draft (no Conze 1958
+  wording reused). AI-drafted columns await named review. CC BY-SA 4.0.
+files:
+  - translations/prajnaparamita-hridaya/short-recension-4lang.md

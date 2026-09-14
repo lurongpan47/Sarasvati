@@ -1,0 +1,27 @@
+# Prepared 2026-09-13 by Lucy. Pan reviews before upload.
+identifier: sarasvati-foyijiao-jing-T389
+title: "Fó yíjiào jīng 佛遺教經 — Buddha's Bequeathed Teaching (T389, selected passages, 4-language)"
+creator: "Dr. Lurong Pan (潘麓蓉) · Sarasvatī project"
+date: "2026-09-13"
+mediatype: texts
+collection: opensource
+language: multiple
+licenseurl: "http://creativecommons.org/licenses/by-sa/4.0/"
+subject:
+  - buddhism
+  - chinese buddhist canon
+  - taisho tripitaka
+  - kumarajiva
+  - foyijiao
+  - T389
+  - bequeathed teaching
+  - sarasvati
+description: >-
+  Chinese-canon-branch first sample. Selected core passages from the *Fó chuí
+  bān-nièpán lüè-shuō jiàojiè jīng* 佛垂般涅槃略說教誡經 (commonly 佛遺教經),
+  Kumārajīva translation, Taishō vol. 12 no. 389 (PD by age). English,
+  Tibetan and Modern Chinese vernacular columns are Sarasvatī AI drafts — no
+  modern copyrighted translation reused — awaiting named human review.
+  CC BY-SA 4.0.
+files:
+  - translations/foyijiao-jing/T389-selected-4lang.md

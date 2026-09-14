@@ -1,0 +1,28 @@
+# Prepared 2026-09-13 by Lucy. Pan reviews before upload.
+identifier: sarasvati-gandhari-dharmapada-khotan-Ia
+title: "Gāndhārī Dharmapada — Khotan fragment Ia, opening verses (3-language)"
+creator: "Dr. Lurong Pan (潘麓蓉) · Sarasvatī project"
+date: "2026-09-13"
+mediatype: texts
+collection: opensource
+language: multiple
+licenseurl: "http://creativecommons.org/licenses/by-sa/4.0/"
+subject:
+  - buddhism
+  - gandhari
+  - dharmapada
+  - kharosthi
+  - silk road
+  - central asia
+  - khotan manuscripts
+  - sarasvati
+description: >-
+  Silk-Road-branch first sample. Verses 1–4 of the Khotan Kharoṣṭhī birch-bark
+  manuscript context (Dutreuil de Rhins). The Gāndhārī column is an explicit
+  pedagogical reconstruction from the Pāli parallel to stay strictly
+  public-domain (Brough 1962 remains under copyright); every verse is flagged
+  ⟨བརྟག⟩ for a Gāndhārī specialist to substitute with the authentic Brough or
+  Lenz reading, or with a confirmed-PD GRETIL transcription. English and
+  Chinese columns are Sarasvatī AI drafts. CC BY-SA 4.0.
+files:
+  - translations/gandhari-dharmapada/khotan-fragment-Ia-3lang.md

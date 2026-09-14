@@ -3,6 +3,23 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
+## [Unreleased] — 2026-09-14
+
+### Blockchain integrity — v0.9.0 stamp confirmed to Bitcoin
+
+The v0.9.0 OpenTimestamps stamp (`manifests/SHA256SUMS.v0.9.0-a.ots`, submitted 2026-09-13 19:40 PDT to four OTS calendars) has now been anchored in the Bitcoin blockchain. Confirmed `BitcoinBlockHeaderAttestation` heights: **966902** and **966918** (via alice/bob.btc.calendar.opentimestamps.org). Attestations from finney.calendar.eternitywall.com and btc.calendar.catallaxy.com still pending as of upgrade run 2026-09-14 08:36 PDT (typically confirm within another 24–48 h).
+
+Every file in the v0.9.0 corpus is now cryptographically anchored to at least two independent Bitcoin block-header attestations. Provenance chain is intact.
+
+A fresh stamp for the current corpus (with today's Silk Road change below) has been submitted: `manifests/SHA256SUMS.ots` → 4 calendars (a/b.pool.opentimestamps.org, a.pool.eternitywall.com, ots.btc.catallaxy.com), pending confirmation.
+
+### Changed — Silk Road branch first sample: replaced reconstruction with attested manuscript text
+
+- Added `translations/gandhari-dharmapada/khotan-manuscript-apramadavaga-4lang.md` as the **new attested-text first sample** for the Silk Road branch. Gāndhārī column now reproduces four verses from the *Apramādavaga* (Diligence chapter) of the Khotan Dutreuil de Rhins manuscript, as transcribed by Émile Senart (1897) and re-edited by Benimadhab Barua & Sailendranath Mitra, *Prakrit Dhammapada, based upon M. Senart's Kharoṣṭhī manuscript* (University of Calcutta, 1921 — public domain: pre-1929 US publication with no visible copyright notice; also PD in India by age). Four verses in the new file have direct Pāli parallels at Dhp 27, 30, 167, and 327.
+- Old file `translations/gandhari-dharmapada/khotan-fragment-Ia-3lang.md` (which reconstructed Dhp 1–4 in Gāndhārī from the Pāli because those verses are **not preserved** in the surviving Khotan folio) is retained as a pedagogical companion, with a prominent header warning: **do not cite this file as evidence for what the manuscript actually says**. Points readers at the new attested-text file.
+- Resolves the standing gap flagged in `MEMORY.md` and `ROADMAP.md`: the Silk Road branch's first sample is no longer "reconstruction, not real transcript."
+- Autonomous decision under Pan's 2026-09-13 20:25 PDT delegation, principle: *satya* (truth). Logged in `decisions/2026-09-14.md`.
+
 ## [v0.9.0] — 2026-09-13
 
 ### Added — First samples for six previously-unstarted branches

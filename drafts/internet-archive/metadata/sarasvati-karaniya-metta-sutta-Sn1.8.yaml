@@ -1,0 +1,26 @@
+# Prepared 2026-09-13 by Lucy. Pan reviews before upload.
+identifier: sarasvati-karaniya-metta-sutta-Sn1.8
+title: "Karaṇīya Mettā Sutta — Discourse on Loving-Kindness (Sn 1.8, complete, 5-language)"
+creator: "Dr. Lurong Pan (潘麓蓉) · Sarasvatī project"
+date: "2026-09-13"
+mediatype: texts
+collection: opensource
+language: multiple
+licenseurl: "http://creativecommons.org/licenses/by-sa/4.0/"
+subject:
+  - buddhism
+  - pali canon
+  - sutta nipata
+  - metta sutta
+  - theravada
+  - loving-kindness
+  - southeast asia
+  - sarasvati
+description: >-
+  Southeast-Asian-Theravāda-branch first sample. Complete 10 verses of the
+  Karaṇīya Mettā Sutta (Sutta Nipāta 1.8). Pāli (PTS, PD) and English
+  (Chalmers 1932, PD) are historical public-domain sources. Chinese, Burmese
+  and Thai columns are Sarasvatī AI drafts awaiting Myanmar and Thai Saṅgha
+  review before liturgical or scholarly use. CC BY-SA 4.0.
+files:
+  - translations/karaniya-metta-sutta/Sn1.8-4lang.md

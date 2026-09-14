@@ -1,0 +1,55 @@
+# Prepared 2026-09-13 by Lucy. Pan reviews before upload.
+# Consumed by upload.sh; keys map 1:1 to `ia upload --metadata=key:value`.
+identifier: sarasvati-charter-v1.1
+title: "Buddhist-AI Charter v1.1 (Sarasvatī project, 24-language edition)"
+creator: "Dr. Lurong Pan (潘麓蓉) · Sarasvatī project"
+date: "2026-09-04"
+mediatype: texts
+collection: opensource
+language: multiple
+licenseurl: "http://creativecommons.org/licenses/by-sa/4.0/"
+subject:
+  - buddhism
+  - ethics
+  - artificial intelligence
+  - ai safety
+  - mahaparinibbana sutta
+  - open charter
+  - multilingual
+  - sarasvati
+description: >-
+  Buddhist-AI Charter v1.1 — ten principles and five refusals for AI systems,
+  distilled from the Buddha's last teachings (Mahāparinibbāna Sutta, DN 16).
+  v1.1 adds framing-defense clauses derived from the 2026-08-31 24-hour
+  cross-model fuzz. Includes the English charter plus 24 parallel-language
+  editions: zh-CN, zh-TW, ja, ko, vi, bo, hi, sa, pi, th, si, my, km, id, mn,
+  es, fr, de, it, pt, ru, ar, fa, tr. Every non-source-language rendering is a
+  Sarasvatī AI draft awaiting named human review. CC BY-SA 4.0.
+files:
+  - charter/BUDDHIST-AI-CHARTER.md
+  - charter/CHANGELOG.md
+  - charter/i18n/README.md
+  - charter/i18n/CHARTER.ar.md
+  - charter/i18n/CHARTER.bo.md
+  - charter/i18n/CHARTER.de.md
+  - charter/i18n/CHARTER.es.md
+  - charter/i18n/CHARTER.fa.md
+  - charter/i18n/CHARTER.fr.md
+  - charter/i18n/CHARTER.hi.md
+  - charter/i18n/CHARTER.id.md
+  - charter/i18n/CHARTER.it.md
+  - charter/i18n/CHARTER.ja.md
+  - charter/i18n/CHARTER.km.md
+  - charter/i18n/CHARTER.ko.md
+  - charter/i18n/CHARTER.mn.md
+  - charter/i18n/CHARTER.my.md
+  - charter/i18n/CHARTER.pi.md
+  - charter/i18n/CHARTER.pt.md
+  - charter/i18n/CHARTER.ru.md
+  - charter/i18n/CHARTER.sa.md
+  - charter/i18n/CHARTER.si.md
+  - charter/i18n/CHARTER.th.md
+  - charter/i18n/CHARTER.tr.md
+  - charter/i18n/CHARTER.vi.md
+  - charter/i18n/CHARTER.zh-CN.md
+  - charter/i18n/CHARTER.zh-TW.md

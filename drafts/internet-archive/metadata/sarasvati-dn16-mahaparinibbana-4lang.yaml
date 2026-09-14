@@ -1,0 +1,28 @@
+# Prepared 2026-09-13 by Lucy. Pan reviews before upload.
+identifier: sarasvati-dn16-mahaparinibbana-4lang
+title: "Mahāparinibbāna Sutta — Final Instructions (DN 16, 4-language parallel reading)"
+creator: "Dr. Lurong Pan (潘麓蓉) · Sarasvatī project"
+date: "2026-09-13"
+mediatype: texts
+collection: opensource
+language: multiple
+licenseurl: "http://creativecommons.org/licenses/by-sa/4.0/"
+subject:
+  - buddhism
+  - pali canon
+  - mahaparinibbana
+  - digha nikaya
+  - parallel translation
+  - tibetan
+  - chinese buddhist canon
+  - sarasvati
+description: >-
+  Selected passages from the Buddha's last discourse (Dīgha Nikāya 16,
+  Mahāparinibbāna Sutta). Pāli (PTS, public domain), English (Rhys Davids
+  1910, PD), Chinese (T01 Taishō, PD), Tibetan (Sarasvatī AI draft
+  cross-referenced with Derge Kangyur). Anchor text for both the Pāli branch
+  of the Sarasvatī open archive and for the Buddhist-AI Charter itself.
+  AI-drafted columns flagged ⟨བརྟག⟩ awaiting named human review. CC BY-SA 4.0.
+files:
+  - translations/mahaparinibbana-sutta/README.md
+  - translations/mahaparinibbana-sutta/final-instructions-4lang.md
