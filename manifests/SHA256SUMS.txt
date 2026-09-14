@@ -5,6 +5,7 @@ dcff524c56e01ae1a886f96eeda5310a0f66f69cbca6ef7516d32fc076efc66f  ./CHANGELOG.md
 fd2c788190e64fbb2c95dd9135fe60111adfcaa5547c7dffc73d902fc8c6bc54  ./CONTRIBUTORS.md
 28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5  ./LICENSE
 c74604b5ca260b748328017826a9cb9bff8d6f26224dec3c8ccb7978744b161a  ./README.md
+efee61822384176cf960bd2c27ddf56952bf4edf9bbeb4e2b371a090c54626fa  ./RESOURCE-QUEUE.md
 eb5793bc0cbb65d60cfd6b833051ea7a2736d5e488364537a5d51373a6f21f1d  ./ROADMAP.md
 52cd8b24127db93536ab7c391b5c86b7a40a63ff4271c71e5fe43d7245512f9a  ./announcements/PROMO-KIT.md
 fdc9867115beadd511b81c8f9e2f69b2ed990f1ee4fe5fdd1f894f505f816df1  ./announcements/academic-mailing-list-call.md
@@ -203,6 +204,10 @@ b07a39fc9de50d402836911e20f73e66f6e4273d9d35971c3fb10972eaabf496  ./impl/typescr
 e12ebf0153d3e1de2ce135d871f6d24dad255866e18a3a9707fd7a7d38dae33d  ./proposals/branch-chinese-2026-08.md
 6db8170325bf9e7b6af96e0539893fd3ce245d0f7963e6aae206ab5f937d4a21  ./proposals/branch-pali-2026-08.md
 59becf180bfec6a4dfe4114c31f003e4130743213e0772bf92e5997f5d1fcac2  ./proposals/timeline-2026-W37.md
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./resource-leads/.gitkeep
+6f3b066f8dea4e962d7c0f70bfa979b97402d4b6b3e3d64dac27a854f8439274  ./resource-leads/compute-credits.md
+b365b02bc911ddbf6eeb7c3f010e2e137252669455723385bb7822f9746133a6  ./resource-leads/human-reviewers.md
+f0827540fd4add5b7329c11945b06c4dcb76f750399a352d3e4231d1a652b84f  ./resource-leads/storage-sponsors.md
 9523265b16ee6d3916c33440d14eaeb068ed10bf7a2d4b7a793e2c0aee80be4a  ./scripts/.branch_proposals.jsonl
 b6fe39f83675e5d5ae776d687b2e96d831c9ea6a5645d5ebdfd140453a20636e  ./scripts/.feedback_state.json
 164fb06a672f8e27aa30e02ef2d450d239d888250c5b7522f7d8f7437f9521cd  ./scripts/community_feedback.sh
