@@ -3,7 +3,16 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
-## [Unreleased] — 2026-09-14
+## [Unreleased] — 2026-09-15
+
+### Added — India branch second sample: Major Rock Edict XIII (Kalinga-war remorse + dhamma-vijaya)
+
+- Added `translations/ashoka-edicts/major-rock-edict-XIII-4lang.md` — Aśoka's Major Rock Edict XIII, Kālsī recension, 4-language reading (Prakrit / English / Chinese / Tibetan). Six passages: (I) the Kaliṅga war casualty count, (II) the king's remorse, (III) the wound extending to civilians and their kin, (IV) "even a hundredth part now grieves me", (V) *dhamma-vijaya* and the naming of the five Hellenistic kings (Antiochus II, Ptolemy II, Antigonus Gonatas, Magas, Alexander — the earliest South Asian text to name them), (VI) the wish that his sons and great-grandsons never mount another war of conquest.
+- Sources: Prakrit + English from Hultzsch 1925 *Corpus Inscriptionum Indicarum* Vol. 1, pp. 44–49 (public domain, both by age worldwide and by pre-1929 US rule). Chinese and Tibetan columns are Sarasvatī machine drafts, every passage flagged `⟨བརྟག⟩`, awaiting named human review from a Prakrit epigraphist, a classical Tibetan translator, and a classical Chinese editor.
+- India branch now has two attested samples (REXII on religious tolerance + REXIII on non-violent conquest). This closes the "India is thinnest" gap flagged by the daily-push cron.
+- Recension note: Kālsī is used as the base because Girnar's REXIII is fragmentary; where Kālsī is damaged, readings are supplied from Shāhbāzgaṛhī or Girnar following Hultzsch's convention.
+- ROADMAP.md § India branch updated to reference the new sample.
+- Autonomous decision under Pan's 2026-09-13 20:25 PDT delegation, principle: *satya* (truth: real epigraphic text, not composition) + *asteya* (only public-domain sources). Logged in `decisions/2026-09-15.md`.
 
 ### Blockchain integrity — v0.9.0 stamp confirmed to Bitcoin
 

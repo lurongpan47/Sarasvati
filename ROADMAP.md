@@ -21,6 +21,7 @@ Sarasvatī's archive is structured along the transmission timeline. Each branch 
 ### 1. India — 印度源流 · `india`
 The oral origin; councils; sects; Mahāyāna emergence.
 - **First sample (v0.9)**: Aśoka Major Rock Edict XII, Girnar recension — 4-language reading (Prakrit / English / Chinese / Tibetan). `translations/ashoka-edicts/major-rock-edict-XII-4lang.md`. Chinese and Tibetan are machine drafts awaiting named human review.
+- **Second sample (added 2026-09-15)**: Aśoka Major Rock Edict XIII, Kālsī recension — 4-language reading covering Kalinga-war remorse, dhamma-vijaya, and the naming of the Hellenistic kings (c. 256 BCE). `translations/ashoka-edicts/major-rock-edict-XIII-4lang.md`. Prakrit + English from Hultzsch 1925 (public domain); Chinese + Tibetan are Sarasvatī machine drafts.
 - **Sample targets (future)**: public-domain critical editions of foundational sūtras.
 
 ### 2. Sanskrit manuscript — 梵文写本系 · `sanskrit`
