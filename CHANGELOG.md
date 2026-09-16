@@ -3,7 +3,17 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
-## [Unreleased] — 2026-09-15
+## [Unreleased] — 2026-09-16
+
+### Blockchain integrity — current-corpus stamp confirmed to Bitcoin (post-India-REXIII)
+
+The rolling `manifests/SHA256SUMS.ots` stamp (submitted 2026-09-14 after the Silk Road attested-text upgrade and the India Major Rock Edict XIII addition, covering the full corpus through commit `bf45e3d`) has now been anchored in the Bitcoin blockchain. Confirmed `BitcoinBlockHeaderAttestation` heights: **966983** (block hash `0000…0190b59d…d2d9`, mined 2026-09-14 15:55 UTC) and **966985** (block hash `0000…d26b9fba…4c96`, mined 2026-09-14 16:02 UTC), via alice/bob.btc.calendar.opentimestamps.org. Attestations from finney.calendar.eternitywall.com and btc.calendar.catallaxy.com are still pending.
+
+All India-branch (REXII + REXIII) and Silk Road-branch (attested Khotan *Apramādavaga* text) additions are now cryptographically anchored to two independent Bitcoin block-header attestations. Provenance chain remains intact for every file in the current corpus.
+
+IPFS pins verified on Lucy's Mac mini (2026-09-16): v0.9-a `bafybeib6vwrmxhd2ker6ciiu5ibktheg4bc5mypfpyo5kpcs4ik45oibmy` ✅ recursive · v0.9-b `bafybeihlqenoxrrs7re4p6nzbf3crx5umi5dlpvo6ai6x2yrcl3gvu2jru` ✅ recursive.
+
+## [Previous unreleased entries] — 2026-09-15
 
 ### Added — India branch second sample: Major Rock Edict XIII (Kalinga-war remorse + dhamma-vijaya)
 
