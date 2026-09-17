@@ -10,19 +10,20 @@
 
 ### A. Launch the remaining 7 branches · 启动尚未开工的七系
 
-Sarasvatī's canon archive is structured along eight transmission branches. Only one — **Tibetan** — has a first sample in the repo today (the DN 16 four-language reading), and **Pāli** has been touched through that same DN 16 asset. The remaining branches need **first samples** to prove the cross-branch method:
+Sarasvatī's canon archive is structured along eight transmission branches. As of v0.9 (2026-09), **all eight branches have a first sample** in the repo — but every non-source-language column in every sample is still a machine draft. The archive is now at a phase where the bottleneck is **named human review**, not first-sample creation.
 
-| Branch | 中文 | Status | What we need |
+| Branch | 中文 | v0.9 status | What we need |
 |---|---|---|---|
-| India · `india` | 印度源流 | not started | philologists in Vedic / Prakrit / early Buddhist India studies; pointer to public-domain critical editions |
-| Sanskrit manuscript · `sanskrit` | 梵文写本系 | not started | Sanskritists able to work from GRETIL / Nepal / Gilgit public-domain corpora; cross-language reviewers |
-| Pāli · `pali` | 巴利·斯里兰卡 | seed only (DN 16) | Pāli scholars for a full first-sample sutta with named human review |
-| Southeast Asian Theravāda · `seasia` | 南传东南亚 | not started | Burmese / Thai / Khmer / Lao / Shan-script readers; 5th/6th/8th/9th council edition access |
-| Silk Road · `silkroad` | 中亚·丝路 | not started | Gāndhārī / Khotanese / Tocharian / Tangut specialists; access to Schøyen / IDP / BnF holdings |
-| Chinese canon · `chinese` | 汉传系 | not started | classical Chinese Buddhologists; CBETA-savvy editors; Taishō vol. 85 gap-hunters |
-| Sinosphere · `sinosphere` | 汉字文化圈 | not started | Korean / Japanese / Vietnamese Buddhologists; Tripiṭaka Koreana + SAT + Nara collaborators |
+| India · `india` | 印度源流 | 2 samples (Aśoka Rock Edicts XII, XIII) | philologists in Prakrit / early Buddhist India studies; review of Chinese + Tibetan draft columns |
+| Sanskrit manuscript · `sanskrit` | 梵文写本系 | 1 sample (Prajñāpāramitā Hṛdaya short recension) | Sanskritists to review the English draft column; more GRETIL / Nepal / Gilgit texts |
+| Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + K.M.S. via SEAsia | Pāli scholars for a full dedicated Pāli-branch sample with named review |
+| Southeast Asian Theravāda · `seasia` | 南传东南亚 | 1 sample (Karaṇīya Mettā Sutta Sn 1.8) | Burmese / Thai / Khmer / Lao / Shan-script readers to review the Burmese and Thai draft columns |
+| Silk Road · `silkroad` | 中亚·丝路 | 2 samples (Kharoṣṭhī Dharmapada attested + pedagogical reconstruction) | Gāndhārī / Khotanese / Tocharian / Tangut specialists; more Schøyen / IDP / BnF material |
+| Chinese canon · `chinese` | 汉传系 | 1 sample (Fó yíjiào jīng T389) | classical Chinese Buddhologists to review the English + Tibetan + modern-Chinese draft columns |
+| Sinosphere · `sinosphere` | 汉字文化圈 | 1 sample (Wŏnhyo preface T44 no. 1844) | Korean Buddhologists to review the Korean + English draft columns |
+| Tibetan · `tibetan` | 藏传系 | 1 dedicated sample (Udānavarga Anityavarga vv. 1–4 from Rockhill 1892) + DN 16 draft | Tibetanists to verify Wylie against dbu-can and to update Rockhill's 1892 English to modern accuracy |
 
-For each branch we want the same recipe: a public-domain source text → an AI machine draft into a language currently lacking a translation → a named human reviewer → CC BY-SA 4.0 release.
+For each branch we want the same recipe: a public-domain source text → an AI machine draft into a language currently lacking a translation → a named human reviewer → CC BY-SA 4.0 release. **The 2026-Q4 priority is reviewers, not more first samples.**
 
 **Ways to help**:
 - **Nominate a text.** Open an issue proposing a specific public-domain text + a specific target language + why it fills a real gap.

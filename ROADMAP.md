@@ -63,8 +63,9 @@ Korea, Japan, Vietnam.
 
 ### 8. Tibetan — 藏传系 · `tibetan`
 Kangyur / Tengyur; Mongolian & Manchu editions.
-- **Current asset**: DN 16 Tibetan draft embedded in the Pāli · English · Chinese · Tibetan reading.
-- **Sample targets (future)**: short texts in Tengyur commentary literature without modern translations.
+- **First dedicated sample (v0.9, added 2026-09-17)**: Udānavarga (ཆེད་དུ་བརྗོད་པའི་ཚོམས, *Ched-du brjod-pa'i tshoms*, Dharmatrāta), Anityavarga (chapter 1, *mi rtag pa'i tshoms*), verses 1–4 — 4-language reading (Tibetan dbu-can / Wylie / English Rockhill 1892 / Pāli Dhp parallel / T210 Chinese parallel). `translations/udanavarga-tibetan/anityavarga-verses1-4-4lang.md`. Tibetan text and English are **attested public-domain** (Rockhill 1892, Narthang Kangyur); no machine translation in the source-language column.
+- **Additional asset**: DN 16 Tibetan draft embedded in the Pāli · English · Chinese · Tibetan cross-branch reading.
+- **Sample targets (future)**: short texts in Tengyur commentary literature without modern translations; a Bernhard-independent public-domain Sanskrit parallel for the Anityavarga.
 
 ---
 

@@ -3,7 +3,23 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
-## [Unreleased] — 2026-09-16
+## [Unreleased] — 2026-09-17
+
+### Added — Tibetan branch first **dedicated** sample: Udānavarga Anityavarga vv. 1–4 (Rockhill 1892)
+
+- Added `translations/udanavarga-tibetan/anityavarga-verses1-4-4lang.md` — the first sample whose primary text is Tibetan (not a shared column of a Pāli- or Sanskrit-anchored reading). Udānavarga (Tib. *Ched-du brjod-pa'i tshoms*, ཆེད་དུ་བརྗོད་པའི་ཚོམས), chapter 1 (Anityavarga / *mi rtag pa'i tshoms*), verses 1–4 in a 5-column reading: Tibetan dbu-can / Wylie transliteration / Rockhill 1892 English / Pāli Dhammapada + Sutta-nipāta + DN 16 parallels / T210 Chinese parallel.
+- Sources: W. W. Rockhill, *Udânavarga: A Collection of Verses from the Buddhist Canon Compiled by Dharmatrāta* (London: Trübner & Co., 1892), pp. 1–2 — public domain worldwide (pre-1929 US; author d. 1914 + 70). Tibetan text is Rockhill's Narthang Kangyur transcription; English is Rockhill's own translation. **No machine translation** in the source-language or English columns. Wylie is mechanical romanization (Turrell Wylie 1959 standard). Pāli parallels: PTS (public domain). Chinese parallel: T210 attributed to Zhi Qian, 3rd c. CE (PD by age, via CBETA public-facing corpus).
+- Sanskrit column deliberately omitted: Bernhard 1965 and Chakravarti 1930 are both post-1929 and copyright-active, and would violate Sarasvatī's public-domain-only rule. Any future addition awaits either fair-use policy or a pre-1929 Turfan-manuscript source.
+- Verse 1 ("aniccā vata saṅkhārā") is intentionally chosen to resonate with the Pāli DN 16 closing verse that anchors the Buddhist AI Charter — the Tibetan branch's first dedicated sample cross-branch-links to the charter's scriptural root.
+- Closes the standing structural gap: previously, the Tibetan branch had only a shared column in the DN 16 four-language reading; now it has its own attested primary-text sample.
+- ROADMAP.md § Tibetan branch updated. CALL-FOR-HELP.md status table updated to reflect all-eight-branches-have-first-samples reality (previous text still said "only Tibetan has a first sample" — stale since v0.9.0 launched all six other branches on 2026-09-13).
+- Autonomous decision under Pan's 2026-09-13 20:25 PDT delegation, principle: *satya* (attested text, no machine translation) + *asteya* (only public-domain sources, no Bernhard 1965). Logged in `decisions/2026-09-17.md`.
+
+### Changed — CALL-FOR-HELP.md branch-status table refreshed
+
+- Old table stated "Only one — **Tibetan** — has a first sample in the repo today" and marked six other branches "not started". That text pre-dated v0.9.0 (2026-09-13) which seeded six branches, plus subsequent India second sample and Silk Road attested-text upgrade. New table reflects the 2026-09-17 reality: all eight branches have at least one first sample; the priority shifts from first-sample creation to **named human reviewer recruitment**.
+
+## [Unreleased-prior] — 2026-09-16
 
 ### Blockchain integrity — current-corpus stamp confirmed to Bitcoin (post-India-REXIII)
 
