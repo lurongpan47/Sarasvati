@@ -21,7 +21,7 @@ Sarasvatī's canon archive is structured along eight transmission branches. As o
 | Silk Road · `silkroad` | 中亚·丝路 | 2 samples (Kharoṣṭhī Dharmapada attested + pedagogical reconstruction) | Gāndhārī / Khotanese / Tocharian / Tangut specialists; more Schøyen / IDP / BnF material |
 | Chinese canon · `chinese` | 汉传系 | 1 sample (Fó yíjiào jīng T389) | classical Chinese Buddhologists to review the English + Tibetan + modern-Chinese draft columns |
 | Sinosphere · `sinosphere` | 汉字文化圈 | 1 sample (Wŏnhyo preface T44 no. 1844) | Korean Buddhologists to review the Korean + English draft columns |
-| Tibetan · `tibetan` | 藏传系 | 1 dedicated sample (Udānavarga Anityavarga vv. 1–4 from Rockhill 1892) + DN 16 draft | Tibetanists to verify Wylie against dbu-can and to update Rockhill's 1892 English to modern accuracy |
+| Tibetan · `tibetan` | 藏传系 | 1 dedicated sample (Udānavarga Anityavarga, Rockhill 1892 I.3/10/12/17; English attested, Tibetan column draft) + DN 16 draft | Tibetanist with Beckh 1911 or a Kangyur witness to collate the ⟨བརྟག⟩ Tibetan stanzas; then update Rockhill's 1892 English to modern accuracy |
 
 For each branch we want the same recipe: a public-domain source text → an AI machine draft into a language currently lacking a translation → a named human reviewer → CC BY-SA 4.0 release. **The 2026-Q4 priority is reviewers, not more first samples.**
 

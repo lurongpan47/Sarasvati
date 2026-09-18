@@ -3,11 +3,27 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
-## [Unreleased] — 2026-09-17
+## [Unreleased] — 2026-09-18
+
+### Fixed — Erratum: Udānavarga Tibetan sample had false provenance claims (satya correction)
+
+Checked yesterday's `anityavarga-verses1-4-4lang.md` against the actual Rockhill 1892 scan (Internet Archive `udnavargacolle00bkah`). Three claims were false and are now corrected in the renamed file `translations/udanavarga-tibetan/anityavarga-selected-verses-4lang.md`:
+
+1. **Verse numbers**: the four stanzas are Rockhill I.3 (p. 2), I.10 (p. 3), I.12 (p. 3), I.17 (p. 4, = Dhp 135) — not "verses 1–4" (Rockhill I.1–2 are introductory verses).
+2. **English "verbatim"**: was a paraphrase. Replaced with the true Rockhill wording from the scan, with his footnotes cited.
+3. **"Tibetan as printed in Rockhill 1892"**: Rockhill prints no Tibetan text. The dbu-can column is a Sarasvatī draft, now flagged `⟨བརྟག⟩` on every stanza (I.3 follows the stable Kangyur wording; I.10/12/17 are low-confidence), pending collation against Beckh 1911 (PD) or Derge Tōh. 326.
+
+Also corrected: catalogue number (Kangyur Tōh. 326 for the root text; Tōh. 4099 is Prajñāvarman's Tengyur commentary); Chinese parallel for I.3 (諸行無常，是生滅法… is *Mahāparinirvāṇa-sūtra* T374/T375, not T210; T210 無常品 reads 所行非常，謂興衰法…); Pāli citations now Sn 576–578 (*Sallasutta* 3–5, as in Rockhill's own footnotes) plus Dhp 135; T210 parallel for I.17 relocated to 刀杖品.
+
+The Tibetan branch still has its first dedicated sample, but its honest status is: **attested PD English translation of Tibetan + draft Tibetan source column**. ROADMAP § 8 and CALL-FOR-HELP status table updated accordingly. Manifest re-hashed and re-stamped.
+
+New standing rule (logged in `decisions/2026-09-18.md`): no column may be labelled "attested"/"verbatim" unless the scan or digital edition was opened and copied from in the same session. Memory of a text is a draft.
+
+## [Unreleased-prior] — 2026-09-17
 
 ### Added — Tibetan branch first **dedicated** sample: Udānavarga Anityavarga vv. 1–4 (Rockhill 1892)
 
-- Added `translations/udanavarga-tibetan/anityavarga-verses1-4-4lang.md` — the first sample whose primary text is Tibetan (not a shared column of a Pāli- or Sanskrit-anchored reading). Udānavarga (Tib. *Ched-du brjod-pa'i tshoms*, ཆེད་དུ་བརྗོད་པའི་ཚོམས), chapter 1 (Anityavarga / *mi rtag pa'i tshoms*), verses 1–4 in a 5-column reading: Tibetan dbu-can / Wylie transliteration / Rockhill 1892 English / Pāli Dhammapada + Sutta-nipāta + DN 16 parallels / T210 Chinese parallel.
+- Added `translations/udanavarga-tibetan/anityavarga-verses1-4-4lang.md` (**renamed and corrected 2026-09-18 → `anityavarga-selected-verses-4lang.md`; see the erratum entry above — the provenance claims in this 09-17 entry were partly false**) — the first sample whose primary text is Tibetan (not a shared column of a Pāli- or Sanskrit-anchored reading). Udānavarga (Tib. *Ched-du brjod-pa'i tshoms*, ཆེད་དུ་བརྗོད་པའི་ཚོམས), chapter 1 (Anityavarga / *mi rtag pa'i tshoms*), verses 1–4 in a 5-column reading: Tibetan dbu-can / Wylie transliteration / Rockhill 1892 English / Pāli Dhammapada + Sutta-nipāta + DN 16 parallels / T210 Chinese parallel.
 - Sources: W. W. Rockhill, *Udânavarga: A Collection of Verses from the Buddhist Canon Compiled by Dharmatrāta* (London: Trübner & Co., 1892), pp. 1–2 — public domain worldwide (pre-1929 US; author d. 1914 + 70). Tibetan text is Rockhill's Narthang Kangyur transcription; English is Rockhill's own translation. **No machine translation** in the source-language or English columns. Wylie is mechanical romanization (Turrell Wylie 1959 standard). Pāli parallels: PTS (public domain). Chinese parallel: T210 attributed to Zhi Qian, 3rd c. CE (PD by age, via CBETA public-facing corpus).
 - Sanskrit column deliberately omitted: Bernhard 1965 and Chakravarti 1930 are both post-1929 and copyright-active, and would violate Sarasvatī's public-domain-only rule. Any future addition awaits either fair-use policy or a pre-1929 Turfan-manuscript source.
 - Verse 1 ("aniccā vata saṅkhārā") is intentionally chosen to resonate with the Pāli DN 16 closing verse that anchors the Buddhist AI Charter — the Tibetan branch's first dedicated sample cross-branch-links to the charter's scriptural root.

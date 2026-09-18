@@ -63,7 +63,7 @@ Korea, Japan, Vietnam.
 
 ### 8. Tibetan — 藏传系 · `tibetan`
 Kangyur / Tengyur; Mongolian & Manchu editions.
-- **First dedicated sample (v0.9, added 2026-09-17)**: Udānavarga (ཆེད་དུ་བརྗོད་པའི་ཚོམས, *Ched-du brjod-pa'i tshoms*, Dharmatrāta), Anityavarga (chapter 1, *mi rtag pa'i tshoms*), verses 1–4 — 4-language reading (Tibetan dbu-can / Wylie / English Rockhill 1892 / Pāli Dhp parallel / T210 Chinese parallel). `translations/udanavarga-tibetan/anityavarga-verses1-4-4lang.md`. Tibetan text and English are **attested public-domain** (Rockhill 1892, Narthang Kangyur); no machine translation in the source-language column.
+- **First dedicated sample (v0.9, added 2026-09-17, corrected 2026-09-18)**: Udānavarga (ཆེད་དུ་བརྗོད་པའི་ཚོམས, *Ched-du brjod-pa'i tshoms*, Dharmatrāta; Kangyur Tōh. 326), Anityavarga (chapter 1, *mi rtag pa'i tshoms*), Rockhill verses I.3 · I.10 · I.12 · I.17 — 4-language reading (Tibetan dbu-can ⟨བརྟག⟩ / Wylie / English Rockhill 1892 / Pāli Sn + Dhp parallels / T210 Chinese parallel). `translations/udanavarga-tibetan/anityavarga-selected-verses-4lang.md`. **English is attested public-domain** (Rockhill 1892, verbatim from the scan). **Tibetan column is a Sarasvatī draft** — Rockhill prints no Tibetan; collation against Beckh 1911 (PD) or Derge Tōh. 326 is the branch's top open task. See the file's erratum header.
 - **Additional asset**: DN 16 Tibetan draft embedded in the Pāli · English · Chinese · Tibetan cross-branch reading.
 - **Sample targets (future)**: short texts in Tengyur commentary literature without modern translations; a Bernhard-independent public-domain Sanskrit parallel for the Anityavarga.
 
@@ -113,4 +113,3 @@ Kangyur / Tengyur; Mongolian & Manchu editions.
 - `README.md` — schema + coverage docs
 
 Living dataset; PRs welcome.
-
