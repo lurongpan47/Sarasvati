@@ -44,13 +44,17 @@ fi
 rm -f "$TMP" "$TMP.bak"
 AFTER_HASH=$(shasum -a 256 "$STAMP" | awk '{print $1}')
 
-# Verify. `ots verify` prints a Bitcoin block height if fully confirmed.
-VERIFY_OUT=$("$OTS_BIN" verify "$STAMP" 2>&1 || true)
-echo "$VERIFY_OUT"
+# Detect confirmation. NOTE (2026-09-19): `ots verify` needs a local Bitcoin
+# node to print a block height — this machine has none, so verify always fails
+# with "Could not connect to Bitcoin node" even when the proof is complete.
+# Use `ots info` instead: a fully upgraded proof contains a
+# BitcoinBlockHeaderAttestation(<height>) line, node or not.
+INFO_OUT=$("$OTS_BIN" info "$STAMP" 2>&1 || true)
+echo "$INFO_OUT" | grep -E "BitcoinBlockHeaderAttestation|PendingAttestation" || true
 
-if echo "$VERIFY_OUT" | grep -qiE "block ([0-9]+)"; then
+if echo "$INFO_OUT" | grep -qE "BitcoinBlockHeaderAttestation\([0-9]+\)"; then
   echo "== Bitcoin-confirmed! =="
-  BLOCK=$(echo "$VERIFY_OUT" | grep -oiE "block [0-9]+" | head -1 | awk '{print $2}')
+  BLOCK=$(echo "$INFO_OUT" | grep -oE "BitcoinBlockHeaderAttestation\([0-9]+\)" | head -1 | grep -oE "[0-9]+")
 
   if [[ "$BEFORE_HASH" != "$AFTER_HASH" ]]; then
     git add manifests/SHA256SUMS.ots
