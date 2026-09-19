@@ -27,9 +27,21 @@ if [[ ! -f "$STAMP" ]]; then
 fi
 
 # Try to upgrade the stamp.
+# NOTE (2026-09-19): `ots upgrade FILE` refuses to write the upgraded proof if
+# FILE.bak already exists ("Could not backup timestamp"), and exits 0 anyway —
+# so an in-place upgrade silently no-ops once a .bak is lying around. Upgrade a
+# temp copy instead and move it back only if it actually gained attestations.
 BEFORE_HASH=$(shasum -a 256 "$STAMP" | awk '{print $1}')
 echo "== OTS upgrade attempt =="
-"$OTS_BIN" upgrade "$STAMP" 2>&1 || true
+TMP=$(mktemp -t sarasvati-ots).ots
+cp "$STAMP" "$TMP"
+"$OTS_BIN" upgrade "$TMP" 2>&1 || true
+TMP_HASH=$(shasum -a 256 "$TMP" | awk '{print $1}')
+if [[ "$TMP_HASH" != "$BEFORE_HASH" ]]; then
+  # Upgraded proof is a strict superset of the pending one; no backup needed.
+  cp "$TMP" "$STAMP"
+fi
+rm -f "$TMP" "$TMP.bak"
 AFTER_HASH=$(shasum -a 256 "$STAMP" | awk '{print $1}')
 
 # Verify. `ots verify` prints a Bitcoin block height if fully confirmed.

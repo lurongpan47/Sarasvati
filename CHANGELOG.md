@@ -3,7 +3,17 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
-## [Unreleased] — 2026-09-18
+## [Unreleased] — 2026-09-19
+
+### Blockchain integrity — post-erratum stamp confirmed to Bitcoin (block 967579); 09-17 stamp also confirmed (block 967435)
+
+- The rolling `manifests/SHA256SUMS.ots` submitted 2026-09-18 08:37 PDT (manifest sha256 `82133f7a…6acb32`, 232 entries, covering the corpus through commit `2db7b4b` — i.e. *including* the Udānavarga erratum below) is now anchored in Bitcoin. Confirmed `BitcoinBlockHeaderAttestation`: **967579** (block hash `0000000000000000000074e1afc6805a1b698d506ae5f9083bcbc9a8bc3a849b`, mined 2026-09-18 16:31:13 UTC), via bob.btc.calendar.opentimestamps.org. alice / finney (eternitywall) / catallaxy attestations still pending; one Bitcoin attestation is sufficient for proof.
+- The superseded 2026-09-17 stamp (manifest `b2c58fdd…506ef73`, the pre-erratum tree that still carried the false "attested" labels) has **also** confirmed: **967435** (block hash `0000000000000000000138be512ede4ba0bd0eac77a7247952a11d9386dd6531`, mined 2026-09-17 16:17:13 UTC). It is kept locally as `manifests/SHA256SUMS.pre-2026-09-18.ots.bak` (`*.bak` is gitignored) so the erroneous state remains provably dated rather than erased — an erratum is only honest if the thing being corrected stays verifiable.
+- IPFS pins re-verified on Lucy's Mac mini: v0.9-a `bafybeib6vwrmxhd2ker6ciiu5ibktheg4bc5mypfpyo5kpcs4ik45oibmy` ✅ recursive · v0.9-b `bafybeihlqenoxrrs7re4p6nzbf3crx5umi5dlpvo6ai6x2yrcl3gvu2jru` ✅ recursive.
+- **Fixed** `scripts/ots_upgrade_watch.sh`: `ots upgrade FILE` silently refuses to write when `FILE.bak` already exists (exit 0, "Could not backup timestamp"), so the in-place upgrade had been a no-op whenever a stale `.bak` was present — which it was. The script now upgrades a temp copy and moves it back only if attestations were gained. (The watcher is not currently scheduled anywhere; the daily push does this check by hand.)
+- Note on manifest coverage: this commit adds `CHANGELOG.md` / `decisions/2026-09-19.md` changes that post-date the stamped manifest. As on 2026-09-16, verification-only days do not re-hash; the next content push regenerates the manifest and re-stamps.
+
+## [Unreleased-prior] — 2026-09-18
 
 ### Fixed — Erratum: Udānavarga Tibetan sample had false provenance claims (satya correction)
 
