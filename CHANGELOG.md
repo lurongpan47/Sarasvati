@@ -3,7 +3,24 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
-## [Unreleased] — 2026-09-19
+## [Unreleased] — 2026-09-20
+
+### Fixed — Erratum: Silk Road Gāndhārī sample mis-transcribed 3 of 4 verses (retroactive scan check, satya correction)
+
+First item of the standing 09-18 audit queue. `translations/gandhari-dharmapada/khotan-manuscript-apramadavaga-4lang.md` (added 2026-09-14 as the branch's "attested-text" first sample) was re-read against the Internet Archive scan of Barua & Mitra, *Prakrit Dhammapada* (Calcutta 1921; DLI item `in.ernet.dli.2015.41588`, duplicate `in.ernet.dli.2015.515737`), both Part I (Senart's plate-order text + notes) and Part II (B–M's rearranged *Apramādavaga*). Findings, all now corrected in the file with an erratum table at the top:
+
+1. **Dhp 30 parallel (B–M v. 11)**: `makahba` → **`makabha`**; `prasaṃṣati` → **`prasajhati`** (Senart: the *j* carries the aspirate stroke, "no doubt about the reading"; B–M explicitly say they *would have expected* `prasaṃsati` — the file had printed the expected form as if it were the folio's); `gata` → **`gatu`** (final akṣara supplied by B–M). Gloss "gh > kh > kh(b)" replaced by B–M's actual note.
+2. **Dhp 327 parallel (B–M v. 23)**: `kunja(ru)` → **`kuñ(aru)`** — the folio has `kuñ` only; the bracket had claimed two unattested akṣaras. Plate reference "A¹ l. 3" → **A¹ l. 5**. The `⟨བརྟག⟩` on this verse is removed: the reading is now B–M's, brackets and all.
+3. **Dhp 167 parallel (B–M v. 12)**: `sev[eja]` / `roy[eth]a` → **`sev(e)a`** / **`roy(e)a`** (Gāndhārī *-eyya* → *-ea*; B–M: "royea (= roceyya) in place of seveyya"). The `⟨བརྟག⟩` is removed for the same reason.
+4. **Dhp 27 parallel (B–M v. 20)**: text was correct; `visesa` → `viseṣa` per Senart's note d.
+5. **Citations**: "Apramādavaga 2 / 5–6 / 3 / —, pp. 3–5" → B–M vv. **20 · 11 · 23 · 12**, Part II pp. 134 · 128–129 · 137 · 129, with Senart plate/line refs A¹ 2 · A³ 17 + A² 1 · A¹ 5 · A² 2.
+6. **False claim about the source**: the review note said B–M reproduce Senart's plates in Part I; their Preface says the opposite (palaeographic types omitted as pointless "without the fac-simile of the plates"). Reviewers are now pointed to *Journal Asiatique* 1897–98 for the facsimiles.
+
+ROADMAP § 5 updated. The pre-correction text stays provably dated via the superseded stamps (966983/966985 · 967435 · 967579) and the v0.9-b IPFS snapshot. Manifest regenerated (+`decisions/2026-09-19.md`, +`decisions/2026-09-20.md`) and re-stamped; the confirmed 09-18 stamp preserved as `manifests/SHA256SUMS.pre-2026-09-20.ots.bak` (gitignored, local).
+
+Remaining audit queue: Hultzsch 1925 (Ashoka REXII/XIII), Chalmers 1932 (Sn 1.8), T389, Wŏnhyo prologue; then the Pāli Yamakavagga 1–4 sample with Fausbøll / SBE X open.
+
+## [Unreleased-prior] — 2026-09-19
 
 ### Blockchain integrity — post-erratum stamp confirmed to Bitcoin (block 967579); 09-17 stamp also confirmed (block 967435)
 
