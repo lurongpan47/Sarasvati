@@ -5,6 +5,22 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: Se
 
 ## [Unreleased] — 2026-09-21
 
+### Added — Timeline evidence revisions 2026-W37 + 2026-W39 applied (events 82 → 87)
+
+Pan approved both pending timeline proposals in one reply ("approve all" / "approve", WhatsApp 2026-09-21 10:53 & 13:45 PDT). Appended to `docs/timeline-data/events.jsonl` + `events.csv`, additive only, `traditions.jsonl` and the canonical PDF untouched:
+
+- `evt_083` · tibetan · 2026 · 84000 completes the *Śatasāhasrikā Prajñāpāramitā* English translation (Buddhistdoor 2026-07-22; 84000.co).
+- `evt_084` · sanskrit · 2025 · Fumi Yao, *Bhaiṣajyavastu* critical edition, BMSC V (Hermes, Oslo 2025; ISBN 978-82-8034-205-8).
+- `evt_085` · chinese · 2026 · CBETA 2026 R1 — 15 texts / 82 fascicles added, 演培法師全集 (cbeta.org/post/29961).
+- `evt_086` · sanskrit · 2004–present · CTRC × ÖAW *Sanskrit Texts from the Tibetan Autonomous Region* (STTAR), 28 vols (中新社 2026-09-20; ÖAW IKGA series page; H-Net vol. 20 notice).
+- `evt_087` · seasia · 2019–present · Thailand's Sangha Supreme Council royal English Tipiṭaka, 45 vols / 21,941 pp. (Thai PRD 2019-06-12; Khaosod English 2026-09-12; SuttaCentral Discourse 45225).
+
+Full evidence and rejected candidates: `proposals/timeline-2026-W37.md`, `proposals/timeline-2026-W39.md`. Event counts updated in `README.md`, `docs/index.md`, `docs/timeline/index.md`, `docs/timeline-data/README.md`. `docs/timeline-preview-3lang.png` is **not** re-rendered: it is the tri-lingual banner stacked over the first page of the canonical PDF, which is unchanged, so a re-render would be byte-for-byte the same image; the new rows live in the data files only until the PDF itself is revised.
+
+Process change (Pan, 2026-09-21 13:46 PDT: 「请自动approve 这个问题不要再问我」): from this week the `Timeline Continuous Revision` cron writes accepted candidates directly and reports what it wrote, instead of holding them for an approve/skip reply. Every write still goes through the proposal file + this CHANGELOG + `decisions/` and is reversible by `git revert`; deletions and `traditions.jsonl` / PDF changes stay forbidden.
+
+Manifest regenerated and re-stamped; the morning stamp over `9197cf8` (confirmed today at Bitcoin blocks **968015** / **968031**, committed as `90334f9`) preserved as `manifests/SHA256SUMS.pre-2026-09-21b.ots.bak` (gitignored, local).
+
 ### Fixed — Erratum: India branch REXII (Girnar) Prakrit and English columns were not Hultzsch's text (retroactive scan check #2, satya correction)
 
 Second item of the standing 09-18 audit queue. `translations/ashoka-edicts/major-rock-edict-XII-4lang.md` (India branch first sample, added 2026-09-13, both source columns labelled "Hultzsch 1925") was re-read against the Internet Archive page images of E. Hultzsch, *Inscriptions of Asoka* (CII I, Oxford 1925; item `InscriptionsOfAsoka.NewEditionByE.Hultzsch`, leaves n156–n158 = pp. 20–22) at full resolution. Findings, all corrected in the file with an erratum table at the top:

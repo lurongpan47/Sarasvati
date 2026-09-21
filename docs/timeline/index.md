@@ -6,10 +6,10 @@ permalink: /timeline/
 
 # Global Buddhist Canon Transmission Timeline
 
-**82 events × 8 traditions.** Trilingual titles (English · 中文 · བོད་ཡིག). Living dataset — PRs welcome.
+**87 events × 8 traditions.** Trilingual titles (English · 中文 · བོད་ཡིག). Living dataset — PRs welcome.
 
 <p align="center">
-  <img src="{{ '/timeline-preview-3lang.png' | relative_url }}" alt="Timeline preview — 8 traditions, 82 events" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:6px;">
+  <img src="{{ '/timeline-preview-3lang.png' | relative_url }}" alt="Timeline preview — 8 traditions, 87 events" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:6px;">
 </p>
 
 <p style="margin: 1.5rem 0;">
@@ -27,7 +27,7 @@ permalink: /timeline/
 The timeline is machine-readable and versioned in the repo. **Do not modify canonical files without maintainer approval** — they are checkpoints of an ongoing scholarly review.
 
 - [`docs/timeline-data/traditions.jsonl`](https://github.com/lurongpan47/Sarasvati/blob/main/docs/timeline-data/traditions.jsonl) — the 8 branches (id, zh, en, note)
-- [`docs/timeline-data/events.jsonl`](https://github.com/lurongpan47/Sarasvati/blob/main/docs/timeline-data/events.jsonl) — 82 milestones with tri-lingual titles
+- [`docs/timeline-data/events.jsonl`](https://github.com/lurongpan47/Sarasvati/blob/main/docs/timeline-data/events.jsonl) — 87 milestones with tri-lingual titles
 - [`docs/timeline-data/events.csv`](https://github.com/lurongpan47/Sarasvati/blob/main/docs/timeline-data/events.csv) — CSV mirror for spreadsheet users
 - [`docs/timeline-data/README.md`](https://github.com/lurongpan47/Sarasvati/blob/main/docs/timeline-data/README.md) — schema + coverage docs
 

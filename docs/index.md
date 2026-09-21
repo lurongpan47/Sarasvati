@@ -5,7 +5,7 @@ list_title: " "
 ---
 
 <p align="center">
-  <a href="{{ '/timeline/' | relative_url }}"><img src="{{ '/timeline-preview-3lang.png' | relative_url }}" alt="Global Buddhist Canon Transmission Timeline — 8 traditions, 82 events" style="max-width:100%; height:auto;"></a>
+  <a href="{{ '/timeline/' | relative_url }}"><img src="{{ '/timeline-preview-3lang.png' | relative_url }}" alt="Global Buddhist Canon Transmission Timeline — 8 traditions, 87 events" style="max-width:100%; height:auto;"></a>
 </p>
 
 # Sarasvatī · 大辯才功德天
@@ -47,7 +47,7 @@ list_title: " "
 <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.25rem; margin:2rem 0;">
   <div style="border:1px solid #ddd; border-radius:8px; padding:1.25rem;">
     <h3 style="margin-top:0;">📚 Canon archive</h3>
-    <p>Eight cross-language branches. See the <a href="{{ '/branches/' | relative_url }}">branches page</a>, the <a href="{{ '/timeline/' | relative_url }}">timeline (82 events)</a>, and the interactive <a href="{{ '/buddhas-bodhisattvas-network.html' | relative_url }}">Buddhas &amp; Bodhisattvas network</a>.</p>
+    <p>Eight cross-language branches. See the <a href="{{ '/branches/' | relative_url }}">branches page</a>, the <a href="{{ '/timeline/' | relative_url }}">timeline (87 events)</a>, and the interactive <a href="{{ '/buddhas-bodhisattvas-network.html' | relative_url }}">Buddhas &amp; Bodhisattvas network</a>.</p>
   </div>
   <div style="border:1px solid #ddd; border-radius:8px; padding:1.25rem;">
     <h3 style="margin-top:0;">🕉 Buddhist AI Charter</h3>

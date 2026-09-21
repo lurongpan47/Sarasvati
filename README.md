@@ -121,7 +121,7 @@ See `ROADMAP.md` for the full eight-branch plan.
 
 ## Structural data  ·  结构化数据
 
-`docs/timeline-data/` — 80 canonical-transmission events across the 8 branches, tri-lingually titled (zh / native / en), CSV + JSONL. Living dataset; PRs welcome.
+`docs/timeline-data/` — 87 canonical-transmission events across the 8 branches, tri-lingually titled (zh / native / en), CSV + JSONL. Living dataset; PRs welcome.
 
 ---
 
