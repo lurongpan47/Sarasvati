@@ -129,8 +129,8 @@ See `ROADMAP.md` for the full eight-branch plan.
 
 1. **Local** — macOS `~/clawd/Sarasvati/`
 2. **GitHub** — https://github.com/lurongpan47/Sarasvati (releases as independent attachments)
-3. **AWS mirrors** — 9 instances across us-east-1, eu-west-1, eu-central-1
-4. **IPFS** — CID `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce`
+3. **AWS mirrors** — 9 EC2 instances across us-east-1 and eu-west-1 (rsynced to the stamped tree on each content push; host list re-verified 2026-09-21: `aws-quant` · `aws-biotech` · `aws-disease` · `aws-upaix-base` · `aws-materialai` · `aws-216-16` · `aws-fund-bot` · `aws-polymarket-eu` · `aws-chemist-eu`; `aws-kite-clone` is gone)
+4. **IPFS** — v0.9-b `bafybeihlqenoxrrs7re4p6nzbf3crx5umi5dlpvo6ai6x2yrcl3gvu2jru` · v0.9-a `bafybeib6vwrmxhd2ker6ciiu5ibktheg4bc5mypfpyo5kpcs4ik45oibmy` · v0.8 `bafybeiaxtdu4smx54b662ebuqlefmei5hpbu63zefzpox2msefwddfduce` (each snapshot kept for provenance; the 09-18 / 09-20 / 09-21 errata post-date v0.9-b — GitHub + the OTS-stamped manifest are canonical for the current text)
 5. **OpenTimestamps → Bitcoin** — nonrepudiable time anchor on `manifests/SHA256SUMS`
 
 ---

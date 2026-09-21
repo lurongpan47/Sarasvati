@@ -20,8 +20,8 @@ Sarasvatī's archive is structured along the transmission timeline. Each branch 
 
 ### 1. India — 印度源流 · `india`
 The oral origin; councils; sects; Mahāyāna emergence.
-- **First sample (v0.9)**: Aśoka Major Rock Edict XII, Girnar recension — 4-language reading (Prakrit / English / Chinese / Tibetan). `translations/ashoka-edicts/major-rock-edict-XII-4lang.md`. Chinese and Tibetan are machine drafts awaiting named human review.
-- **Second sample (added 2026-09-15)**: Aśoka Major Rock Edict XIII, Kālsī recension — 4-language reading covering Kalinga-war remorse, dhamma-vijaya, and the naming of the Hellenistic kings (c. 256 BCE). `translations/ashoka-edicts/major-rock-edict-XIII-4lang.md`. Prakrit + English from Hultzsch 1925 (public domain); Chinese + Tibetan are Sarasvatī machine drafts.
+- **First sample (v0.9; scan-checked and corrected 2026-09-21)**: Aśoka Major Rock Edict XII, Girnar recension — 4-language reading (Prakrit / English / Chinese / Tibetan). `translations/ashoka-edicts/major-rock-edict-XII-4lang.md`. Prakrit and English are now copied from the Hultzsch 1925 page images (IA `InscriptionsOfAsoka.NewEditionByE.Hultzsch`, pp. 20–22) with his footnotes; the 09-13 columns had been written from memory (Pāli-ised `siyā` for attested `asa`, invented `suṇārū` / `suśruṣerā` for `sruṇāru` / `susuṁsera`, emendations printed as text, English paraphrased) — erratum table at the top of the file. Chinese and Tibetan are machine drafts awaiting named human review.
+- **Second sample (added 2026-09-15; scan check pending)**: Aśoka Major Rock Edict XIII, Kālsī recension — 4-language reading covering Kalinga-war remorse, dhamma-vijaya, and the naming of the Hellenistic kings (c. 256 BCE). `translations/ashoka-edicts/major-rock-edict-XIII-4lang.md`. Prakrit + English labelled Hultzsch 1925 (public domain) but **not yet verified against the scan** — next in the audit queue (Hultzsch pp. 43–49; page offsets pre-located in `decisions/2026-09-20.md`); Chinese + Tibetan are Sarasvatī machine drafts.
 - **Sample targets (future)**: public-domain critical editions of foundational sūtras.
 
 ### 2. Sanskrit manuscript — 梵文写本系 · `sanskrit`

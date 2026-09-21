@@ -3,6 +3,24 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
+## [Unreleased] — 2026-09-21
+
+### Fixed — Erratum: India branch REXII (Girnar) Prakrit and English columns were not Hultzsch's text (retroactive scan check #2, satya correction)
+
+Second item of the standing 09-18 audit queue. `translations/ashoka-edicts/major-rock-edict-XII-4lang.md` (India branch first sample, added 2026-09-13, both source columns labelled "Hultzsch 1925") was re-read against the Internet Archive page images of E. Hultzsch, *Inscriptions of Asoka* (CII I, Oxford 1925; item `InscriptionsOfAsoka.NewEditionByE.Hultzsch`, leaves n156–n158 = pp. 20–22) at full resolution. Findings, all corrected in the file with an erratum table at the top:
+
+1. **Prakrit column was a normalised composite, not a transcription.** Girnar's single-*v* `sava-` was geminated to `savva-` throughout; the optative `asa` (B, L) had become Pāli `siyā`; `maṁñate` → `maññate`, `aṁñathā` → `aññathā`, `[a]ñamaṁñasa` → `aññam-aññasa` (Sanskrit/Pāli sandhi imposed on the epigraphic spelling); `sruṇāru` and `susuṁsera` (I) had been replaced by the invented `suṇārū` and `suśruṣerā`; `karuṁ` / `karoto` / `karāto` (F, G, H) were all levelled to `karotaṃ`; `pūjetayā` (E) → `pūjetavyā`; `idaṁ` (D) → `iyaṃ`; `bhatiyā` → `bhattiyā`; `dīpayema iti` → `dīpayemā ti`; `prasaṁnā` / `vatavyaṁ` → `prasannā` / `vattavyaṃ`. Hultzsch's *emendations* had been printed as the *text*: `vivādhāya` (n. 1 "Read *vividhāya*"), `tena tana` (n. 5 "Read *tena*"), `tatra tata` (n. 7), `ātpa-pāsaḍaṁ` (n. 6, Bühler's `-pāsaṁḍaṁ`), `sarva-pāsaḍānaṁ` (L). Square-bracketed (damaged/supplied) akṣaras were silently closed. The column is now Hultzsch's Roman rows verbatim, in his conventions (*ch*/*chh*/*ṁ*), with his twelve footnotes carried as footnotes.
+2. **English column was a paraphrase** labelled Hultzsch. Replaced with his translation verbatim, parentheses and sentence letters included ("is honouring all sects: both ascetics and householders; both with gifts…"; "Therefore concord alone is meritorious"; "pure devotion" → "devotion"; "Dēvānāṁpriya").
+3. **Section labels** "§A / §B / §C / §D / §E–F" matched nothing in the edition; now Hultzsch's own (A) / (B)–(D) / (E)–(G) / (H)–(I) / (J)–(L). Page references added (text pp. 20–21, translation pp. 21–22) — the file had none.
+4. **Historical note**: "Sopārā" removed (it preserves fragments of VIII–IX only); "Erragudi" → Yerragudi, found after Hultzsch went to press; "the Girnar text is the basis of Hultzsch's edition" → Hultzsch edits all four recensions side by side. Marked as editorial, not from the scan.
+5. Chinese draft (H) lost the "纯粹" that had tracked the paraphrase's "pure"; "故和合为善" → "故唯和合为善" for "concord *alone*". Tibetan draft untouched; both remain ⟨བརྟག⟩ and are now flagged as drafted against the earlier paraphrase.
+
+Score for the audit queue: **3 of 3 "attested"/"verbatim" source columns checked so far were not what they claimed** (Udānavarga 09-18, Gāndhārī 09-20, REXII 09-21). Remaining, in order: REXIII Kālsī (`major-rock-edict-XIII-4lang.md`, Hultzsch pp. 43–49) → Chalmers 1932 (Sn 1.8) → T389 → Wŏnhyo prologue; then new content (Pāli Yamakavagga 1–4 with Fausbøll / SBE X open).
+
+Also: README protection-layers line now names the mirror hosts. The 2026-09-20 review counted 8; a sweep today found a ninth stale copy on `aws-fund-bot` (164 files, pre-v0.9 manifest `0156e70c…`, never refreshed since 08-28), so the count stays **9** (`aws-kite-clone` is gone, `crucible-capital` never held a copy). All 9 rsynced to this tree after the commit below (verified by `manifests/SHA256SUMS` sha256 on each host). The IPFS line now lists the v0.9-a/b CIDs alongside v0.8. ROADMAP § 1 updated. Manifest regenerated (+`decisions/2026-09-21.md`) and re-stamped; the confirmed 09-20 stamp (block 967853) preserved as `manifests/SHA256SUMS.pre-2026-09-21.ots.bak` (gitignored, local).
+
+Process note (satya): the scan reading and file edits were done in a session that ended at 08:50 PDT before the manifest, stamp, decision log, commit and mirror sync could run; the 08:51 daily-push session found the uncommitted tree, spot-checked the new Prakrit/English columns against the Hultzsch OCR layer (lines 11946–12084 of the IA `_djvu.txt`: `vivādhāya`, `asa`, `idaṁ`, `aprakaraṇamhi`, `pūjetayā`, `tena tana`, `karuṁ`, `karoto`, `bhatiyā`, `dīpayema iti`, `sruṇāru`, `susuṁsera`, `bahu-srutā`, `tatra tata`, `prasaṁnā`, `vatavyaṁ`, `sarva-pāsaḍānaṁ` and the (A)–(L) translation wording all confirmed), and finished the pipeline.
+
 ## [Unreleased] — 2026-09-20
 
 ### Fixed — Erratum: Silk Road Gāndhārī sample mis-transcribed 3 of 4 verses (retroactive scan check, satya correction)
