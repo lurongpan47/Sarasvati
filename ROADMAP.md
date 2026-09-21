@@ -39,6 +39,7 @@ Theravāda canon.
 ### 4. Southeast Asian Theravāda — 南传东南亚 · `seasia`
 Burma, Siam, Cambodia, Laos.
 - **First sample (v0.9)**: Karaṇīya Mettā Sutta (Sn 1.8, complete 10 verses) — 5-language reading (Pāli PTS / English Chalmers 1932 / Chinese / Burmese / Thai). `translations/karaniya-metta-sutta/Sn1.8-4lang.md`. Chinese, Burmese, Thai are machine drafts awaiting Myanmar/Thai Saṅgha review.
+- **Second sample (added 2026-09-21, weekly proposal → approved same day)**: Lokanīti ch. 1 *Paṇḍitakaṇḍa*, 40 gāthās — the first text in the archive *composed* in Southeast Asia (Burmese Pāli nīti). Pāli VRI CST re-keyed from XML / English Gray 1886 (PD, IA `cu31924052490913`, page-checked on 5 leaves) / 汉文 + བོད་ཡིག Sarasvatī drafts ⟨བརྟག⟩. `translations/lokaniti/lokaniti-01-panditakanda-4lang.md`. Needs a Pāli reader (VRI text is uneven), Chinese, Tibetan, and a Burmese nissaya teacher. Remaining Lokanīti chapters 2–7 (127 gāthās) and Gray's Dhammanīti / Rājanīti are the natural continuation.
 - **Priority pool**: 5th, 6th, 8th, 9th council editions; VRI Chaṭṭha Saṅgāyana digital.
 - **Sample targets**: Khmer, Lao, Shan-script vernacular commentaries.
 

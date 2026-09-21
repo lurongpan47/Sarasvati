@@ -5,6 +5,18 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: Se
 
 ## [Unreleased] — 2026-09-21
 
+### Added — SE Asia branch: Lokanīti ch. 1 Paṇḍitakaṇḍa (VRI CST + Gray 1886)
+
+`translations/lokaniti/lokaniti-01-panditakanda-4lang.md` — first archive sample of a text **composed in** Southeast Asia (Burmese Pāli nīti literature), as approved by Pan 2026-09-21 (candidate A of `proposals/2026-09-21-seasia-week1.md`). All 40 gāthās of the *Paṇḍitakaṇḍa* ("The Wise Man"):
+
+- **Pāli**: VRI Chaṭṭha Saṅgāyana CST Roman, re-keyed from the XML (`cscd/e1005n.nrf0.xml`) by `rend` attribute, verbatim — VRI's hyphenated compounds, Sanskritisms (`putra`, `satru`), the six-pāda v. 3 and five-line v. 19 are kept; only runs of spaces collapsed. Nothing emended.
+- **English**: James Gray, *Ancient Proverbs and Maxims from Burmese Sources; or, the Nīti Literature of Burma* (Trübner 1886), stt. 1–40, pp. 1–10 — public domain. Taken from the IA OCR of `cu31924052490913` and **page-checked against the leaf images n32, n33, n36, n39, n41** (pp. 1, 2, 5, 8, 10 → vv. 1–5, 13–19, 27–33, 37–40); vv. 6–12, 20–26, 34–36 are OCR-only and labelled so in the file. Gray's circumflex long-vowel convention (Nîti, Lokanîti, Mâgadhese, Nibbân) confirmed on the page and restored where the OCR had lost it. Footnote markers dropped; footnote content only where quoted in the per-verse notes.
+- **汉文 / བོད་ཡིག**: Sarasvatī first drafts for all 40, every verse ⟨བརྟག⟩ — no Chinese or Tibetan Lokanīti is known to exist.
+- **Numbering**: Gray ↔ VRI is 1:1 for ch. 1 (table at end of file). Textual divergences between Gray's footnote Pāli and VRI recorded for stt. 10, 11, 27; VRI readings flagged for a Pāli reader in vv. 17, 33, 38.
+- Review status: all four reviewer roles (Pāli · Chinese · Tibetan · Burmese nissaya teacher) **unreviewed**. ROADMAP § 4 updated.
+
+Manifest regenerated and re-stamped; the still-pending 13:50 stamp preserved as `manifests/SHA256SUMS.pre-2026-09-21c.ots.bak` (gitignored, local).
+
 ### Added — Timeline evidence revisions 2026-W37 + 2026-W39 applied (events 82 → 87)
 
 Pan approved both pending timeline proposals in one reply ("approve all" / "approve", WhatsApp 2026-09-21 10:53 & 13:45 PDT). Appended to `docs/timeline-data/events.jsonl` + `events.csv`, additive only, `traditions.jsonl` and the canonical PDF untouched:
