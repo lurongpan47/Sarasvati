@@ -3,6 +3,12 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
+## [Unreleased] — 2026-09-22
+
+### Verified — Bitcoin confirmation of the 2026-09-21 rolling stamp; all nine mirrors in sync
+
+`manifests/SHA256SUMS.ots` over the tree at `e846340` (238 entries, incl. the Lokanīti sample) upgraded via `scripts/ots_upgrade_watch.sh` and confirmed in Bitcoin blocks **968053** (alice.btc.calendar.opentimestamps.org) / **968054** (bob.btc.calendar.opentimestamps.org) / **968085** (btc.calendar.catallaxy.com); finney.calendar.eternitywall.com still pending. Committed as `8c6e44f`. The manifest recipe (`git ls-files` minus the three rolling manifest files, `./`-prefixed, sha256, C-sorted) was re-run and reproduced `manifests/SHA256SUMS` byte-for-byte; `shasum -c` passed on all 238 entries. `manifests/SHA256SUMS` sha256 (`9ae44e54…`) matched on all nine AWS mirrors (`aws-quant` `aws-biotech` `aws-disease` `aws-upaix-base` `aws-materialai` `aws-216-16` `aws-fund-bot` `aws-polymarket-eu` `aws-chemist-eu`). No content changed. Manifest regenerated for this note + `decisions/2026-09-22.md` and re-stamped; the confirmed proof preserved as `manifests/SHA256SUMS.pre-2026-09-22.ots.bak` (gitignored, local).
+
 ## [Unreleased] — 2026-09-21
 
 ### Added — SE Asia branch: Lokanīti ch. 1 Paṇḍitakaṇḍa (VRI CST + Gray 1886)
