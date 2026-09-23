@@ -29,7 +29,7 @@ For each branch we want the same recipe: a public-domain source text → an AI m
 - **Nominate a text.** Open an issue proposing a specific public-domain text + a specific target language + why it fills a real gap.
 - **Volunteer as a reviewer.** We will keep your name on `CONTRIBUTORS.md` and cite you on every artifact you touch.
 - **Donate compute.** Anthropic / OpenAI / Google API credits, or self-hosted open-weight backends (Llama 3.3, Qwen 2.5, DeepSeek), let us run more branches in parallel.
-- **Nominate a source archive.** GRETIL, SuttaCentral, VRI, CBETA, IDP — anything with clean machine-readable text and a compatible license is a starting point.
+- **Nominate a source archive.** GRETIL, SuttaCentral, VRI, CBETA, IDP, BDRC/BUDA (IIIF scans, added 2026-09-22) — anything with clean machine-readable text or open page images and a compatible license is a starting point.
 
 ### B. Human review of the Buddhist AI Charter · 菩提心宪章的母语审校
 
