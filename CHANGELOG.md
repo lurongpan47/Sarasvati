@@ -3,6 +3,12 @@
 All notable changes to this project will be documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: SemVer.
 
+## [Unreleased] — 2026-09-23
+
+### Verified — Bitcoin confirmation of the 2026-09-22 rolling stamp (all four calendars); all nine mirrors in sync
+
+`manifests/SHA256SUMS.ots` over the tree at `9cdcf3c` (239 entries, incl. the REXIII Kālsī erratum; manifest sha256 `e9a1a2b5…`) upgraded via `scripts/ots_upgrade_watch.sh` and confirmed in Bitcoin blocks **968170** (alice.btc.calendar.opentimestamps.org) / **968184** (finney.calendar.eternitywall.com) / **968188** (bob.btc.calendar.opentimestamps.org) / **968193** (btc.calendar.catallaxy.com) — the first rolling stamp since 09-14 on which all four calendars have landed. Committed as `3839901`. The manifest recipe (`git ls-files` minus the three rolling manifest files, `./`-prefixed, sha256, C-sorted) was re-run: it reproduces the committed manifest except for the three files changed by `dced561` (BDRC/BUDA source note: `CALL-FOR-HELP.md`, `ROADMAP.md`, `decisions/2026-09-22.md`), which had deliberately been left for this cycle. `manifests/SHA256SUMS` sha256 `e9a1a2b5…` matched on all nine AWS mirrors (`aws-quant` `aws-biotech` `aws-disease` `aws-upaix-base` `aws-materialai` `aws-216-16` `aws-fund-bot` `aws-polymarket-eu` `aws-chemist-eu`). No archive content changed. Manifest regenerated for the `dced561` files + this note + `decisions/2026-09-23.md` and re-stamped; the confirmed proof preserved as `manifests/SHA256SUMS.pre-2026-09-23.ots.bak` (gitignored, local). Mirrors re-synced after the commit.
+
 ## [Unreleased] — 2026-09-22
 
 ### Fixed — Erratum: India branch REXIII (Kālsī) Prakrit column was a composite, page references wrong, lacunae filled with invented words (retroactive scan check #4, satya correction)
