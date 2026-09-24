@@ -1,12 +1,12 @@
 10e1324e614d3f219f00f0e17ab92cc20c5436b1937d91c537c47413e83c6eb9  ./.github/workflows/pages.yml
 e9e6413c6dc36a26800e3f1b9a62b30a9e8f10fd848e77bd09990afe33873fcf  ./.gitignore
 5dc974d3366746c3a58d7ac1a7c3abb0e5c8e5f7b6dd959caaa55e11b45c9714  ./CALL-FOR-HELP.md
-1e9965f273b72486001849d3cb42a640fbbf7c8c6bcb07c64ab1f7db26a127eb  ./CHANGELOG.md
+0cdd7cb269f0240deff897c5937e3059fb8b8861d4d86c71dda337deb5a9520c  ./CHANGELOG.md
 fd2c788190e64fbb2c95dd9135fe60111adfcaa5547c7dffc73d902fc8c6bc54  ./CONTRIBUTORS.md
 28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5  ./LICENSE
 dfef15575dbcef8245eb628645083e046a2e8a24d05d81be80a1c085cf886896  ./README.md
 efee61822384176cf960bd2c27ddf56952bf4edf9bbeb4e2b371a090c54626fa  ./RESOURCE-QUEUE.md
-a0bc1663f65a42f46cf0b633e7c4d44a2f42620b6de6af367500228b61a405d3  ./ROADMAP.md
+4b27edf657cda136894ec1fd2566a27271fde62ea034718da32dd817b6b5994d  ./ROADMAP.md
 52cd8b24127db93536ab7c391b5c86b7a40a63ff4271c71e5fe43d7245512f9a  ./announcements/PROMO-KIT.md
 fdc9867115beadd511b81c8f9e2f69b2ed990f1ee4fe5fdd1f894f505f816df1  ./announcements/academic-mailing-list-call.md
 e258560b3459ebfbf0e3c805adc681642fb84df9f8e1de5dc6d2961d15792d4e  ./announcements/blockchain-community-cn.md
@@ -49,7 +49,8 @@ c33957696ce84271e3460631c83e27050b1dafb81dbb42307f61d77c6d1aa517  ./decisions/20
 0766f118a3b916e68123bcd07a2fddc41b2531fda57342c995be27d2990f2095  ./decisions/2026-09-20.md
 cfa1d2381bb5658173043ca489a35f8d10e289c67cf4a888f821a1dbe5d43d6b  ./decisions/2026-09-21.md
 f8d9650aff1c5946d818f7b4f81bc98e4276705572fceb0a75b4d28260e163cb  ./decisions/2026-09-22.md
-e991ce0c424b5679c173f1a51066aa70c779cb222438c3babcc049b9998a9db7  ./decisions/2026-09-23.md
+bbaf5ea141e45a5038203c28cc337caa985f0e3c0763ebe237e49799e96646de  ./decisions/2026-09-23.md
+28b2d556c11d580b1f1f48a148d6470b71da4790072ac50314589ca749bf7898  ./decisions/2026-09-24.md
 a93395cda3c770fca4530ab8ce6bc259a58eddf0e571466df5f33f2b5ecc2a7d  ./docs/Gemfile
 e97ba4d82ad2abd7e6640b17ae58f4de2a50d8bc4b0ca31553d09b05c68c6cca  ./docs/Global-Buddhist-Canon-Transmission-Timeline.pdf
 27d710b6434f8e0e33d052796102414b87a4ac339ae758752f596dacef9e33af  ./docs/Sushruta-Tibetan-Project-Plan.docx
@@ -231,7 +232,7 @@ f0827540fd4add5b7329c11945b06c4dcb76f750399a352d3e4231d1a652b84f  ./resource-lea
 b7e28399e6e5ae81a77245495973ed475f22d033b553f4ec0f2b85500aeb17d0  ./translations/foyijiao-jing/T389-selected-4lang.md
 d89a4c86ed998e6921da0b083cacc524af969e6b6f60fea08f65a4bbdfc85676  ./translations/gandhari-dharmapada/khotan-fragment-Ia-3lang.md
 94424d07029b0af7441baaf92f5ec95e12b8d7e00e94e2e5a5d2d9759e4ba968  ./translations/gandhari-dharmapada/khotan-manuscript-apramadavaga-4lang.md
-a102b4971930bef4e6fe483d3ebcfee58fd2a2c9041d8c814ff583f6eeeb1f4e  ./translations/karaniya-metta-sutta/Sn1.8-4lang.md
+4f07b7b993bf2069366a7a70954e759a0729c6b2cf04d99fbad6748d49288184  ./translations/karaniya-metta-sutta/Sn1.8-4lang.md
 05be64caf13c68c35ce79b909ea3e81d28dcdce915b0fd16957336063414a66a  ./translations/lokaniti/lokaniti-01-panditakanda-4lang.md
 f404f4c9548205e1df44923712bf5178593aaf76e63f8297ba90d7768d604444  ./translations/mahaparinibbana-sutta/README.md
 c95b2b8d2ff910819cc4d164a79b0d532d097f6b00b6db4a5b1478df248833a0  ./translations/mahaparinibbana-sutta/final-instructions-4lang.md
