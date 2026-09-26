@@ -35,6 +35,7 @@ Theravāda canon.
 - **Priority pool**: PTS Roman-script editions (post-1928 public domain); SuttaCentral parallel data.
 - **Sample targets**: nikāya passages not yet in Tibetan; commentaries lacking English/Chinese versions.
 - **Current asset**: DN 16 (Mahāparinibbāna Sutta) final-instructions four-language reading — the scriptural root of the AI charter.
+- **Second sample (added 2026-09-26, built scan-first)**: Dhammapada Yamakavagga 1–4 — Pāli Fausbøll 1900 (Luzac; IA `india.history.resource.112138` leaf 0019 = p. 2 by count, no number printed; apparatus with his sigla) / English Max Müller SBE X 1881 (Clarendon; IA `dhammapadaacoll00mlgoog` tif 0063–0064 = pp. 3–4, notes 1–3 in full) / Chinese T210 法句經 雙要品 (Taishō vol. 4 p. 562a10–a22, IA `taisho-tripitaka` leaf 0561, margins read, Taishō 句點-less pāda layout, kaeriten and foot apparatus as printed; 慍於怨者 stanza given as the counterpart of vv. 3–4 jointly, under the Taishō's own 下二頌巴利文無 note) / 现代汉语 + བོད་ཡིག Sarasvatī drafts ⟨བརྟག⟩. `translations/dhammapada/yamakavagga-1-4-4lang.md`. Modelled on the seasia Mettā/Lokanīti files. Needs a Pāli reader (open readings listed in the file), a Sinologist (note ❿ reads 慢 against CBETA's 懆), a Tibetan reader with Udānavarga ch. 31 / 14 open. Natural continuation: Yamakavagga 5–20 from the same three leaves + Fausbøll leaves 0021–0023.
 
 ### 4. Southeast Asian Theravāda — 南传东南亚 · `seasia`
 Burma, Siam, Cambodia, Laos.
