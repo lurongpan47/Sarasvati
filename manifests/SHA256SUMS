@@ -1,12 +1,12 @@
 10e1324e614d3f219f00f0e17ab92cc20c5436b1937d91c537c47413e83c6eb9  ./.github/workflows/pages.yml
 e9e6413c6dc36a26800e3f1b9a62b30a9e8f10fd848e77bd09990afe33873fcf  ./.gitignore
 5dc974d3366746c3a58d7ac1a7c3abb0e5c8e5f7b6dd959caaa55e11b45c9714  ./CALL-FOR-HELP.md
-7ba75e0b756c14ef9d23fa4fce3e4b9700323e521d44e70a74341b47c602cd5f  ./CHANGELOG.md
+b59546be8bfcaf4a4ea43605fdceb4d8651c9dfe477e9387eb36aa0b77946f27  ./CHANGELOG.md
 fd2c788190e64fbb2c95dd9135fe60111adfcaa5547c7dffc73d902fc8c6bc54  ./CONTRIBUTORS.md
 28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5  ./LICENSE
 dfef15575dbcef8245eb628645083e046a2e8a24d05d81be80a1c085cf886896  ./README.md
 efee61822384176cf960bd2c27ddf56952bf4edf9bbeb4e2b371a090c54626fa  ./RESOURCE-QUEUE.md
-46fea8aac50d52ad5cb1be621cc7965a614dee7745990ff5d9987984b96b785b  ./ROADMAP.md
+14273574c513fbd73ac6802f53e66107e70c56a75ef470317cd0c31ea8255eb4  ./ROADMAP.md
 52cd8b24127db93536ab7c391b5c86b7a40a63ff4271c71e5fe43d7245512f9a  ./announcements/PROMO-KIT.md
 fdc9867115beadd511b81c8f9e2f69b2ed990f1ee4fe5fdd1f894f505f816df1  ./announcements/academic-mailing-list-call.md
 e258560b3459ebfbf0e3c805adc681642fb84df9f8e1de5dc6d2961d15792d4e  ./announcements/blockchain-community-cn.md
@@ -51,7 +51,8 @@ cfa1d2381bb5658173043ca489a35f8d10e289c67cf4a888f821a1dbe5d43d6b  ./decisions/20
 f8d9650aff1c5946d818f7b4f81bc98e4276705572fceb0a75b4d28260e163cb  ./decisions/2026-09-22.md
 bbaf5ea141e45a5038203c28cc337caa985f0e3c0763ebe237e49799e96646de  ./decisions/2026-09-23.md
 402e0b07e949ca5308d50201ace5c23498b81980d974ba37055347a58cf64a92  ./decisions/2026-09-24.md
-cb28a5118319779246318e6b70d55e08deb4332bbd58ec3379b12df2e75151c3  ./decisions/2026-09-25.md
+b4c283e3814ed27724d8cfe6ceabd2ab2285c0960f754f0af159a21c0d9214da  ./decisions/2026-09-25.md
+41ef861a07ac1958f6d6e386272ddeb965da1feae2d09f67b6fe9ec8dbf06cd6  ./decisions/2026-09-26.md
 a93395cda3c770fca4530ab8ce6bc259a58eddf0e571466df5f33f2b5ecc2a7d  ./docs/Gemfile
 e97ba4d82ad2abd7e6640b17ae58f4de2a50d8bc4b0ca31553d09b05c68c6cca  ./docs/Global-Buddhist-Canon-Transmission-Timeline.pdf
 27d710b6434f8e0e33d052796102414b87a4ac339ae758752f596dacef9e33af  ./docs/Sushruta-Tibetan-Project-Plan.docx
@@ -239,4 +240,4 @@ f404f4c9548205e1df44923712bf5178593aaf76e63f8297ba90d7768d604444  ./translations
 c95b2b8d2ff910819cc4d164a79b0d532d097f6b00b6db4a5b1478df248833a0  ./translations/mahaparinibbana-sutta/final-instructions-4lang.md
 b0492041fa1d24ac3027e194d6b324a0e537e5683bffb6979aa7ac69cff96f40  ./translations/prajnaparamita-hridaya/short-recension-4lang.md
 e3fdfbd761dc0eecb369edce55b23d8656df541806c424c1510bc056a9862216  ./translations/udanavarga-tibetan/anityavarga-selected-verses-4lang.md
-57d3ab49544be5657206d879804822b36bb6167f5a64125d7183fcbc6031d142  ./translations/wonhyo-prologue/daeseung-gisillon-so-prologue-3lang.md
+982649896d52200283ab1aefc1ae3de4983ae8a27c90271da993832dba089ad7  ./translations/wonhyo-prologue/daeseung-gisillon-so-prologue-3lang.md
