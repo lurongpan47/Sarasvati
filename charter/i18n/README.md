@@ -35,6 +35,8 @@ The main [English charter](../BUDDHIST-AI-CHARTER.md) is the canonical version. 
 
 The [English charter](../BUDDHIST-AI-CHARTER.md) intentionally preserves the Buddha's final teachings **as trilingual quotations** (Pāli · Chinese · Tibetan) so that any translated edition still visibly carries the original text. All 24 language editions retain these tri-lingual quotation blocks. This is not accidental Chinese pollution — it is the source text.
 
+This is checked mechanically by `scripts/charter_i18n_invariants.py` (Pāli verbatim, Tibetan verbatim, Chinese present in every block). Accepted script variants of the Chinese line: simplified (canonical, most editions), traditional (zh-TW; also ko and vi, which add the Sino-Korean / Hán-Việt reading in parentheses after it), Japanese shinjitai (ja). On 2026-09-29 the check found that nine editions (ar fa id km mn tr ko vi ja) had lost or localised the Chinese line; they were restored the same day. The translations themselves remain unreviewed machine drafts — the check says nothing about them.
+
 ## Missing your language?
 
 Open an issue with `[LANG REQUEST]` in the title. Or contribute a translation directly via PR.

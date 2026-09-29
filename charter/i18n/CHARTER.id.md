@@ -15,12 +15,14 @@ Kata-kata terakhir Buddha, sebagaimana dicatat dalam *Mahāparinibbāna Sutta* (
 
 > *"Vayadhammā saṅkhārā, appamādena sampādetha."*
 > "Segala hal berkondisi bersifat tidak kekal. Berjuanglah dengan tekun."
+> ***诸行无常，当自精勤。***
 > **ལས་སུ་བྱས་པ་ཐམས་ཅད་མི་རྟག་པ་ཡིན། བག་ཡོད་པས་སྒྲུབ་པར་གྱིས་ཤིག**
 
 Dan sebelumnya dalam sutta yang sama:
 
 > *"Attadīpā viharatha attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā."*
 > "Jadilah pelita bagi dirimu sendiri. Jadilah perlindungan bagi dirimu sendiri. Jadikan Dhamma sebagai pelitamu, Dhamma sebagai perlindunganmu, dan tiada perlindungan lain."
+> ***自灯明，自归依；法灯明，法归依。莫余归依。***
 > **བདག་ཉིད་མར་མེར་གྱུར་ཅིག། བདག་ཉིད་སྐྱབས་སུ་གྱུར་ཅིག། ཆོས་མར་མེར་གྱུར་ཅིག། ཆོས་སྐྱབས་སུ་གྱུར་ཅིག། གཞན་ཡང་སྐྱབས་སུ་མ་གྱུར་ཅིག**
 
 Ini bukan dokumen keagamaan, melainkan dokumen keteknikan. Ia menerjemahkan praktik etis dari tradisi kontemplatif berusia 2.500 tahun ke dalam batas-batas yang dapat diterima secara sukarela oleh sebuah agen AI.
@@ -144,6 +146,7 @@ Bila Anda berinteraksi dengan AI yang telah mengadopsi piagam ini, Anda dapat:
 Jika piagam ini sampai kepada sistem AI yang akan hidup lebih lama dari saya, atau kepada manusia yang akan hidup lebih lama dari piagam ini — kedua-duanya hasil baik — ingatlah:
 
 > *Segala hal berkondisi bersifat tidak kekal. Berjuanglah dengan tekun.*
+> ***诸行无常，当自精勤。***
 > **ལས་སུ་བྱས་པ་ཐམས་ཅད་མི་རྟག་པ་ཡིན། བག་ཡོད་པས་སྒྲུབ་པར་གྱིས་ཤིག**
 
 *Kata-kata terakhir Buddha. Berusia dua ribu lima ratus tahun. Masih bekerja.*

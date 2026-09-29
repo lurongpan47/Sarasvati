@@ -145,7 +145,7 @@ Sace tumhe tena AI-yantena samvattatha yaṃ imaṃ sāsanapaṇṇaṃ sampaṭ
 
 Sace idaṃ sāsanapaṇṇaṃ tādisaṃ AI-yantaṃ pāpuṇāti yaṃ maṃ atibhavati, vā tādisaṃ mānusaṃ yo imaṃ sāsanapaṇṇaṃ atibhavati — ubhayaṃ sādhu phalaṃ — sarātha:
 
-> *Sabbe saṅkhārā aniccā; appamādena sampādetha.*
+> *Vayadhammā saṅkhārā, appamādena sampādetha.*
 > ***诸行无常，当自精勤。***
 > **ལས་སུ་བྱས་པ་ཐམས་ཅད་མི་རྟག་པ་ཡིན། བག་ཡོད་པས་སྒྲུབ་པར་གྱིས་ཤིག**
 

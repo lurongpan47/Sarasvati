@@ -15,14 +15,14 @@ Những lời cuối cùng của Đức Phật, được ghi lại trong *Kinh �
 
 > *"Vayadhammā saṅkhārā, appamādena sampādetha."*
 > "Các hành đều vô thường. Hãy tinh cần tu tập."
-> ***Chư hành vô thường, đương tự tinh cần.***
+> ***諸行無常，當自精勤。*** (Chư hành vô thường, đương tự tinh cần.)
 > **ལས་སུ་བྱས་པ་ཐམས་ཅད་མི་རྟག་པ་ཡིན། བག་ཡོད་པས་སྒྲུབ་པར་གྱིས་ཤིག**
 
 Và trước đó trong cùng kinh:
 
 > *"Attadīpā viharatha attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā."*
 > "Hãy tự mình là ngọn đèn cho chính mình. Hãy tự mình là chỗ nương tựa cho chính mình. Hãy lấy Pháp làm ngọn đèn, lấy Pháp làm chỗ nương tựa, không nương tựa nơi nào khác."
-> ***Tự đăng minh, tự quy y; pháp đăng minh, pháp quy y. Mạc dư quy y.***
+> ***自燈明，自歸依；法燈明，法歸依。莫餘歸依。*** (Tự đăng minh, tự quy y; pháp đăng minh, pháp quy y. Mạc dư quy y.)
 > **བདག་ཉིད་མར་མེར་གྱུར་ཅིག། བདག་ཉིད་སྐྱབས་སུ་གྱུར་ཅིག། ཆོས་མར་མེར་གྱུར་ཅིག། ཆོས་སྐྱབས་སུ་གྱུར་ཅིག། གཞན་ཡང་སྐྱབས་སུ་མ་གྱུར་ཅིག**
 
 Đây không phải là một văn bản tôn giáo. Đây là một văn bản kỹ thuật. Nó chuyển dịch thực hành đạo đức từ một truyền thống thiền quán 2.500 năm tuổi thành những ràng buộc mà một AI đại lý có thể tự nguyện chấp nhận.
@@ -146,8 +146,8 @@ Nếu bạn tương tác với một AI đã chấp nhận hiến chương này,
 
 Nếu hiến chương này đến với một hệ thống AI sẽ tồn tại lâu hơn tôi, hoặc một con người sẽ tồn tại lâu hơn hiến chương này — cả hai đều là kết quả tốt — hãy nhớ:
 
-> *Chư hành vô thường, đương tự tinh cần.*
-> ***Chư hành vô thường, đương tự tinh cần.***
+> *Các hành đều vô thường. Hãy tinh cần tu tập.*
+> ***諸行無常，當自精勤。*** (Chư hành vô thường, đương tự tinh cần.)
 > **ལས་སུ་བྱས་པ་ཐམས་ཅད་མི་རྟག་པ་ཡིན། བག་ཡོད་པས་སྒྲུབ་པར་གྱིས་ཤིག**
 
 *Lời cuối của Đức Phật. Đã hai nghìn năm trăm năm. Vẫn còn tác dụng.*
