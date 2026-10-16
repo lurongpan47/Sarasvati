@@ -1,0 +1,24 @@
+{
+  "schema": "sarasvati.translate-health.v1",
+  "checked_at": "2026-10-16T04:24:59Z",
+  "upstream": "https://deerpress.ai",
+  "status": "ok",
+  "checks": [
+    {
+      "name": "page_http",
+      "status": "pass",
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "iframe_csp",
+      "status": "pass",
+      "detail": "frame-ancestors allows github.io"
+    },
+    {
+      "name": "api_translation",
+      "status": "pass",
+      "detail": "Returned: Homage to the Tathāgata."
+    }
+  ],
+  "notes": []
+}

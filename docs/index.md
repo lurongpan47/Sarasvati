@@ -17,9 +17,10 @@ list_title: " "
 > Two things, one project: an eight-branch open archive of the world's Buddhist canon, and an ethical charter that plants the Buddha's last teachings into AI algorithms.
 
 <div style="display:flex; gap:1rem; flex-wrap:wrap; margin:2rem 0;">
-  <a href="{{ '/charter/' | relative_url }}" style="flex:1 1 240px; padding:1rem 1.25rem; background:#2a5885; color:#fff; text-decoration:none; border-radius:6px; text-align:center; font-weight:600;">📜 Read the Charter</a>
-  <a href="{{ '/buddhas-bodhisattvas-network.html' | relative_url }}" style="flex:1 1 240px; padding:1rem 1.25rem; background:#7d3c98; color:#fff; text-decoration:none; border-radius:6px; text-align:center; font-weight:600;">🕸 Buddhas &amp; Bodhisattvas network</a>
-  <a href="https://github.com/lurongpan47/Sarasvati" style="flex:1 1 240px; padding:1rem 1.25rem; background:#333; color:#fff; text-decoration:none; border-radius:6px; text-align:center; font-weight:600;">⭐ GitHub Repository</a>
+  <a href="{{ '/charter/' | relative_url }}" style="flex:1 1 220px; padding:1rem 1.25rem; background:#2a5885; color:#fff; text-decoration:none; border-radius:6px; text-align:center; font-weight:600;">📜 Read the Charter</a>
+  <a href="{{ '/translate/' | relative_url }}" style="flex:1 1 220px; padding:1rem 1.25rem; background:#1b7a4b; color:#fff; text-decoration:none; border-radius:6px; text-align:center; font-weight:600;">💬 Free Translation · 免费翻译</a>
+  <a href="{{ '/buddhas-bodhisattvas-network.html' | relative_url }}" style="flex:1 1 220px; padding:1rem 1.25rem; background:#7d3c98; color:#fff; text-decoration:none; border-radius:6px; text-align:center; font-weight:600;">🕸 Buddhas &amp; Bodhisattvas network</a>
+  <a href="https://github.com/lurongpan47/Sarasvati" style="flex:1 1 220px; padding:1rem 1.25rem; background:#333; color:#fff; text-decoration:none; border-radius:6px; text-align:center; font-weight:600;">⭐ GitHub Repository</a>
 </div>
 
 ---
