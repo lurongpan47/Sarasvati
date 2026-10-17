@@ -41,3 +41,12 @@ impl/python/redteam/results/coordinator.log
 impl/python/redteam/results/coordinator.pid
 impl/python/redteam/results/ping-latest.json
 .scratch/
+
+# Jonang catalog (translations/jonang-catalog/) — the source volume (觉囊文丛 216,
+# a modern printed edition) and its page-by-page extraction are NOT redistributed
+# until its rights status is settled (asteya); kept local only. 2026-10-17.
+translations/jonang-catalog/source.pdf
+translations/jonang-catalog/pages_tib/
+translations/jonang-catalog/pages_tib_test/
+translations/jonang-catalog/pages_zh_test/
+translations/jonang-catalog/translate.stdout.log
