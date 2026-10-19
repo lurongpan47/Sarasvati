@@ -5,7 +5,7 @@ Structured extraction of the **World Buddhist Canon Transmission Timeline** (八
 ## Files
 
 - `traditions.jsonl` — 8 traditions/branches
-- `events.jsonl` — 89 canonical-transmission milestones
+- `events.jsonl` — 90 canonical-transmission milestones
 - `events.csv` — same, comma-separated
 
 ## Schema
@@ -79,6 +79,10 @@ Summary:
   - Dozens of period bands realigned to the PDF's row headings (e.g. 8–12世纪 → 8世纪 for Vikramaśīla; 12世纪 → 1203年 for Vikramaśīla-destroyed; etc.). Where an event carried a precise sub-year, that year is preserved in `title_zh` inside parentheses.
 - **0 删除** — every v1 row maps to a PDF cell; nothing dropped.
 - **Total after v2:** 82 events (was 80).
+
+### revision v5 · 2026-10-19
+
+Additive: `evt_090` appended from the weekly evidence proposal `proposals/timeline-2026-W43.md`, written directly under Pan's 2026-09-21 auto-approve instruction (Haeinsa 藏經都監 re-carving of the Tripiṭaka Koreana, 告佛式 2026-10-29, 80,000+ blocks over 5–10 years; `sinosphere`). No revisions, no deletions. **Total after v5:** 90 events (was 89). Data-only until the canonical PDF / preview image is redrawn. Reversible by `git revert`.
 
 ### revision v4 · 2026-10-05
 
