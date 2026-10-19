@@ -75,7 +75,7 @@ e10d74f3fca0dd7f404a08762063d93b05a3efa5ee704197c656daad6ffec162  ./decisions/20
 f6f66f0d69f3b89c82e12d4554c70e9477d9d49e5565941d79f8cbca303d32ed  ./decisions/2026-10-16.md
 c52e3d31b34fc7d6264b1a0b7fc8338bed6e5d66c4dbe40e8a11b18a8c67ec46  ./decisions/2026-10-17.md
 e8b42ea6c42bfad18c2ebd4ffd46e981a99da8a9097dc5dd709a48b75fd43c5b  ./decisions/2026-10-18.md
-209a6f03db068ceca139d426584404493fbafd210a16ad84a2cec78fa003419e  ./decisions/2026-10-19.md
+9cb3c5a712292eb0943d21050146d1f9f52b691eaa5108dcd1b4f9aa274debfd  ./decisions/2026-10-19.md
 a93395cda3c770fca4530ab8ce6bc259a58eddf0e571466df5f33f2b5ecc2a7d  ./docs/Gemfile
 e97ba4d82ad2abd7e6640b17ae58f4de2a50d8bc4b0ca31553d09b05c68c6cca  ./docs/Global-Buddhist-Canon-Transmission-Timeline.pdf
 27d710b6434f8e0e33d052796102414b87a4ac339ae758752f596dacef9e33af  ./docs/Sushruta-Tibetan-Project-Plan.docx
