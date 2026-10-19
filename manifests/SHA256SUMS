@@ -1,12 +1,12 @@
 10e1324e614d3f219f00f0e17ab92cc20c5436b1937d91c537c47413e83c6eb9  ./.github/workflows/pages.yml
 965a424debf3f4ae0d7f3c9a8eb0f13c6cce968470be3d11765dc7cd79537097  ./.gitignore
 bc61abed03043f6ac5bf76caf4e563b5ebe8f73f82080009b24a3d68e0dde40e  ./CALL-FOR-HELP.md
-eac4725fbaef15e2334a16c884552d38bad88de282a340bcf6d19eafd82726dd  ./CHANGELOG.md
+04ce34732a86aca17df3b1505e592ebb779210d1fa95020109bfb888cd6fd1bf  ./CHANGELOG.md
 fd2c788190e64fbb2c95dd9135fe60111adfcaa5547c7dffc73d902fc8c6bc54  ./CONTRIBUTORS.md
 28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5  ./LICENSE
 af35d8bad31b5195d15e2af9720bf9b6e93fdcaf99c54c6d12b3742deadad308  ./README.md
 efee61822384176cf960bd2c27ddf56952bf4edf9bbeb4e2b371a090c54626fa  ./RESOURCE-QUEUE.md
-f906c95a0af90c4b7bcbd92323e4654832109553cbeed9381723160eb004d495  ./ROADMAP.md
+5c533603dbf028cd265371b80983be7c9f074da0920c636caaf213398b657709  ./ROADMAP.md
 52cd8b24127db93536ab7c391b5c86b7a40a63ff4271c71e5fe43d7245512f9a  ./announcements/PROMO-KIT.md
 fdc9867115beadd511b81c8f9e2f69b2ed990f1ee4fe5fdd1f894f505f816df1  ./announcements/academic-mailing-list-call.md
 e258560b3459ebfbf0e3c805adc681642fb84df9f8e1de5dc6d2961d15792d4e  ./announcements/blockchain-community-cn.md
@@ -75,7 +75,7 @@ e10d74f3fca0dd7f404a08762063d93b05a3efa5ee704197c656daad6ffec162  ./decisions/20
 f6f66f0d69f3b89c82e12d4554c70e9477d9d49e5565941d79f8cbca303d32ed  ./decisions/2026-10-16.md
 c52e3d31b34fc7d6264b1a0b7fc8338bed6e5d66c4dbe40e8a11b18a8c67ec46  ./decisions/2026-10-17.md
 e8b42ea6c42bfad18c2ebd4ffd46e981a99da8a9097dc5dd709a48b75fd43c5b  ./decisions/2026-10-18.md
-28e420d540dc2c69b7b592d596d5a76ee4c7146b470c8e74a324e7ee1439819a  ./decisions/2026-10-19.md
+209a6f03db068ceca139d426584404493fbafd210a16ad84a2cec78fa003419e  ./decisions/2026-10-19.md
 a93395cda3c770fca4530ab8ce6bc259a58eddf0e571466df5f33f2b5ecc2a7d  ./docs/Gemfile
 e97ba4d82ad2abd7e6640b17ae58f4de2a50d8bc4b0ca31553d09b05c68c6cca  ./docs/Global-Buddhist-Canon-Transmission-Timeline.pdf
 27d710b6434f8e0e33d052796102414b87a4ac339ae758752f596dacef9e33af  ./docs/Sushruta-Tibetan-Project-Plan.docx
@@ -240,7 +240,7 @@ b07a39fc9de50d402836911e20f73e66f6e4273d9d35971c3fb10972eaabf496  ./impl/typescr
 28317985637b4440057488b0c227805d8dd812a2dffe76c1aa1b3bb272661f30  ./manifests/SHA256SUMS.v0.5.0.ots
 d626d72d63ee344326565143ff1c955616ac3fcd6e24bdecc6302925b8126c5e  ./manifests/SHA256SUMS.v0.8.0.ots
 b03cbdefc3a6557bb6f8031adb314ffe2c5fab0d7dc92d18573d0225951656cf  ./manifests/SHA256SUMS.v0.9.0-a.ots
-ffd1afc6a764b1c7fb996531a65ad6919b246996d6c553b8975c4ed29991f339  ./manifests/translate-health.json
+dc6628c9845ed845d59dbc412c0b52bb900a18f6b1be394997dd48226243b4b9  ./manifests/translate-health.json
 3390612bae26b7f0564757357b738e5483bc5f74cacf20257737082cdb865e28  ./proposals/2026-08-31_sanskrit.md
 59646dee728540da179cac0610746b3cde7028e262f006676ca0ad43c8d515ff  ./proposals/2026-09-04_charter-v1.1-hardening.md
 5ace0ebed8421504a378f4e40bc66f9e3eb56513205bc209cc9873e6cb46bf87  ./proposals/2026-09-07-sinosphere.md
@@ -249,6 +249,7 @@ b4ab92fdd1ef2183d851e8b12e25cb6fe11e7fafadce1c9a25088f7490c3d275  ./proposals/20
 4f73ef4c96e8609c810a293ae40165700e0804d40bc22eb5aa4c88c2420c0a40  ./proposals/2026-09-28-india-week1.md
 84c486c41e1817f1e273a272f0987c85ef2a06f461629818226af742472a3e68  ./proposals/2026-10-05-pali-week2.md
 86f3c0ea3bf64b9bf102977fdf41a867403ab0d2bec171be5fb19ce55a0498bc  ./proposals/2026-10-12-chinese-week2.md
+b1ec646d5cc610eee02ddcd47efb1cb4e55e8f6d267acebaa4b8b8a33b478e21  ./proposals/2026-10-19-sanskrit-week2.md
 e12ebf0153d3e1de2ce135d871f6d24dad255866e18a3a9707fd7a7d38dae33d  ./proposals/branch-chinese-2026-08.md
 6db8170325bf9e7b6af96e0539893fd3ce245d0f7963e6aae206ab5f937d4a21  ./proposals/branch-pali-2026-08.md
 59becf180bfec6a4dfe4114c31f003e4130743213e0772bf92e5997f5d1fcac2  ./proposals/timeline-2026-W37.md
@@ -755,4 +756,5 @@ b0492041fa1d24ac3027e194d6b324a0e537e5683bffb6979aa7ac69cff96f40  ./translations
 64316324f1517f7a57f35175ceaa3f8cd96aae613d998091d512a4a7b803ff3a  ./translations/sishierzhang-jing/T784-opening-4lang.md
 472763eb4039661ec4fcaf5e0dac03d38314c9d027de5e6921ffebb07b271591  ./translations/therigatha/ekakanipata-1-5-4lang.md
 e3fdfbd761dc0eecb369edce55b23d8656df541806c424c1510bc056a9862216  ./translations/udanavarga-tibetan/anityavarga-selected-verses-4lang.md
+af642ba7ef52092b47f04f46c46666cebb0d06ffaa45adc1dcf8259d863b9a18  ./translations/vajracchedika/sections-1-2-4lang.md
 982649896d52200283ab1aefc1ae3de4983ae8a27c90271da993832dba089ad7  ./translations/wonhyo-prologue/daeseung-gisillon-so-prologue-3lang.md
