@@ -57,8 +57,8 @@ The charter is currently a **document**. The next step is to make it **executabl
 
 We want two parallel reference implementations under permissive licenses:
 
-1. **Python** — `buddhist_ai_guardrail/` — status: **starter kit in progress** (in a parallel worktree; will be published soon). PRs against it welcome once the skeleton lands.
-2. **TypeScript / JavaScript** — `@buddhist-ai/guardrail` (npm) — status: **not started**.
+1. **Python** — `impl/python/` (package name `buddhist-ai-guardrail`) — status: **v0.1.1 shipped locally** (source tree, tests, red-team harness, examples). **Not yet published to PyPI** (release pending maintainer credentials). PRs against the in-repo source welcome now; `pip install -e impl/python` works today.
+2. **TypeScript / JavaScript** — `impl/typescript/` (npm package name `@sarasvati/buddhist-ai-guardrail`) — status: **v0.1.0 shipped locally** with API parity to the Python reference (source, dual ESM/CJS build, vitest suite, examples). **Not yet published to npm** (release pending maintainer credentials). PRs against the in-repo source welcome now.
 
 Both should:
 - Expose the five refusals as pre-flight checks (`should_refuse(context) → (bool, reason)`).
@@ -68,10 +68,11 @@ Both should:
 - Be adoptable as a first-class dependency in Anthropic MCP servers, OpenAI Assistants, LangChain, LlamaIndex, and any agent runtime that lets you register a `before_tool_call` hook.
 
 **Ways to help**:
-- **Python**: watch for the `buddhist_ai_guardrail` announcement, then PR against it.
-- **TypeScript**: if you want to lead the TS port, open a `[CHARTER RUNTIME · TS]` issue and we will hand off the design doc.
-- **Test cases**: propose real-world adversarial prompts that the charter's refusals should catch, as GitHub issues.
-- **Integration**: if you maintain an agent framework, propose a hook where `buddhist_ai_guardrail` could plug in cleanly.
+- **Python**: clone the repo and `pip install -e impl/python`, then PR against `impl/python/`.
+- **TypeScript**: `npm install` under `impl/typescript/`, then PR against `impl/typescript/src/`.
+- **Test cases**: propose real-world adversarial prompts that the charter's refusals should catch, as GitHub issues; or drop them into `impl/python/redteam/attacks/` with a PR.
+- **Integration**: if you maintain an agent framework (LangChain, LlamaIndex, MCP server, OpenAI Assistants, Anthropic skills), propose a hook where `buddhist_ai_guardrail` could plug in cleanly and open a `[CHARTER RUNTIME · INTEGRATION <framework>]` issue.
+- **Publish**: if you can help with a maintainer-credentialed PyPI / npm first release so `pip install buddhist-ai-guardrail` and `npm install @sarasvati/buddhist-ai-guardrail` work from the public registries, open a `[CHARTER RUNTIME · RELEASE]` issue.
 
 ---
 
