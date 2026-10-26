@@ -5,7 +5,7 @@ Structured extraction of the **World Buddhist Canon Transmission Timeline** (八
 ## Files
 
 - `traditions.jsonl` — 8 traditions/branches
-- `events.jsonl` — 90 canonical-transmission milestones
+- `events.jsonl` — 91 canonical-transmission milestones
 - `events.csv` — same, comma-separated
 
 ## Schema
@@ -60,6 +60,10 @@ CC BY-SA 4.0 (same as project). Attribution: "Sarasvatī project, timeline data 
 - Extend by adding rows; PRs welcome
 
 ## Revision history
+
+### revision v6 · 2026-10-26
+
+Additive: `evt_091` appended from the weekly evidence proposal `proposals/timeline-2026-W44.md`, written directly under Pan's 2026-09-21 auto-approve instruction (SAMHiTA Project · Gangaramaya Temple, Colombo — 100 Buddhist palm-leaf manuscripts, launch 2026-10-23, target end-Nov 2026; `pali`). No revisions, no deletions. **Total after v6:** 91 events (was 90). Data-only until the canonical PDF / preview image is redrawn. Reversible by `git revert`.
 
 ### revision v2 · 2026-08-29
 
