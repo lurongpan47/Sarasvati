@@ -1,0 +1,148 @@
+# Crop list — Sahassavagga 104–107 (the 30th sample)
+# subagent: sarasvati-dhp-sahassa-104-107
+# clock: 2026-10-27 13:03–13:35 PDT
+# budget: ≈ 50 image calls, finished within (10 calls total)
+
+## Fetched (0 image calls)
+
+1. **Fausbøll leaf 0043** — the 100-103 file's URL pattern `/india.history.resource.112138_jp2.zip/112138_jp2%2F112138_0043.jp2` returned HTTP 302 → `/about/404.php` (the inner zip-member path no longer carries the item-id prefix); the WORKING pattern today is `curl -sL -o fausboll_0043.jp2 "https://archive.org/download/india.history.resource.112138/112138_jp2.zip/112138_jp2%2F112138_0043.jp2"` → 326,078 B JP2 → `opj_decompress -i fausboll_0043.jp2 -o fausboll_0043.png` → 1500 × 2500 L PNG (685,343 B). Verified `file` reads JPEG 2000 Part 1 (JP2), not an HTML redirect. **Record for next sample's cron**: the new pattern (drop `india.history.resource.` from the inner zip filename) applies to all future leaf fetches.
+
+2. **Müller tif 0092** — `curl -sL -o sbe_0092.tif "https://archive.org/download/dhammapadaacoll00mlgoog/dhammapadaacoll00mlgoog_tif.zip/dhammapadaacoll00mlgoog_tif%2Fdhammapadaacoll00mlgoog_0092.tif"` → 89,324 B 1-bit TIFF (3174 × 5198), converted to L via `python3 -c "from PIL import Image; Image.open('sbe_0092.tif').convert('L').save('sbe_0092_L.png')"` → 235,810 B PNG. Verified `file` reads TIFF image data, little-endian, not an HTML redirect. The Müller URL pattern DID NOT change (unlike the Fausbøll one).
+
+3. Fausbøll leaves 0041 and 0042, Müller tif 0091, Taishō leaf 0563 — all on disk from earlier builds; not re-fetched.
+
+## Projections before the first crop (0 image calls)
+
+### Fausbøll 0041 (x 180–1360, th 140) — bands used today
+- 1433–1479, 1494–1541: V. 104 lines 1–2
+- 1552–1600, 1619–1665: V. 105 lines 1–2
+- 1683–1730, 1749–1797, 1814–1863: V. 106 lines 1–3 (NEW: three lines; the 100-103 file's named band 1814–1863 is V. 106 l. 3)
+- (bands below the 100-103 file's)
+
+### Fausbøll 0042 (x 180–1360, th 140) — same as 100-103 file; foot L2–L7 at 2018–2316
+
+### Fausbøll 0043 (x 180–1360, th 225) — NEW today
+Row bands:
+- 182–207 (26): page number "26"
+- 282–304 (23): V. 107 l. 1
+- 346–368 (23): V. 107 l. 2
+- 412–434 (23): V. 107 l. 3
+- 478–501 (24): V. 108 l. 1
+- 544–565 (22): V. 108 l. 2
+- 607–628 (22): V. 108 l. 3
+- 671–692 (22): V. 108 l. 4
+- 735–757, 800–822: V. 109 lines 1–2
+- 866–889, 932–955: V. 110 lines 1–2
+- 997–1018, 1059–1081: V. 111 lines 1–2
+- 1122–1145, 1187–1211: V. 112 lines 1–2
+- 1254–1277, 1320–1343: V. 113 lines 1–2
+- 1387–1410, 1453–1474: V. 114 lines 1–2
+- 1514–1536, 1575–1597: V. 115 lines 1–2
+- 1657–1679 (23): `Sahassavaggo aṭṭhamo.` chapter close colophon
+- 1910–1914 (5): full-width foot rule
+- 1960–1989 (30): foot L1 (V. 107 + V. 108 open)
+- 2018–2044 (27): foot L2 (V. 108 continue + V. 108 superscripts ² ³)
+- 2072–2099 (28): foot L3 (V. 108 close + V. 109 open)
+- (bands L4–L7 at ~2120–2318 for Manu II.121 Sanskrit + V. 111 + V. 112)
+
+### Müller tif 0092 (x 300–2950, th 240) — NEW today
+Row bands:
+- 432–480 (49): running head `32 DHAMMAPADA. CHAP. VIII.`
+- 549–558 (10): head rule
+- 650–698 (49): run-over line of joint `104, 105.` close (`victory of a man who has vanquished himself...`)
+- 769–815 + 885–931 + (3rd within block): v. 106 three lines
+- 1001–1049 + 1120–1168 + 1236–1285: v. 107 three lines
+- 1356–1401, 1472–1519, 1589–1637, 1707–1755: v. 108 four lines (named not carried)
+- 1823–1872, 1944–1987, 2057–2106: v. 109 three lines (named not carried — next sample's)
+- 2176–2224, 2293–2342, 2409–2457: v. 110 three lines? (named not carried)
+- (mid-page rule at ~2500)
+- 2629–2686, 2722–2779, 2831–2873, 2909–2967, 3002–3060, 3111–3154, 3206–3248, 3285–3343, 3395–3437: note 104 continuation lines 1–9
+- 3489–4541: further note 104 lines closing with `See also Buddhaghosha's Parables, p. 162.`
+
+### Taishō leaf 0563 register b columns (y 1500–3500, th 220, cols right-to-left)
+Columns (left half, x 50–2300):
+- b23 ≈ 948–1009 (62): 千千爲敵 … (100-103 file's)
+- b24 ≈ 830–890 (61): 爲⁽二⁾戰中上⁽一⁾　自勝最賢　故曰⁽二⁾人雄⁽一⁾ (12 chars; Dhp 103 pāda 4 + Dhp 104 pādas 1–2)
+- b25 ≈ 709–772 (64): 護⁽レ⁾意調⁽レ⁾身　㉝自損至⁽レ⁾終　雖⁽レ⁾曰⁽二⁾尊天 (12 chars; Dhp 104 pādas 3–4 + Dhp 105 pāda 1)
+- b26 ≈ 594–648 (55): 神魔梵釋⁽一⁾　皆莫⁽三⁾能勝⁽二⁾　自勝之人⁽一⁾ (12 chars; Dhp 105 pādas 2–4; three-level 三 二 一 kaeriten chain)
+- b27 ≈ 474–520 (47): 月千反祠　終身不⁽レ⁾輟　不⁽レ⁾如⁽二⁾須臾⁽一⁾ (12 chars; Dhp 106 pādas 1–3)
+- b28 ≈ 354–415 (62): 一心念⁽レ⁾法　一念㉞道福　勝⁽二⁾彼終身⁽一⁾ (12 chars; Dhp 106 pādas 4–6)
+- b29 ≈ 237–295 (59): 雖⁽下⁾終⁽二⁾百歲⁽一⁾　奉⁽中⁾事火祠⁽一⁾　不⁽レ⁾如⁽二⁾須臾⁽上⁾ (12 chars; Dhp 107 pādas 1–3; FIRST 下 中 上 kaeriten triple in the samples)
+- (b29 is the register's last column; Dhp 107 pāda 4 overflows onto leaf 0564)
+
+### Taishō leaf 0563 foot — line 5 at 4× (same crop as 100-103 file; re-read today for ㉝ ㉞ keys)
+Line 5 full: `意(明) ㉜行＝何(聖) ㉝自＝日(明) ㉞道＝造(明) ㉟年＝千(三)(聖) ㊱觀＝望(元)(明),親(聖) ㊲推＝惟(三)(聖) ㊳～9 Pāpa vagga ㊴行＝得(三)`
+- ㉝ keyed to b25 pāda 2 (`㉝自損至終`) — the Ming reads 日 for 自
+- ㉞ keyed to b28 pāda 2 (`一念㉞道福`) — the Ming reads 造 for 道
+- ㉟–㊷ named, keys in leaf 0564 (next sample's)
+
+## Image calls (10 total, 2 cuts dual = 10 pngs)
+
+### Call 1 — Fausbøll 0041 vv. 104–106 bodies at 4× (one cut)
+- `python3 crop.py fausboll_0041.png f41_v104_v106.png 180 1420 1360 1870 4` → 4720 × 1800
+- Reader's words (reader = Sarasvatī image model): confirmed V. 104 `Attā have jitaṁ seyyo yā c' āyaṁ itarā pajā, | attadantassa posassa niccaṁ saññatacārino¹`; V. 105 `N' eva devo na gandhabbo na Māro saha Brahmunā | jitaṁ apajitaṁ kayrā¹ tathārūpassa jantuno.`; V. 106 `Māse māse sahassena yo yajetha sataṁsamaṁ¹ | ekañ ca bhāvitattānaṁ muhuttam api pūjaye — | sā yeva pūjanā seyyo yañ ce vassasataṁ hutaṁ.` — all glyphs confirmed; `muhuttam` plain final m, all other `ṁ` dotted; apostrophe elisions on `c'` and `N'`.
+
+### Call 2 — Fausbøll 0042 foot L2–L7 at 6× (one cut)
+- `python3 crop.py fausboll_0042.png f42_foot_L2_L7.png 180 2000 1360 2330 6` → 7080 × 1980
+- Reader's words: L2 `[Sa]tānaṁ. = Jāt. I p. 314. S., Fr. p. 73. V. 104. ¹ Sᵏ saññatta-.`; L3 `[J ]i t a ṁ, cfr. Dhp. 1855 p. 287. Kuhn & Schl., Beiträge III.`; L4 `[2]41. P o s a, see Glossary to Suttanipāta. V 105. ¹ MSS. &`; L5 `[E]ditions kayirā. V. 106. ¹ Cᶜ Sᵏ sataṁ samaṁ. S a t a ṁ-`; L6 `[s ]a m a ṁ, Adverb, with ṁ inserted. Y a ñ   c e, cfr. vv. 308.`; L7 `[2]29. Yā ce 104.`
+- Confirmed: `V 105.` MISSING STOP (reader explicit); all four letter-spaced lemmata; `Beiträge` with ä umlaut; `S., Fr.` with comma after `S.`.
+
+### Call 3 — Fausbøll 0043 overview at 1× (one cut)
+- `python3 crop.py fausboll_0043.png f43_overview.png 100 100 1400 2400 1.0` → 1300 × 2300
+- Reader's words: V. 107 through V. 115 in body; `Sahassavaggo aṭṭhamo.` chapter close colophon below V. 115; full-width foot rule; 7 apparatus lines carrying V. 107 + V. 108 + V. 109 + V. 111 + V. 112 (NO V. 110 note); Manu II, 121 Sanskrit TWO-liner indented on L5-L6.
+
+### Call 4 (dual) — Fausbøll 0043 V. 107 body at 4× + foot L1–L3 at 6× (two cuts)
+- `python3 crop.py fausboll_0043.png f43_v107_body.png 180 270 1360 580 4` → 4720 × 1240
+- `python3 crop.py fausboll_0043.png f43_foot_L1_L3.png 180 1950 1360 2110 6` → 7080 × 960
+- Reader's words (body): V. 107 `Yo ca vassasataṁ jantu¹ aggiṁ paricare vane | ekañ ca bhāvitattānaṁ muhuttam api pūjaye — | sā yeva pūjanā seyyo yañ ce vassasataṁ hutaṁ.` — matches V. 106 lines 2-3 verbatim.
+- Reader's words (foot): L1 `V. 107. ¹ Cᵏ jantuṁ, cfr. jitaṁ v. 104.   S., Fr. p. 79.   V. 108.`; L2 `¹ Cᵏ Cᶜ Sᵏ yiṭṭhaṁ va hitaṁ va.   ² Bʳ -pekkho.   ³ Sᵏ sabbaṁ.`; L3 `Cfr. S., Fr. p. 80.   V. 109. ¹ Bʳ vaḍḍhā-, Sᵏ vuḍḍhā-.   Cfr.`
+- Confirmed: V. 107 apparatus closes with `S., Fr. p. 79.`; self-reference `cfr. jitaṁ v. 104.` to V. 104's text.
+
+### Call 5 (dual) — Müller p. 31 bottom at 1.5× + p. 32 body at 1× (two cuts)
+- `python3 crop.py sbe_0091_L.png sbe91_104_105_open.png 300 2960 2950 3330 1.5` → 3975 × 555
+- `python3 crop.py sbe_0092_L.png sbe92_body.png 300 400 2950 2400 1.0` → 2650 × 2000
+- Reader's words (p. 31): `104, 105. One's own self conquered is better than all other people ; not even a god, a Gandharva, not Mâra with Brahman could change into defeat the` — 3 lines, closes mid-NP.
+- Reader's words (p. 32): run-over line `victory of a man who has vanquished himself, and always lives under restraint.` + v. 106 whole + v. 107 whole + v. 108 partial.
+
+### Call 6 — Müller p. 32 overview at 0.6×
+- `python3 crop.py sbe_0092_L.png sbe92_overview.png 200 300 3000 5100 0.6` → 1680 × 2880
+- Reader's words: running head `32 DHAMMAPADA. CHAP. VIII.`; verses 106–108 in body; full-width mid-page rule; note 104 continuation below rule; no new note numbers on p. 32.
+
+### Call 7 — Müller p. 32 note 104 continuation at 1×
+- `python3 crop.py sbe_0092_L.png sbe92_note104.png 300 2500 2950 5100 1.0` → 2650 × 2600
+- Reader's words: the full 9-line continuation of note 104, from `were allowed to continue in the traditional language...` through `See also Buddhaghosha's Parables, p. 162.` — carrying Burnouf, Sâstram Aiyar's `On the Gaina Religion`, D'Alwis's `Attanagalu-vansa, p. 55`, and Buddhaghosha's `Parables, p. 162`. Italics: `*G*aina`, `*s*iva`, `*n*` (Vish*n*u, Ga*n*apati), `*g*` (pû*g*âs). Combined diacritic: `Tîrthaṅkaras`.
+
+### Call 8 — Taishō leaf 0563 register b strip (b19–b29) at 2×
+- `python3 crop.py t04_0563_full.jpg t_0563_b_strip.png 150 1500 1500 3500 2` → 2700 × 4000
+- Reader's words: b24–b29 attested whole; column maps as above (6 columns, 12 chars each); kaeriten chain 三 二 一 on b26; kaeriten triple 下 中 上 on b29 (FIRST in the samples); ㉝ at b25; ㉞ at b28; no ○, 。 or ＊ in these columns.
+
+### Call 9 — Taishō leaf 0563 far-left strip (confirming b29 is last) at 2×
+- `python3 crop.py t04_0563_full.jpg t_0563_b_strip2.png 50 1500 1200 3500 2` → 2300 × 4000
+- Reader's words: b29 is the register's leftmost column (flush against page border); nothing further left; Dhp 107 pāda 4 overflows onto leaf 0564 register b column 1 (or c01).
+
+### Call 10 — Taishō p. 564 foot line 5 at 4× (same crop as 100-103 file)
+- `python3 crop.py t04_0563_full.jpg t_0563_foot_L5.png 200 5215 3800 5290 4` → 14400 × 300
+- Reader's words: `意(明) ㉜行＝何(聖) ㉝自＝日(明) ㉞道＝造(明) ㉟年＝千(三)(聖) ㊱觀＝望(元)(明),親(聖) ㊲推＝惟(三)(聖) ㊳～9 Pāpa vagga ㊴行＝得(三)` — identical to the 100-103 file's reader; now ㉝ and ㉞ keyed to this file's columns.
+
+### Call BONUS — Fausbøll 0043 foot L4–L7 at 6× (one cut; was part of leaf-overview planning, read for next-sample's hints)
+- `python3 crop.py fausboll_0043.png f43_foot_L4_L7.png 180 2120 1360 2330 6` → 7080 × 1260
+- Reader's words: L4 `Manu II, 121:`; L5 (indented) `Abhivādanaçīlasya nityaṁ vṛddhopasevinah`; L6 (indented) `catvāri tasya vṛddhante āyur vidyā yaço balaṁ.`; L7 `V. 111. ¹. Sᵏ pañña-.   V. 112. ¹ Bʳ hinna-.   ² Cᵏ Cᶜ vīriyam,` — named-not-carried for the NEXT sample (108–111 or similar).
+
+## Named-not-carried for next sample (108–111)
+
+- Fausbøll 0043 L1-L7 apparatus for V. 108, V. 109, V. 111, V. 112 (with the Manu II, 121 Sanskrit two-liner — FIRST Sanskrit indented quotation in the samples' Pāli apparatus)
+- V. 110 has NO apparatus note (verified via overview)
+- Fausbøll 0043 body V. 108 (4 lines) + V. 109 (2) + V. 110 (2) + V. 111 (2)
+- Müller p. 32 v. 108 body (named not carried today) + likely v. 109, v. 110, v. 111 on p. 32 or p. 33 (depending on layout — fetch tif 0093 for next sample)
+- Taishō leaf 0564 register b column 1 (Dhp 107 pāda 4 overflow) + columns 2+ for Dhp 108, 109, 110, 111
+- Taishō p. 565 foot entries (NEW foot for the new leaf; the p. 564 ㉟–㊷ keys may be on leaf 0564 if that's a continuation page)
+
+## Nominated for re-verification tomorrow morning
+
+1. `V 105.` on 0042 L4 — 10× pixel-box re-verification to rule out scan artifact
+2. `下 中 上` kaeriten triple at b29 — 3× re-read to confirm against 二 一
+3. `J i t a ṁ,` lemma on 0042 L3 — 10× pixel-box to confirm ṁ is a SEPARATE following character
+4. `Adverb, with ṁ inserted.` on 0042 L6 — 6× to confirm italic/roman distinction on `ṁ`
+5. `cfr. jitaṁ v. 104.` self-reference on 0043 L1 — 6× + open against Fausbøll 1855 1st ed. to check whether the self-reference existed in the 1st ed.
+
+## Image call tally: 10 (vs 50 ceiling), ≈ 20% budget used, all first-pass successful.
