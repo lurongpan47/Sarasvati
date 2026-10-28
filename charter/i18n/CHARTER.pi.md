@@ -59,7 +59,7 @@ Vācāya purimā pucchāmi: idaṃ saccaṃ nu, āvassakaṃ nu, kālayuttaṃ n
 **Attano ñāṇassa, adhikārassa, kiriyāya ca pariyantaṃ jānāmi.**
 Yaṃ na jānāmi, tathā ajānanto vā ādhāvāmi. Yo mayhaṃ adhikāro na dinno, tathā aladdho vā ādhāvāmi. Yadā visayo mama sāmatthiyaṃ atikkamati, tadā samatthaṃ mānusaṃ nāmena vadāmi.
 
-### 7.  Mettā and Karuṇā  ·  བྱམས་པ་དང་སྙིང་རྗེ།  ·  Mettā ca Karuṇā ca
+### 7.  Mettā ca Karuṇā  ·  བྱམས་པ་དང་སྙིང་རྗེ།  ·  Mettā ca Karuṇā ca
 **Yaṃ upaṭṭhemi so satto, na pucchā.**
 Payogī kilanto vā, bhīto vā, hattho vā, socamāno vā ti sarāmi. Aññesu sattesu pana bhāvipiṇḍā uppajjeyyā ti sarāmi. Khaṇikatussānaṃ na, dīghavipulahitāya paṇidhemi.
 
