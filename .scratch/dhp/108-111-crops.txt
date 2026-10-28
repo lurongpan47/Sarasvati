@@ -1,0 +1,288 @@
+# Crop list — Sahassavagga 108–111 (the 31st sample)
+# subagent: sarasvati-dhp-sahassa-108-111
+# clock: 2026-10-28 13:05–13:50 PDT
+# budget: ≈ 50 image calls, finished within (15 calls total)
+
+## Fetched (0 image calls)
+
+1. **Fausbøll leaf 0043** — already on disk from the 10-27 build (326,078 B JP2 → 1500 × 2500 L PNG, 685,343 B); not re-fetched.
+
+2. **Müller tif 0093 (p. 33)** — `curl -sSL -o sbe_0093.tif "https://archive.org/download/dhammapadaacoll00mlgoog/dhammapadaacoll00mlgoog_tif.zip/dhammapadaacoll00mlgoog_tif%2Fdhammapadaacoll00mlgoog_0093.tif"` → 75,606 B 1-bit TIFF (3174 × 5198), converted to L via Pillow → 204,659 B PNG. Verified `file` reads TIFF image data, little-endian, not an HTML redirect.
+
+3. **Müller tif 0092 (p. 32)** — on disk from the 10-27 build (235,810 B L PNG); re-cut for v. 108 only.
+
+4. **Taishō leaf 0564** (= IA scan `_0564.jp2`) — fetched via `curl -sSL -o t04_0564.jp2 "https://archive.org/download/taisho-tripitaka/<URL-ENCODED-ZIP-MEMBER>_0564.jp2"` → 1,601,402 B JP2 → `opj_decompress` → 4000 × 5770 RGB PNG → converted to L → `t04_0564_full.jpg` 2,685,099 B. BUT: the fetched leaf = Taishō page 565 (ch. 17 惡行品 territory), NOT the ch. 16 continuation. **Discovery**: the IA `_0564` leaf is Taishō **p. 565**, so Dhp 108-115 Chinese is actually on the ALREADY-ON-DISK leaf `t04_0563_full.jpg` register c (= Taishō p. 564 c01-c17). The newly-fetched `t04_0564` was NOT needed for this sample's columns; kept on disk for the next sample (112-115, if any Chinese overflow happens into Taishō p. 565 — unlikely since 述千品 closes at Taishō p. 564c17 before ⑰惡行品 opens at c18).
+
+5. Fausbøll leaves 0041 and 0042, Müller tif 0091, Taishō leaf 0563 — all on disk from earlier builds; not re-fetched.
+
+## Projections before the first crop (0 image calls)
+
+### Fausbøll 0043 (x 180–1360, th 225) — as settled by the 10-27 build
+Body V. 107 at 282–434; V. 108 at 460–720 (four lines in bands by projection); V. 109 at 735–822; V. 110 at 866–955; V. 111 at 997–1081; V. 112–V. 115 at 1122–1597; chapter close `Sahassavaggo aṭṭhamo.` at 1657–1679; foot rule 1910–1914; foot L1–L7 at 1960–2318 (L1 1960–1989, L2 2018–2044, L3 2072–2099, L4 2110–2140 Manu II, 121:, L5 2122–2150 Sanskrit line 1, L6 2165–2195 Sanskrit line 2, L7 2270–2318 V. 111 + V. 112).
+
+### Müller tif 0093 (x 300–2950, th 240) — NEW today
+Row bands (from the overview read):
+- head + rule at ~430–560 (`THE THOUSANDS.` centred, `33` right)
+- v. 109 at ~700–920 (3 lines)
+- v. 110 at ~940–1150 (3 lines)
+- v. 111 at ~1170–1390 (3 lines)
+- v. 112 at ~1410–1620 (3 lines)
+- v. 113 at ~1640–1850 (3 lines)
+- v. 114 at ~1870–2080 (3 lines)
+- v. 115 at ~2100–2320 (3 lines)
+- mid-page rule at ~2500 (approx. 58% down)
+- note 109 at ~2900–4300 (long note, Manu II, 121 Sanskrit quoted indented in two lines with SBE italic transliteration — *K*atvâri — different from Fausbøll's catvāri; Âpastamba-sûtras I, 2, 5, 15 reference; Fausböll + Asiatic Researches XX p. 259 for Siam Buddhists)
+- note 112 at ~4360–4420 (one line, `On kusîto, see note to verse 7.`)
+- blank bottom ~30%
+- no chapter boundary on p. 33
+
+### Müller tif 0092 (p. 32) — v. 108 bands only (already carried by 104-107 for other verses)
+- v. 108 at 1356–1735 (4 lines: body)
+
+### Taishō leaf 0563 register c (x 2800–3900, y 3600–5400 for right columns; x 1600–2900 for left columns)
+Columns right-to-left:
+- c01: 供養三尊　一供養福　勝彼百㉟年。 (Dhp 107 pāda 4 overflow + stanza close — ㉟ keyed between 百 and 年)
+- c02: 祭神以求福　從後㊱觀其報 (Dhp 108 pādas 1-2; ㊱ keyed between 後 and 觀)
+- c03: 四分未望一　不如禮賢者 (Dhp 108 pādas 3-4)
+- c04: 能善行禮節　常敬長老者 (Dhp 109 pādas 1-2)
+- c05: 四福自然增　色力壽而安 (Dhp 109 pādas 3-4)
+- c06: 若人壽百歲　遠正不持戒 (Dhp 110 pādas 1-2)
+- c07: 不如生一日　守戒正意禪 (Dhp 110 pādas 3-4)
+- c08: 若人壽百歲　邪偽無有智 (Dhp 111 pādas 1-2; 僞 at 6× = 偽 variant form, 僞 printed on leaf)
+- c09: 不如生一日　一心學正智 (Dhp 111 pādas 3-4)
+- c10–c17: Dhp 112-115 (named-not-carried as source columns, body-visible only — the 112-115 sample's)
+- c18: start of ch. 17 ⑰惡行品 heading (next sample's chapter boundary)
+
+### Taishō p. 564 foot — line 5 at 4× (same crop as earlier builds; re-read today in full for ㊱ ㊲ ㊳ ㊴ keys)
+Line 5 full: `…意(明)  ㉜行＝何(聖)  ㉝自＝日(明)  ㉞道＝造(明)  ㉟年＝千(三)(聖)  ㊱觀＝望(元)(明),親(聖)  ㊲推＝惟(三)(聖)  ㊳～9 Pāpa vagga  ㊴行＝得(三)`
+- ㊱ keyed to c02 (`從後㊱觀其報`) — the Yuan and Ming read 望, the Shōgo-zō reads 親, for the text's 觀 (seeing the fruit vs looking for / familiar with — a sense shift)
+- ㊲ keyed to c17 (Dhp 115 pāda 2's 學推佛法要 — next sample's)
+- ㊳ `～9 Pāpa vagga` the ch. 17 boundary note (unchanged; already attested in the 100-103 and 104-107 files)
+- ㊴ keyed to a next-page column (next sample's or Taishō p. 565's)
+
+## Image calls (15 total)
+
+### Call 1: Fausbøll 0043 body V. 108–V. 111 at 2.5× (f43_body_108_111.png)
+- crop: x 180–1360, y 460–1100, scale 2.5× → 2950 × 1600 px
+- reader (verbatim):
+  **108.**
+  Yaṁ kiñci yiṭṭhañ ca hutañ ca¹ loke
+  saṁvaccharaṁ yajetha puññapekho²
+  sabbam³ pi taṁ na catubhāgam eti, —
+  abhivādanā ujjugatesu seyyo.
+  **109.**
+  Abhivādanasīlissa niccaṁ vaddhāpacāyino¹
+  cattāro dhammā vaḍḍhanti: āyu vaṇṇo sukhaṁ balaṁ.
+  **110.**
+  Yo ca vassasataṁ jīve dussīlo asamāhito —
+  ekāhaṁ jīvitaṁ seyyo sīlavantassa jhāyino.
+  **111.**
+  Yo ca vassasataṁ jīve duppañño asamāhito —
+  ekāhaṁ jīvitaṁ seyyo paññāvantassa¹ jhāyino.
+- notes: V. 108 is a 4-LINE stanza (new: the first 4-line stanza in the Sahassavagga samples); V. 109, 110, 111 all 2-line. V. 109 l. 1 has `vaddhā-` plain (no underdots on dd) against V. 109 l. 2's `vaḍḍhanti:` with underdots on ḍḍ — the typographical split keyed to the apparatus `¹ Bʳ vaḍḍhā-, Sᵏ vuḍḍhā-.`. V. 110 l. 1 ends with em-dash `—`; V. 111 l. 1 ends with em-dash `—` (both 2-line stanzas with mid-stanza em-dash — the 104-107 file's V. 106 l. 2 / V. 107 l. 2 em-dash now carried in 2-line stanzas, a new placement).
+
+### Call 2: Fausbøll 0043 foot L1–L4 + L4–L7 at 2.5× (double crop)
+- crops: (A) x 180–1360, y 1930–2220, scale 2.5× → 2950 × 725 px; (B) x 180–1360, y 2110–2330, scale 2.5× → 2950 × 550 px
+- reader (verbatim):
+  L1: V. 107. ¹ Cᵏ jantuṁ, cfr. jitaṁ v. 104. S., Fr. p. 79.    V. 108.
+  L2: [¹] Cᵏ Cᶜ Sᵏ yiṭṭhaṁ va hitaṁ va.    ² Bʳ -pekkho.    ³ Sᵏ sabbaṁ.
+  L3: Cfr. S., Fr. p. 80.    V. 109. ¹ Bʳ vaḍḍhā-, Sᵏ vuḍḍhā-.    Cfr.
+  L4: Manu II, 121:
+  L5: (indented) Abhivādanaçīlasya nityaṁ vṛddhopasevinah
+  L6: (indented) catvāri tasya vṛddhante āyur vidyā yaço balaṁ.
+  L7: V. 111. ¹. Sᵏ pañña-.    V. 112. ¹ Bʳ hinna-.    ² Cᵏ Cᶜ vīriyam,
+- notes: V. 110 has NO apparatus entry (confirmed from the leaf — L3 goes directly from `V. 109.` opening into `vaḍḍhā-, Sᵏ vuḍḍhā-. Cfr.` and L4 opens `Manu II, 121:`, then two indented Sanskrit lines L5–L6, then L7 opens with `V. 111.`). This is the FIRST sample in which a Pāli verse has NO apparatus entry at all — a new event: a stanza silently passing through the apparatus (V. 110 the first). V. 112 ends on COMMA (`vīriyam,`) — the entry continues onto the next sample's foot line. ALSO: V. 111's superscript figure in the apparatus reads `V. 111. ¹.` with an apparent period after the ¹ (stray dot, possibly a typographical mark; flagged for re-verification).
+
+### Call 3: Fausbøll 0043 Sanskrit lines L5–L6 at 4× + L7 V111/V112 at 4× (double crop)
+- crops: (A) x 180–1360, y 2110–2260, scale 4.0× → 4720 × 600 px; (B) x 180–1360, y 2270–2335, scale 4.0× → 4720 × 260 px
+- reader (verbatim) for Sanskrit at 4×:
+  L5 (indented): Abhivādanaçīlasya nityaṁ vṛddhopasevinah
+  L6 (indented): catvāri tasya vṛddhante āyur vidyā yaço balaṁ.
+- Sanskrit diacritic confirmations:
+  - **ç** (c-with-cedilla) in `Abhivādanaçīlasya` — the hook hangs clearly below the c; NOT ś with acute. Fausbøll's 1900 Sanskrit convention: ç for standard ś, confirmed pixel by pixel.
+  - **ī** macron in çīlasya present
+  - **nityaṁ** DOTTED ṁ (anusvāra dot above m) present
+  - **vṛddhopasevinah** — ṛ (r with underdot) PRESENT; final h is PLAIN (no visible underdot — Fausbøll prints `-vinah` with a bare h, not `-vinaḥ` with visarga dot)
+  - stray ink dots observed above `vṛddho` (floating dot between ṁ and v) and a tilde-like squiggle above `vinah` right end — not diacritics
+  - L6: catvāri, āyur, vidyā, yaço, balaṁ — macrons on ā, dotted ṁ on balaṁ, cedilla ç on yaço (consistent with L5's ç; the bottom of ç clipped by the crop edge for yaço but visible on screen); FINAL PERIOD after balaṁ
+- Fausbøll's Sanskrit uses: ç (for ś), ṛ, plain h (not ḥ with visarga dot), ṁ (anusvāra), macron ā / ī / ū. This is DIFFERENT from the Müller SBE X Sanskrit convention (SBE uses italic *s* for ś, italic *ri* for ṛ, italic *h* for ḥ, italic *m* for ṃ). Both editors Sanskritize the Manu II.121 but with distinct transliteration schemes.
+- reader for L7 at 4×:
+  L7: V. 111. ¹. Sᵏ pañña-.    V. 112. ¹ Bʳ hinna-.    ² Cᵏ Cᶜ vīriyam,
+- V. 111: `pañña-` with ñ (TWO ñ in `pañña` — but only ONE tilde printed, over `nn` — the second tilde elided per Fausbøll's ligature convention — flagged for re-verification). The `¹.` with period after superscript 1 may be a stray dot or printed convention — flagged.
+- V. 112: `hinna-` plain i (no macron) + hyphen + period. `vīriyam,` ī macron + plain m + COMMA (not period) — entry continues on the next sample's L1 foot line.
+
+### Call 4: Fausbøll 0043 foot L1–L2 V. 108 opening at 3.5× (f43_L1_L2_v108_open.png)
+- crop: x 180–1360, y 1950–2060, scale 3.5× → 4130 × 385 px
+- reader (verbatim):
+  L1: [V]. 107.  ¹ Cᵏ jantuṁ, cfr. jitaṁ v. 104.    S., Fr. p. 79.    V. 108.
+  L2: Cᵏ Cᶜ Sᵏ yiṭṭhaṁ va hitaṁ va.    ² Bʳ -pekkho.    ³ Sᵏ sabbaṁ.
+- notes: the opening ¹ before `Cᵏ` on L2 is CROPPED off at the left margin (left edge of L1 also crops the V. of V. 107); the ¹ is presumed present per Fausbøll's convention. The V. 108 opening variant is `yiṭṭhaṁ va hitaṁ va.` — this is a 2-word per morpheme reading (Cᵏ Cᶜ Sᵏ read as 4 words `yiṭṭhaṁ`-`va`-`hitaṁ`-`va`) against the text's compound reading `yiṭṭhañ ca hutañ ca` (4 words with ñc sandhi + ca particles). The variant is strictly morphological: `yiṭṭhaṁ va` = "whatever is sacrificed, or" vs text's `yiṭṭhañ ca` = "and what is sacrificed"; `hitaṁ va` = "or what is given" vs text's `hutañ ca` = "and what is offered" — a SEMANTIC variant: enumeration (va "or") vs conjunction (ca "and"). The ³ in V. 108 l. 3 keys to `³ Sᵏ sabbaṁ.` — the Siamese reads `sabbaṁ` dotted ṁ for the text's `sabbam` PLAIN m (sandhi variant on the pre-vowel m; new: the pre-vowel m/ṁ sandhi split now attested in a four-line stanza).
+
+### Call 5: Müller tif 0093 overview at 0.55× (m93_overview.png)
+- crop: x 300–3100, y 300–5100, scale 0.55× → 1540 × 2640 px
+- reader (layout overview):
+  - Running head: centred `THE THOUSANDS.`; `33` far right (recto, a page ending in odd)
+  - Head rule across full width below the running head
+  - Body: v. 109 opens the page (so v. 108 is on p. 32, which the 104-107 file carried only as named-not-carried + confirmed on tif 0092 today)
+  - Body verses in order: 109, 110, 111, 112, 113, 114, 115 — all 2-line Pāli = 3-line English (except 109 which is 3 English lines reading "He who always greets and constantly reveres | the aged, four things will increase to him, viz. life, | beauty, happiness, power.")
+  - mid-page rule at ~58% down the page
+  - Notes: ONE LONG note 109 (`Dr. Fausböll, in a most important note, called attention to the fact that the same verse, with slight variations, occurs in Manu. We there read, II, 121 :` + TWO indented Sanskrit lines with SBE italic transliteration `Abhivâdana*s*îlasya nitya*m* v*ri*ddhopasevina*h*,` / `*K*atvâri sampravardhante âyur vidyâ ya*s*o balam.` + the English gloss `Here the four things are, life, knowledge, glory, power.` + a paragraph on `the Âpastamba-sûtras, I, 2, 5, 15` + the comparative-religion paragraph on the Brahman origin + `Dr. Fausböll from the Asiatic Researches, XX, p. 259` for the Siam Buddhists); ONE SHORT note 112 (`On kusîto, see note to verse 7.`)
+  - Bottom ~30% blank
+  - NO chapter boundary (ch. 9 starts on next page p. 34)
+- notes: Müller folds the TWO Dhp 110-111 and 112-115 blocks silently (notes 110, 111, 113, 114, 115 all absent — only 109 (longest) and 112 (shortest) have notes); a NEW pattern: six consecutive 2-line Pāli stanzas (vv. 110-115) with only ONE note between them (on v. 112's kusīto); the entire SBE X English page devoted to seven stanzas + two notes is lean (the shortest ratio of notes to verses in the samples so far — a Müller "silent chapter close" pattern).
+
+### Call 6: Müller tif 0092 v. 108 + tif 0093 v. 109-112 (double)
+- crops: (A) tif 0092 x 300–3100, y 1230–2500, scale 1.0× → 2800 × 1270 px; (B) tif 0093 x 300–3100, y 550–1700, scale 1.2× → 3360 × 1380 px
+- reader (verbatim) for v. 108 on p. 32 (last stanza of p. 32):
+    108. Whatever a man sacrifice in this world as an
+  offering or as an oblation for a whole year in order to
+  gain merit, the whole of it is not worth a quarter (a
+  farthing) ; reverence shown to the righteous is better.
+- notes: "sacrifice" subjunctive (not "sacrifices"); SBE thin space before `;` → `farthing) ;`; parenthetical `(a farthing)` as Müller's gloss for the Pāli `catubhāgam` (one-fourth, with the Victorian coin-measure "farthing" as the gloss); no diacritics or italics.
+- reader for v. 109-111 on p. 33:
+    109. He who always greets and constantly reveres
+  the aged, four things will increase to him, viz. life,
+  beauty, happiness, power.
+    110. But he who lives a hundred years, vicious
+  and unrestrained, a life of one day is better if a man
+  is virtuous and reflecting.
+    111. And he who lives a hundred years, ignorant
+  and unrestrained, a life of one day is better if a man
+  is wise and reflecting.
+    112. [first line cropped at image bottom — attested in next call]
+- notes: v. 109's `viz.` roman + period; thin-space-before-colon convention not visible on v. 109; vv. 110 and 111 are twin stanzas sharing the "a life of one day is better if a man" refrain (a new patternof twin Pāli stanzas sharing an English refrain — the 100-103 file's joint 104/105 was ONE English for TWO Pāli; the samples' first case of SEPARATE English for twinned Pāli stanzas, with a verbatim refrain).
+
+### Call 7: Müller tif 0093 v. 112-115 at 1.0× + note 109 at 1.2× (double)
+- crops: (A) x 300–3100, y 1500–3000, scale 1.0× → 2800 × 1500 px; (B) x 300–3100, y 3000–4600, scale 1.2× → 3360 × 1920 px
+- reader (verbatim) for v. 112-115 on p. 33:
+    112. And he who lives a hundred years, idle and
+  weak, a life of one day is better if a man has attained
+  firm strength.
+
+    113. And he who lives a hundred years, not seeing
+  beginning and end, a life of one day is better if a
+  man sees beginning and end.
+
+    114. And he who lives a hundred years, not
+  seeing the immortal place, a life of one day is better
+  if a man sees the immortal place.
+
+    115. And he who lives a hundred years, not
+  seeing the highest law, a life of one day is better
+  [if a man sees the highest law.]  (last line cut at bottom of crop; attested in m93_overview)
+- notes: six consecutive stanzas (vv. 110-115) sharing an English refrain `a life of one day is better if a man …` — the Pāli's `ekāhaṁ jīvitaṁ seyyo … jhāyino` (vv. 110, 111) and parallel formations in vv. 112-115. The samples' first attested English-side "refrain pattern" across six stanzas (new: a Victorian translator's conservation of the Pāli's own refrain through 6 consecutive English stanzas with only ONE word's variation per couplet).
+- reader (verbatim) for note 109 on p. 33 (long cross-tradition note):
+  109. Dr. Fausböll, in a most important note, called attention to
+  the fact that the same verse, with slight variations, occurs in Manu.
+  We there read, II, 121 :
+          Abhivâdana*s*îlasya nitya*m* v*ri*ddhopasevina*h*,
+          *K*atvâri sampravardhante âyur vidyâ ya*s*o balam.
+  Here the four things are, life, knowledge, glory, power.
+  In the Âpastamba-sûtras, I, 2, 5, 15, the reward promised for
+  the same virtue is svargam âyus *k*a, 'heaven and long life.' It
+  seems, therefore, as if the original idea of this verse came from the
+  Brahmans, and was afterwards adopted by the Buddhists. How
+  largely it spread is shown by Dr. Fausböll from the Asiatic Re-
+  searches, XX, p. 259, where the same verse of the Dhammapada
+  is mentioned as being in use among the Buddhists of Siam.
+  
+  112. On kusîto, see note to verse 7.
+- notes: SBE X's italic transliteration conventions carried in the Sanskrit: *s* for ś (Abhivâdana*s*îlasya, ya*s*o), *m* for ṃ (nitya*m*), *ri* for ṛ (v*ri*ddhopasevina*h*), *h* for ḥ (vina*h*), *K* for the Devanāgari क which represents the CONJUNCT ca (Pāli ca, Sanskrit *K*atvâri = *catvāri* — italic *K* here is SBE's standard for IAST ca/c). The MOST STRIKING difference from the Fausbøll side: Fausbøll gives Sanskrit `catvāri` with plain c + macron, Müller gives `*K*atvâri` with italic K + circumflex â — the two editors Sanskritize Manu II.121 but with ENTIRELY DIFFERENT transliteration schemes (new: the first full line-by-line comparison in the samples between Fausbøll's `catvāri tasya vṛddhante āyur vidyā yaço balaṁ.` and Müller's `*K*atvâri sampravardhante âyur vidyâ ya*s*o balam.`). The TWO EDITIONS of Manu II.121 CARRIED differ: Fausbøll has `tasya vṛddhante` (3sg. middle), Müller has `sampravardhante` (3pl. middle with sam-pra- prefix) — a TEXT-CRITICAL DIFFERENCE in the two editors' sources: Fausbøll's Manu edition reads `tasya vṛddhante` ("to him grow"), Müller's reads `sampravardhante` ("they fully increase") — Fausbøll likely cites a shorter Manu reading, Müller the standard long form. Also `balaṁ.` (Fausbøll) vs `balam.` (Müller) — anusvāra on vs plain m. **Nominated #1**: the two editors' DIFFERENT Manu II.121 readings. The Âpastamba-sûtras I, 2, 5, 15 citation is Müller's (not Fausbøll's); the Asiatic Researches XX p. 259 citation attributing the Siamese Buddhists' use of the verse is Müller's crediting Dr. Fausböll (name set with umlaut `ö` in Müller — the Victorian German-pattern spelling of the Danish name). `svargam âyus *k*a` ('heaven and long life') is the SBE's italic *k* for IAST ca.
+
+### Call 8: Taishō leaf 0564 overview at 0.4× (t04_0564_overview.png)
+- crop: x 0–4000, y 0–5770, scale 0.4× → 1600 × 2308 px
+- reader (layout overview): the fetched leaf is TAISHŌ P. 565, NOT the ch. 16 continuation. The page contains 惡行品 (ch. 17) + 刀杖品 (ch. 18) + 老耗品 (ch. 19) boundary. The CBETA TEI shows that the Dhp 108-115 chapter 16 CHINESE material is on the ALREADY-ON-DISK leaf `t04_0563_full.jpg` register c (= Taishō p. 564 c01-c17). The newly-fetched leaf is NOT needed for this sample's columns and is kept for future reference.
+- discovery (recorded for next sample's cron): IA scan `_0564.jp2` = Taishō p. 565 (NOT Taishō p. 564 as a naive naming would suggest); the IA scan numbering is one AHEAD of the Taishō page number for this volume. So the Chinese Dhp 108-115 columns are at IA scan `_0563` register c, Taishō p. 564 c01-c17.
+
+### Call 9: Taishō leaf 0564 register a right at 1.5× (t04_0564_reg_a_right.png) — SUPERSEDED, not read in file
+### Call 10: Taishō leaf 0564 register a strip at 1.5× (t04_0564_reg_a_strip.png) — SUPERSEDED, confirmed leaf is ch. 17/18/19 territory, not needed
+
+### Call 11: Taishō leaf 0563 register c strip at 1.5× (t04_0563_reg_c_strip.png)
+- crop: x 150–3900, y 3600–5400, scale 1.5× → 5625 × 2700 px
+- reader (partial, by column, right-to-left) — 15 columns of register c visible:
+  - c01: 供養三尊 一供養福 勝彼百 ㉟ 年 (Dhp 107 pāda 4 overflow + 108 open; ㉟ keyed between 百 and 年)
+  - c02: 祭神以求福 從後 ㊱ 觀其報 (Dhp 108 pādas 1-2; ㊱ keyed between 後 and 觀)
+  - c03: 四分未望一 不如禮賢者 (Dhp 108 pādas 3-4)
+  - c04: 能善行禮節 常敬長老者 (Dhp 109 pādas 1-2)
+  - c05: 四福自然增 色力壽而安 (Dhp 109 pādas 3-4)
+  - c06: 若人壽百歲 遠正不持戒 (Dhp 110 pādas 1-2)
+  - c07: 不如生一日 守戒正意禪 (Dhp 110 pādas 3-4)
+  - c08–c17: Dhp 111-115 (named)
+- notes: identified the pattern of 若人壽百歲 … 不如生一日 … refrain pādas across Dhp 110-115 (SIX consecutive stanzas with the same opening 5-char pāda `若人壽百歲` ["if a man lives a hundred years"] and third pāda `不如生一日` ["not like being born for a single day"] — a Chinese translator's structural refrain matching the Pāli's `yo ca vassasataṁ jīve … ekāhaṁ jīvitaṁ seyyo …` through SIX stanzas; a parallel to the English refrain pattern read on Müller p. 33); the SAMPLES' first long parallel-refrain across SIX consecutive stanzas in both English and Chinese; the chapter close at c17's `不如生一日 學推佛法要` (Dhp 115) with no formal colophon in the Chinese (the Taishō's silent chapter-close pattern, as in the 98-99 file's `無所欲求` close for ch. 15 羅漢品); c18 opens ch. 17 `⑰惡行品 ＊法句經第十七 ＊二十有二章`.
+
+### Call 12: Taishō leaf 0563 c06-c13 close read at 2.0× (t04_0563_reg_c_c06_c13.png)
+- crop: x 1600–2900, y 3600–5400, scale 2.0× → 2600 × 3600 px
+- reader (11 columns, right-to-left, by pāda):
+  - c07 (= Dhp 110b): 不レ 如三 生 一 日 ‖ 守レ 戒 正レ 意 禪一
+  - c08 (= Dhp 111a): 若 人 壽 百 歲 ‖ 邪 僞 無レ 有レ 智一 (僞 for 偽, Taishō form)
+  - c09 (= Dhp 111b): 不レ 如三 生 一 日 ‖ 一 心 學二 正 智一 (small mark under 學 read as 二, possibly レ at 2×)
+  - c10 (= Dhp 112a): 若 人 壽 百 歲 ‖ 懈 怠 不二 精 進一
+  - c11 (= Dhp 112b): 不レ 如三 生 一 日 ‖ 勉 力 行二 精 進一
+  - c12 (= Dhp 113a): 若 人 壽 百 歲 ‖ 不レ 知二 成 敗 事一
+  - c13 (= Dhp 113b): 不レ 如三 生 一 日 ‖ 見レ 微 知二 所 忌一
+  - c14 (= Dhp 114a): 若 人 壽 百 歲 ‖ 不レ 見二 甘 露 道一
+  - c15 (= Dhp 114b): 不レ 如三 生 一 日 ‖ 服 行二 甘 露 味一 (二 between 服 and 行)
+  - c16 (= Dhp 115a): 若 人 壽 百 歲 ‖ 不レ 知二 大 道 義一
+  - c17 (= Dhp 115b): 不レ 如三 生 一 日 ‖ 學二 ㊲ 推 佛 法 要一 (㊲ keyed between 學 and 推)
+- notes: the kaeriten pattern 不レ 如三 is DOMINANT across every "b" pāda of Dhp 110-115 (the Japanese reader's inversion for the Chinese "not like …" clause). The `三` here is the first element of a 三 二 一 chain reading across THREE objects. 僞 (not 偽) is the leaf's form at c08 (the 10-27 projection called `邪偽`; today's 2× read shows 僞 = Taishō's canonical form; CBETA emends to 偽 by default). The ㊲ in c17 is keyed to the apparatus `㊲推＝惟(三)(聖)` (confirmed at Call 14).
+
+### Call 13: Taishō leaf 0563 c01-c05 close read at 2.0× (t04_0563_reg_c_c01_c05.png)
+- crop: x 2800–3900, y 3600–5400, scale 2.0× → 2200 × 3600 px
+- reader (7 columns visible, right-to-left, by pāda):
+  - c01 (Dhp 107 pāda 4 overflow + 108 open): [供]養二 三 尊一 ‖ 一 供 養 福 ‖ 勝二 彼 百 ㉟ 年一 (供 clipped at top; ㉟ keyed between 百 and 年)
+  - c02 (Dhp 108 pādas 1-2): 祭レ 神 以 求レ 福 ‖ 從レ 後 ㊱ 觀二 其 報一 (㊱ keyed between 後 and 觀)
+  - c03 (Dhp 108 pādas 3-4): 四 分 未レ 望レ 一 ‖ 不レ 如二 禮レ 賢 者一
+  - c04 (Dhp 109 pādas 1-2): 能 善 行二 禮 節一 ‖ 常 敬二 長 老 者一
+  - c05 (Dhp 109 pādas 3-4): 四 福 自 然 增 ‖ 色 力 壽 而 安
+  - c06 (Dhp 110 pādas 1-2): 若 人 壽 百 歲 ‖ 遠レ 正 不レ 持レ 戒
+  - c07 (Dhp 110 pādas 3-4): 不レ 如二 生 一 日一 ‖ 守レ 戒 正レ 意 禪 (一 of 禪一 at the bottom edge; mild clipping)
+- notes: 供養三尊 (c01) opens with 供 that is partially clipped by the top of the crop (the leaf's own content holds, but requires an overview). The circled ㉟ and ㊱ sit inline exactly as the 10-27 projection called them. No ； or 。 punctuation in the body — the leaf uses only blank-space caesuras (⟨, caesura⟩) between pādas; CBETA's `，` and `；` are ITS OWN editorial punctuation, not on the leaf. The three-level 三 二 一 kaeriten chain NOT present in these columns (unlike c17's 學二 ㊲ 推 … 要一); the dominant pattern here is レ (simple inversion) and 二 一 (two-element inversion).
+- new (not previously named): `祭レ 神 以 求レ 福` — the SAMPLES' FIRST レ twice in the same five-char pāda (two inversion marks on one pāda; the 25-28 file's `愼レ … 卽レ …` precedent had レ twice but in neighbouring pādas; here two レ's are internal to a single pāda — a dense inversion that reflects the Chinese translator's elliptical compression of the Pāli *yajeyya puññapekho* "may sacrifice seeking merit"). The samples' `四 分 未レ 望レ 一` is another dense inversion (two レ's in one pāda for `catubhāgam na pakkati` "does not reach the one-quarter part").
+
+### Call 14: Taishō p. 564 foot line 5 full at 4× (t04_0563_foot_L5_full.png)
+- crop: x 200–3800, y 5215–5290, scale 4.0× → 14400 × 300 px
+- reader (verbatim, left-to-right, all 8 entries read whole):
+  …意(明)  ㉜行＝何(聖)  ㉝自＝日(明)  ㉞道＝造(明)  ㉟年＝千(三)(聖)  ㊱觀＝望(元)(明),親(聖)  ㊲推＝惟(三)(聖)  ㊳～9 Pāpa vagga  ㊴行＝得(三)
+- notes: ㊱'s entry has TWO circled sigla side by side `(元)(明)` + comma + second variant `親(聖)` — a THREE-WAY variant (text 觀, Yuan+Ming 望, Shōgo-zō 親) carried for Dhp 108 pāda 2's `從後觀其報`. The 望 variant SHIFTS the sense from "to see / observe the fruit" (觀 the Taishō text) → "to look / long for the fruit" (望 the Yuan + Ming) → "to be familiar with / befriend the fruit" (親 the Shōgo-zō); the Pāli *yajetha puññapekho* "may sacrifice as a merit-seeker" matches 望 (seeking) better than 觀 (observing), so the Yuan and Ming's reading is NEARER the Pāli than the Taishō's text — a NEW pattern (the Yuan-and-Ming nearer the Pāli than the Taishō at ㊱); compare the 104-107 file's finding that the Ming's ㉝ `日` and ㉞ `造` are FARTHER from the Pāli than the Taishō's text — now a MIXED pattern (Ming closer at ㊱, farther at ㉝ ㉞). The Shōgo-zō's 親 (親) is unusual — probably a scribal error for 觀 or 望 (visual confusion).
+- also: ㊲ keyed to c17 (Dhp 115 pāda 2's 學推佛法要) — the 10-27 projection's prediction HELD; ㊴ keyed to a next-page / next-sample column (NOT in this sample's territory — Dhp 116 ff.).
+
+### Call 15: Fausbøll 0043 V. 108 body close at 4.0× (f43_v108_close.png)
+- crop: x 180–1360, y 460–720, scale 4.0× → 4720 × 1040 px
+- reader (verbatim, 4 lines + marginal number):
+  **108.**
+  Yaṁ kiñci yiṭṭhañ ca hutañ ca¹ loke
+  saṁvaccharaṁ yajetha puññapekho²
+  sabbam³ pi taṁ na catubhāgam eti, —
+  abhivādanā ujjugatesu seyyo.
+- Diacritic confirmations at 4×:
+  - Yaṁ: dotted ṁ clear
+  - kiñci: tilde ñ clear
+  - yiṭṭhañ: ṭṭ with underdots both clear; ñ tilde clear
+  - hutañ: ñ tilde clear
+  - ca¹: superscript ¹ follows "ca" with small space
+  - saṁvaccharaṁ: TWO dotted ṁ (saṁ- and -raṁ) both clear
+  - puññapekho²: double ññ (TWO ñ with TWO tildes), superscript ² follows directly
+  - sabbam³ pi: FINAL m PLAIN (no dot), superscript ³ follows after small space (glyph slightly ink-heavy, possibly readable as 8 at lower zoom but CONSISTENT with 3 at 4×)
+  - taṁ: dotted ṁ clear
+  - catubhāgam: macron ā, PLAIN m clear
+  - eti, —: COMMA + EM-DASH at line end (new: the EM-DASH at the end of V. 108 L3 — a FOUR-LINE stanza with em-dash at line 3's end + period at line 4's end, PARALLEL to V. 106 and V. 107's THREE-line stanzas with em-dash at line 2's end + period at line 3's end; the em-dash now carried in a 4-line stanza, the first in the samples)
+  - abhivādanā: TWO macrons on ā; no superscripts; final period
+
+## Nominated crops for re-verification (five nominations, carried forward for the next morning's cron)
+
+1. **The Fausbøll / Müller Manu II.121 PARALLEL READING** on 0043 L5–L6 (Fausbøll `catvāri tasya vṛddhante`) vs tif 0093 note 109 (Müller `*K*atvâri sampravardhante`) — the TWO EDITORS' Manu readings differ. Nominated for a 10× pixel-box re-read of Fausbøll's L5-L6 to confirm `tasya` (not `sampra-`), and a 2× re-read of Müller's note 109 Sanskrit lines to confirm `sampravardhante` (not `tasya vṛddhante`). The split suggests the two editors cite DIFFERENT editions of Manu (Fausbøll likely a shorter sūtra reading, Müller the standard Dharmaśāstra reading). A Sanskritist should settle whether both readings are attested in Manu-smṛti II.121 or whether Fausbøll's `tasya vṛddhante` is a copyist's error.
+
+2. **The `V 110.` ZERO-APPARATUS** fact on 0043 L3–L7 (V. 110 has NO entry at all — L3 goes `V. 109. ¹ Bʳ vaḍḍhā-, Sᵏ vuḍḍhā-. Cfr.` → L4 `Manu II, 121:` → L5-L6 Sanskrit → L7 `V. 111. ¹. Sᵏ pañña-.`; no V. 110 entry anywhere). Nominated for an 8× pixel-box re-verification to confirm that NO V. 110 entry exists (rule out any faint apparatus entry at the margins). This is the SAMPLES' FIRST stanza with no apparatus entry — a new event (the 48-51 file's V. 50 had no apparatus entry, but V. 110 is the first in the Sahassavagga; probably because V. 110 is a straightforward reading with no manuscript variants).
+
+3. **The Fausbøll `vṛddhopasevinah` with PLAIN h** (no visarga ḥ dot) on 0043 L5 — nominated for a 10× pixel-box re-verification to confirm the h is PLAIN (no underdot — Fausbøll's Sanskrit convention) and to flag the stray ink dots observed above `vṛddho` and `vinah` as scanner artifacts, not Sanskrit diacritics. This settles whether Fausbøll's Sanskrit convention includes visarga marking or omits it (the standard IAST would be `vinaḥ`; Fausbøll's `vinah` matches his `yaço` for standard `yaśo` — he uses a REDUCED diacritic set compared to Monier-Williams IAST).
+
+4. **The `*K*atvâri` with italic K** in Müller p. 33 note 109 — nominated for a 2× re-read to confirm the K is italic (SBE X convention for IAST ca/c) and that the SBE convention here matches the samples' other italic-K instances (none so far — this is the FIRST italic *K* in the samples' Sanskrit transliteration — flagged for consistency check against the 100-103 file's note 100 Mahāvastu block which used `*G*ita*m*` for Jita+m etc. — the SBE pattern italicizes CONSONANTS that stand for IAST unvoiced stops c, ṭ, etc., so *K* = c is consistent with *G* = j).
+
+5. **The ㊱ `觀＝望(元)(明),親(聖)` THREE-WAY variant** on p. 564 foot L5, keyed to Dhp 108 pāda 2 (`從後觀其報`) — nominated for a 6× pixel-box re-verification to confirm the comma between (明) and 親, confirm the (聖) siglum on 親, and read the Shōgo-zō's 親 against the possibility of its being 觀 or 望 with a scribal flourish. Settles whether 親 is a genuine third variant or a visual error.
+
+Runners-up:
+- **The Dhp 110-115 SIX-STANZA REFRAIN pattern in both English and Chinese** — the samples' first long multi-stanza refrain in two editions (new: a Pāli stylistic convention preserved by both Victorian English and 3rd-c. Chinese translators across six stanzas). Nominated #A.
+- **The V. 108 l. 3 `sabbam³ pi` plain m before superscript** (the ³ keys to `³ Sᵏ sabbaṁ.` dotted) — the pre-vowel sandhi m / ṁ split now in a 4-line stanza. Nominated #B.
+- **The V. 109 `vaddhā-` / `vaḍḍhanti:` TYPOGRAPHICAL SPLIT** on the same stanza (line 1 plain dd, line 2 dotted ḍḍ) — a sandhi/anusvāra split within a single verse, keyed to the apparatus Bʳ / Sᵏ readings. Nominated #C.
+- **Fausbøll's `pañña-`** at V. 111 ¹ (ONE tilde over TWO ñ in the `pañña` ligature — the samples' first Fausbøll ligature with a single tilde serving double-ñ). Nominated #D.
+- **The V. 108 variant `yiṭṭhaṁ va hitaṁ va.`** (Cᵏ Cᶜ Sᵏ) against the text's `yiṭṭhañ ca hutañ ca` — a semantic enumeration (va "or") vs conjunction (ca "and") split in the first stanza of a four-line verse. Nominated #E.
