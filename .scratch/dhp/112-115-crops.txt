@@ -1,0 +1,62 @@
+# Sarasvatī Dhammapada Sahassavagga 112–115 crop list
+# Generated 2026-10-29 by subagent sarasvati-dhp-sahassa-112-115
+# Pāli (`pali`) branch · thirty-second sample · sibling of yamakavagga-1-4-4lang.md … sahassavagga-108-111-4lang.md
+# Form: <leaf> | x=<a>-<b> y=<c>-<d> | zoom=<X×> | <purpose> | <outcome>
+
+## Fetches
+
+fausboll_0044.jp2 | FETCHED 2026-10-29 13:04 PDT | source=https://archive.org/download/india.history.resource.112138/112138_jp2.zip/112138_jp2%2F112138_0044.jp2 | 390,367 B JP2
+  predicted URL `https://archive.org/download/india.history.resource.112138/india.history.resource.112138_jp2.zip/112138_jp2%2F112138_0044.jp2` returned HTTP 404 → curl redirected to archive.org/about/404.php
+  alternate URL `/112138_jp2.zip/` succeeded on second try — 10-27 lesson about the URL-pattern correction CONFIRMED a second time
+  decoded via `opj_decompress -i .scratch/dhp/fausboll_0044.jp2 -o .scratch/dhp/fausboll_0044.png` → 811,351 B 1500 × 2500 L PNG
+  `file .scratch/dhp/fausboll_0044.jp2` reports `JPEG 2000 Part 1 (JP2)` (verified not an HTML 404 redirect)
+
+fausboll_0043.jp2 | ON DISK from 10-27 build (326,078 B JP2 → 685,343 B 1500 × 2500 L PNG)
+sbe_0093.tif | ON DISK from 10-28 build (75,606 B 1-bit TIFF → 204,659 B 3174 × 5198 L PNG as sbe_0093_L.png)
+t04_0563_full.jpg | ON DISK from 10-18 build (2,219,426 B RGB JPEG, 4000 × 5770)
+
+## Image calls (chronological)
+
+1. _0044_overview.png | x=0-1500 y=0-2500 | zoom=0.5× | fausboll 0044 full-page overview to confirm layout (running head 27, body 28 lines of Latin prose, SHORT CENTRED foot rule at bands 2055-2065 x≈640-860, 4 apparatus lines at bands 2080-2360, blank bottom to 2500) | HELD — body is LATIN TRANSLATION continuation of v. 106-v. 115, not Pāli; foot has only 4 lines; NO chapter-close rule, NO ch. 9 opening
+
+2. _0044_foot_4x.png | x=100-1400 y=2080-2360 | zoom=4× | fausboll 0044 foot L1-L4 full apparatus at 4× for V. 112 continuation + V. 113 + V. 114 + V. 115 | HELD — L1 opens with `Bʳ virīyam, Sᵏ viriyaṁ. ³ Bʳ ārabbhato. Cfr. S., Fr. p. 78—`; L2 `79. V. 113. ¹ Bʳ Sᵏ udayabbayaṁ. Cfr. v. 374. Therīg. p.`; L3 `197. Par. Dīp. 112. V. 114. Par. Dīp. p. 176. Amataṁ` (letter-spaced lemma opens); L4 `padaṁ, cfr. supra v. 21. V. 115. Cfr. S., Fr. p. 79.` (letter-spaced close + lower-case internal cfr. + V. 115 Cfr.-only)
+
+3. _0093_vv112_115.png | x=300-2950 y=1410-2330 | zoom=1× | muller p. 33 body vv. 112-115 first attempt | PARTIALLY HELD — crop too high, only 111/112/113 visible, vv. 114 and 115 truncated at bottom; v. 112 at bands 1595-1830 (3 lines), v. 113 at 1865-2100 (3 lines), v. 114 opens at 2135 but truncated
+
+4. _0093_note112.png | x=300-2950 y=4340-4480 | zoom=1.5× | muller p. 33 note 112 one-line (same crop as the 108-111 file's) | HELD — `112. On kusîto, see note to verse 7.` one line; kusîto with circumflex î
+
+5. _0093_vv112_115_full.png | x=300-2950 y=1300-2600 | zoom=1× | muller p. 33 body vv. 112-113 re-crop | HELD — v. 112 full `112. And he who lives a hundred years, idle and | weak, a life of one day is better if a man has attained | firm strength.`; v. 113 full `113. And he who lives a hundred years, not seeing | beginning and end, a life of one day is better if a | man sees beginning and end.`; v. 114 opens at crop-y 835 (full y 2135) truncated
+
+6. _0093_v114_115.png | x=300-2950 y=2100-3100 | zoom=1× | muller p. 33 body vv. 114-115 re-crop | HELD — v. 114 full `114. And he who lives a hundred years, not | seeing the immortal place, a life of one day is better | if a man sees the immortal place.`; v. 115 full `115. And he who lives a hundred years, not | seeing the highest law, a life of one day is better | if a man sees the highest law.`
+
+7. _0563_regc_overview.png | x=100-3900 y=3600-5450 | zoom=0.5× | taisho leaf 0563 register c overview to locate columns c01-c21 | partially WRONG — initial x-identification was off; corrected by call 8
+
+8. _0563_regc_gridded.png | x=0-4000 y=3600-5450 | zoom=0.5× with red 100-px gridlines | taisho leaf 0563 register c with gridlines to pin down column centers precisely | HELD — c17 at image-x ≈ 840 (full-image x ≈ 1680), c10 at image-x ≈ 1252 (full-image x ≈ 2505), column pitch ≈ 116 px full-image; c18 chapter heading at image-x ≈ 785 (full-image x ≈ 1570)
+
+9. _0563_c10_c17_1x.png | x=900-1450 y=3600-5400 | zoom=1× | taisho leaf 0563 wrong-crop initial attempt (shows c18-c21 ch. 17 territory, not c10-c17) | NOT HELD — the full-image x range 900-1450 is the ch. 17 territory, not c10-c17; corrected by call 10
+
+10. _0563_c10_c17_fixed.png | x=1620-2560 y=3600-5400 | zoom=1.5× | taisho leaf 0563 register c c10-c17 correct crop at 1.5× for SIX-STANZA REFRAIN continuation + ㊲ key site | HELD — c10 若人壽百歲 懈怠不精進 (Dhp 112 open); c11 不如生一日 勉力行精進 (Dhp 112 close); c12 若人壽百歲 不知成敗事 (Dhp 113 open); c13 不如生一日 見微知所忌 (Dhp 113 close); c14 若人壽百歲 不見甘露道 (Dhp 114 open); c15 不如生一日 服行甘露味 (Dhp 114 close); c16 若人壽百歲 不知大道義 (Dhp 115 open); c17 不如生一日 學㊲推佛法要 (Dhp 115 close with ㊲ keyed between 學 and 推); the SIX-STANZA REFRAIN `若人壽百歲 … 不如生一日 …` continues across c10-c17 verbatim
+
+11. _0043_vv112_115_2p5x.png | x=150-1400 y=1100-1700 | zoom=2.5× | fausboll 0043 vv. 112-115 bodies at 2.5× + chapter close `Sahassavaggo aṭṭhamo.` | HELD — V. 112 (`Yo ca vassasataṁ jīve kusīto hīnavīriyo¹ | ekāhaṁ jīvitaṁ seyyo vīryam² ārabhato³ daḷhaṁ.`) 3 superscripts; V. 113 (`Yo ca vassasataṁ jīve apassaṁ udayavyayaṁ¹ — | ekāhaṁ jīvitaṁ seyyo passato udayavyayaṁ¹.`) TWO-INSTANCE ¹ superscript; V. 114 (`Yo ca vassasataṁ jīve apassaṁ amataṁ padaṁ — | ekāhaṁ jīvitaṁ seyyo passato amataṁ padaṁ.`) ZERO superscripts; V. 115 (`Yo ca vassasataṁ jīve apassaṁ dhammam uttamaṁ — | ekāhaṁ jīvitaṁ seyyo passato dhammaṁ uttamam.`) ZERO superscripts + INTRA-STANZA ANUSVĀRA ASYMMETRY (dhammam/dhammaṁ + uttamaṁ/uttamam reversed between L1 and L2); chapter close `Sahassavaggo aṭṭhamo.` as centred single line
+
+12. _0043_chapterclose_4x.png | x=400-1150 y=1640-1700 | zoom=4× | fausboll 0043 chapter close `Sahassavaggo aṭṭhamo.` at 4× for typography | HELD — single centred line, two words with word-space between (`Sahassavaggo` + `aṭṭhamo.`), both ṭ carrying underdots, period at end; NO rule above or below; a CENTRED SINGLE LINE UNRULED chapter close (new event)
+
+## Total image calls: 12 (well under the 50 ceiling, 24% of budget)
+
+## Fetches used
+
+- fausboll_0044.jp2 (first-time: predicted URL 404'd, alternate succeeded; a lesson-confirming fetch) — 390,367 B
+- NO Müller tif 0094 fetch (v. 115 ends on p. 33 above the mid-page rule; no overflow) — budget saved
+- NO Taishō fetch (both leaves 0563 and 0564 already on disk from 10-18 and 10-28 builds)
+
+## Crops nominated for tomorrow's push-lane re-verification
+
+1. **Fausbøll 0043 bands 1640-1700 CHAPTER CLOSE `Sahassavaggo aṭṭhamo.`** — 10× pixel-box re-read to confirm NO hair rule above or below the colophon (rule out a faint rule missed at 4×); settles the samples' first centred-single-line unruled chapter close in the Sahassavagga.
+
+2. **Fausbøll 0043 L7 close + 0044 L1 open TWO-LEAF-SPANNING APPARATUS** (0043 L7 at bands 2270-2335 ending on `vīriyam,` comma; 0044 L1 at bands 2125-2155 opening with `Bʳ virīyam, Sᵏ viriyaṁ.`) — 10× pixel-box re-read of the leaf-boundary transition to confirm (a) the 0043 L7 comma is genuine, (b) the 0044 L1 opening is the direct continuation (not a new entry with its own ²), (c) the three-way vowel-and-anusvāra split of `vīryam` across Cᵏ+Cᶜ, Bʳ, Sᵏ is attested whole.
+
+3. **Fausbøll 0043 V. 113 TWO-INSTANCE SUPERSCRIPT ¹** (bands 1254-1343) — 10× pixel-box re-read of BOTH ¹ markers on `udayavyayaṁ¹` on L1 and L2 to confirm they are the SAME marker (not different glyphs printed in similar positions).
+
+4. **Fausbøll 0044 L3-L4 LETTER-SPACED TWO-WORD COMPOUND `A m a t a ṁ   p a d a ṁ`** (L3 close + L4 open at bands 2245-2335) — 8× pixel-box re-read of the letter-spacing to confirm BOTH words are letter-spaced + the lower-case `cfr.` is a distinct convention from upper-case `Cfr.`.
+
+5. **Fausbøll 0043 V. 115 INTRA-STANZA ANUSVĀRA ASYMMETRY** (bands 1514-1597) — 10× pixel-box re-read of ALL FOUR m/ṁ markings on `dhammam / dhammaṁ / uttamaṁ / uttamam` to confirm the REVERSED anusvāra pattern (L1: plain-m + dotted-ṁ; L2: dotted-ṁ + plain-m); rule out scanner smudges adding or removing anusvāra dots.
