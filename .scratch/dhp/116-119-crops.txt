@@ -1,0 +1,408 @@
+## 116-119-crops.txt · Dhammapada Pāpavagga 116-119 scan-first reads
+## Reader: Sarasvatī subagent (anthropic/claude-opus-4-7), 2026-10-30 PDT
+
+# =============================================================================
+# FETCHES
+# =============================================================================
+
+[FETCH 1] 2026-10-30 13:03 PDT · Fausbøll 1900 leaf 0045 (printed p. 28)
+  URL: https://archive.org/download/india.history.resource.112138/112138_jp2.zip/112138_jp2%2F112138_0045.jp2
+  Result: HTTP 200, 379,285 B JP2, file reads "JPEG 2000 Part 1 (JP2)"
+  First-try success (predicted URL pattern from 112-115 file HELD).
+  opj_decompress: 56 ms → fausboll_0045.png, 785,873 B, 1500×2500 L
+  Pāli-text leaf (confirmed), chapter 9 Pāpavagga opens here.
+
+[FETCH 2] 2026-10-30 13:03 PDT · Müller 1881 SBE X tif 0094 (printed p. 34)
+  First try: `.../dhammapadaacoll00mlgoog_tif.zip/dhammapadaacoll00mlgoog_jp2%2F...0094.tif`
+    → HTTP 503, 2363 B HTML error page (service unavailable)
+  Retry (3-sec sleep): `.../dhammapadaacoll00mlgoog_tif.zip/dhammapadaacoll00mlgoog_tif%2F...0094.tif`
+    → HTTP 200, 63,390 B TIFF, 3174×5198 1-bit (bi-level group 4)
+  URL-pattern lesson: the `_tif%2F` INNER PATH (not `_jp2%2F`) is correct — matches 108-111 file build.
+  PIL converted to L mode PNG: muller_0094.png, 146,916 B.
+
+[FETCH 3] NOT NEEDED · Taishō leaf _0564.jp2 (= Taishō p. 565) ON DISK
+  From 108-111 build (2026-10-28), 1,601,402 B JP2 → t04_0564.png 4000×5770 RGB.
+  Chapter 17 body opens here on register a.
+
+# =============================================================================
+# READS — Fausbøll 1900 leaf 0045 (printed p. 28)
+# =============================================================================
+
+[R1] 2026-10-30 13:03 PDT · Overview 0.6× (full page, 1500×2500 → 900×1500)
+  crop.py fausboll_0045.png fausboll_0045_overview.png 0 0 1500 2500 0.6
+  Reader's words:
+  - Running number "28" centred at head, y≈105–125 (overview). No running title.
+  - Chapter heading "9. Pāpavagga." centred, letter-spaced, y≈165–190.
+  - Body = Pāli text (NOT Latin translation).
+  - 22 body lines (vv. 116–124 all present on this one leaf).
+  - Marginal verse numbers at x≈95–135:
+      116. y≈212–228 | 117. y≈290–306 | 118. y≈368–384 | 119. y≈447–463
+      120. y≈525–541 | 121. y≈683–699 | 122. y≈800–816 | 123. y≈918–934
+      124. y≈995–1011
+  - Full-width foot rule at y≈1077 (x≈90–808).
+  - 9 apparatus lines, y≈1100–1400.
+  - Blank bottom margin y≈1400–1500.
+  - Scale factor: 1/0.6 = 1.667 → actual bands = overview_y × 1.667.
+  Event: ALL 9 verses of Dhp 116-124 fit on one leaf (chapter 9's first half) — the samples'
+  FIRST attestation of a 9-verse-density Fausbøll leaf (compare 112-115 file's 0043 with 16 lines
+  of body = 9 stanzas). Chapter 9 opening is NOT a Latin leaf (contrast 112-115's 0044 which was
+  all-Latin). The chapter-opening typography settled: `9. Pāpavagga.` centred, letter-spaced
+  (ONLY the title "Pāpavagga" is gesperrt; the "9." is normal roman), period at end — a NEW
+  Fausbøll chapter-opening event (the samples' FIRST attested Fausbøll chapter heading).
+
+[R2] 2026-10-30 13:04 PDT · Fausbøll 0045 head, 2.5× (bands 170–340)
+  crop.py fausboll_0045.png fausboll_0045_head.png 100 170 1400 340 2.5
+  Reader's words:
+  - Page number "28", centred, plain (non-letter-spaced) roman.
+  - Chapter heading "9. Pāpavagga." — centred, roman, "Pāpavagga" letter-spaced (gesperrt),
+    "9." set normally with a space before the title. The ā carries a macron. Full stop ends
+    the heading. Type size approx body-text + slightly larger (modest heading, not display size).
+  - No horizontal rules in this head band.
+  - Clear blank gap between page number and heading, further blank between heading and body.
+  Event SETTLED: Fausbøll's chapter-opening typography is "N. [LetterSpacedName]." — centred,
+  modest-size, period-closed, no rules; the chapter number is NOT letter-spaced but the title IS.
+
+[R3] 2026-10-30 13:10 PDT · Fausbøll 0045 verses 116–119 bodies, 2.0× (bands 330–870)
+  crop.py fausboll_0045.png fausboll_0045_v116_v119.png 100 330 1400 870 2.0
+  Reader's words — verbatim transcription:
+    116. Abhittharetha kalyāṇe pāpā cittaṁ nivāraye,
+         dandhaṁ hi karoto puññaṁ pāpasmiṁ ramatī mano.
+    117. Pāpañ ce pūriso¹ kayrā² na taṁ kayrā² punappunaṁ,
+         na tamhi chandaṁ kayrātha², dukkho pāpassa uccayo.
+         [Line 2 opens with "na tamhi" — but the m carries a small mark, possibly "taṁhi";
+          cf. 118 line 2 where it is plainly "tamhi"; FLAGGED]
+         [first kayrā superscript slightly smudged — reads ² but possibly ³;
+          second kayrā clearly ²; kayrātha² smudged — ² or ³; FLAGGED]
+    118. Puññañ ce pūriso¹ kayrā² kayrāth' enaṁ³ punappunaṁ,
+         tamhi chandaṁ kayirātha, sukho puññassa uccayo.
+         [NB: line 2 switches to KAYIRĀTHA (kayi- form) against line 1's KAYRĀTH' (kayr- form);
+          an INTRA-STANZA SPELLING SPLIT — a new Fausbøll typographical event]
+    119. Pāpo pi¹ passatī² bhadraṁ yāva pāpaṁ na paccati,
+         yadā ca paccatī³ pāpaṁ atha [pāpo⁴] pāpāni passati.
+         [SQUARE BRACKETS around pāpo⁴ — the samples' FIRST attested editorial square brackets
+          on a text word in Fausbøll; marks a word Fausbøll inserts against the MSS/Editions
+          (the apparatus confirms: `⁴ MSS. & Editions atha pāpo, cfr. v. 69.`)]
+  Diacritic specifics: macron ā in Pāpañ / Pāpo / pāpaṁ / etc.; underdot ṇ in kalyāṇe; anusvāra ṁ
+  dotted; tilde ñ in Pāpañ / puññaṁ / kayrā; ī macron in ramatī / pūriso / passatī / paccatī.
+
+[R4] 2026-10-30 13:11 PDT · Fausbøll 0045 apparatus, 2.0× (bands 1780–2340)
+  crop.py fausboll_0045.png fausboll_0045_apparatus.png 100 1780 1400 2340 2.0
+  Reader's words — full apparatus block, 9 lines (L1 = first below foot rule):
+  Foot rule: full-width at y≈18 (image), x≈75–1945.
+  L1: V. 116.  D a n d h a  =  t a n d r a ?  notwithstanding  atandita  vv.
+      [letter-spaced lemma `D a n d h a`; equals sign; letter-spaced `t a n d r a`;
+       question mark; English prose "notwithstanding atandita vv."; stray ink dot]
+      Event: the samples' FIRST attestation of a Fausbøll apparatus entry entirely in
+      ENGLISH PROSE (not sigla + variants) on a letter-spaced two-word compound equivalence
+      with a question mark — Fausbøll's text-critical hypothesis style
+  L2: 366. 375.  Cfr. Jāt. III ¹⁴¹⁄₂. ¹³⁵⁄₈₁.  V ¹⁵⁸⁄₂ etc.;  aliter Trenckner,
+      [TWO continuing verse numbers 366. 375.; Jātaka III and V references with STACKED
+       FRACTIONS ¹⁴¹⁄₂, ¹³⁵⁄₈₁, ¹⁵⁸⁄₂ for page/line citations; "aliter Trenckner" means
+       "otherwise [according to] Trenckner" — the samples' FIRST stacked-fraction Jātaka
+       citation + first Trenckner reference]
+  L3: see E. Müller. P. Gr. 22.  V. 117. ¹ Cᵏ Cᶜ Sᵏ puriso.  ² MSS.
+      [E. Müller's *A Simplified Grammar of the Pâli Language*, p. 22; `V. 117.` begins;
+       ¹ triple-siglum variant Cᵏ Cᶜ Sᵏ unanimous `puriso` short-u for text `pūriso` long-ū;
+       ² MSS. (continues onto L4)]
+  L4: & Editions kayi-.  U c c a y a  =  vaḍḍhi, Ct.  V. 118. ¹ MSS. &
+      [continues ² entry: `MSS. & Editions kayi-` — all MSS and Editions read `kayi-` for
+       the text's `kayr-` (a WHOLESALE text-vs-tradition split); letter-spaced `U c c a y a`
+       = vaḍḍhi, Ct. (Commentary: `Uccaya` glossed as `vaḍḍhi` "increase");
+       `V. 118.` begins; ¹ MSS. & (continues onto L5)]
+  L5: Editions puriso.  ² MSS. & Editions kayi-.  ³ Cᶜ kayirāthetaṁ,
+      [continues ¹ entry: `Editions puriso` (same wholesale short-u variant as V. 117);
+       ² same wholesale `kayi-` variant as V. 117; ³ Cᶜ (Colombo Simhalese) reads
+       `kayirāthetaṁ` for text `kayrāth' enaṁ` — a WHOLE-COMPOUND re-reading]
+  L6: Sᵏ kayirāthenaṁ,  Bʳ kayirā naṁ.  V. 119. ¹ Sᵏ pī.  ² Sᵏ -ti.
+      [continues ³ entry: Sᵏ `kayirāthenaṁ`, Bʳ `kayirā naṁ` (three-way split with Cᶜ);
+       `V. 119.` begins; ¹ Sᵏ `pī` (long-ī for text's short-i `pi`); ² Sᵏ `-ti`
+       (text's `-tī` long against Sᵏ `-ti` short — reversal of ¹)]
+  L7: ³ Bʳ Sᵏ -ti.  ⁴ MSS. & Editions atha pāpo, cfr. v. 69.  V. 120.
+      [³ Bʳ+Sᵏ unanimous `-ti` short vs text long; ⁴ MSS. & Editions `atha pāpo` WITHOUT
+       square brackets (text brackets Fausbøll's own insertion; cfr. v. 69 cross-ref);
+       `V. 120.` begins]
+  L8: ¹ Sᵏ pī.  ² Bʳ Sᵏ -ti.  ³ MSS. & Editions atha bhadro.  Verses
+      [V. 120 entries parallel V. 119's: ¹ Sᵏ pī, ² Bʳ+Sᵏ -ti, ³ bracket variant;
+       "Verses" opens L9's cross-reference]
+  L9: 119—120 = Jāt. I p. 231.  V. 121. ¹ Bʳ Sᵏ māvamaññetha.
+      [Verses 119-120 = Jātaka I p. 231; V. 121 entry opens with ¹ Bʳ+Sᵏ `māvamaññetha`
+       for text `māppamaññetha`; continues onto 0046]
+  Letter-spaced lemmata (3 total): `D a n d h a`, `t a n d r a`, `U c c a y a` — a THREE-LEMMA
+  letter-spaced apparatus (the samples' highest-density letter-spacing on one foot).
+  Fausbøll's `=` set as DOUBLE-RULE "=" sign (as in previous samples).
+  Fraction notation: Jātaka I ¹⁴¹⁄₂, ¹³⁵⁄₈₁, V ¹⁵⁸⁄₂ — the samples' FIRST stacked-fraction
+  Jātaka page-and-line citations.
+
+# =============================================================================
+# READS — Müller 1881 SBE X p. 34 (tif 0094)
+# =============================================================================
+
+[R5] 2026-10-30 13:03 PDT · Overview 0.5× (full page, 3174×5198 → 1587×2599)
+  crop.py muller_0094.png muller_0094_overview.png 0 0 3174 5198 0.5
+  Reader's words:
+  - Running head "DHAMMAPADA. CHAP. IX." centred (y≈230–260), "34" at LEFT (x≈310–365).
+    Full-width rule beneath head at y≈295 (x≈310–1425).
+  - Chapter heading:
+      "CHAPTER IX." large caps, centred, y≈455–505
+      "EVIL." smaller caps, centred, y≈560–585
+    NO asterisk, NO footnote marker next to EVIL or CHAPTER IX. (settles the title-note question)
+  - Body verse layout:
+      116. y≈630–850 (4 lines)
+      117. y≈865–1025 (3 lines)
+      118. y≈1045–1205 (3 lines)
+      119. y≈1225–1385 (3 lines)
+      120-123 continue on this page beyond 119
+  - NO mid-page rule separating body from footnotes.
+  - NO footnotes at all on this page (silent chapter opening).
+  - Blank bottom margin from ~y 2320 down to page edge (~y 2599), ≈280 px blank.
+  Event SETTLED: Müller ch. 9 EVIL. carries NO TITLE NOTE / asterisk (unlike ch. 8 THOUSANDS*
+  which had a footnote marker; the title-note is NOT uniform across SBE X chapters).
+  Event SETTLED: Müller p. 34 is a SILENT NOTES-FREE chapter-opening page — notes 116, 117, 118,
+  119 ALL ABSENT (silent block continues from p. 33's silent notes 110–115 except 112; the Dhp
+  110–119 range has only ONE note (on 112) across 10 stanzas — the samples' silentest Müller
+  stretch).
+  New event: Müller renders Dhp 116 in FOUR English lines (not 3) — the FIRST Müller 4-line
+  stanza in the samples; verses 117, 118, 119 all 3 lines (standard).
+
+[R6] 2026-10-30 13:12 PDT · Müller p. 34 head, 1.3× (bands 440–1200)
+  crop.py muller_0094.png muller_0094_head.png 300 440 2900 1200 1.3
+  Reader's words:
+  - Running head "DHAMMAPADA.   CHAP. IX." centred (x≈725–1525, with WIDE word-space between
+    the two words), full capitals, smaller than chapter title. "34" at far LEFT (x≈255–325,
+    verso page). Nothing on right of running head.
+  - Full-width rule beneath (x≈250–1985, y≈105–115 in this crop).
+  - "CHAPTER IX." (y≈375–430), FULL CAPITALS (not small caps), large display (cap h≈55-60 px here),
+    visibly letter-spaced, centred (x≈825–1405). Full stop after IX.
+  - "EVIL." (y≈525–565), FULL CAPITALS, cap h≈38 px (noticeably smaller than CHAPTER IX.),
+    centred (x≈1045–1190), blank-line gap above.
+  - NO asterisk, dagger, superscript numeral, or ANY footnote marker on EVIL. or CHAPTER IX.
+    Only stray mark is a small speck at x≈655, y≈180 (scan blemish, not printed).
+  - EVIL. ends with period in same type.
+  Event FIRM: ch. 9 title carries NO title-note (compared with 112-115 / 108-111 file predictions
+  that ch. 8 had THOUSANDS*; now ch. 9 differs). SBE X title-notes are chapter-specific, not
+  edition-wide.
+
+[R7] 2026-10-30 13:12 PDT · Müller p. 34 verses 116–119, 1.1× (bands 1240–2800)
+  crop.py muller_0094.png muller_0094_v116_v119.png 300 1240 2900 2800 1.1
+  Reader's words — verbatim:
+    116. If a man would hasten towards the good, |
+         he should keep his thought away from evil ; if a |
+         man does what is good slothfully, his mind delights |
+         in evil.
+    117. If a man commits a sin, let him not do it |
+         again ; let him not delight in sin : pain is the out- |
+         come of evil.
+    118. If a man does what is good, let him do it |
+         again ; let him delight in it : happiness is the out- |
+         come of good.
+    119. Even an evil-doer sees happiness as long as |
+         his evil deed has not ripened ; but when his evil |
+         deed has ripened, then does the evil-doer see evil.
+  Thin spaces before semicolons/colons:
+    116: `evil ; if` (line 2)
+    117: `again ; let` (line 2), `sin : pain` (line 2)
+    118: `again ; let` (line 2), `it : happiness` (line 2)
+    119: `ripened ; but` (line 2)
+  End-of-line hyphens: `out-|come` (117 line 2→3) and `out-|come` (118 line 2→3) — the samples'
+  FIRST attestation of consecutive end-of-line hyphenations on the same word pair in two
+  consecutive stanzas.
+  Hyphens in body: `evil-doer` (119 line 1, line 3).
+  No italics, no parentheticals, no footnote markers.
+
+# =============================================================================
+# READS — Taishō vol. 4 T210 法句經 惡行品 (ch. 17 Pāpavagga)
+# =============================================================================
+
+[R8] 2026-10-30 13:05 PDT · Taishō p. 565 (leaf _0564) overview 0.3× (full 4000×5770 → 1200×1731)
+  crop.py t04_0564.png t04_0564_overview.png 0 0 4000 5770 0.3
+  Reader's words:
+  - Three registers separated by horizontal rules at overview y≈660 and y≈1170 (actual y≈2200
+    and ≈3900).
+  - Register a (top, actual y 400–2200) opens WITHOUT a chapter heading. First column (rightmost
+    at x_full≈3900) reads 施怒得怒 / 世人無聞 / 不知正法.
+  - Prediction DISCONFIRMED: the task predicted `見善不從 反隨惡心 求福不正` opens register a.
+    Actual rightmost column opens with `施怒得怒 / 世人無聞 / 不知正法` — these are MID-chapter
+    pādas, not the chapter opening.
+  Event: TAISHŌ CH. 17 PĀPAVAGGA BODY opening is NOT on this leaf's register a — it's on the
+  PREVIOUS leaf (0563 register c) continued through c20, c21, c22, c23 after the heading c18
+  and the prose preface c19.
+
+[R9] 2026-10-30 13:06 PDT · Taishō p. 565 register a right-side columns, 0.9× (full x=2800..4000, y=400..2400)
+  crop.py t04_0564.png t04_0564_reg_a_rightcols.png 2800 400 4000 2400 0.9
+  Reader's words (right→left):
+  - c01: 施レ怒得レ怒 / 世人無レ聞 / 不レ知二正法一 (3 pādas with 4 reta-kaeriten + two 二/一 chains)
+  - c02: 生此壽少 / 何宜レ爲レ惡 / 莫下輕二小惡一 (3 pādas, 下 kaeriten on 莫)
+  - c03: 以爲上無レ殃 / 水①滴雖レ微 / 漸盈二大器一 (circled ① between 水 and 滴 — variant
+    marker; 上 kaeriten on 爲)
+  - c04: 凡罪充滿 / 從小積成 / 莫下輕二小善一 (3 pādas)
+  - c05: 以爲レ無レ福 / 水②滴雖レ微 / 漸盈二大器一 (circled ② — same water-drop refrain)
+  - c06: 凡福充滿 / 從纖纖積 / ③夫士爲レ行 (circled ③)
+  Event: the samples' FIRST attestation of a WATER-DROP SIMILE REFRAIN in Chinese —
+  `水滴雖微 漸盈大器` appears TWICE on this leaf (c03 and c05) with CHANGING polarity (c03's
+  `凡罪充滿 從小積成 莫輕小善` [evil fills] and c05's `凡福充滿 從纖纖積` [good fills] — this is the T210
+  parallel to Pāli Dhp 121-122 (not 116-119!). So the T210 column c03-c06 territory is Pāli Dhp
+  121-122 by thematic match, which continues from Dhp 116-119 on 0563 register c.
+  Three circled numbers on this leaf: ① ② ③ — these are T210's own stanza-boundary numbering
+  (not variant keys), restarting the count for this leaf.
+
+[R10] 2026-10-30 13:09 PDT · Taishō p. 565 register a c01-c04 close, 1.2× (full x=3380..3950, y=420..2300)
+  crop.py t04_0564.png t04_0564_reg_a_c01_c04_zoom.png 3380 420 3950 2300 1.2
+  Reader's words — column by column, every character:
+    c01: 施 レ 怒 得 レ 怒 ／ 世 人 無 レ 聞 ／ 不 レ 知 二 正 法 一
+         Top character 施 at very top of register, blank margin above. No 。, no ＊, no circled
+         number at top. Three 4-char pādas.
+    c02: 生 此 壽 少 ／ 何 宜 レ 爲 レ 惡 ／ 莫 下 輕 二 小 惡 一
+         莫 carries 下 (paired with 上 in c03's 爲上).
+    c03: 以 爲 上 無 レ 殃 ／ 水 ❶ 滴 雖 レ 微 ／ 漸 盈 二 大 器 一
+         Solid circled ❶ between 水 and 滴 (variant key).
+    c04: 凡 罪 充 滿 ／ 從 小 積 成 ／ 莫 レ(?) 輕 二 小 善 一
+         Mark between 莫 and 輕 at crop edge, probably レ.
+  NO 。 full stops in any of the four body columns (verses unpunctuated, 4-char units spaced).
+  NO heading above c01 top (confirming no chapter break on this leaf).
+
+[R11] 2026-10-30 13:06 PDT · Taishō p. 565 right strip of all 3 registers, 0.5× (full x=2400..4000, y=400..4200)
+  crop.py t04_0564.png t04_0564_reg_abc_right_strip.png 2400 400 4000 4200 0.5
+  Reader's words:
+  - Rules at this-crop y≈770 (actual y≈1940, reg a/b boundary) and y≈1540 (actual y≈3480, reg b/c
+    boundary). Right page frame at x≈700–720 of this crop confirms we see FIRST columns of each
+    register.
+  - Register a rightmost columns = 施怒得怒 / 世人無聞 / 不知正法 (= Pāli-less insert verses) through
+    the water-drop refrain = Pāli Dhp 121-122 territory.
+  - Register b opens 一切皆懼死 / 莫不畏杖痛 — this is CHAPTER 19 刀杖品 (Dhp 129+) opening,
+    with 刀杖品第十九 heading squeezed into the register's top-left area.
+  - Register c opens 身死神徒 / 如御 ... — this is CHAPTER 20 老耗品 territory.
+  Event: p. 565 contains the END of ch. 17, the WHOLE of ch. 18-19, and the OPENING of ch. 20
+  — THREE CHAPTER BOUNDARIES on one leaf. The samples' FIRST THREE-CHAPTER-BOUNDARY leaf.
+  CONFIRMATION: 見善不從 / 反隨惡心 / 求福不正 does NOT appear anywhere on p. 565.
+
+[R12] 2026-10-30 13:13 PDT · Taishō p. 564 (leaf 0563) register c c17-c18, 1.5× (x=1480..1760, y=3600..5400)
+  crop.py t04_0563_full.jpg t04_0563_c17_c18_zoom.png 1480 3600 1760 5400 1.5
+  Reader's words:
+  - c17 (right column): 不レ如二生一日　學二㊲推佛法要一 (Dhp 115 close pāda, inherited from 112-115 file)
+    Column ends at 要, blank space below down to register rule.
+  - c18 (left column): 行品 ＊ 法句經第十七 ＊ 二十有二章 (惡 cut at top; the full heading is
+    `惡行品 ＊法句經第十七 ＊二十有二章`)
+    CRITICAL: the column does NOT continue with body verses — after 章 (image y≈1180 of this crop,
+    ≈55-60% down the register), the rest of the column is BLANK down to the register-c bottom rule.
+    No 見善不從, no body verses in c18.
+  Event SETTLED: ch. 17 heading on c18 is a HEADING-ONLY column (blank below the heading).
+  The ch. 17 body opens in a FURTHER column (c19 or beyond).
+
+[R13] 2026-10-30 13:15 PDT · Taishō p. 564 register c c19 + c20, 1.5× (x=1250..1650, y=3600..5400)
+  crop.py t04_0563_full.jpg t04_0563_c18_c19.png 1250 3600 1650 5400 1.5
+  Reader's words (right→left):
+  - c19 (rightmost column visible): [惡]行品者。感切惡人。動有罪報。不㊴行無[患]
+    (惡 cut at top, 患 extends to next column)
+    Full stops (。) at: 者。 感切惡人。 動有罪報。 不行無患。 — FOUR 。 marks dividing a FOUR-SENTENCE
+    PROSE PREFACE.
+    Circled ㊴ sits between 不 and 行 (variant key: ㊴行＝得(三) per 108-111 file's foot L5 reading).
+    Kaeriten: 二 after 感 and after 動; 一 after 人 and after 報; レ before 行.
+    Event SETTLED: 惡行品 opens with a 4-sentence CHINESE PROSE PREFACE (the "chapter-preface"
+    convention of T210, not previously attested in the samples). The preface reads:
+    "惡行品者。感切惡人。動有罪報。不行無患。"
+    = "The chapter of evil action: it strikes to the quick the evil person; whenever he acts,
+       guilt-recompense is there; if he does not act, there is no calamity."
+    This is the samples' FIRST attestation of a T210 chapter-preface.
+  - c20 (next column, partly cut at left of crop): [患] 見善不從 / 反隨惡心 / 求福不正
+    患 at top (closing the preface's final sentence), then THREE 4-char pādas:
+    見善不從 (レ after 善, レ after 不); 反隨惡心 (二 after 隨, 一 after 心); 求福不正 (レ after 求, レ after 不).
+    Event: DHP 116 Chinese opens here at c20 after the prose preface closes at 患.
+
+[R14] 2026-10-30 13:16 PDT · Taishō p. 564 register c c21 + c22, 1.5× (x=850..1250, y=3600..5400)
+  crop.py t04_0563_full.jpg t04_0563_c21_c22.png 850 3600 1250 5400 1.5
+  Reader's words:
+  - c21 (rightmost in this crop): 反樂邪婬 (反 top; 二 after 樂; 一 after 婬) / 凡人為惡 (レ after 為) /
+    不能自覺 (レ after 不; 二 after 能; 一 after 覺)
+  - c22: 愚癡快意 / 令㊵後鬱㊶毒 / 殃人行虐 (レ after 行)
+    Circled ㊵ between 令 and 後; ㊶ between 鬱 and 毒 — two circled variant keys.
+  - c23: 沈漸數數 / 快欲為㊷人 / 罪報自然
+    Circled ㊷ between 為 and 人.
+  - c24 (leftmost in crop, partly cut): [吉]人行德 / 相隨積增 / 甘心為之 (レ after 行, レ after 之)
+  Event: Dhp 116 Chinese = 見善不從 反隨惡心 求福不正 反樂邪婬 (c20 + c21 open) — a 4-pāda stanza
+  verbatim parallel to Pāli Dhp 116.
+  Event: Dhp 117 Chinese = 凡人為惡 不能自覺 愚癡快意 令後鬱毒 (c21 + c22 open) — a 4-pāda stanza
+  thematically parallel to Pāli Dhp 117 (CBETA alignment confirmed).
+  Event: Dhp 118 Chinese = 殃人行虐 沈漸數數 快欲為人 罪報自然 (c22 close + c23) — a 4-pāda stanza;
+  the Chinese 殃人行虐 ("if a person does cruelty") is thematic for Pāli Dhp 118 but PĀLI
+  REVERSAL: Pāli Dhp 118 is POSITIVE ("if a man does what is good, let him do it again,
+  happiness is the outcome"), Chinese Dhp 118 position is NEGATIVE ("the man who does cruelty
+  sinks ever further, happily acting evil, retribution comes naturally"). The T210 translator
+  REVERSES the Pāli's polarity for stanza 118 — a NEW translation event (the samples' FIRST
+  pola-reversal event between Pāli and T210).
+  Event: Dhp 119 Chinese = 吉人行德 相隨積增 甘心為之 福應自然 (c24 + c25 open — c25 opening
+  pāda is 福應自然 by thematic completion against the Dhp 118 close's 罪報自然 pattern) —
+  a 4-pāda stanza; thematically PARALLEL to Pāli Dhp 119 but the Chinese takes the POSITIVE
+  side (good-doer accumulates good, happiness follows) where the Pāli Dhp 119 opens with the
+  NEGATIVE side (Even an evil-doer sees happiness until his deed ripens). The T210's Dhp 118-119
+  pair REVERSES the Pāli's Dhp 118-119 pair's POLARITY POSITIONS.
+
+[R15] 2026-10-30 13:18 PDT · Taishō p. 564 register c c23/c24 top chars, 2.2× (x=700..920, y=3600..4600)
+  crop.py t04_0563_full.jpg t04_0563_c24_c25_zoom.png 700 3600 920 4600 2.2
+  Reader's words:
+  - Right column top: 沈 (cut, bottom-only strokes visible) — confirms c23 opens with 沈.
+  - Left column top: 吉 (clearly 士/口 shape, NOT 君 or 善 or 害) — confirms c24 opens with 吉.
+    Pādas: 吉人行德 相隨積增 甘心為之 (3 pādas visible of 4).
+  Event SETTLED: Dhp 119 Chinese stanza 1st pāda = 吉人行德 ("the good person practises virtue")
+  — a direct POSITIVE opening paralleling Pāli Dhp 119's `Pāpo pi passatī bhadraṁ` ("even an
+  evil-doer sees good"); the Chinese takes the ETHICAL AGENT, the Pāli takes the AMBIGUOUS
+  EXPERIENCE — a SEMANTIC SHIFT (the samples' NEW agent-vs-experience divergence event).
+
+[R16] 2026-10-30 13:19 PDT · Taishō p. 564 register c c22 bottom pāda, 2.5× (x=870..1030, y=4400..4850)
+  crop.py t04_0563_full.jpg t04_0563_c22_endview.png 870 4400 1030 4850 2.5
+  Reader's words:
+  - 殃 (clearly 歹 radical left + 央 right — this is 殃 "misfortune", NOT 兇 "fierce")
+  - 人
+  - 行 — with レ kaeriten between 行 and 虐
+  - 虐 (clearly 虍 head over lower component)
+  Pāda confirmed: 殃人行虐 (3rd pāda of c22, 1st pāda of Dhp 118 Chinese).
+
+[R17] 2026-10-30 13:19 PDT · Taishō p. 564 foot apparatus L5+L6, 1.2× (x=100..3900, y=5200..5500)
+  crop.py t04_0563_full.jpg t04_0563_foot_extended.png 100 5200 3900 5500 1.2
+  Reader's words:
+  L5: 意(明)　㉜行＝何(聖)　㉝自＝日(明)　㉞道＝造(明)　㉟年＝千(三)(聖)　㊱觀＝望(元)(明),親(聖)　
+      ㊲推＝惟(三)(聖)　㊳～9 Pāpa vagga　㊴行＝得(三)
+      (Leading 意(明) tails the previous line; keys ㉜ through ㊴ unchanged from 108-111 / 112-115
+       file reads.)
+  L6: ㊵後＝徵(聖)　㊶毒＝蠹(聖)　㊷人＝之(元)(明)　㊸虐＝酷(三),窖(聖)　㊹貞＝禎(明)　
+      ㊺見＝安(宋)(聖)　㊻下二頌巴利文無,〔擊人…怒〕四句一(聖)
+  New variants attested on L6:
+    ㊵ 後＝徵(聖) — Shōgo-zō reads 徵 for Taishō's 後 (keyed on Dhp 117 pāda 3 `令後鬱毒`)
+    ㊶ 毒＝蠹(聖) — Shōgo-zō reads 蠹 "moth" for Taishō's 毒 "poison" (same pāda)
+    ㊷ 人＝之(元)(明) — Yuan+Ming read 之 for Taishō's 人 at Dhp 118 pāda 3 `快欲為人`
+    ㊸ 虐＝酷(三),窖(聖) — Three Editions read 酷 "cruel" AND Shōgo-zō reads 窖 "cellar" for
+       Taishō's 虐 "cruelty" at Dhp 118 pāda 1 `殃人行虐` — a FOUR-WAY three-reading variant
+       (Taishō 虐 / Three Editions 酷 / Shōgo-zō 窖) with COMMA between the two independent readings
+       (the samples' SECOND three-way variant with comma after 112-115's ㊱觀＝望(元)(明),親(聖))
+    ㊹ 貞＝禎(明) — Ming reads 禎 for Taishō's 貞 (keyed to a next-stanza column)
+    ㊺ 見＝安(宋)(聖) — Song+Shōgo-zō read 安 for Taishō's 見 (keyed to a next-stanza column)
+    ㊻ 下二頌巴利文無,〔擊人…怒〕四句一(聖) — "The next two verses have NO Pāli parallel,
+       the [擊人...怒] four-line verse is one [verse] in the Shōgo-zō"
+       NEW TYPE OF ENTRY: a META-NOTE marking Pāli-less inserts in the T210 Chinese text.
+       The samples' FIRST attestation of a T210 editor's explicit Pāli-parallel assessment.
+       The `擊人...怒` 4-line verse = `擊人得擊 行怨得怨 罵人得罵 施怒得怒` — the opening of leaf
+       0564 register a c01 (`施怒得怒 ...`), confirming that this stanza group is a T210-only
+       insert without a Pāli counterpart.
+  Nominated #5 (the ㊻ Pāli-parallel meta-note — a Taishō-editor text-critical event).
+
+# =============================================================================
+# IMAGE CALL COUNT
+# =============================================================================
+Total image calls: 17 (overview Fausbøll + head Fausbøll + v116-v119 Fausbøll + apparatus Fausbøll
+= 4; overview Müller + head Müller + v116-v119 Müller = 3; Taishō overview + reg-abc strip + reg-a
+rightcols + c01-c04 zoom + c17-c18 + c18-c19 + c21-c22 + c24-c25 zoom + c22 bottom + foot L5+L6 = 10).
+Well under the 50 ceiling. Reads 13:03–13:19 PDT (16 minutes of reading).
+
+# =============================================================================
+# NOMINATED CROPS for tomorrow's daily-push lane re-verification
+# =============================================================================
+1. .scratch/dhp/fausboll_0045_v116_v119.png — Pāli bodies 116-119, especially the kayrā/kayirātha
+   intra-stanza split in v. 118 and the square brackets around [pāpo⁴] in v. 119.
+2. .scratch/dhp/fausboll_0045_apparatus.png — the 9-line apparatus block, especially L1's
+   English-prose entry `V. 116. D a n d h a = t a n d r a ? notwithstanding atandita vv.` and
+   L2's stacked-fraction Jātaka citations.
+3. .scratch/dhp/muller_0094_head.png — the ch. 9 title EVIL. without any asterisk (settles the
+   SBE X title-note question).
+4. .scratch/dhp/t04_0563_c18_c19.png — the Taishō ch. 17 heading column (c18, heading-only) +
+   the prose preface c19 `惡行品者。感切惡人。動有罪報。不行無患。`
+5. .scratch/dhp/t04_0563_foot_extended.png — foot L5+L6 with the new ㊵-㊻ keys including the
+   ㊻ meta-note `下二頌巴利文無` on Pāli-less inserts.
