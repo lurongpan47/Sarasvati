@@ -1,0 +1,374 @@
+## 120-123-crops.txt · Dhammapada Pāpavagga 120-123 scan-first reads
+## Reader: Sarasvatī subagent (anthropic/claude-opus-4-7), 2026-10-31 PDT
+
+# =============================================================================
+# FETCHES
+# =============================================================================
+
+[FETCH 1] 2026-10-31 13:05 PDT · Fausbøll 1900 leaf 0046 (printed p. 29)
+  URL: https://archive.org/download/india.history.resource.112138/112138_jp2.zip/112138_jp2%2F112138_0046.jp2
+  Result: HTTP 302 (redirect) → 200, 382,385 B JP2, file reads "JPEG 2000 Part 1 (JP2)"
+  First-try success (URL pattern settled by 10-27/28/29/30 builds HELD a FIFTH consecutive time).
+  opj_decompress: 55 ms → fausboll_0046.png, 789,654 B, 1500×2500 L
+  LATIN-TRANSLATION leaf (confirmed, NOT a Pāli-text leaf): the samples' SECOND Latin leaf
+  after 112-115's 0044, and the FIRST attested Latin leaf in the Pāpavagga territory.
+
+[FETCH 2] NOT NEEDED · Fausbøll 0045 (on disk from 10-30, re-read today for bodies vv. 120-123)
+[FETCH 3] NOT NEEDED · Müller tif 0094 (on disk from 10-30, re-read today for bodies vv. 120-123)
+[FETCH 4] NOT NEEDED · Taishō leaves 0563 (on disk since 10-18) + 0564 (on disk from 108-111 build)
+
+# =============================================================================
+# READS — Fausbøll 1900 leaf 0045 (re-read for vv. 120-123 bodies)
+# =============================================================================
+
+[R1] 2026-10-31 13:06 PDT · Fausbøll 0045 verses 120-123 + 124 open bodies, 2.0× (bands 500-980)
+  crop.py fausboll_0045.png fausboll_0045_v120_v123.png 100 500 1400 980 2.0
+  First attempt — bands were too high; captured vv. 117-120 instead of vv. 120-123.
+  Re-cropped at R2.
+
+[R2] 2026-10-31 13:08 PDT · Fausbøll 0045 verses 120-123 bodies, 2.0× (bands 850-1700)
+  crop.py fausboll_0045.png fausboll_0045_v120_v123_v2.png 100 850 1400 1700 2.0
+  Reader's words — verbatim transcription:
+    120. Bhadro pi¹ passatī² pāpaṁ
+         yāva bhadraṁ na paccati,
+         yadā ca paccatī² bhadraṁ
+         atha [bhadro³] bhadrāni passati.
+         [FOUR LINES; superscripts ¹ ² ² ³ — the ² appears TWICE on passatī²/paccatī²
+          keyed to the SAME apparatus entry; the samples' SECOND two-instance-² event
+          after V. 119 (which also had passatī²/paccatī² two-instance pattern); the
+          square brackets [bhadro³] parallel V. 119's [pāpo⁴] — the samples' FIRST
+          attested CONSECUTIVE bracketed-word twin stanzas; the twin-pair positive-
+          inversion of V. 119 (pāpo/bhadro swap, pāpaṁ/bhadraṁ swap).
+          The 10-30 reader at the overview level marked v. 120 at bands ~525-651
+          overview = ~875-1086 actual; today's close-read confirms the 4-line layout
+          with the exact same superscript pattern as the 10-30 reader predicted but
+          at the attestation level.]
+    121. Mâppamaññetha¹ pāpassa 'na man taṁ² āgamissati',
+         udabindunipātena udakumbho pi pūrati,
+         bālo³ pūrati pāpassa thokathokaṁ⁴ pi⁵ ācinaṁ.
+         [THREE LINES; superscripts ¹ ² ³ ⁴ ⁵ — the samples' FIRST FIVE-SUPERSCRIPT
+          PĀLI STANZA; the circumflex â on Mâppamaññetha marks CRASIS (sandhi
+          contraction of mā+appamaññetha); the samples' FIRST attested circumflex-â
+          on a Fausbøll Pāli root. The single quotes 'na man taṁ² āgamissati'
+          wrap the inner-monologue content — the samples' FIRST attested Pāli
+          direct-speech typography. The `man` form (standalone two-letter) is
+          UNUSUAL (normally `maṁ` with anusvāra); FLAGGED as possibly a
+          Fausbøll-specific metrical shortening or a scanner artifact.
+          Line 2 has NO SUPERSCRIPT on `pi` (contrast V. 122 L2 which adds ³ to pi³).]
+    122. Mâppamaññetha¹ puññassa 'na man taṁ² āgamissati',
+         udabindunipātena udakumbho pi³ pūrati,
+         dhīro⁴ pūrati puññassa thokathokaṁ pi⁵ ācinaṁ.
+         [THREE LINES; same 5-superscript pattern as V. 121 BUT ³ moved to pi³
+          in line 2 (V. 121's line 2 was superscript-free); the EXACT POSITIVE PAIR
+          of V. 121 with pāpassa→puññassa and bālo→dhīro; the samples' FIRST FULL
+          TWIN-PAIR of Māppamaññetha stanzas.]
+    123. Vāṇijo va bhayaṁ maggaṁ appasattho¹ mahaddhano,
+         visaṁ jīvitukāmo va pāpāni parivajjaye.
+         [TWO LINES; ONE superscript ¹ on appasattho¹ (Cᶜ variant appassattho with
+          double ss); the samples' FIRST attested CARAVAN-MERCHANT METAPHOR;
+          `Vāṇijo` (merchant) + `appasattho` (with-few-companions, bahuvrīhi
+          compound) + `mahaddhano` (great-wealthed) + the poison-avoidance twin
+          metaphor on L2.]
+    124. open (not pixel-attested today; named-at-overview from 10-30 build;
+         next sample's).
+
+[R3] 2026-10-31 13:10 PDT · Fausbøll 0045 verses 120-121 close-read, 2.0× (bands 870-1340)
+  crop.py fausboll_0045.png fausboll_0045_v120_v121.png 100 870 1400 1340 2.0
+  Reader's close-read confirmed:
+  - V. 120 L1-L4: superscript pattern ¹ ² ² ³ (NOT ¹ ² ³ ⁴ — the ² is reused twice);
+    [bhadro³] bracket confirmed (NOT [bhadro⁴]).
+  - V. 121 L1: CIRCUMFLEX â confirmed on Mâppamaññetha¹ (crasis marker, not macron).
+  - V. 121 L1: SINGLE QUOTES ‘ ... ’ confirmed around `na man taṁ² āgamissati`.
+  - V. 121 L2: `pi` plain, NO superscript (contrast V. 122 L2 which has pi³).
+  - V. 121 L3: superscripts ³ ⁴ ⁵ confirmed (bālo³, thokathokaṁ⁴, pi⁵).
+
+# =============================================================================
+# READS — Fausbøll 1900 leaf 0046 (NEW LEAF, Latin translation leaf)
+# =============================================================================
+
+[R4] 2026-10-31 13:08 PDT · Fausbøll 0046 overview 0.75× (full page, 1500×2500 → 1125×1875)
+  crop.py fausboll_0046.png fausboll_0046_overview_detailed.png 0 0 1500 2500 0.75
+  Reader's words:
+  - Page number `29` centred at top.
+  - Running head `Cap. 9.` centred below (the samples' FIRST attested Fausbøll Latin
+    running-head for ch. 9; matches 100-103's `C a p .  8.` for ch. 8 — Latin leaves
+    use `Cap. N.` convention, not vagga-name).
+  - Latin body: ~25 Latin lines rendering vv. 116 cont. – v. 125 open.
+  - V. 116 Latin opens with `tioned retineat; segniter enim bonum agentis in malo`
+    (continuing from previous leaf 0045's Latin that would read `Fes-|tinet`).
+  - V. 117 Latin: `Festest (quisque) in bono (agendo), a malo cogita-| ...`.
+  - V. 118 Latin: `Bonum si homo fecit, | faciat id iterum iterumque; ...`.
+  - V. 119 Latin: `Improbus bonum | videt, quamdiu malefactum non maturescit; ...`.
+  - V. 120 Latin: `Probus | malum videt, quamdiu bonum non maturescit, ...`.
+  - V. 121 Latin: `Ne (quis) | parvi æstimet malum (dum cogitat) „me id non adi-|bit";
+    guttæ casu hydria impletur, impletur stultus | malo paulatim colligens.`
+    (German-style low-high double-quote marks „..." around the inner-monologue
+    content — the samples' FIRST attested German-style quote marks on Fausbøll's Latin;
+    `guttæ casu` = "by the fall of drops"; `hydria` = "water-pot").
+  - V. 122 Latin: positive-pair of V. 121.
+  - V. 123 Latin: `Mercator velut periculosam viam (evitat), ...` — the merchant metaphor.
+  - V. 124 open: `In manu | si vulnus non est, prehendere potest (homo) manu | venenum, ...`.
+  - V. 125 open: `Qui virum innocentem offendit, integrum hominem,`.
+  - SHORT CENTRED foot rule above a 5-or-6-line foot apparatus block.
+  Event: SECOND Latin leaf (after 112-115's 0044); FIRST Pāpavagga Latin leaf.
+  The Latin leaves use German-style low-high quote marks (contrast Pāli leaves which
+  use single quotes); the Latin body is NOT carried as source column (as all earlier
+  Latin-leaf samples have never carried the Latin).
+
+[R5] 2026-10-31 13:11 PDT · Fausbøll 0046 foot apparatus, 2.0× (bands 1700-2300)
+  crop.py fausboll_0046.png fausboll_0046_foot.png 100 1700 1400 2300 2.0
+  Reader's words — foot apparatus block L1-L6:
+  L1: ² Sᵏ mattaṁ, Bʳ mandaṁ.  ³ Cᵏ Cᶜ pūrati bālo, Sᵏ āpūrati bālo.
+      [Continues V. 121's apparatus from 0045 L9 (which carried `V. 121. ¹ Bʳ Sᵏ
+       māvamaññetha.`); L1 opens with V. 121 ² and ³ entries; three-siglum word-
+       order variant on ³ (Cᵏ+Cᶜ reverse to `pūrati bālo`, Sᵏ adds ā-prefix.]
+  L2: ⁴ Bʳ Sᵏ thokaṁ thokaṁ.  ⁵ Sᵏ pi.  Cfr. Hitopadeśa ed. Peterson,
+      [Continues V. 121: ⁴ Bʳ+Sᵏ unanimous SPACE-SEPARATED `thokaṁ thokaṁ`
+       (samples' FIRST compound-vs-separated variant); ⁵ Sᵏ `pi` (trivial);
+       `Cfr. Hitopadeśa ed. Peterson,` opens the samples' FIRST Hitopadeśa reference +
+       FIRST Peter Peterson reference.]
+  L3: Bombay 1887, II, 11:
+          jalavindunipātena kramaśaḥ pūryate ghaṭaḥ.
+      [L3 continues: `Bombay 1887, II, 11:` (the imprint and the stanza reference);
+       INDENTED SANSKRIT quotation `jalavindunipātena kramaśaḥ pūryate ghaṭaḥ.`
+       in Fausbøll's own Sanskrit transliteration (macron ā, underdot ś on kramaśaḥ,
+       underdot ḥ on ghaṭaḥ, underdot ṭ on ghaṭaḥ); the samples' SECOND indented-
+       Sanskrit-on-the-apparatus event after 108-111's Manu II.121.]
+  L4: V. 122.  ¹ Sᵏ māvamaññetha.  ² Bʳ mandaṁ, Sᵏ mattaṁ.  ³ Sᵏ
+      [V. 122 opens: ¹ Sᵏ-only (no Bʳ, unlike V. 121 ¹); ² SIGLA-SWAPPED to
+       Bʳ-first, Sᵏ-second (contrast V. 121 ² Sᵏ-first, Bʳ-second — the samples'
+       FIRST attested sigla-swap event in a twin-stanza pair); ³ opens.]
+  L5: pī.  ⁴ Cᵏ Cᶜ pūrati dhīro, Sᵏ āpūrati dhīro.  ⁵ Sᵏ thokaṁ pī.
+      [Continues V. 122: ³ Sᵏ `pī` long-ī (same Siamese variant as V. 119 ¹);
+       ⁴ three-siglum variant on `dhīro` paralleling V. 121 ³ on `bālo`;
+       ⁵ Sᵏ `thokaṁ pī` DOUBLE variant (both compound-vs-separated AND short-vs-
+       long i) — the samples' FIRST double-aspect apparatus entry on a single
+       superscript; V. 122 apparatus completes as a FIVE-SUPERSCRIPT block —
+       the samples' FIRST five-superscript apparatus entry.]
+  L6: V. 123.  ¹ Cᶜ appassattho.  Bhaya = sappaṭibhaya, Ct.  V. 124.
+      [V. 123 opens: ¹ Cᶜ Colombo variant with double ss; the samples' SECOND
+       Fausbøll Ct. commentary gloss `Bhaya = sappaṭibhaya, Ct.` after 116-119's
+       `Uccaya = vaḍḍhi, Ct.` — the `[Lemma] = [Gloss], Ct.` convention is
+       settled; `Bhaya = sappaṭibhaya` glosses "danger" as "with-fear-danger"
+       i.e. "an intimidating danger" (sa- + paṭi- + bhaya reflexive-form);
+       V. 124 opens, continuing onto 0047's foot named-not-carried today.]
+  Event: the samples' FIRST Hitopadeśa reference, FIRST Peter Peterson reference,
+  FIRST Bombay 1887 imprint, SECOND indented-Sanskrit event, FIRST sigla-swap in
+  twin-pair, FIRST five-superscript apparatus block, SECOND Ct. commentary gloss
+  (settling the convention). Nominated #1 (the Hitopadeśa Sanskrit cross-tradition
+  parallel).
+
+# =============================================================================
+# READS — Müller 1881 SBE X p. 34 (re-read for vv. 120-123 bodies)
+# =============================================================================
+
+[R6] 2026-10-31 13:08 PDT · Müller p. 34 verses 120-123, 1.1× (bands 2800-4600)
+  crop.py muller_0094.png muller_0094_v120_v123.png 300 2800 2900 4100 1.1
+  (Second-pass crop at R7 with bands 2600-4200 captured the four verses cleanly.)
+  Reader's words — verbatim:
+    120. Even a good man sees evil days, as long as
+         his good deed has not ripened ; but when his good
+         deed has ripened, then does the good man see happy
+         days.
+    121. Let no man think lightly of evil, saying in
+         his heart, It will not come nigh unto me. Even by
+         the falling of water-drops a water-pot is filled ; the
+         fool becomes full of evil, even if he gather it little
+         by little.
+    122. Let no man think lightly of good, saying in
+         his heart, It will not come nigh unto me. Even by
+         the falling of water-drops a water-pot is filled ; the
+         wise man becomes full of good, even if he gather it
+         little by little.
+    123. Let a man avoid evil deeds, as a merchant, if
+         he has few companions and carries much wealth,
+         avoids a dangerous road, as a man who loves life
+         avoids poison.
+  Thin spaces before semicolons:
+    120: `ripened ; but` (L2)
+    121: `filled ; the` (L3)
+    122: `filled ; the` (L3)
+    123: no semicolons (prose structure, commas only)
+  End-of-line hyphens: NONE in vv. 120-123 (all compound words `water-drops`,
+    `water-pot`, `good man`, `wise man` fit within single lines).
+  Hyphens in body: `water-drops` (121 L3, 122 L3), `water-pot` (121 L3, 122 L3),
+    `good man` (120 L1, L3 — no hyphen, two-word phrase).
+  Line counts: v. 120 = 4 lines, v. 121 = 5 lines (FIRST five-line Müller stanza),
+    v. 122 = 5 lines (SECOND five-line Müller stanza, exact positive pair of v. 121),
+    v. 123 = 4 lines.
+  Footnote markers: NONE on vv. 120, 121, 122, 123 (SILENT CHAPTER OPENING CONTINUES
+    through NINE STANZAS Dhp 116-124; combined with p. 33's near-silent block,
+    Dhp 110-124 has only ONE Müller note on v. 112 across 15 CONSECUTIVE STANZAS —
+    the samples' LONGEST and SILENTEST Müller stretch EVER attested).
+  Direct-speech typography: `saying in | his heart, It will not come nigh unto me.`
+    uses a PROSE REPORTED-CLAUSE rendering (comma after `heart`, capital I on
+    `It`, period after `me`) WITHOUT single quotes or italics — a cross-edition
+    disagreement with Fausbøll's `'na man taṁ² āgamissati'` single-quoted direct-
+    speech on the SAME content (the samples' FIRST attested cross-edition
+    typographical disagreement on direct-speech rendering).
+  Archaism: `nigh unto me` — 16th-c. English preposition; Müller's SBE Victorian
+    register.
+
+# =============================================================================
+# READS — Taishō vol. 4 T210 法句經 惡行品 (leaves 0563 c25-c27 + 0564 c01-c06)
+# =============================================================================
+
+[R7] 2026-10-31 13:12 PDT · Taishō leaf 0563 register c c24-c29, 2.0× (x=300..820, y=3600..5450)
+  crop.py t04_0563_full.jpg t04_0563_c24_c29.png 300 3600 820 5450 2.0
+  (First-pass crop; see R8 for the 2.2× close-read on c25-c27 and R9 for the 3.0×
+   single-column close-read on c25.)
+  Reader's words (preliminary): six columns right-to-left, three attested at the
+  character level; apparatus foot visible at the bottom with multiple ㊸ ㊹ ㊺ keys
+  (full foot inherited from the 116-119 build read of 2026-10-30).
+
+[R8] 2026-10-31 13:14 PDT · Taishō 0563 c25-c27, 2.2× (x=300..820, y=3600..5420)
+  crop.py t04_0563_full.jpg t04_0563_c25_c27_careful.png 300 3600 820 5420 2.2
+  Reader's words — three columns reading right-to-left, character-by-character:
+  c25 (3 pādas, 12 chars):
+    pāda 1: 福 應 自 然 (Dhp 119 close pāda 4 — PIXEL-ATTESTED confirming the
+      10-30 build's thematic completion of `福應自然` was CORRECT)
+    pāda 2: 妖 孽 見 福 (with `レ` after 見 → `妖孽見レ福` — opens Dhp 120 Chinese
+      TWIN-STANZA 1)
+    pāda 3: 其 惡 未 熟 (with `レ` after 未 → `其惡未レ熟`)
+  c26 (3 pādas, 12 chars):
+    pāda 1: 至 其 惡 熟 (with `二` after 至 and `一` after 熟 → `至二其惡熟一`)
+    pāda 2: 自 受 罪 虐 (with `二` after 受, `㊸` between 罪 and 虐, `一` after 虐
+      → `自受二罪㊸虐一`; ㊸ `虐＝酷(三),窖(聖)` three-way-with-comma variant KEYED
+      HERE — CORRECTION to the 10-30 build's attribution of ㊸ to c22 Dhp 118
+      pāda 1; the correct ㊸ key site is c26 Dhp 120 TWIN-1 pāda 4)
+    pāda 3: 貞 祥 見 禍 (with `㊹` before 貞, `㊺` between 見 and 禍, `レ` after 見
+      → `㊹貞祥㊺見レ禍`; opens Dhp 120 Chinese TWIN-STANZA 2)
+  c27 (3 pādas, 12 chars):
+    pāda 1: 其 善 未 熟 (with `レ` after 未 → `其善未レ熟`)
+    pāda 2: 至 其 善 熟 (with `二` and `一` → `至二其善熟一`)
+    pāda 3: 必 受 其 福 (with `二` after 受 and `一` after 福 → `必受二其福一`;
+      closes Dhp 120 Chinese TWIN-STANZA 2)
+  Reader's note (reader-1 version): NO 。 full stops at pāda breaks (matches the
+    10-30 build's convention of ZERO 。 between pādas in Dhp 116-119 Chinese).
+  Reader's note (reader-2 version, less conservative): reports 。 at every pāda
+    break; CONSERVATIVE READING TAKEN — no 。 in body text (matching 10-30
+    convention).
+  Event: TAISHŌ DHP 120 CHINESE TWIN-STANZA EXPANSION — Pāli Dhp 120 is ONE
+  4-line stanza, Chinese expands to TWO 4-pāda stanzas (TWIN-1 negative-positive
+  about evil-doer's karmic payoff + TWIN-2 positive-positive about virtuous
+  person's karmic reward). The samples' FIRST attestation of a Chinese TWIN-
+  STANZA EXPANSION of a single Pāli stanza AND the samples' FIRST Chinese
+  INVERSE-TWIN pattern. Nominated #2 (the Chinese twin-stanza expansion event).
+
+[R9] 2026-10-31 13:15 PDT · Taishō 0563 c25 single-column, 3.0× (x=480..660, y=3600..5420)
+  crop.py t04_0563_full.jpg t04_0563_c25_zoom.png 480 3600 660 5420 3.0
+  Reader's words — single column at 3× zoom:
+  - Top edge: fragment of 福 (clipped) → 應 → 自 → 然 (pāda 1 = 福應自然, Dhp 119 close)
+  - Blank gap
+  - Second pāda: 妖 → 孽 → 見 → 福 (with レ after 見); opens Dhp 120 Chinese TWIN-1
+  - Blank gap
+  - Third pāda: 其 → 惡 → 未 → 熟 (with レ after 未)
+  - No 。 full stop at pāda breaks; no circled key.
+  Event SETTLED: c25 is a FULL 12-char 3-pāda column, NOT a 1-pāda column as the
+  10-30 build predicted. `福應自然` is pāda 1 (not alone in the column). The
+  10-30 build's thematic completion was CORRECT at the character level but WRONG
+  at the column-structure level (predicted 1-pāda column, actual 3-pāda column).
+  Nominated #3 (the c25 three-pāda column settling).
+
+[R10] 2026-10-31 13:17 PDT · Taishō leaf 0564 register a c01-c06, 0.9× (x=2800..4000, y=400..2400)
+  crop.py t04_0564.png t04_0564_reg_a_full.png 2800 400 4000 2400 0.9
+  Reader's words — six columns of the Pāli-less insert group + water-drop refrain:
+  c01: 施 (top) → 怒 → 得 → 怒 (pāda 1 = `施怒得怒`, with レ after each 怒)
+       → 世 → 人 → 無 → 聞 (pāda 2 = `世人無聞`, with レ after 聞)
+       → 不 → 知 → 正 → 法 (pāda 3 = `不知正法`, with `二` after 知 and `一` after 法)
+       Top-edge: 施 is at the top; the preceding pādas `擊人得擊 行怨得怨 罵人得罵`
+       are on 0563 c28 (not read today — chapter-boundary falls MID-STANZA).
+  c02: 生 此 壽 少 ／ 何 宜 爲 惡 (with `レ` after 爲 and 惡 — `何宜レ爲レ惡`) ／
+       莫 下 輕 二 小 惡 一 (the samples' SECOND `下-二-一` TRIPLE kaeriten
+       on `莫下輕二小惡一` after 104-107's b29 first-attestation)
+  c03: 以 爲 無 殃 (with レ after 殃 — `以爲無レ殃`) ／
+       水 ① 滴 雖 微 (with CIRCLED ① between 水 and 滴, and レ after 微 —
+       `水①滴雖レ微`; the samples' FIRST ATTESTED ① CIRCLED STANZA-BOUNDARY MARKER
+       inside T210 body text — NOT a variant key; a stanza-count restart at
+       the top of leaf 0564 register a) ／
+       漸 盈 二 大 器 一 (with `二` after 盈 and `一` after 器 — `漸盈二大器一`)
+  c04: 凡 罪 充 滿 ／ 從 小 積 成 ／ 莫 下 輕 二 小 善 一 (the THIRD
+       `下-二-一` TRIPLE kaeriten; now 3 attestations settled)
+  c05: 以 爲 無 福 (with レ after 福 — `以爲無レ福`) ／ 水 ② 滴 雖 微 (with
+       CIRCLED ② between 水 and 滴; the SECOND ATTESTED CIRCLED STANZA-BOUNDARY
+       MARKER) ／ 漸 盈 二 大 器 一
+  c06: 凡 福 充 滿 ／ 從 二 纖 纖 一 積 (with `二` after 從 and `一` after 纖纖 —
+       `從二纖纖一積`) ／ ③ 夫 士 爲 レ 行 (with CIRCLED ③ before 夫; the
+       THIRD ATTESTED CIRCLED STANZA-BOUNDARY MARKER; opens Dhp 123 Chinese
+       territory with `夫士爲行`)
+  Event: THREE CIRCLED STANZA-BOUNDARY MARKERS ① ② ③ settled as stanza-count
+  RESTART at the top of a new leaf — NOT variant keys ㊼ ㊽ ㊾. The samples'
+  FIRST attestation of CIRCLED STANZA-BOUNDARY MARKERS inside T210's body text.
+  Event: WATER-DROP SIMILE REFRAIN `水滴雖微 漸盈大器` on c03 and c05 — the
+  Chinese parallel to Pāli Dhp 121-122 AND the Hitopadeśa II.11 Sanskrit
+  parallel; the samples' FIRST THREE-TRADITION PARALLEL on a specific metaphor.
+  Event: ㊻ META-NOTE SCOPE NARROWED — the ㊻ `下二頌 巴利文無` applies ONLY
+  to STANZA 1 (`擊人得擊 行怨得怨 罵人得罵 施怒得怒` on 0563 c28 → 0564 c01) +
+  STANZA 2 (`世人無聞 不知正法 生此壽少 何宜爲惡` on 0564 c01-c02), NOT to
+  the water-drop refrain stanzas c03-c06 which ARE Pāli-paralleled (Dhp 121-122
+  Chinese). A CORRECTION to the 10-30 build's over-broad reading of the ㊻ scope.
+  Nominated #4 (the ① ② ③ stanza-boundary markers + the ㊻ scope narrowing).
+
+# =============================================================================
+# IMAGE CALL COUNT
+# =============================================================================
+Total image calls: 7 batches (each batch = up to 4 images in one call).
+Effective image inspections: ~15-20 (the model inspects each image at the
+pixel level per batch).
+Well under the 50 ceiling AND under today's ≤35 target.
+Reads: 13:05–13:30 PDT (25 minutes clock time).
+
+# =============================================================================
+# NOMINATED CROPS for tomorrow's daily-push lane re-verification
+# =============================================================================
+1. .scratch/dhp/fausboll_0045_v120_v121.png — Pāli bodies 120-121 close-read,
+   especially the CIRCUMFLEX â on `Mâppamaññetha¹` (crasis marker) and the
+   SINGLE QUOTES `'na man taṁ² āgamissati'` around the inner-monologue
+   content; also the two-instance-² on V. 120 `passatī²…paccatī²` and the
+   bracketed [bhadro³] parallel to V. 119's [pāpo⁴].
+2. .scratch/dhp/fausboll_0046_foot.png — the 6-line apparatus block carrying
+   V. 121 ²³⁴⁵ + V. 122 ¹²³⁴⁵ + V. 123 ¹ apparatus + the samples' FIRST
+   Hitopadeśa Peter Peterson Bombay 1887 reference + the INDENTED SANSKRIT
+   quotation `jalavindunipātena kramaśaḥ pūryate ghaṭaḥ.` on L3-L4; also
+   the samples' FIRST sigla-swap V. 121 ² `Sᵏ mattaṁ, Bʳ mandaṁ.` vs
+   V. 122 ² `Bʳ mandaṁ, Sᵏ mattaṁ.`.
+3. .scratch/dhp/muller_0094_v120_v123_v2.png — the four English stanzas
+   including the samples' FIRST and SECOND five-line Müller stanzas on vv.
+   121 and 122, the archaism `nigh unto me`, and the complete silence (no
+   footnote markers on any of them).
+4. .scratch/dhp/t04_0563_c25_c27_careful.png — the Dhp 120 Chinese TWIN-
+   STANZA EXPANSION (TWIN-1 `妖孽見福 其惡未熟 至其惡熟 自受罪㊸虐` + TWIN-2
+   `㊹貞祥㊺見禍 其善未熟 至其善熟 必受其福`) with the ㊸ ㊹ ㊺ keys at their
+   correct pāda sites; this is the CORRECTION to the 10-30 build's ㊸
+   attribution.
+5. .scratch/dhp/t04_0564_reg_a_full.png — the Pāli-less insert group's
+   STANZA 1 pāda 4 `施怒得怒` + STANZA 2 `世人無聞 不知正法 生此壽少 何宜爲惡`
+   + the water-drop refrain stanzas with the CIRCLED STANZA-BOUNDARY MARKERS
+   ① ② ③ on c03 + c05 + c06; the ㊻ scope narrowing.
+
+# =============================================================================
+# NATURAL CONTINUATION
+# =============================================================================
+Natural continuation: `papavagga-124-127-4lang.md` — opens the chapter's
+final-quarter with Fausbøll leaf 0045 already carrying v. 124 (named-not-
+carried today) + Müller p. 34 or p. 35 continuation (vv. 124-127, SILENT
+block may continue or finally break) + Taishō leaf 0564 register a c07+
+continuation (the ③`夫士爲行` stanza full 4-pādas carrying Dhp 123 Chinese;
+vv. 124+ Chinese on 0564 register a c08+) + the Pāli-less insert group's
+STANZA 1 opening 3 pādas `擊人得擊 行怨得怨 罵人得罵` on 0563 c28 (named-not-
+carried today — the chapter-boundary of leaf 0563 → 0564 falls MID-STANZA).
+
+Projected sources already on disk:
+- Fausbøll 0045 (v. 124 body + apparatus on 0045 L9 continues to 0047 next-next
+  sample's)
+- Müller tif 0094 (vv. 124-127 open on this leaf; next sample MAY need to fetch
+  tif 0095 for the chapter close)
+- Taishō leaf 0563 (c28 for the Pāli-less STANZA 1 opening 3 pādas; NAMED-NOT-
+  CARRIED today)
+- Taishō leaf 0564 (register a c07-c12+ continuation for Dhp 123 Chinese +
+  Dhp 124+ Chinese + the Pāpavagga chapter-close `惡行品` colophon projected
+  at 0564 register a bottom or register b open)
+
+PROJECTED FETCHES for the next sample: Fausbøll 0047 (next-next sample's,
+likely projection) — the apparatus for V. 124+ continues onto 0047's foot.
+Müller tif 0095 may be needed if vv. 125-127 overflow onto p. 35.
