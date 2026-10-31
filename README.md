@@ -96,7 +96,7 @@ The eight transmission lines, with current stage of each:
 |---|---|---|---|
 | 1 | India · `india` | 印度源流 | 3 samples ✅ (Aśoka REXII, REXIII, Bhābrū) — reviewers wanted |
 | 2 | Sanskrit manuscript · `sanskrit` | 梵文写本系 | 2 samples ✅ (Prajñāpāramitā Hṛdaya; Vajracchedikā §§ 1–2) — reviewers wanted |
-| 3 | Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 27 Dhammapada scan-first samples ✅ (Yamakavagga → Sahassavagga) + Therīgāthā ekakanipāta 1–5 — reviewers wanted |
+| 3 | Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 31 Dhammapada scan-first samples ✅ (Yamakavagga → Pāpavagga 116–119 opening ch. 9) + Therīgāthā ekakanipāta 1–5 — reviewers wanted |
 | 4 | Southeast Asian Theravāda · `seasia` | 南传东南亚 | 2 samples ✅ (Karaṇīya Mettā Sutta Sn 1.8; Lokanīti ch. 1) — reviewers wanted |
 | 5 | Silk Road · `silkroad` | 中亚·丝路 | 2 samples ✅ (Gāndhārī Dharmapada attested Apramādavaga + pedagogical Dhp 1–4 reconstruction) — reviewers wanted |
 | 6 | Chinese canon · `chinese` | 汉传系 | 2 samples ✅ (Fó yíjiào jīng T389 selected; Sìshíèrzhāng jīng T784 opening) — reviewers wanted |

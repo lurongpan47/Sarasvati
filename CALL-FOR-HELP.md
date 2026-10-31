@@ -14,9 +14,9 @@ Sarasvatī's canon archive is structured along eight transmission branches. As o
 
 | Branch | 中文 | v0.9 status | What we need |
 |---|---|---|---|
-| India · `india` | 印度源流 | 2 samples (Aśoka Rock Edicts XII, XIII) | philologists in Prakrit / early Buddhist India studies; review of Chinese + Tibetan draft columns |
-| Sanskrit manuscript · `sanskrit` | 梵文写本系 | 1 sample (Prajñāpāramitā Hṛdaya short recension) | Sanskritists to review the English draft column; more GRETIL / Nepal / Gilgit texts |
-| Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 27 Dhammapada scan-first samples (Yamakavagga 1–4 → Sahassavagga 100–103; Fausøll 1900 / Müller SBE X 1881 / T210 法句經 fully attested) + Therīgāthā ekakanipāta 1–5 | Pāli scholars to review the extensive Dhammapada run — open readings and apparatus settlements listed per file; a native Sinhala or Burmese reader for pronunciation drafts |
+| India · `india` | 印度源流 | 3 samples (Aśoka Major Rock Edicts XII, XIII, and the Calcutta-Bairāṭ / Bhābrū edict) | philologists in Prakrit / early Buddhist India studies; review of Chinese + Tibetan draft columns |
+| Sanskrit manuscript · `sanskrit` | 梵文写本系 | 2 samples (Prajñāpāramitā Hṛdaya short recension; Vajracchedikā §§ 1–2) | Sanskritists to review the English draft column; more GRETIL / Nepal / Gilgit texts |
+| Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 31 Dhammapada scan-first samples (Yamakavagga → Pāpavagga 116–119 opening ch. 9; Fausbøll 1900 / Müller SBE X 1881 / T210 法句經 fully attested) + Therīgāthā ekakanipāta 1–5 | Pāli scholars to review the extensive Dhammapada run — open readings and apparatus settlements listed per file; a native Sinhala or Burmese reader for pronunciation drafts |
 | Southeast Asian Theravāda · `seasia` | 南传东南亚 | 2 samples (Karaṇīya Mettā Sutta Sn 1.8; Lokanīti ch. 1 *paṇḍitakaṇḍa*) | Burmese / Thai / Khmer / Lao / Shan-script readers to review the Burmese and Thai draft columns |
 | Silk Road · `silkroad` | 中亚·丝路 | 2 samples (Kharoṣṭhī Dharmapada attested + pedagogical reconstruction) | Gāndhārī / Khotanese / Tocharian / Tangut specialists; more Schøyen / IDP / BnF material |
 | Chinese canon · `chinese` | 汉传系 | 2 samples (Fó yíjiào jīng T389 selected passages; Sìshíèrzhāng jīng T784 opening) | classical Chinese Buddhologists to review the English + Tibetan + modern-Chinese draft columns |
