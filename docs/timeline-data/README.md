@@ -5,7 +5,7 @@ Structured extraction of the **World Buddhist Canon Transmission Timeline** (八
 ## Files
 
 - `traditions.jsonl` — 8 traditions/branches
-- `events.jsonl` — 91 canonical-transmission milestones
+- `events.jsonl` — 94 canonical-transmission milestones
 - `events.csv` — same, comma-separated
 
 ## Schema
@@ -60,6 +60,10 @@ CC BY-SA 4.0 (same as project). Attribution: "Sarasvatī project, timeline data 
 - Extend by adding rows; PRs welcome
 
 ## Revision history
+
+### revision v7 · 2026-11-02
+
+Additive: `evt_092`–`evt_094` appended from the weekly evidence proposal `proposals/timeline-2026-W45.md`, written directly under Pan's 2026-09-21 auto-approve instruction. Rows: NMK Dunhuang scrolls first-public-display 23 Oct 2026 (`sinosphere`); Thailand royal-patronage English Tipiṭaka 45-vol project (`pali`, 2022–); Zhejiang Univ. Dunhuang fragment-joining monograph (`sinosphere`, 2006–2025). No revisions, no deletions. **Total after v7:** 94 events (was 91). Data-only until the canonical PDF / preview image is redrawn. Reversible by `git revert`.
 
 ### revision v6 · 2026-10-26
 
