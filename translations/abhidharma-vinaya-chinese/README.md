@@ -48,4 +48,6 @@ Scan source: IA `taisho-tripitaka` → `大正高清調整版第027冊` → leaf
 
 ## Status
 
-- 2026-11-02: directory created. First sample planned for today's 13:00 content cron.
+- 2026-11-02 (06:40): directory created.
+- 2026-11-02 (15:00–15:50): **first scan-first sample shipped** — `mahavibhasa-t1545/juan1-opening-4lang.md` (37 KB). Attests the opening page of T1545 juan 1: the Taishō cross-reference line, the title (阿毘達磨大毘婆沙論卷第一), the author (五百大阿羅漢等造), the translator with honorific blank (❶三藏法師玄奘奉⌴詔譯), the preface heading (❷阿毘達磨發智大毘婆沙論序), and the preface body's opening great Q&A on who composed the Vibhāṣā (c05–c20 of register a). Three Sarasvatī drafts (现代汉语, English, བོད་ཡིག — the Tibetan a true orphan column since no canonical Tibetan Mahāvibhāṣā exists). All drafts ⟨བརྟག⟩, awaiting named reviewers. Taishō vol. 27 fetched for the first time by Sarasvatī. Sample 1 of 200.
+- **IMPORTANT first-sample layout learning**: p. 1a is **the preface** (阿毘達磨發智大毘婆沙論序), not the body-proper. The task-description's expected 雜蘊第一中世第一納息第一之一 若世第一法與苦法智忍為等無間者... is on a LATER leaf; the body-proper does not open on p. 1a. See the file's § Layout notes for the full set of first-sample learnings that will save weeks across the next 199 samples.
