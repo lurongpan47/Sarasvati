@@ -12,11 +12,13 @@
 
 Sarasvatī's canon archive is structured along eight transmission branches. As of v0.9 (2026-09), **all eight branches have a first sample** in the repo — but every non-source-language column in every sample is still a machine draft. The archive is now at a phase where the bottleneck is **named human review**, not first-sample creation.
 
+**Orphan-tier addendum (2026-11-02):** Pan's orphan-canon brief added a cross-cutting Tier axis to the eight-branch framework. Four Tier 1 targets (西夏文黑水城 / 藏外文献 / 汉文部派论律 / 犍陀罗+新发现梵文写本) now carry weekly priority over multi-language parallel texts. The eight branches are not replaced; the Tier is additive. See `ROADMAP.md § Orphan Tier` for the full table and `translations/{xixia,zangwai,abhidharma-vinaya-chinese,gandhari-manuscripts}/README.md` for first-sample status.
+
 | Branch | 中文 | v0.9 status | What we need |
 |---|---|---|---|
 | India · `india` | 印度源流 | 3 samples (Aśoka Major Rock Edicts XII, XIII, and the Calcutta-Bairāṭ / Bhābrū edict) | philologists in Prakrit / early Buddhist India studies; review of Chinese + Tibetan draft columns |
 | Sanskrit manuscript · `sanskrit` | 梵文写本系 | 2 samples (Prajñāpāramitā Hṛdaya short recension; Vajracchedikā §§ 1–2) | Sanskritists to review the English draft column; more GRETIL / Nepal / Gilgit texts |
-| Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 31 Dhammapada scan-first samples (Yamakavagga → Pāpavagga 116–119 opening ch. 9; Fausbøll 1900 / Müller SBE X 1881 / T210 法句經 fully attested) + Therīgāthā ekakanipāta 1–5 | Pāli scholars to review the extensive Dhammapada run — open readings and apparatus settlements listed per file; a native Sinhala or Burmese reader for pronunciation drafts |
+| Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 33 Dhammapada scan-first samples (Yamakavagga → Pāpavagga 124–127 closing ch. 9; Fausbøll 1900 / Müller SBE X 1881 / T210 法句經 fully attested) + Therīgāthā ekakanipāta 1–5 | Pāli scholars to review the extensive Dhammapada run — open readings and apparatus settlements listed per file; a native Sinhala or Burmese reader for pronunciation drafts |
 | Southeast Asian Theravāda · `seasia` | 南传东南亚 | 2 samples (Karaṇīya Mettā Sutta Sn 1.8; Lokanīti ch. 1 *paṇḍitakaṇḍa*) | Burmese / Thai / Khmer / Lao / Shan-script readers to review the Burmese and Thai draft columns |
 | Silk Road · `silkroad` | 中亚·丝路 | 2 samples (Kharoṣṭhī Dharmapada attested + pedagogical reconstruction) | Gāndhārī / Khotanese / Tocharian / Tangut specialists; more Schøyen / IDP / BnF material |
 | Chinese canon · `chinese` | 汉传系 | 2 samples (Fó yíjiào jīng T389 selected passages; Sìshíèrzhāng jīng T784 opening) | classical Chinese Buddhologists to review the English + Tibetan + modern-Chinese draft columns |
