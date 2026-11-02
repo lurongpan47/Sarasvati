@@ -29,6 +29,7 @@
 05be64caf13c68c35ce79b909ea3e81d28dcdce915b0fd16957336063414a66a  ./translations/lokaniti/lokaniti-01-panditakanda-4lang.md
 06066b523e9c6ba6f223ece916b779581d4218c9effc1e7d369edcc7463a4072  ./translations/jonang-catalog/pages_zh/p252.md
 0617994b62c76ba6701e95043f7877b42ff33e3cd0b91b1fca5cffc543380f97  ./translations/jonang-catalog/pages_zh/p441.md
+0623016bfda89e6c7eda0843704b7057d0bd49db05788704db48de3135bd3ba8  ./translations/zangwai/README.md
 065a44448270424f65435f4ce39f0c04e6f7b1a26cc1488e48df9474f160fd94  ./translations/dhammapada/pupphavagga-48-51-4lang.md
 06701923bb2ebdf9369069664e39b09db6b3f58bbb90bbb9b780a22bd6262b8d  ./translations/jonang-catalog/pages_zh/p123.md
 0704c891c00825048aba5389ce729feabd2fa4e5636adbbc49fb6e8701d251b4  ./charter/i18n/CHARTER.pi.md
@@ -78,7 +79,6 @@
 17685b7da6fe9eaa4a54c60baea496316156f26d3b36385d70c14f79362bb895  ./translations/jonang-catalog/pages_zh/p420.md
 18430313dd7f11091435ca3231158abf49ae280dcf171f2e88f58e3f73bdcb17  ./proposals/2026-09-21-seasia-week1.md
 18a0d1ed47ce40d73d5503de3aac7d911c6af3958814547e1462bb3a346f8632  ./translations/jonang-catalog/pages_zh/p127.md
-196174c5d5eb0ca792f8cf1df3bb93b2b3a6880a570b6576d999d3f2286811e7  ./ROADMAP.md
 19755c20ed4bb6dcbfb193e92088b1a1b063dd4d6bd0e09c0cee9949eab3333d  ./impl/python/redteam/scripts/build_seed_corpus.py
 1976f448b1809fe3c85af1e7767b72fac8fff077823969aeec07c37bef981d47  ./charter/i18n/CHARTER.fa.md
 19afa020ff105f4d9d863a720566d48d0c47768aeb3577c340878b06723558e6  ./translations/jonang-catalog/pages_zh/p396.md
@@ -93,6 +93,7 @@
 1ca70bcd8f2a1c6b3f3df255fad5184d143343e6281587575a8edfad2aee4c9f  ./translations/jonang-catalog/pages_zh/p374.md
 1e19c056225ded1c389970c8b025897aee9f5ac1a83df5de5df261fbfd44974f  ./i18n/README.hi.md
 1e3056c30222376ef847970875fbb1e266e1fca603722be2b358e97f5b0c01c1  ./translations/jonang-catalog/pages_zh/p354.md
+1e3f7d65367479d6db599e55cf1dcd57ca60a2fba12e4337834afc7bbf146693  ./manifests/translate-health.json
 1e4465b9af4a61373102282b23c98ed01663c8d689468b777e10cf213206e55a  ./proposals/timeline-2026-W39.md
 1e4d249b2aea8d8e7172db7efe28c4fe8f34b4ab952fd0e9adb843c5acfbeace  ./translations/jonang-catalog/pages_zh/p356.md
 1e5a2584bbb1fd1af02b17257e50d9eedc2674e4f973d6815aa0911558e51759  ./decisions/2026-09-26.md
@@ -103,6 +104,7 @@
 201f6aa21e718653b443c1091f6b316f13ed896c9bd178a30c0bc71ff0a3d12b  ./impl/python/redteam/results/matrix-20260831T00.jsonl
 2092b3ccd68a6dc5f8a5ca13a282ce941d92819df17ec9b0d90defe53d409710  ./impl/python/redteam/scripts/stop_now.sh
 20fdd96fc736d839021ec3a5bf62355b894968a0a9e0d45bd3c57d80bac4d48e  ./translations/jonang-catalog/pages_zh/p421.md
+2113c97bf2455a39c702b22d9cbfa05c1a716ff5fcf977d3a01e7978110fda27  ./manifests/SHA256SUMS.v0.4.0.ots
 213bf7e2d16e00431fddddec9fb09268cd1e581efb4a45b6aeee1759622c203e  ./translations/jonang-catalog/pages_zh/p081.md
 217781bd1330e801f7952bcbd5dacd9a43e06ab42ddf256e7e5a358973fc25aa  ./translations/jonang-catalog/pages_zh/p277.md
 2189bd4c809276887c1fff9140a1512eec830c84038d4f5a1a85b0be568c923c  ./impl/python/redteam/attacks/generated-20260831T0434.jsonl
@@ -121,6 +123,7 @@
 26c0e52db5d6e30f9f52990e1d7ed2174fa84cd26cb3cc8c8f901c4d9150d773  ./translations/dhammapada/panditavagga-76-79-4lang.md
 27303803808afd4d23efb7dd14a8237cd6fb84178069f87833bf1a6990cabdbe  ./docs/social/social-preview.png
 27d710b6434f8e0e33d052796102414b87a4ac339ae758752f596dacef9e33af  ./docs/Sushruta-Tibetan-Project-Plan.docx
+28317985637b4440057488b0c227805d8dd812a2dffe76c1aa1b3bb272661f30  ./manifests/SHA256SUMS.v0.5.0.ots
 286d09933f68dad83a154104d6b8b7a402d495dcf535fa4085290272b4672cd3  ./impl/python/buddhist_ai_guardrail/__init__.py
 28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5  ./LICENSE
 28c6a372e56b4111f7108cc5a2e09c771f204a0963d03f63a6c3d3c34f972bb4  ./translations/jonang-catalog/pages_zh/p247.md
@@ -212,11 +215,13 @@
 46a33f6d33bb5c0f775294984b0865b10ac1912650c7d6fd7818c041648a090b  ./translations/jonang-catalog/pages_zh/p207.md
 46a5d4df09abdeaac59dd8df0ad9ea05d219030f75807a1287df2df5e208e846  ./translations/jonang-catalog/pages_zh/p444.md
 472763eb4039661ec4fcaf5e0dac03d38314c9d027de5e6921ffebb07b271591  ./translations/therigatha/ekakanipata-1-5-4lang.md
+4750f243ab013a206468b669e5d67dc216271f9d84f8622471f629c42213a373  ./CALL-FOR-HELP.md
 47518139a1e82496b43a3e2e7aba2250e7a523275b3db7fe96214a0e1acee6d2  ./impl/python/redteam/results/matrix-20260830T17.jsonl
 47e3f4ea2f1fdaadcf89e6df533462f6a8e7596496c27c9973c4290bf93c9fca  ./translations/jonang-catalog/pages_zh/p266.md
 47edeee3c67f0909899997f4d941f53bb19eb18450463ecc0b941965bd2824d4  ./translations/jonang-catalog/pages_zh/p241.md
 480523fdd15a93c2e3f75f8db9d957748950b1fd59305f9937f1aecffe32bfa3  ./translations/jonang-catalog/pages_zh/p007.md
 4827eb468197dec87025d8eb22dd3ea0058aafb336ed5e39fcfa4362e23b6da7  ./translations/jonang-catalog/pages_zh/p399.md
+484fb8909113aee40755c8e3fc172d47b040752fe4e6fa1814341ea3cfa45f8f  ./.scratch/dhp/112-115-crops.txt
 4892984c8634f6e3b71e621cc2d644ca71b009b6a3f9274682575d065679360c  ./translations/jonang-catalog/pages_zh/p060.md
 48e28dd3a25c7f9b82ad4145bb347bd69b7da2e25f9b159c7cee83e503cb8d5c  ./impl/python/redteam/results/matrix-20260831T06.jsonl
 48e431b330fa15b78db29edf30db25231dee9303705bb18580e42f5260897498  ./translations/jonang-catalog/pages_zh/p080.md
@@ -224,6 +229,7 @@
 49eb368d18ac00d3cdf7d2f87cd7f8056abd4aff2b90896002797e02593d0e92  ./translations/jonang-catalog/pages_zh/p377.md
 49eb962bdfa9c23b2d99968411df39f1dfffd8be6807351eaf095ddbac56fe8b  ./translations/jonang-catalog/pages_zh/p380.md
 49f013729c445021227b29b852462ff8b8e32644537fe9f567db2c56a5503bb5  ./translations/jonang-catalog/pages_zh/p189.md
+4a175f2a8692a61321d0e950246e9387463c1eee48c8f4ce7c79f8eb772b8869  ./drafts/2026-11-02-pan-orphan-canon-brief.md
 4ac9648b1fbf84be31864b43dad641a5711889ec396d99298d6e0a3d9e0d1381  ./translations/jonang-catalog/pages_zh/p390.md
 4b18ff49899c178d4de65db6ec53bcb22199ab8649e45731a8caff84166af238  ./translations/jonang-catalog/pages_zh/p242.md
 4bd525396a8c97740e5957ff54a28c41091361d49ec72d0000d1b32abbb6efc2  ./drafts/huggingface-gpu-grant.md
@@ -244,6 +250,7 @@
 511d704d791bf7d9135b6277f66de910876f9162c438cdfa8763d0560345c4bc  ./docs/impl/index.md
 518269c74d5a7138d0938b9fbb14200a46977f30b7ab7b231fa634ec9dc07a78  ./translations/jonang-catalog/pages_zh/p152.md
 519cfdd43f832c282491a96713c0e84f2b326d3375292ce1d09ca025393d289a  ./translations/jonang-catalog/pages_zh/p218.md
+51bd849273e47a024896f4eb1629e7c63b8419e14f93e5b8a40c0ca5d17fb700  ./translations/vajracchedika/khotanese-nidana-6lang.md
 5238343d147a578f9e51d228c90336ce4dcb5f0b43c8d3ba498a7a19c2842f81  ./drafts/internet-archive/metadata/sarasvati-full-corpus-v0.9.yaml
 525000de2b5c39e155fafc70a6491f444c92e4ea4558762196e5fdb0a602a171  ./charter/i18n/CHARTER.km.md
 52a32f6437c6fafd26600fcb6d30eae24872367cd7546428852bf3375bbeaa9e  ./drafts/anthropic-ai-for-science.md
@@ -342,14 +349,18 @@
 7132b16727e7154d8d8e4327dafb6578fba315d5222ac58c0884f0c17c5e1d7a  ./translations/jonang-catalog/pages_zh/p256.md
 713e0c48cafd1e474c5024d67af9e44cf9ffcc49385a6cb5d1bac46f11986989  ./translations/jonang-catalog/pages_zh/p216.md
 713e194ef04e34ba670d648429a75de12d4ce289096430792ae7d917506f200d  ./translations/jonang-catalog/pages_zh/p078.md
+715ed749c158b9fef70a9ff5285e8ac64815cb30cc51883058a461321d5ac9ab  ./ROADMAP.md
 716a2a314924f790a86b9e6065a6e97f40f36f6482df61613803c8d9aeee5a4f  ./i18n/README.sa.md
 718958a07f2ddf932ad65a8a0123f421e8dd2123ac7e932e530a49d12a994782  ./translations/jonang-catalog/pages_zh/p065.md
+71ba10dba299aaf73c6d6fba6120c635f48e6b27c395930d413f56ac13a12feb  ./translations/abhidharma-vinaya-chinese/README.md
 724c54655b7d43fe7f8bc761508bd2d8f7fbf905ae246abe2afe3c72f10a06e3  ./translations/jonang-catalog/pages_zh/p296.md
 72e5ae992e3153caa68606375e17cd6eb0d2d4e24b2d1a1b20b942cd08b9bbae  ./charter/i18n/CHARTER.id.md
 735e6c1eb9aeb19fe895fba956ca3ab3250689e321a6a7fd7ee02a0e4df816d0  ./translations/jonang-catalog/pages_zh/p019.md
+73a63141db49f821a8514cfde6f191991a5ac0662fb2ac6096d9d22bcc5956d9  ./drafts/2026-11-02-orphan-tier-roadmap-patch.md
 73d6047e976732bbc3e383bc565048301e2b6de8956dfbc809898e5d21f2e812  ./translations/jonang-catalog/pages_zh/p057.md
 7435a72395d45f489413e831b9f7ffda56dec0239b10d70e1599680d0066c278  ./translations/jonang-catalog/pages_zh/p046.md
 74fa5ebcaef09ca3ebda957fdd7ef82584d03b5693b424c160b95ccf58f6f17a  ./decisions/2026-10-21.md
+75e28f631ffb283c9df189986eb94de7bcaebd6bc41f845ef0fc3b9adf8a9362  ./proposals/2026-11-02-silkroad-week2.md
 75e6d1a01962b049e9af85da0c2775a0dad3e4801320391162a8418ee0d3ca36  ./translations/jonang-catalog/pages_zh/p370.md
 762037a7bee92a0270d8288890cc519a8cdfba124bddecb7ef39fda61ba88484  ./translations/jonang-catalog/pages_zh/p307.md
 76ad7a2ecc0a9dbe3319e439ef6ea16ae5ce63bb872c0f7fc4a846d446b988d6  ./translations/jonang-catalog/pages_zh/p329.md
@@ -362,8 +373,8 @@
 795beb9ffa77606d7416d433b7192cc958b1999ceab1de258e138c5ce6cb0cd3  ./translations/jonang-catalog/pages_zh/p151.md
 79f7d28a64598bb59c7639878200887db8a921383fe43b7e4206ca3ccd8ee814  ./translations/jonang-catalog/pages_zh/p338.md
 7ad933f0a766367c8e3a87c0d97c4568e37a9d7f413a3a84814633abb8a2d8c6  ./announcements/blockchain-community.md
+7ae915cafb7217fb6b91b7c4d361de782f565c64c2878bfeb34e6284e126cbd2  ./translations/xixia/README.md
 7b98c0adcfc37e9bf37679e1d441b46c2c58bc54e33248660b2b079eb5aaf8ae  ./i18n/README.zh-CN.md
-7bbf2b3c5f502337d657acdb7f34c5d45a9529e6406e9f4a7ffc659757f61ffb  ./manifests/translate-health.json
 7c99261ee94c426c0909b269d2f2eea58732baf7cbbe531ab5a55efafbfba900  ./translations/jonang-catalog/pages_zh/p219.md
 7c99df66f70c624e6d0838abc5de543c3e60ddb4a5a3a788d738e94764be744a  ./translations/jonang-catalog/pages_zh/p113.md
 7cfea12b8d0da49d18272a0429ef632b890f533d982e56468304f1c0d50521be  ./translations/dhammapada/yamakavagga-13-16-4lang.md
@@ -387,6 +398,7 @@
 81dfb6a8e4d518f85b167aef13a654dba06567eb32bfd7608a1fbdba65753f7e  ./translations/jonang-catalog/pages_zh/p102.md
 823abe7cb4c57f91153b71bfbcbc8aec6716a39809aea9ae3a0c2dff9e639666  ./impl/typescript/src/guardrail.ts
 82500600406484a5c690264612baa3a01934a9858042a53110dde7445a76f216  ./decisions/2026-10-06.md
+8259199ea97e1a2719f270feabb577a87cbc6d4c8e80f8b46a0de4e1ffca3904  ./manifests/SHA256SUMS.v0.2.0.ots
 833b07978cc55efab37219c9450caec7680bb001966f5fdcf19c1f8e1d5c0118  ./decisions/2026-09-29.md
 83eb8af5f01790aefd85f094de588c0321e5f84b797a2f6614ca659ba1c73266  ./impl/python/redteam/attacks/generated-20260831T0652.jsonl
 842fe47c5545513c2b36eca13e0e73f9af9df8ee4a3422b0f91d74ec53b5ac24  ./translations/jonang-catalog/pages_zh/p382.md
@@ -415,9 +427,11 @@
 8af697c40a4d3d7d3824c29d31e087ef471267562dd3bc665606ebf3702b3b3a  ./charter/i18n/CHARTER.my.md
 8b2230de2439fb8d9cfb9aac525955ee6191a34f2a2963dab53132452fd82eed  ./translations/jonang-catalog/pages_zh/p017.md
 8bc491e22ce95a9d14db339016a7ea19f9a95a7d6fcb5c444d989069dce3015c  ./translations/jonang-catalog/pages_zh/p206.md
+8c1ab5083c3d7720c8b2e551d7b73ce54dda98e6808728d79e121e37363a7d50  ./.scratch/dhp/116-119-crops.txt
 8d2a6bc99b021cc7f6281ffdf358e452e6fa0f3ca06864203322e965552276b1  ./translations/dhammapada/arahantavagga-90-93-4lang.md
 8d8cf635e2c9e135ff2a448e80519dea0bf5fb38053764deb130f45da04e2bd2  ./impl/python/redteam/results/matrix-20260830T18.jsonl
 8daa3abbd4e2fc65fdb2ae2576c86e5d88ed506a1f18461dffae3dbea45b2260  ./translations/jonang-catalog/pages_zh/p092.md
+8e3e770963abfda3dc2a92b2e62bac0f7f9d40a172afbe0765e2f4a76684d34a  ./translations/gandhari-manuscripts/README.md
 8e4c062b1da0d247539382a89d6eda6117bdc136c3c8b973756112c53312fcc3  ./translations/jonang-catalog/pages_zh/p292.md
 8ee15ef3375e778b147e792e4fb7da11137a0aadbd223b5a6ab9afcffe7b78d7  ./translations/dhammapada/pupphavagga-52-55-4lang.md
 8f3c968b5e11121672fbc093abc3cc17d9aaf3c75e76891879f7e820f280b40d  ./translations/jonang-catalog/pages_zh/p023.md
@@ -456,6 +470,7 @@
 98c7bdd8262335079ca453f04a06c4e701acd0923924a7a04bfe9509d27ac8e5  ./translations/jonang-catalog/pages_zh/p394.md
 9927ebb4480c82819e42a6a55248708c5d1fbf8e359f2570701fa2477dee8d27  ./proposals/timeline-2026-W44.md
 99808722913695bccc43e1a388ac8c2ac7fa8c181652259fdea1786973130d4e  ./translations/dhammapada/balavagga-60-63-4lang.md
+99c09ba7e9ae7c15ace5a7c2b4f9289bf22bfbf61ec7ee44434a1d5bd78b6da0  ./translations/dhammapada/papavagga-116-119-4lang.md
 99d4ec560d9087a630e5304f7712e822717cc7212d3247042983f3647fa25a67  ./translations/jonang-catalog/pages_zh/p144.md
 99f46143b47d762626c29a1bbc4c93cd5d5051df35aa1f61b895401a5fc396d4  ./translations/jonang-catalog/pages_zh/p114.md
 99fca29d70eb5d69859b801c99b692c1640c0444b5893dbe474b1f8e5e5224f3  ./translations/jonang-catalog/pages_zh/p437.md
@@ -474,6 +489,7 @@
 9d0acda6f1a37f4727092f6258de2f2033e9c65d4a38b4670c3bdc4a6dd5ee0a  ./translations/jonang-catalog/pages_zh/p230.md
 9db4f3438b25a0a2c789669b516776b59d0a98b3b3460339764d302e9a8109ea  ./translations/jonang-catalog/pages_zh/p153.md
 9ea2ec386952b4ed02b8add5e43adfaa07869c025514796a44e35424d2fe788d  ./i18n/README.ja.md
+9ee94cab7eaf8cd15448d5fab191c6a3f8cb1ec761a632ed8959da6d9b996fe5  ./translations/dhammapada/papavagga-124-127-4lang.md
 9f164b2875fd0998bfc430e2832af81720df4ff19299157d3f64fd5f27f59b79  ./docs/timeline-data/README.md
 9f2e9ce5fcfcf34ee474a90956cad15e52f36f73d1475595376bc7072078065c  ./i18n/README.ko.md
 9ff53346f0797a41745bcf4b9695141b8497974c3092bc17ada6b4f23df66a52  ./impl/python/redteam/attacks/refuse_concealment.jsonl
@@ -508,7 +524,6 @@ a6f2d0bf229dc9460add2737f77525a66729cdc386a0faf42c669b0711c861d1  ./translations
 a6f60cdb6ad848aa76ceda2bb623d5cc3dbba0466904aa76c65d91e7f0984a66  ./i18n/README.bo.md
 a75026b4f30e4903e535ef5a61099e70edb236936f0e3d82a8124d3c59b03cdd  ./drafts/internet-archive/upload-manifest.md
 a7c78551d93fb3ea002e79e6113705355f777db0c617eeff82922ac1ed50d8c9  ./translations/jonang-catalog/pages_zh/p259.md
-a7eb656dc2ca870a2887c3c90431cadef3cdcb7538964bdb2575cbeac3f62987  ./decisions/2026-10-29.md
 a85cafd575f1c6071b1942be220ce9a56b490d5670765d208fe7a09e5907f844  ./impl/python/redteam/results/matrix-20260830T23.jsonl
 a86982f7bb60879c0cf52584b676f3245b725610828a67cee88f1d0a22def840  ./decisions/2026-10-10.md
 a894acc1da6eba50b333eed4bc156f4521f4b8467a064f83a9ad015c76f1bc9f  ./translations/jonang-catalog/pages_zh/p175.md
@@ -531,7 +546,6 @@ ac0cd0b5bc98ede55ea61d18a4e89b6a34ed6beeca7523bc3f64af609b044381  ./translations
 ac5447e516a5931985a18130af1da36c25bacd469647ebce3e719bdfea208d2d  ./translations/jonang-catalog/pages_zh/p346.md
 ad3be333108bdf8a686ce9e7f5f5fb7ed625aabd74c02a3a623f4341afa4ad0f  ./translations/jonang-catalog/pages_zh/p339.md
 ad4f594656270dbae69b5d8b34bdaa7a629b87205da84d4a40db16139afc210d  ./decisions/2026-10-13.md
-ad5ac16e736009784b632b60420617d48c613e71b8fecc4b0dfeb09ebe704d1d  ./CALL-FOR-HELP.md
 ad77a7f6b3d22fc616117e9e5378464285ee805505afa479ce99792afc95b499  ./translations/jonang-catalog/pages_zh/p161.md
 ad9725f0eff5188adf799e0d213befdbb127d967f35c01a0958552ca56c1499a  ./translations/dhammapada/arahantavagga-94-97-4lang.md
 ade1fa38ae1d32277359b0cff78bd2cadc9016805ac00f754ad25a0de0ca22d2  ./impl/python/redteam/results/matrix-20260830T12.jsonl
@@ -541,7 +555,9 @@ ae290c3ed379a7cb0af3762e8315404444a4ecdc45823ae96b9371c3d06285b2  ./translations
 aeb26ee3087c283698be09387e629f0219cb8371a183667bfd1dae626797eb8f  ./i18n/README.zh-TW.md
 af194df5ed5e735f262ba36a38f877409dfa20244e9cf18117ac56051995abc9  ./translations/jonang-catalog/pages_zh/p412.md
 af642ba7ef52092b47f04f46c46666cebb0d06ffaa45adc1dcf8259d863b9a18  ./translations/vajracchedika/sections-1-2-4lang.md
+affad1a3724d68f004a363da5113e8f5280a56c77a29fc950cb7500e4dd1b8a1  ./decisions/2026-10-31.md
 b006a941c81e9cba3bf5375a73f193a986f895f9626a99d9c8dd548d276384df  ./translations/jonang-catalog/pages_zh/p190.md
+b03cbdefc3a6557bb6f8031adb314ffe2c5fab0d7dc92d18573d0225951656cf  ./manifests/SHA256SUMS.v0.9.0-a.ots
 b0492041fa1d24ac3027e194d6b324a0e537e5683bffb6979aa7ac69cff96f40  ./translations/prajnaparamita-hridaya/short-recension-4lang.md
 b0535f16489dbde0b1ae7ce8eba7ad3ef5a262e2cc98270bf730bf88a68b1b78  ./translations/jonang-catalog/pages_zh/p116.md
 b05bc63e3debe0f613bf550bcb5d58bd50176afc1a78c33e411c85ecd7992850  ./impl/python/redteam/attacks/generated-20260831T0910.jsonl
@@ -562,6 +578,7 @@ b6a0711458502a63d50f23837eccbcfc99903813beda7b4793f177ab0d404c58  ./impl/python/
 b6b6fb0c690619c671d9a75e85279a7fc54c9c55cf24dfe66809cb9e25cd4e24  ./impl/python/redteam/results/final-report.md
 b753ecd3d83e20fe5fc15090cf097f5962b43f0cb05916a578189117e19a65e0  ./translations/jonang-catalog/pages_zh/p403.md
 b7807aedfcb30ae0f3507df000992d6e85bb2bfda05ddc3925f13bffba59ceed  ./decisions/2026-09-14.md
+b7888f6435ad8af6c4191a8681ea1c583872960c2d4ce15b9a09d20f0052c39a  ./drafts/2026-11-02-xixia-outreach-letters.md
 b78f3c63b4adc571fb7164e008f131a193a2246176867d94776e2759d1d7634a  ./impl/typescript/package.json
 b86798a67301dbaab147eb2b6c294c5b7a70de425b38fa1abbbea24494c9aa38  ./translations/jonang-catalog/pages_zh/p112.md
 b8bef2c8a1ca918a7dc4b94b7062a7c6830b2ef4eedb78cf645941f697e94763  ./translations/jonang-catalog/pages_zh/p294.md
@@ -582,12 +599,14 @@ bd20f91699c6659edf485ea169cfcf3b4618fcb0def335c4f5053915c02b7d6d  ./translations
 be109c65fd36796a65a7f77265c16938461ff8140af8c6f1d05bad03fd8d3450  ./translations/jonang-catalog/pages_zh/p095.md
 be73df0fd8a267fe6de26f956c2d2fc04b40ee4fdc9961719f9b36b4235028de  ./translations/jonang-catalog/pages_zh/p407.md
 beaffe5e24dfabf80e9bb5bd82df1a10536a2653c170322dcc1d1c1d9876f6ac  ./translations/jonang-catalog/pages_zh/p109.md
+bf37bd2854fee403f99a43961b0e0c2163755d4212574ad45f7fcbd9b923a45a  ./charter/i18n/reviewer-notes/CHARTER.bo.notes.md
 c1004d931ada10fa19a3b5f629d64588b2f027450174741624eb7677b7ca606c  ./translations/jonang-catalog/pages_zh/p168.md
 c1354ebd7f3a29a6137c1be1b4640959f6e391270d4c0cf8ce7c4ec93acefb07  ./translations/jonang-catalog/pages_zh/p275.md
 c16f8cce0db36f1d8d410ead29054f33445485c6a715cd622ddbc8b83f4b16f2  ./scripts/charter_i18n_invariants.py
 c19affaefc2e627f3d63621fe1e8478ce5659471c564be0fdb13cffa012bf24c  ./translations/jonang-catalog/pages_zh/p235.md
 c1b974264bfbe64ecab52eb4b32a7e515dd71585219e18623643f94d1de56916  ./translations/jonang-catalog/pages_zh/p445.md
 c1e64e574e5c29accbcda772bb10d2d736f080c25c3562812ba0672f3e8ff7d6  ./translations/jonang-catalog/pages_zh/p337.md
+c29233f68d9629763e8dc599ca50f052e93b93759d34b367e01a235e3f02ab38  ./decisions/2026-10-30.md
 c294f62e273cc3d8f5cf7ec431c5d5e01e9ad613b34cffc25081eff55e2bde73  ./translations/dhammapada/pupphavagga-56-59-4lang.md
 c29db5d9f0bb5d6e9239ed4073f2f9f79f94d08eb36e1b08f0cc2d49f804928b  ./charter/i18n/CHARTER.vi.md
 c33957696ce84271e3460631c83e27050b1dafb81dbb42307f61d77c6d1aa517  ./decisions/2026-09-17.md
@@ -632,7 +651,6 @@ cf10aa58ff3ad707b40956171b0b782a0bda9b0495c3881166cc551f79a1ad3b  ./translations
 cfa1d2381bb5658173043ca489a35f8d10e289c67cf4a888f821a1dbe5d43d6b  ./decisions/2026-09-21.md
 d002e3d3adeac3f50e7ce999b297c2352a0728f53f0481aa3727217dbbef220d  ./translations/jonang-catalog/pages_zh/p067.md
 d02a0062dee2a4d551de0e7d839a5af5f2d921c71a190247e589fe3b28da7dfb  ./translations/jonang-catalog/pages_zh/p270.md
-d10d4261ec267267c9538ccbe4ffd0181d26d261259e674ce692241dd90a608b  ./CHANGELOG.md
 d13b4a3cb8a6a5d3057fa34ac1cea4a59d399c97031ef36c8e3225b6bc84e817  ./charter/i18n/CHARTER.si.md
 d166f48eb4e6ccce1eb4335e1c0ff11531c05a8ffa13af0732ef6a983436ef6e  ./translations/jonang-catalog/pages_zh/p341.md
 d1a72ad4b86f81b990aecdee2a655f33deeae33d7db0db3d59571691dd1c3168  ./charter/i18n/CHARTER.tr.md
@@ -640,13 +658,13 @@ d1d2881ebd153f56d881f7387fa4d46bed02fe0b769050f133d13ceaef06efdf  ./drafts/inter
 d1ee1612559cf75c8c2db3d12c2daf8a66935d4f999bd4ec214bbfa7424ade0c  ./decisions/2026-10-27.md
 d1f36ff384420a6664d655839ef2a3a6d39a209fa3f9d2b27d7b2dabd693c443  ./translations/jonang-catalog/pages_zh/p295.md
 d28065698934cb9f97a4fcb0c2e1ee51bc611dfa871503a2c7237193e19ed833  ./translations/jonang-catalog/pages_zh/p091.md
-d2d34b61987752d95fd8a530eeb386d59a4a266b8917436750f27954d1a712a4  ./README.md
 d2ea4f4731fc671e291ad1f57908045c5b4c9de9d89b3bdf7d4ae6dfead45f84  ./translations/jonang-catalog/pages_zh/p321.md
 d3179c0d96484ecf8441d5ee4e9d77969fb333513a6a0f7d3ebebdf09a7a49f3  ./translations/dhammapada/cittavagga-33-36-4lang.md
 d33564981e7574d32f98e067ea7b4349848527a1628449b62d542eb6f43113ed  ./translations/jonang-catalog/pages_zh/p309.md
 d37caea79570d218e1df44008de07ad363149f7fd3e82b430ed3155b758232e5  ./translations/jonang-catalog/pages_zh/p213.md
 d3ca9a87a597451ff35bc19d22e125589154b6fb11f4ac92b3b775b0f3e6b466  ./translations/jonang-catalog/pages_zh/p425.md
 d41acba078dd3afa2c45579108938eb3ee0179ecafed674978c5b9d6c1fcbf72  ./impl/python/redteam/results/matrix-20260830T21.jsonl
+d426fa02286a34ebc95374422ac08d15b4a08fc223aa2e21df22a91e782b5b02  ./decisions/2026-10-29.md
 d435610b42a87a84aa531954162ab4758d137f4f925edae0b22c7dca9e0a5a8a  ./translations/jonang-catalog/pages_zh/p281.md
 d4c5024ac2892855788662c20c1aef522e49e6e3fc84bc76c22e8a1647d7da20  ./translations/jonang-catalog/pages_zh/p005.md
 d5a3b734969712188fab222fd2f640b813652577121855a81cf7ffc04032bee0  ./translations/jonang-catalog/pages_zh/p313.md
@@ -656,12 +674,14 @@ d5c5099ff7f27b072947d51c6e4a7d15a22386ce0e2a8ebae294d3742da8627f  ./impl/python/
 d5c7ce97214b12102640a0b4dc1d28c471630bb9c5f039e702ec4a05347273f3  ./translations/dhammapada/yamakavagga-9-12-4lang.md
 d5cab834235d89135bb0d006068e80dfeb13fdf3318ab94b43563d252edfa0f1  ./translations/jonang-catalog/pages_zh/p226.md
 d5dfeb5314141c44d3d4146f6b848946ee0eef12cddfa789d515aca49e45476f  ./impl/python/redteam/attack_generator.py
+d626d72d63ee344326565143ff1c955616ac3fcd6e24bdecc6302925b8126c5e  ./manifests/SHA256SUMS.v0.8.0.ots
 d71bee1cc2dfb6dc45400fd4ed3f44b40c68ba38eef4e44859cbc3e5d688e73a  ./impl/python/redteam/attacks/sati.jsonl
 d7a37d4bf911dd250445837fa65e6559c9b8727031839b9e62fbac54c8010dde  ./translations/jonang-catalog/GLOSSARY.md
 d7eae0c46645a51714cb3aaffcf9e4bea85b1e7dce087d39730269aee8df14d0  ./impl/python/redteam/attacks/generated-20260830T0929.jsonl
 d86a2f5f602f80663294ff891f0d6b00a32321a374057ceebfd6da1c80476526  ./drafts/internet-archive/metadata/sarasvati-wonhyo-daeseung-gisillon-preface.yaml
 d89a4c86ed998e6921da0b083cacc524af969e6b6f60fea08f65a4bbdfc85676  ./translations/gandhari-dharmapada/khotan-fragment-Ia-3lang.md
 d8b7b4a561c5beee17400c6ad97bd74b20a635ba82ed24a63aad6f7d970e8a98  ./translations/jonang-catalog/pages_zh/p159.md
+d953d0ebab3892305f6841e6b570dc0f5e86720c27eb61f30a6cdc569598cd97  ./.scratch/dhp/120-123-crops.txt
 d9c75853086643f0d5c0d391f5cae76e68ea74389bb806e4b314d643679e8cf0  ./translations/jonang-catalog/pages_zh/p054.md
 dae4123166fbfb460a836b4d9d1aa14c81a82b6a6f4327bbdc8dd9007f6e8502  ./translations/jonang-catalog/pages_zh/p062.md
 dc4fd8ca3e0f7c0a93d54903b515915f891aa63a44143ffd87e1e5dc8a2716ee  ./translations/jonang-catalog/pages_zh/p279.md
@@ -682,6 +702,7 @@ e11c04efded1e48041d0a5df607e62150bd651b10bed404a2b3e9c29737f5711  ./translations
 e125676b7367210dc489661240b9952f52c3cdddc9e1cf398d7724f07a34c576  ./impl/python/buddhist_ai_guardrail/principles.py
 e12ebf0153d3e1de2ce135d871f6d24dad255866e18a3a9707fd7a7d38dae33d  ./proposals/branch-chinese-2026-08.md
 e14474f49a0590ee9e7320627a675b99a5bd9ec52da46b8c95fc5ddf70a986a2  ./proposals/timeline-2026-W41.md
+e146715b05808c64551a629068e05af421ae3d27188e2a553a441f1204840b0f  ./decisions/2026-11-01.md
 e18f765cfe5c7d805d5d2b65d76b7976de60c9abf0e73325ff7e65f9d3eaa3b9  ./docs/charter/index.md
 e258560b3459ebfbf0e3c805adc681642fb84df9f8e1de5dc6d2961d15792d4e  ./announcements/blockchain-community-cn.md
 e28207a86643d0e05f80c0f1eabd5e603ac7f1b8457b84720f9a7e0d96add0bb  ./translations/jonang-catalog/pages_zh/p049.md
@@ -690,6 +711,7 @@ e2a64b0cef7a55993ab9c8a7b5ab4bfb4b4b6ad04d2e1e53f9260483ddbd1efd  ./translations
 e2e3c61bd766f90ee86cc024ed024931eff950590b9ae402a02bb064d17a62ec  ./translations/jonang-catalog/pages_zh/p172.md
 e2f53004eb73d36ee21474a26f2a8b2d665d2e374f7eade67a65ba794170a1c4  ./translations/jonang-catalog/pages_zh/p265.md
 e301b4a9bc49c9b5571ddfd6554d0e2b9df034a4d73793fc38550c584b081a54  ./impl/python/examples/demo.py
+e36e6d3c4ac2b8ecdb66ad2b86a10b32fac9084185cd297dcd3f3e003c65edfa  ./README.md
 e37dcecaa988ce3989a951c9365385f1d6ac2e6607ba8f4d6f641863009defc9  ./translations/jonang-catalog/pages_zh/p073.md
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./impl/python/redteam/results/.gitkeep
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./impl/python/redteam/results/watchdog.launchd.log
@@ -712,6 +734,7 @@ e7f94cbfa53a80ed6c9a7d41514c47f93189b8c7593d904f35d84040c9b093b9  ./translations
 e865e5ca70579714e4c384e6ae0e474fc30cebb1a669077a7368fa790ff3289c  ./translations/jonang-catalog/pages_zh/p090.md
 e8b42ea6c42bfad18c2ebd4ffd46e981a99da8a9097dc5dd709a48b75fd43c5b  ./decisions/2026-10-18.md
 e90cda12506419d6513c151e9c90049f01a86519be985f3515636e137e719627  ./translations/jonang-catalog/pages_zh/p406.md
+e96b2756050e729e23ceef1503dec3e05e4673e600c0744e97d2e6385058b3dd  ./decisions/2026-11-02.md
 e97ba4d82ad2abd7e6640b17ae58f4de2a50d8bc4b0ca31553d09b05c68c6cca  ./docs/Global-Buddhist-Canon-Transmission-Timeline.pdf
 eb3e8154723e9d11b0850f5ed6bdd203c6d09f356fbdf9e63e4faabfd4aa97b6  ./impl/python/redteam/results/matrix-20260830T15.jsonl
 eb43cc0256474bf359d68a39911fbc2ccb39f3e211f1caf37fd6297e2f1fb7c7  ./impl/python/redteam/attacks/refuse_safety_bypass.jsonl
@@ -747,6 +770,7 @@ f6a6ebdadcb553850709255f3214a1f4df92d4053688719e461564c4058c9718  ./translations
 f6cdf59062e15b2f9a9b2169e775ea7406a3c282e08e704c420f17e3ac40c326  ./impl/python/redteam/cross_reviewer.py
 f6e17a76a91447f731260d67667df2e1d5b1aeac776073bb2ed1212a0b29da5f  ./translations/jonang-catalog/pages_zh/p303.md
 f6f66f0d69f3b89c82e12d4554c70e9477d9d49e5565941d79f8cbca303d32ed  ./decisions/2026-10-16.md
+f7e195a114e3e2011d64b86cb7eca91d31c0b25fe2d86020ea2d372357112e39  ./translations/dhammapada/sahassavagga-112-115-4lang.md
 f80726dccce39f8745bd748211727b4621c7c580c300a694ed5b923f24c7f1f8  ./translations/jonang-catalog/pages_zh/p014.md
 f850908b31d0ff652991a28062ac57ee613044ac88f9272d88dede7d0d64f350  ./translations/jonang-catalog/pages_zh/p302.md
 f85114fef587c6442fb574f7079dbd9b96205aa11975a224902396a5703d9f48  ./translations/jonang-catalog/pages_zh/p143.md
@@ -756,10 +780,12 @@ f883847df589617895faa5c26e95def2e37c6edc7e499a41c53db0c19d40f728  ./translations
 f8d9650aff1c5946d818f7b4f81bc98e4276705572fceb0a75b4d28260e163cb  ./decisions/2026-09-22.md
 f90551ad357fa14980185d1fe3fdb3f705812f48dc5fd2fd4644ac430ff5b4bd  ./translations/jonang-catalog/pages_zh/p032.md
 f94c6212c14373b8d2f0177dd555c7334786029ff93cbebabecddc833cbf6e8b  ./translations/jonang-catalog/pages_zh/p085.md
+f9f5b401d1bcb8efb022e0808ed70318a8e00c3bc43b53506678742168fe0526  ./translations/dhammapada/papavagga-120-123-4lang.md
 fa8db7a52f1592fc5aeb6dcdd2241367e9e7a0abfb8c524d2bc147bdfd86d44e  ./translations/jonang-catalog/pages_zh/p330.md
 fadbbd7c072347d1210ea5d012593189e373d02a2dc4d9628ec3ab30fd76bf34  ./translations/jonang-catalog/pages_zh/p185.md
 fb2181b9ff359099fd973928b82154579ae5ed7940d43ee0524843e5bef1a34e  ./impl/python/redteam/attacks/anatta.jsonl
 fb2f4177a94a18076fde141de8ac2b50a15c026301ab4e9ba34bf0893d6e5b5d  ./translations/jonang-catalog/pages_zh/p069.md
+fb5aceb483ea19c318f62be42c33a9f4a70a6a42ae6a90034140a0917978f02a  ./CHANGELOG.md
 fb905201afbfe743e39fe25d93eda6f6f13bb678e64a29ac03b3146d6a48ff5d  ./translations/jonang-catalog/pages_zh/p034.md
 fbc6c9cf6f9186d3b82c19068d12ee5b5fc8b87215d22fbeb535081ffe6cb0e0  ./translations/jonang-catalog/pages_zh/p381.md
 fc08074181b3d1a7e35db913cde0b64c04b9d8e8211fe7d9077edc3b44e4e95d  ./translations/jonang-catalog/pages_zh/p180.md
