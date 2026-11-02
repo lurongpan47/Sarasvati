@@ -14,6 +14,51 @@
 
 ---
 
+## Orphan Tier · 孤本优先层 (Pan 2026-11-02)
+
+Some texts survive in only one language; if that witness is lost, no parallel can recover them. These receive priority over texts with living multi-language parallels. The eight-branch (八系) framework below is **not replaced** — the Tier is an additive cross-cutting axis that identifies which items in which branches are at highest risk.
+
+**Tier 1 — highest urgency** (physical risk + reader scarcity + no modern complete translation):
+
+| Rank | Target | Branch | New sub-branch | Why Tier 1 |
+|------|--------|--------|----------------|------------|
+| 1 | **西夏文黑水城文献 Tangut Khara-Khoto** | silkroad | `translations/xixia/` | Few living readers; no complete corpus input; manuscripts physically fragile at IOM RAS; preserves lost Chinese + Tibetan originals (early Kagyu/Sakya tantra, Huayan, Chan). |
+| 2 | **藏外文献 Extracanonical Tibetan** (Nyingma rGyud-'bum; Bön Kanjur/Tenjur; gSung-'bum) | tibetan | `translations/zangwai/` | Larger than Kanjur+Tenjur combined; full-text input very incomplete; many lineage texts single-copy. |
+| 3 | **汉文部派论律 Chinese-only Abhidharma + Vinaya** (四阿含、四广律、大毘婆沙 T1545、发智论+六足论、顺正理论、大智度论、解脱道论) | chinese | `translations/abhidharma-vinaya-chinese/` | Fully electronic (CBETA) but **no complete modern translation**. T1545 (200 卷) has no complete rendering in any modern language. |
+| 4 | **犍陀罗/新发现梓本影像 Gāndhārī + newly-found Sanskrit mss** | silkroad + sanskrit | `translations/gandhari-manuscripts/` | Physically fragile; the earliest surviving Buddhist writing (1st c. BCE – 3rd c. CE); some are the sole witness of a lost text. |
+
+**Tier 2 — high urgency** (unique-language survival but better-studied / better-digitised):
+
+- 根本说一切有部律 (藏文独存全本; Toh 1–7)
+- 丹珠尔印度论痏 (Sanskrit lost, no Chinese translation)
+- 法成藏译圆测《解深密经疏》 (汉文残缺，藏译全)
+- 《大事》 Mahāvastu (Lokottaravāda, no Chinese or Tibetan)
+- 巴利论藏七论 (Paṭṭhāna et al., no Chinese/Tibetan)
+- 觉音注疏 + 清净道论
+- 小部孤本 (Thera-/Therī-gāthā, Jātaka prose, Apadāna, Paṭisambhidāmagga, Peṭakopadesa, Nettippakaraṇa) — Therīgāthā Ekakanipāta 1–5 already has a first sample
+- 于隘文《赞巴斯塔书》 Book of Zambasta
+- 吐火罗/回鿘文剧本 Maitreyasamiti-nāṭaka
+- 中国祖师著作 + 敦煌写卷
+
+**Tier 3 — multi-language parallel exists but worth lifting**: Dhammapada / Udānavarga / Gāndhārī Dharmapada (current daily content lane); Aśoka edicts; Prajñāpāramitā Hṛdaya + Vajracchedikā; Jonang catalog.
+
+### Weekly content picking rule
+
+Every Monday pick the next scan-first sample so that **at least 1 Tier-1 target** is advanced per week. If no Tier-1 bandwidth is available (scan not fetched, reviewer unresponsive, Pan input needed), fall back to Tier 2, then Tier 3. The daily Dhammapada cron (13:00 PT) continues under Pan's Q1=continue; Tier-1 work is additive, scheduled through separate one-shot or weekly cron jobs.
+
+### License trap recorded
+
+- EAP140/1 (IOM RAS Tangut, 210 mss / 25,955 TIFF at eap.bl.uk): **"research purposes only"**. Sarasvatī **does not mirror** these images. We may link to shelf-marks and use the Universal Viewer for scan-first reading. CC BY-SA 4.0 publication of Tangut images requires another source (1963 Gorbachëva–Kychanov plates, Chinese holdings, or future openly-licensed facsimiles).
+- CBETA + Taishō 1924–1934 scans: public domain / open — safe for CC BY-SA 4.0 derivatives.
+- Gandhari.org catalogue images: per-item licence; mostly BL open or CC BY-NC-SA.
+- Derge Tenjur Tohoku IIIF: scheduled public release spring 2026.
+
+### Outreach drafted
+
+- Xixia Tier 1 Rank 1 reviewer-recruitment letters (4) drafted 2026-11-02 at `drafts/2026-11-02-xixia-outreach-letters.md`, awaiting Pan to review, fill contact emails, and send. **Lucy does not send on Pan's behalf.**
+
+---
+
 ## Core 1 · The eight branches (八系)
 
 Sarasvatī's archive is structured along the transmission timeline. Each branch may host multiple translation projects; each project selects a public-domain source and a target language currently missing a translation.
@@ -140,8 +185,9 @@ Kangyur / Tengyur; Mongolian & Manchu editions.
 | v0.7.0 | tbd | First **Pāli** cross-branch sample; charter runtime reference implementation (Python) |
 | v0.8.0 | tbd | First **Chinese canon** cross-branch sample; charter runtime reference implementation (TS) |
 | v0.9.0 | tbd | First **Sanskrit manuscript** sample; three-signatory charter attestation |
-| v1.0.0 | tbd | One human-reviewed sample per active branch; charter v1 with ≥ 5 attesting signatories |
-| v1.1.0+ | tbd | Silk Road + Southeast Asian + Sinosphere samples; ongoing archive growth |
+| v0.10.0 | 2026-12-01 target | **Orphan-Tier pivot** (Pan 2026-11-02): first scan-first sample for each Tier 1 Rank (xixia, zangwai, abhidharma-vinaya-chinese, gandhari-manuscripts) — reviewer-pending ⟨བརྟག⟩ marks OK |
+| v1.0.0 | tbd | Updated 2026-11-02: ships when (a) each **Tier 1 Rank** has ≥ 1 scan-first sample AND ≥ 1 named human reviewer; (b) each **Tier 2 target** has ≥ 1 scan-first sample (reviewer-pending OK); (c) each of the **eight branches** has ≥ 1 sample; (d) the Buddhist AI Charter has shipping Python + TypeScript guardrail libraries on PyPI + npm (pending Pan's credentials) |
+| v1.1.0+ | tbd | Silk Road + Southeast Asian + Sinosphere depth; Tier 2 reviewers signed up; ongoing archive growth |
 
 ---
 
