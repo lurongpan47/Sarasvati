@@ -92,14 +92,14 @@ A hand-crafted D3 visualization: **132 figures · 200+ relationships** — the F
 
 The eight transmission lines, with current stage of each:
 
-| # | Branch | 中文 | Status (v0.9, as of 2026-10-27) |
+| # | Branch | 中文 | Status (v0.9, as of 2026-11-03) |
 |---|---|---|---|
 | 1 | India · `india` | 印度源流 | 3 samples ✅ (Aśoka REXII, REXIII, Bhābrū) — reviewers wanted |
 | 2 | Sanskrit manuscript · `sanskrit` | 梵文写本系 | 2 samples ✅ (Prajñāpāramitā Hṛdaya; Vajracchedikā §§ 1–2) — reviewers wanted |
-| 3 | Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 31 Dhammapada scan-first samples ✅ (Yamakavagga → Pāpavagga 116–119 opening ch. 9) + Therīgāthā ekakanipāta 1–5 — reviewers wanted |
+| 3 | Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 34 Dhammapada scan-first samples ✅ (Yamakavagga → Pāpavagga ch. 9 closed + Daṇḍavagga ch. 10 opened at vv. 129–131) + Therīgāthā ekakanipāta 1–5 — reviewers wanted |
 | 4 | Southeast Asian Theravāda · `seasia` | 南传东南亚 | 2 samples ✅ (Karaṇīya Mettā Sutta Sn 1.8; Lokanīti ch. 1) — reviewers wanted |
 | 5 | Silk Road · `silkroad` | 中亚·丝路 | 2 samples ✅ (Gāndhārī Dharmapada attested Apramādavaga + pedagogical Dhp 1–4 reconstruction) — reviewers wanted |
-| 6 | Chinese canon · `chinese` | 汉传系 | 2 samples ✅ (Fó yíjiào jīng T389 selected; Sìshíèrzhāng jīng T784 opening) — reviewers wanted |
+| 6 | Chinese canon · `chinese` | 汉传系 | 2 cross-branch samples ✅ (Fó yíjiào jīng T389 selected; Sìshíèrzhāng jīng T784 opening); **+ Tier-1 Rank-3 orphan sub-branch `abhidharma-vinaya-chinese`**: first sample T1545 阿毘達磨大毘婆沙論 juan 1 opening ✅ (2026-11-02; 1 of 200 juan) — reviewers wanted |
 | 7 | Sinosphere · `sinosphere` | 汉字文化圈 | 2 samples ✅ (Wŏnhyo *Daeseung Gisillon So* prologue; Wŏnhyo *Balsim suhaeng jang* opening) — reviewers wanted |
 | 8 | Tibetan · `tibetan` | 藏传系 | Udānavarga Anityavarga + DN 16 + 449-page Jonang Great Treasury catalogue (Chinese draft) ✅ — reviewers wanted |
 
