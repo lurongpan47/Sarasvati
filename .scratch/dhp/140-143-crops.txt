@@ -1,0 +1,82 @@
+# Crop list for dandavagga-140-143-4lang.md (built 2026-11-06)
+# Format: filename  description  (bands, scale)
+# Re-verification checklist for the 08:30 push lane on 2026-11-07
+
+## Fetches today (3 IA zip-member downloads; all three first-try HTTP 200 success)
+     URL: https://archive.org/download/india.history.resource.112138/112138_jp2.zip/112138_jp2%2F112138_0050.jp2
+     Fetched at: 13:03 PST
+              SAMPLES' NINTH consecutive first-try IA fetch of a Fausbøll leaf (URL pattern HOLDS AGAIN)
+              JP2: 406,033 B
+              opj_decompress → .scratch/dhp/fausboll_0050.png: 1500×2500 L, 57 ms
+
+     URL: https://archive.org/download/india.history.resource.112138/112138_jp2.zip/112138_jp2%2F112138_0051.jp2
+     Fetched at: 13:04 PST
+              SAMPLES' TENTH consecutive first-try IA fetch of a Fausbøll leaf
+              JP2: 298,377 B
+              opj_decompress → .scratch/dhp/fausboll_0051.png: 1500×2500 L, 46 ms
+
+     URL: https://archive.org/download/dhammapadaacoll00mlgoog/dhammapadaacoll00mlgoog_tif.zip/dhammapadaacoll00mlgoog_tif%2Fdhammapadaacoll00mlgoog_0099.tif
+     Fetched at: 13:03 PST
+              SAMPLES' SIXTH consecutive first-try Müller tif fetch (URL pattern HOLDS)
+              TIFF: 90,450 B, 1-bit
+              PIL convert('L').save → .scratch/dhp/muller_0099.png: 3174×5198 L, ~1 s
+
+## Fetches: 3 total (Fausbøll 0050 + Fausbøll 0051 + Müller tif 0099), all three first-try HTTP 200.
+
+# Fausbøll 1900 leaf 0049 (printed p. 32) — ALREADY ON DISK from 11-03 fetch, bottom bands re-read today
+fausboll_0049.png  Fausbøll 1900 Dhp leaf 0049 full page, printed p. 32, 1500×2500 L PNG (fetched 2026-11-03 13:04 PST, bottom re-read today)
+f0049_v140_142_region.png  1.0× strip for layout confirmation (bands y=1300-2000 isolating V. 140-142 body + V. 140 apparatus opening)
+f0049_v140_body.png  Fausbøll V. 140 body close-read at 2.0× — `Athavâssa¹ agārāni aggī² ḍahati³ pāvako, / kāyassa bhedā duppañño nirayaṁ sôpapajjati⁴.` with FOUR superscripts
+f0049_v141_body.png  Fausbøll V. 141 body close-read at 2.0× — FOUR-pāda ascetic-rejection stanza with FIVE superscripts and the apostrophe-elision `rajovajall'⁵`
+f0049_v142_body.png  Fausbøll V. 142 body close-read at 2.0× — FOUR-pāda `Alaṁkato ce pi¹ … so brāhmaṇo so samaṇo sa² bhikkhu.` with TWO superscripts and triple-name climax matching Müller's V. 142 triple-synonym
+f0049_v140_142_apparatus.png  Fausbøll leaf 0049 FOOT apparatus block close-read at 2.0× — note: this crop ends mid-V. 140 at `¹ Cᵏ Cᶜ atha-` (cross-leaf run-over to 0050, the 11-05 build's PROJECTION CONFIRMED today)
+
+# Fausbøll 1900 leaf 0050 (printed p. 33) — NEWLY FETCHED today 13:03 PST, Latin facing-leaf with PĀLI apparatus at foot
+fausboll_0050.png  Fausbøll 1900 Dhp leaf 0050 full page, printed p. 33, 1500×2500 L PNG (**NEWLY FETCHED today**)
+f0050_overview.png  0.5× overview for layout (Latin body + Pāli apparatus at foot — SAMPLES' FIRST attested Fausbøll LATIN LEAF WITH PĀLI APPARATUS AT FOOT)
+f0050_top.png  Fausbøll leaf 0050 top-portion at 1.2× — page number `33` centred + Latin body opening `134. sermo, vindicta assequetur te. … 135. invenitur. Sicut baculo bubulcus boves cogit in / stabulum…` (plain Latin, NO running head, NO chapter-indicator)
+f0050_apparatus.png  Fausbøll leaf 0050 FOOT apparatus at 2.0× — PĀLI apparatus continuation for V. 140 tail (`vassa. ² Cᵏ Bʳ Sᵏ aggi. ³ Bʳ ḍayhati. ⁴ Cᵏ Cᶜ Sᵏ so upa-.`) + lemma `A g g i = asaniaggi, Ct.` (SAMPLES' SIXTH Fausbøll letter-spaced lemma, FIRST on a SINGLE-SYLLABLE / 2-letter word) + V. 141 apparatus (5 superscripts) + V. 142 apparatus (`¹ Sᵏ pī. ² Sᵏ so. Cfr. infra v. 405. Mahāvastu I p. 358. III p. 412.`) + combined `Verses 141—42, cfr. Divyāvadāna p. 339. Mahābh. III, 13455. S. N. v. 249. S., Fr. p. 57.`
+
+# Fausbøll 1900 leaf 0051 (printed p. 34) — NEWLY FETCHED today 13:04 PST, Pāli-text leaf with CHAPTER-CLOSE + separator + CHAPTER-OPEN
+fausboll_0051.png  Fausbøll 1900 Dhp leaf 0051 full page, printed p. 34, 1500×2500 L PNG (**NEWLY FETCHED today**)
+f0051_overview.png  0.5× overview for layout (V. 143ᵃ/ᵇ bodies + V. 144-145 bodies + chapter-close `Daṇḍavaggo dasamo.` + separator rule + `11. J a r ā v a g g a .` heading + V. 146-149 bodies + foot apparatus)
+f0051_v143_body.png  Fausbøll V. 143ᵃ + V. 143ᵇ bodies close-read at 2.0× — SUPERSCRIPT-LETTER sub-numbering `143ᵃ.` / `143ᵇ.` (SAMPLES' FIRST attested Fausbøll split-stanza ᵃ/ᵇ typography); V. 144 opening line partially visible at bottom of crop
+f0051_colophon_jarahead.png  Fausbøll leaf 0051 chapter transition area close-read at 2.0× — `Daṇḍavaggo dasamo.` colophon (y ≈ 1095, centred, plain roman) + short centred separator rule (y ≈ 1220, ≈ 0.22 of measure) + `11. J a r ā v a g g a .` chapter-11 heading (y ≈ 1370, letter-spaced [gesperrt]) + V. 146 opening line `Ko nu hāso kiṁ ānando niccaṁ pajjalite sati` partially visible at crop edge
+f0051_apparatus.png  Fausbøll leaf 0051 FOOT apparatus close-read at 2.0× — V. 143 apparatus entry labelled plain `V. 143.` (for V. 143ᵃ, BODY/APPARATUS NUMBERING DIVERGENCE finding) + V. 143ᵇ apparatus entry labelled explicit `V. 143ᵇ.` + V. 144 apparatus (`¹ MSS. & Editions viriyena. ² Bʳ paṭi-. ³ Cᵏ Cᶜ Sᵏ pahassatha, Bʳ jahissatha.`) + letter-spaced lemma `S a m ā d h i, cfr. vv. 249. 250. 271. 365.` (SAMPLES' SEVENTH Fausbøll letter-spaced lemma, FIRST four-verse internal-reference chain) + V. 145 (`Cfr. supra v. 80.` BACKWARD internal reference) + V. 146 (`¹ Bʳ kinna. Cfr. Jāt. V ¹¹⁄₂₅. Mahāvastu III p. 376.` — SAMPLES' SECOND stacked-fraction Jātaka + SECOND Mahāvastu citation) + V. 147 opening `¹ Sᵏ dhuva[ṇ…]`
+
+# Müller SBE X 1881 tif leaf 0099 (printed p. 39 RECTO) — NEWLY FETCHED today 13:03 PST
+muller_0099.png  Müller SBE X Dhp tif 0099 full page, printed p. 39 RECTO, 3174×5198 L PNG (**NEWLY FETCHED today**)
+m0099_overview.png  0.3× overview for layout (running head + head-rule + body V. 141 run-over + V. 142 + V. 143 + V. 144 open + mid-page rule + notes block)
+m0099_head.png  Müller p. 39 top-strip at 0.7× — running head `PUNISHMENT.` (FULL capitals, terminal period, right of centre) + page number `39` right + full-width head-rule below; SAMPLES' FOURTH attested SBE X recto-continuation shortened running-head (confirming four-case taxonomy)
+m0099_v141_tail.png  Müller V. 141 cross-leaf run-over tail at 0.8× — `not sitting motionless, can purify a mortal who has / not overcome desires.` (closing the ascetic-rejection stanza with six-negation anaphora attested across p. 38 + p. 39 — REFINEMENT of 11-05's five-negation count)
+m0099_body.png  Müller V. 142 + V. 143 + V. 144 opening at 0.6× — V. 142 TRIPLE-SYNONYM name-climax `Brâhma*n*a, an ascetic (*s*ra-|ma*n*a), a friar (bhikshu)` with CROSS-HYPHEN italic-letter rendering `*s*ra-|ma*n*a` (SAMPLES' FIRST attested) + MIXED Pāli/Sanskrit romanisation (SAMPLES' FIRST attested); V. 143 ONE-STANZA rendering vs Fausbøll's V. 143ᵃ+143ᵇ TWO-STANZA split (SAMPLES' FIRST cross-edition subdivision divergence with REVERSED SIDE vs 11-05); V. 144 opening `Like a well-trained horse when touched by` with `well-trained horse` compound-hyphen REPEATED from V. 143 (SAMPLES' FIRST repeated-simile cross-stanza chaining)
+m0099_notes.png  Müller p. 39 NOTES BLOCK at 0.4× — V. 141 cross-leaf footnote run-over with Sumâgadhâ-avadāna anecdote + Burnouf (Introduction p. 312) with EXPLICIT DISAGREEMENT (SAMPLES' FIRST Müller Burnouf-disagreement) + JAINA SECT classification (Śvetambaras / Digambaras / Par*s*vanâtha / Mahâvîra / Southern India / Sâstram Aiyar) + Clough [1821 Sinhala-English] (SAMPLES' FIRST Clough) + Wilson [1832 Sanskrit-English] (SAMPLES' FIRST Wilson) + `See Fausböll, note on verse 140.` (SAMPLES' THIRD Fausböll-citation-by-name with ö-umlaut); V. 142 note short-form `142. As to da*nd*anidhâna, see Mahâbh. XII, 6559, and Sutta-nipâta, v. 34.` (SAMPLES' SECOND Mahâbhârata BOOK after XIII, now XII Śānti-parvan); V. 143, 144 COMBINED note opening `143, 144. I am very doubtful as to the real meaning of these verses.` (SAMPLES' FIRST explicit Müller SELF-ADMISSION OF INTERPRETIVE DOUBT — new editorial-honesty category added to apparatus content taxonomy)
+
+# Taishō T210 leaf 0564 — ALREADY ON DISK from 108-111 build at 4000×5770 RGB, register c right-side re-read today
+t04_0564.png  Taishō T210 法句經 leaf 0564 full page, 4000×5770 RGB PNG (on disk from 10-28 108-111 build)
+t04_0564_full_small.png  0.2× leaf-level overview (register-a/b/c layout confirmation; folio number 五六五 in margin = IA scan _0564 = Taishō printed p. 565 per the 10-28 numbering-offset discovery)
+t04_0564_reg_c_top.png  Register c top-portion at 0.5× bands y=300-2800 — BUT vision-OCR mis-identified this as register-a tail (above the horizontal rule separating register b from register c). Resolved by subsequent true-register-c crops.
+t04_0564_reg_c_full.png  Register c full-height strip at 0.4× bands y=300-5700 x=2500-4000 — overview for stanza-boundary identification
+t04_0564_reg_c_strip.png  Register c TRUE band at 0.5× y=3100-4500 (below the register-b/c horizontal rule; SAMPLES' FIRST pixel-attested true register-c band for 老耗品 continuation)
+t04_0564_reg_c_right.png  Register c right-most columns at 1.0× for 老耗品 stanza-sequence identification
+t04_0564_reg_c_stz1_5.png  Register c top ~y=300-2500 at 0.7× (vision-OCR mis-identified as 惡行品/刀杖品 — resolved as register-a tail by context)
+t04_0564_reg_c_stz2_4.png  Register c right-side x=3000-3900 y=3150-3900 at 1.5× for 老耗品 Stanza 3 opening (circled numeral ㉒ attested, but also showing register-b tail with `鐘磬` etc.; useful for stanza-boundary identification but noisy)
+t04_0564_reg_c_fullheight_right.png  Register c right-most 3-4 columns FULL HEIGHT at 1.5× — PIXEL-ATTESTED today the circled-numeral sequence **㊾** (col 1 after `皮緩`) + **㊿** (col 4 after `老`) + **custom-rendered two-digit `51` BLACK-OVAL** (col 5 after `法`) — SAMPLES' FIRST attested COUNTER OVERFLOW PAST UNICODE'S ㊿ into custom-rendered glyph territory; also attests Stanzas 3-6: Stanza 3 `病無光澤 / 皮緩㊾肌縮 / 死命近促 / 身何可怙` + Stanza 4 `身為如城 / 肉消骨散 / 生至老死 / 但藏㊿恚慢` + Stanza 5 `老則形變 / 喻如故車 / 法⟨51⟩能除苦 / 宜以仁學` + Stanza 6 opening `人之無聞 / 老若特牛 / 但長肌肥 / 無有福慧`
+
+## 10 image tool calls (vs 50 ceiling = 20% of budget)
+## Three fetches today: Fausbøll 0050 + Fausbøll 0051 + Müller tif 0099, all three first-try HTTP 200
+## 23 crops created today
+
+## Crops nominated for 2026-11-07 push-lane re-verification (5):
+# 1. f0051_v143_body.png — V. 143ᵃ/ᵇ split-stanza body with superscript-letter sub-numbering (confirm superscript ᵃ/ᵇ typography pixel-pattern)
+# 2. f0051_colophon_jarahead.png — Daṇḍavagga colophon + separator rule + Jarāvagga heading (confirm 0.22 of measure separator rule width)
+# 3. f0050_apparatus.png — Latin-leaf with Pāli apparatus foot (confirm `A g g i = asaniaggi, Ct.` letter-spaced lemma)
+# 4. m0099_body.png — Müller V. 142 triple-synonym name-climax with mixed Pāli/Sanskrit `Brâhma*n*a / *s*ramana / bhikshu` and cross-hyphen italic-letter rendering `*s*ra-|ma*n*a`
+# 5. t04_0564_reg_c_fullheight_right.png — T210 register c counter overflow past ㊿ into custom-rendered `51` black-oval glyph (confirm two-digit interior-content pixel pattern)
+
+## Prior-build projections confirmed today:
+# - 11-05's "Fausbøll 0049 continues through V. 142 body" — CONFIRMED (V. 140-142 attested on 0049 bottom)
+# - 11-05's "Fausbøll leaf 0051 may be needed for V. 143" — CONFIRMED + extended (0051 carries V. 143ᵃ+143ᵇ + chapter-close + Jarāvagga open)
+# - 11-05's "Müller tif 0099 needs fetch for V. 141 run-over + V. 142+" — CONFIRMED (all attested on 0099 body + notes)
+# - 11-05's "Taishō 0564 register c for 老耗品 Stanzas 1-5+" — CONFIRMED (Stanzas 3-6 attested on register c right-side)
+# - 11-05's CHAPTER-COMPLETENESS QUESTION — ANSWERED YES (V. 143ᵇ is last verse of Daṇḍavagga; chapter closes with colophon on 0051)
