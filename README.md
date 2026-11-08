@@ -96,7 +96,7 @@ The eight transmission lines, with current stage of each:
 |---|---|---|---|
 | 1 | India · `india` | 印度源流 | 3 samples ✅ (Aśoka REXII, REXIII, Bhābrū) — reviewers wanted |
 | 2 | Sanskrit manuscript · `sanskrit` | 梵文写本系 | 2 samples ✅ (Prajñāpāramitā Hṛdaya; Vajracchedikā §§ 1–2) — reviewers wanted |
-| 3 | Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 35 Dhammapada scan-first samples ✅ (Yamakavagga → Pāpavagga ch. 9 closed + Daṇḍavagga ch. 10 opened at vv. 129–135) + Therīgāthā ekakanipāta 1–5 — reviewers wanted |
+| 3 | Pāli · `pali` | 巴利·斯里兰卡 | DN 16 seed + 38 Dhammapada scan-first samples ✅ (Yamakavagga → Daṇḍavagga ch. 10 CHAPTER-COMPLETE closed at vv. 132–143 + Jarāvagga ch. 11 opened at vv. 146–149) + Therīgāthā ekakanipāta 1–5 — reviewers wanted |
 | 4 | Southeast Asian Theravāda · `seasia` | 南传东南亚 | 2 samples ✅ (Karaṇīya Mettā Sutta Sn 1.8; Lokanīti ch. 1) — reviewers wanted |
 | 5 | Silk Road · `silkroad` | 中亚·丝路 | 2 samples ✅ (Gāndhārī Dharmapada attested Apramādavaga + pedagogical Dhp 1–4 reconstruction) — reviewers wanted |
 | 6 | Chinese canon · `chinese` | 汉传系 | 2 cross-branch samples ✅ (Fó yíjiào jīng T389 selected; Sìshíèrzhāng jīng T784 opening); **+ Tier-1 Rank-3 orphan sub-branch `abhidharma-vinaya-chinese`**: first sample T1545 阿毘達磨大毘婆沙論 juan 1 opening ✅ (2026-11-02; 1 of 200 juan) — reviewers wanted |
