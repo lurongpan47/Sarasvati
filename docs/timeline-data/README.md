@@ -5,7 +5,7 @@ Structured extraction of the **World Buddhist Canon Transmission Timeline** (八
 ## Files
 
 - `traditions.jsonl` — 8 traditions/branches
-- `events.jsonl` — 94 canonical-transmission milestones
+- `events.jsonl` — 95 canonical-transmission milestones
 - `events.csv` — same, comma-separated
 
 ## Schema
@@ -60,6 +60,10 @@ CC BY-SA 4.0 (same as project). Attribution: "Sarasvatī project, timeline data 
 - Extend by adding rows; PRs welcome
 
 ## Revision history
+
+### revision v8 · 2026-11-09
+
+Mixed: 1 new event + 1 in-place revision from `proposals/timeline-2026-W46.md`, written directly under Pan's 2026-09-21 auto-approve instruction. **New:** `evt_095` Myanmar Government Chaṭṭha Saṅgāyana Tipiṭaka + Aṭṭhakathā donation to Buddhist Archives of Luang Prabang, Lao PDR (31 Jul 2026; `seasia`) — 2 independent sources (Myanmar MOFA + Global New Light of Myanmar). **Revised in place:** `evt_085` CBETA 2026 R1 → CBETA 2026 R1 + R2 (full calendar-year 2026 coverage; R2 shipped 2026-08-31 adds 17 texts / 104 fascicles + 188-text human-verified new-style punctuation; corpus now 4,899 / 22,150 / 228M chars). Old `evt_085` title_zh = "CBETA 2026 R1 · 新增 15 部（82 卷）·《演培法师全集》上线"; old title_script = "電子佛典 2026 R1"; old title_en = "CBETA 2026 R1 — 15 texts (82 fascicles) added; Yinpei collected works" (full old values recorded in `CHANGELOG.md` and the proposal). No deletions. **Total after v8:** 95 events (was 94). Data-only until the canonical PDF / preview image is redrawn. Reversible by `git revert`.
 
 ### revision v7 · 2026-11-02
 
