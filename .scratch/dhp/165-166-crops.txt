@@ -1,0 +1,61 @@
+# Crop list for attavagga-165-166-4lang.md (sarasvati-dhp-165-166 subagent, 2026-11-12)
+# Format: source_file @ (x0,y0,x1,y1) zoom=Nx → attestation
+# (crop.py args: src out x0 y0 x1 y1 scale)
+#
+# Note: coordinates are source-image pixel coordinates (not post-scale).
+
+## Overviews (image calls 1, re-used from prior builds)
+
+fausboll_0055.png @ (0,0,1500,2500) zoom=0.3x → f_0055_overview.png (RE-READ from 11-10 build) · Fausbøll leaf 0055 overview: V. 165 at y ≈ 1250-1440 (3-line body), V. 166 at y ≈ 1470-1560 (2-line body), Attavagga close-colophon `Attavaggo dvādasamo.` at y ≈ 1590-1640 centred plain roman, short centred rule at y ≈ 1710, full-width apparatus rule at y ≈ 1850, apparatus block y ≈ 1900-2320 opening with V. 159 entries. NO ch-13 Lokavagga heading on this leaf — the close-colophon is the last chapter boundary on 0055. Settles the FIRST attested FAUSBØLL CHAPTER-CLOSE-WITHOUT-OPEN LEAF convention.
+
+muller_0106.png @ (0,0,3174,5198) zoom=0.4x → m_0106_overview.png (RE-READ from 11-10/11-11 builds) · Müller tif 0106 overview: running head `46 DHAMMAPADA. CHAP. XII.` + rule at y ≈ 190-240 overview-scale, V. 164 body at y ≈ 265-480 overview-scale (= y ≈ 644-1166 source scale), V. 165 body at y ≈ 500-670 overview (= y ≈ 1214-1627 source), V. 166 body at y ≈ 690-855 overview (= y ≈ 1676-2077 source), notes rule at y ≈ 880 overview, V. 164 note at y ≈ 910-1245 overview, V. 166 Attha note at y ≈ 1280-1500 overview with COMPLETE note ending `to verse 227.` at y ≈ 1495 — SAMPLES' SIXTH OVERVIEW-CORRECTION of 11-11 projected cross-leaf tail. Blank bottom margin y ≈ 1520-2140 overview, NO catchword NO signature — settles the SECOND attested Müller `fresh-recto-opens-new-chapter` convention.
+
+t04_0565.png @ (0,0,4000,750) zoom=0.3x → t04_0565_reg_a_overview.png (RE-READ from 11-11 build) · T210 IA leaf 0565 top register overview: 愛身品 Stanzas 4-14 running right-to-left columns 1-17; last column 17 ends with 14th stanza L2 `眞見身應行 如是得所欲`; IMMEDIATELY column 18 opens 世俗品 chapter-21 heading `⓬世俗品＊法句經第二十一＊十有四章`; NO closing colophon between the two chapters. Settles the SAMPLES' FIRST attested CHAPTER-CLOSE TYPOGRAPHY ASYMMETRY between Pāli (explicit `Vaggo Nmo.`) and Chinese (NO close-colophon) — T210 法句經 uses OPEN-ONLY chapter transitions.
+
+## Fausbøll leaf 0055 V. 165 + V. 166 bodies + colophon (image calls 2, 3)
+
+fausboll_0055.png @ (100,1220,1400,1710) zoom=2.2x → f_0055_v165_v166.png · V. 165 body (3 lines × 2 pādas) + V. 166 body (2 lines × 2 pādas) + Attavagga close-colophon `Attavaggo dvādasamo.` all in one crop. V. 165 L1 `Attanā va¹ kataṁ pāpaṁ attanā saṁkilissati,` with superscript ¹ on `va`; L2 `attanā akataṁ pāpaṁ attanā va visujjhati,` (NO superscripts); L3 `suddhī asuddhī paccattaṁ nâñño aññaṁ visodhaye.` with CRASIS-CIRCUMFLEX `nâñño` (= na + añño, SAMPLES' SECOND crasis-circumflex after 10-31 V. 121 `Mâppamaññetha`). V. 166 L1 `Attadatthaṁ paratthena bahunâpi¹ na hāpaye,` with superscript ¹ on `bahunâpi` + CRASIS-CIRCUMFLEX `bahunâpi` (= bahunā + api, SAMPLES' THIRD crasis-circumflex); L2 `atthadatthaṁ abhiññāya sadatthapasuto siyā.` — note INTRA-STANZA SPELLING INCONSISTENCY `Attadatthaṁ` L1 vs `atthadatthaṁ` L2 (SAMPLES' FIRST attested). Colophon `Attavaggo dvādasamo.` plain roman centred period-closed at y ≈ 1590-1640; NOT letter-spaced, NOT italic. SIXTH overall Fausbøll chapter-close colophon attestation.
+
+fausboll_0055.png @ (400,1680,1200,1870) zoom=2.5x → f_0055_colophon_closeread.png · Fausbøll leaf 0055 colophon close-read at 2.5×: confirms `Attavaggo dvādasamo.` plain roman centred typography; below the colophon: short centred rule → blank space → full-width apparatus rule (no ch-13 Lokavagga heading visible). Settles SAMPLES' FIRST attested FAUSBØLL CHAPTER-CLOSE-WITHOUT-OPEN LEAF.
+
+## Fausbøll leaf 0056 foot apparatus V. 165 + V. 166 (image call 4, re-used from 11-11)
+
+fausboll_0056.png @ (100,2050,1400,2320) zoom=2.5x → f_0056_apparatus.png (RE-READ from 11-11 build, body-carried today) · FOOT APPARATUS block V. 163-166. V. 165 `¹ Bʳ hi. S a ṁ k i l i s s a t i = vipaccati, Ct.` with letter-spaced LEMMA `S a ṁ k i l i s s a t i` + Buddhaghosa commentarial gloss `= vipaccati, Ct.` — SAMPLES' THIRD `Ct.` COMMENTARY LEMMA-GLOSS instance. V. 166 `¹ Sᵏ pī. P a s u t o = sake atthe uyyuttapayutto, Ct.` with letter-spaced LEMMA `P a s u t o` + two-word Pāli gloss `sake atthe uyyuttapayutto` — SAMPLES' FOURTH `Ct.` COMMENTARY LEMMA-GLOSS instance. NO V. 167+ apparatus on 0056 (apparatus block ends at V. 166) — Lokavagga apparatus projects onto leaf 0058 Latin foot. The convention FAUSBØLL LATIN-LEAF-CARRIES-PRIOR-PĀLI-LEAF-APPARATUS continues into next chapter.
+
+## Müller tif 0106 V. 165 + V. 166 bodies + notes (image calls 5, 6, 7)
+
+muller_0106.png @ (300,1200,2900,1650) zoom=1.5x → m_0106_v165_body.png · Müller V. 165 body L1-L3 `By oneself the evil is done, by oneself one / suffers ; by oneself evil is left undone, by oneself / one is purified. Purity and impurity belong to one-|` — thin-space-before-semicolon `suffers ;` + end-of-line hyphenation `one-|` bridging L3 to L4. Verse number `165.` in old-style figures, indented.
+
+muller_0106.png @ (300,1550,2900,1770) zoom=2.0x → m_0106_v165_tail.png · Müller V. 165 L4 `self, no one can purify another.` completing the stanza. SAMPLES' FIRST attested MÜLLER `one-|self` hyphenation.
+
+muller_0106.png @ (300,1670,2900,2100) zoom=1.5x → m_0106_v166_body.png · Müller V. 166 body L1-L3 `Let no one forget his own duty for the sake / of another's, however great ; let a man, after he has / discerned his own duty,' be always attentive to his` — thin-space-before-semicolon `great ;` + the SAMPLES' FIRST attested MÜLLER V. 166 FOOTNOTE TICK `duty,'` on L3 (raised superscript apostrophe-like mark after comma, keyed to Attha note).
+
+muller_0106.png @ (300,1950,2900,2180) zoom=2.0x → m_0106_v166_tail.png · Müller V. 166 L4 `duty.` completing the stanza. Verse ends with `attentive to his duty.` — SELF-DUTY rendering of attha.
+
+muller_0106.png @ (300,2400,2900,3700) zoom=0.9x → m_0106_v164_note_tail_v166_note.png · V. 164 note tail (already body-carried 11-11) + V. 166 Attha note COMPLETE on tif 0106. V. 166 note reads: `166. Attha, lit. 'object,' must here be taken in a moral sense, / as 'duty' rather than as 'advantage.'  Childers rendered it by / 'spiritual good.'  The story which Buddhaghosa tells of the Thera / Attadattha gives a clue to the origin of some of his parables, which / seem to have been invented to suit the text of the Dhammapada / rather than vice versâ.  A similar case occurs in the commentary / to verse 227.` — 7 lines ending with `to verse 227.` as actual tail. SAMPLES' SIXTH OVERVIEW-CORRECTION of 11-11 projected cross-leaf tail to p. 47. NO Müller tif 0107 fetch needed today — the SAMPLES' FIRST attested TURN-DOWN OF OPTIONAL FETCH on positive evidence.
+
+## Summary
+
+Image call count: 7 NEW `image`-tool calls (vs 50 ceiling = 14% budget used, within target of 8-15).
+Fetches today: 0 attempted, 0 successful — AT-MOST-ONE-OPTIONAL-FETCH of Müller tif 0107 DECLINED on positive evidence after today's pixel-correction of the 11-11 V. 166 note cross-leaf projection; SAMPLES' FIRST attested TURN-DOWN OF OPTIONAL FETCH.
+
+## Nominated for 11-13 push-lane re-verification:
+
+1. fausboll_0055.png @ V. 165 `nâñño` CRASIS-CIRCUMFLEX (= na + añño) — SAMPLES' SECOND Fausbøll crasis-circumflex; confirm at pixel.
+2. fausboll_0055.png @ V. 166 `bahunâpi` CRASIS-CIRCUMFLEX (= bahunā + api) — SAMPLES' THIRD crasis-circumflex + FIRST two-crasis-in-one-build; confirm at pixel.
+3. fausboll_0055.png @ V. 166 INTRA-STANZA SPELLING INCONSISTENCY `Attadatthaṁ` L1 vs `atthadatthaṁ` L2 — SAMPLES' FIRST attested; critical for Pāli-reader verification against Alwis 1870 / Kosambi 1959 editions.
+4. fausboll_0055.png @ Attavagga close-colophon `Attavaggo dvādasamo.` plain roman centred — SIXTH overall; confirm typography.
+5. fausboll_0055.png @ CHAPTER-CLOSE-WITHOUT-OPEN LEAF — confirm NO ch-13 Lokavagga heading on 0055 below the apparatus block.
+6. muller_0106.png @ V. 166 FOOTNOTE TICK `duty,'` — SAMPLES' FIRST attested MÜLLER SUPERSCRIPT-TICK FOOTNOTE-REFERENCE; confirm at 3× or higher.
+7. muller_0106.png @ V. 166 Attha note COMPLETE on tif 0106 ending `to verse 227.` — SAMPLES' SIXTH OVERVIEW-CORRECTION; confirm the note has no cross-leaf tail.
+8. muller_0106.png @ V. 166 note DEEP-FORWARD-REFERENCE to v. 227 — SAMPLES' FIRST attested MÜLLER deep-forward-reference spanning more than one chapter; confirm the reference text.
+9. muller_0106.png @ V. 166 note TWO-CONSECUTIVE-STANZAS BUDDHAGHOSA-PARABLES METHODOLOGICAL SKEPTICISM — V. 164 + V. 166 both carry this methodological position; confirm.
+10. muller_0106.png @ CHAPTER XII ENDS AT V. 166 ON P. 46 BOTTOM blank margin — confirm NO catchword, NO signature, settling SECOND Müller `fresh-recto-opens-new-chapter` convention.
+11. t04_0565.png @ 愛身品 → 世俗品 OPEN-ONLY TRANSITION — SAMPLES' FIRST attested CHAPTER-CLOSE TYPOGRAPHY ASYMMETRY Pāli vs Chinese; confirm NO closing colophon between last 愛身品 stanza and 世俗品 heading column.
+12. fausboll_0056.png @ V. 165 `S a ṁ k i l i s s a t i = vipaccati, Ct.` + V. 166 `P a s u t o = sake atthe uyyuttapayutto, Ct.` — THIRD and FOURTH `Ct.` COMMENTARY LEMMA-GLOSS instances; confirm at pixel.
+
+## Projected for 11-13 push-lane re-verification (overview-only or ambiguous):
+
+13. t04_0565.png @ 世俗品 Stanzas 1-7 — ready for body-carry on 11-13 Lokavagga/世俗品 chapter-opener build.
+14. fausboll leaf 0057 @ ch-13 Lokavagga heading `13. L o k a v a g g a .` + V. 167+ bodies — projected to-fetch for 11-13 Lokavagga opener build; expected SIXTEENTH consecutive first-try IA Fausbøll fetch.
+15. muller tif 0107 @ Chapter XIII opener on fresh recto p. 47 — projected to-fetch for 11-13 build; would be the FOURTEENTH consecutive Müller fetch via FALLBACK-URL pattern.
