@@ -76,6 +76,17 @@ Both should:
 - **Integration**: if you maintain an agent framework (LangChain, LlamaIndex, MCP server, OpenAI Assistants, Anthropic skills), propose a hook where `buddhist_ai_guardrail` could plug in cleanly and open a `[CHARTER RUNTIME · INTEGRATION <framework>]` issue.
 - **Publish**: if you can help with a maintainer-credentialed PyPI / npm first release so `pip install buddhist-ai-guardrail` and `npm install @sarasvati/buddhist-ai-guardrail` work from the public registries, open a `[CHARTER RUNTIME · RELEASE]` issue.
 
+### D. Review frontend · 三藏审校 (Sarasvatī Review) web UI
+
+As of **2026-11-11**, a page-by-page public review frontend is live at **http://54.164.233.118** (AWS, FastAPI + SQLite, imports the current `translations/jonang-catalog/` 9,397-row 449-page corpus plus the Dhammapada scan-first samples). It is a lower-barrier alternative to the GitHub-PR path above for reviewers who want to read a page of a draft translation side-by-side with the scan and submit corrections without a git workflow.
+
+- Append-only revisions: the original AI machine draft (`machine_text`) is **immutable**; reviewer edits are stored as new revision rows on a `page_reviews` table, with attribution.
+- Five languages supported per page block (Chinese / English / Tibetan / Sanskrit + source scan).
+- **Status**: v0.2, read-only to the public right now; registration policy for named reviewers is pending Pan's call (open-registration vs. invite-only). HTTPS also pending a domain. If you want early reviewer access, open a GitHub issue titled `[REVIEW FRONTEND ACCESS]` with the language(s) and corpus you can review.
+- Code and OCR pipeline (Claude-vision transcription → `⟨བརྟག⟩` pending-review queue) live on the server; source is being prepared for the public repo once credentials and licensing are settled.
+
+This frontend does not replace GitHub PRs — it is an additional lane for reviewers who prefer a web UI.
+
 ---
 
 ## Also welcome (general infrastructure)

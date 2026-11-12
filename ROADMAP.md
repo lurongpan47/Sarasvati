@@ -181,6 +181,14 @@ Kangyur / Tengyur; Mongolian & Manchu editions.
 
 ---
 
+## Review infrastructure (added 2026-11-11)
+
+A page-by-page public review frontend — **三藏审校 / Sarasvatī Review** — is live at http://54.164.233.118 (AWS t3.large, FastAPI + SQLite + nginx, deerpress account). It imports the current `translations/jonang-catalog/` (9,397 rows / 446 pages) and the Dhammapada scan-first corpus (127 verses), and will accept reviewer corrections as append-only revisions against an immutable `machine_text` column. OCR is wired to the Claude vision pipeline (03:50 2026-11-12), producing `⟨བརྟག⟩` pending-review rows that stay flagged until a named reviewer accepts.
+
+Status: v0.2 public read-only; reviewer registration policy (open vs. invite-only) and HTTPS + custom domain pending Pan's call. Source code lives on the server and at `~/clawd/sarasvati-review/` (not yet in this repo — pending licensing clarification on the review-tooling stack). See `CALL-FOR-HELP.md § D`.
+
+---
+
 ## v0.1 → v1.0 milestones
 
 | Version | Date | Deliverable |
