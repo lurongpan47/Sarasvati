@@ -5,7 +5,7 @@ Structured extraction of the **World Buddhist Canon Transmission Timeline** (八
 ## Files
 
 - `traditions.jsonl` — 8 traditions/branches
-- `events.jsonl` — 95 canonical-transmission milestones
+- `events.jsonl` — 97 canonical-transmission milestones
 - `events.csv` — same, comma-separated
 
 ## Schema
@@ -60,6 +60,10 @@ CC BY-SA 4.0 (same as project). Attribution: "Sarasvatī project, timeline data 
 - Extend by adding rows; PRs welcome
 
 ## Revision history
+
+### revision v9 · 2026-11-16
+
+Additive: `evt_096` + `evt_097` appended from the weekly evidence proposal `proposals/timeline-2026-W47.md`, written directly under Pan's 2026-09-21 auto-approve instruction. Rows: NLM (Bethesda) first digitized batch of 7 Sri Lankan palm-leaf manuscripts incl. MS S2 (Bhūridatta + Vidhura jātakas in Sinhalese) public-release 12 Nov 2026 (`pali`); DIRI (New Zealand) 24 Aug 2026 publication of the Wat Buranārām (Nakhon Si Thammarat, Thailand) palm-leaf Tipiṭaka inventory: 92 bundles / 574 items / 1,003 fascicles / 556 digitized, Khom-script Pāli + Pāli-Thai, Ayutthaya + early Rattanakosin period, ISBN 978-1-7385960-0-3 (`seasia`). No revisions, no deletions. **Total after v9:** 97 events (was 95). Data-only until the canonical PDF / preview image is redrawn. Reversible by `git revert`.
 
 ### revision v8 · 2026-11-09
 
