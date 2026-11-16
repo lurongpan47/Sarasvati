@@ -1,6 +1,6 @@
 {
   "schema": "sarasvati.translate-health.v1",
-  "checked_at": "2026-11-09T17:00:11Z",
+  "checked_at": "2026-11-16T17:00:08Z",
   "upstream": "https://deerpress.ai",
   "status": "ok",
   "checks": [
