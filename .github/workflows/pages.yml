@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "docs/**"
+      - "translations/**"
+      - "manifests/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -36,6 +38,41 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
+      # ------------------------------------------------------------------
+      # Stage the translation corpus into the Jekyll source tree so every
+      # file is served directly from sarasvati.world — no GitHub round-trip
+      # required for readers behind restrictive networks.
+      #
+      # Staged verbatim under docs/translations/ as raw .md/.pdf/.docx.
+      # `defaults` in _config.yml marks this path `sitemap: false` and
+      # applies no layout, so Jekyll copies rather than renders them.
+      # ------------------------------------------------------------------
+      - name: Stage translations into site tree
+        run: |
+          set -euo pipefail
+          rm -rf docs/translations
+          mkdir -p docs/translations
+          cp -R translations/. docs/translations/
+          echo "Staged $(find docs/translations -type f | wc -l) files."
+
+      - name: Stage manifests into site tree
+        run: |
+          set -euo pipefail
+          rm -rf docs/manifests
+          mkdir -p docs/manifests
+          cp -R manifests/. docs/manifests/
+          echo "Staged $(find docs/manifests -type f | wc -l) manifest files."
+
+      # Build a zip of the whole corpus so the downloads page can offer a
+      # single "everything" artifact without depending on GitHub Releases.
+      - name: Build corpus archive
+        run: |
+          set -euo pipefail
+          mkdir -p docs/downloads/dist
+          zip -q -r docs/downloads/dist/sarasvati-translations.zip translations
+          ( cd docs/downloads/dist && sha256sum sarasvati-translations.zip > sarasvati-translations.zip.sha256 )
+          ls -la docs/downloads/dist
 
       - name: Build with Jekyll
         working-directory: docs
